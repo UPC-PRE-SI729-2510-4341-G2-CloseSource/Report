@@ -194,6 +194,187 @@ Convertirnos en la plataforma líder en Perú para la gestión de activaciones d
 > Soy Max Anthony y tengo 27 años. Estoy retomando Ingeniería de Software como segunda carrera, ya que siempre tuvo ello como objetivo; en la actualidad, me encuentro cursando el séptimo ciclo.
 > Entre mis habilidades están: Ágil capacidad de análisis -tanto individual como también en colectivo-, empático en un contexto determinado -tomando decisiones de manera sensata-, y puedo ser tanto gestor como un participante activo dentro de un grupo de trabajo.
 
+## **1.2. Solution Profile**
+
+### **1.2.1 Antecedentes y problemática**
+
+El marketing experiencial ha evolucionado como una estrategia clave para conectar emocionalmente con los consumidores, ofreciendo experiencias memorables que van más allá de la simple transacción comercial. Según Moser (2012), las estrategias de marketing experiencial aplicadas en espacios de retail buscan transformar la experiencia de compra en algo placentero y estimulante, generando un valor añadido para las marcas en un entorno altamente competitivo. ​
+
+En el contexto peruano, Bardales y Herrera (2017) proponen un modelo de gestión basado en el marketing experiencial para fortalecer el valor de marca (Brand Equity). Su estudio destaca la importancia de generar experiencias únicas que permitan a las marcas construir relaciones sostenibles con los consumidores, especialmente en un mercado tan competitivo como el peruano. ​
+
+Asimismo, Verhelst Moreno (2020) analiza la evolución del marketing experiencial desde sus principales exponentes, destacando cómo las experiencias sensoriales, emocionales y cognitivas influyen en la percepción y lealtad hacia una marca. Este enfoque resalta la necesidad de diseñar estrategias que involucren activamente al consumidor, creando vínculos más profundos y duraderos.
+
+En el siguiente punto, vamos a realizar la investigación a detalle el problema. 
+
+**What?**
+
+* ¿Qué problema hay?
+  
+  Muchas empresas enfrentan dificultades para encontrar proveedores confiables para ejecutar activaciones de marca. Este proceso depende en gran medida de contactos informales, recomendaciones poco verificables y una gestión manual que genera ineficiencias, demoras y falta de transparencia. Por otro lado, las productoras que sí están capacitadas para ejecutar estos eventos no cuentan con canales claros ni estructurados para acceder a nuevas oportunidades comerciales, lo que limita su alcance en el mercado.
+
+**When?**
+
+* ¿Cuándo sucede el problema?
+  
+  Este problema surge cada vez que una empresa inicia la planificación de una activación de marca, especialmente en momentos clave como campañas estacionales, lanzamientos de productos o eventos masivos. Las dificultades se hacen más evidentes en los primeros pasos del proceso, cuando se necesita filtrar opciones, solicitar cotizaciones y comparar propuestas de manera eficiente.
+
+
+**Where?**
+
+* ¿Dónde sucede el problema?
+  
+  El problema se presenta principalmente en contextos urbanos con alta concentración de marcas y productoras, como Lima y otras grandes ciudades. Las limitaciones se evidencian tanto en oficinas corporativas al buscar proveedores como en agencias de producción que intentan posicionarse sin herramientas digitales adecuadas.
+
+**Why?**
+
+* ¿Por qué existe este problema?
+  
+  El problema existe porque no hay un sistema estructurado, confiable y centralizado que conecte la demanda empresarial con la oferta especializada de servicios para activaciones de marca. Esto genera un entorno fragmentado, donde se pierde tiempo, oportunidades y se corre el riesgo de contratar proveedores sin experiencia comprobada. Además, la falta de digitalización dificulta la comparación objetiva y la toma de decisiones informadas.
+
+**Who?**
+
+* ¿A quién afecta el problema?
+  
+  **Empresas y marcas:** Pierden tiempo y recursos buscando proveedores adecuados y enfrentan incertidumbre al no contar con referencias claras.
+
+  **Productoras especializadas:** Tienen dificultades para visibilizar su trabajo, acceder a nuevas oportunidades y competir en igualdad de condiciones.
+
+  **Agencias de marketing:** También enfrentan desafíos al coordinar proveedores confiables dentro de sus campañas integradas.
+
+**How?**
+
+* ¿Cómo se manifiesta el problema?
+  
+  El problema se manifiesta a través de:
+
+  - Búsqueda ineficiente de proveedores (vía WhatsApp, recomendaciones informales, correos dispersos).
+
+  - Procesos manuales para comparar cotizaciones y propuestas.
+
+  - Dificultad para validar experiencia previa de las productoras.
+
+  - Falta de trazabilidad, historial o retroalimentación sobre experiencias pasadas.
+
+**How much?**
+
+* ¿Cuánto puede costar el problema generado?
+  
+  Si bien no se puede cuantificar el posible costo, este problema si que puede generar gastos ocultos importantes, los cuales pueden afectar a los involucrados. Estos costos podrían darse por:
+
+  - Pérdida de tiempo en procesos de selección.
+
+  - Retrasos en campañas por mala planificación o contrataciones fallidas.
+
+  - Costos financieros por contratar proveedores inadecuados.
+
+  - Daño reputacional en casos de ejecución deficiente del evento.
+
+  - Oportunidades comerciales perdidas por no conectar con el proveedor adecuado a tiempo.
+
+### **1.2.2 Lean UX Process.**  
+      
+#### **1.2.2.1. Lean UX Problem Statements.**  
+      
+**Problem Statement 1: Empresas que necesitan realizar activaciones de marca**
+
+**Problema:**  
+
+Las empresas que buscan ejecutar activaciones de marca enfrentan múltiples barreras durante la búsqueda de proveedores adecuados. Este proceso suele ser informal, fragmentado y poco estructurado. Las decisiones de contratación se basan en recomendaciones no verificadas, lo que incrementa el riesgo de contratar a proveedores con poca experiencia o sin respaldo comprobable. Además, las empresas tienen dificultades para comparar propuestas de manera objetiva, lo que deriva en retrasos en la planificación, mayores costos operativos y posibles fallos en la ejecución del evento.
+
+**Pregunta central:**  
+
+¿Cómo podríamos entender y abordar las dificultades que enfrentan las empresas al intentar encontrar y evaluar proveedores para activaciones de marca en un entorno informal y poco transparente?
+
+**Problem Statement 2: Productoras de activaciones y eventos**
+
+**Problema:**  
+Las productoras especializadas en activaciones enfrentan serias limitaciones para acceder a nuevos clientes fuera de su red de contactos habitual. Su visibilidad en el mercado es baja, y muchas veces dependen exclusivamente del boca a boca o de conexiones personales para obtener oportunidades laborales. Además, carecen de herramientas adecuadas para mostrar su experiencia, organizar sus propuestas comerciales o recibir solicitudes de manera estructurada. Esto reduce su competitividad y limita su potencial de crecimiento en un mercado exigente.
+
+**Pregunta central:**  
+¿Cómo podríamos comprender mejor las barreras que impiden a las productoras visibilizar su experiencia y acceder a oportunidades de negocio más allá de sus contactos directos?
+
+### 1.2.2.2. Lean UX Assumptions.
+- *Asumimos que* las empresas no tienen procesos claros para encontrar productoras confiables para activaciones de marca. *Sabremos* que esto es cierto cuando al menos el 60% de las empresas afirme haber buscado proveedores por referencias informales o redes sociales.
+
+- *Asumimos que* las productoras desean un canal digital para captar nuevos clientes. *Sabremo* que esto es cierto cuando más del 70% de las productoras registradas complete su perfil dentro de los primeros 3 días.
+
+- *Asumimos que* las empresas necesitan comparar fácilmente múltiples propuestas antes de tomar decisiones. *Sabremos* que esto es cierto cuando al menos el 80% revise más de una propuesta antes de adjudicar un proyecto.
+
+- *Asumimos que* las productoras quieren destacar su experiencia previa mediante un portafolio visual. *Sabremos* que esto es cierto cuando al menos el 75% suba contenido multimedia a su perfil.
+
+- *Asumimos que* las empresas valoran la reputación basada en calificaciones y comentarios. *Sabremos* que esto es cierto cuando más del 50% consulte reseñas antes de contactar a una productora.
+
+- *Asumimos que* las productoras están dispuestas a postular a proyectos incluso si no conocen al cliente. *Sabremos* que esto es cierto cuando se registren postulaciones a solicitudes de empresas nuevas en la plataforma.
+
+- *Asumimos que* las empresas necesitan poder comunicarse directamente con productoras interesadas. *Sabremos* que esto es cierto cuando más del 60% de las interacciones entre empresas y productoras usen el chat interno.
+
+- *Asumimos que* las empresas tienen dificultades para estimar el costo de una activación. *Sabremos* que esto es cierto cuando más del 40% consulte precios de propuestas sin aún haber publicado un requerimiento.
+
+- *Asumimos que* las productoras prefieren recibir notificaciones cuando se publique un proyecto alineado a sus servicios. *Sabremos* que esto es cierto cuando más del 50% active las notificaciones automáticas de oportunidades.
+
+- *Asumimos que* tanto empresas como productoras valoran tener un historial de contrataciones. *Sabremos* que esto es cierto cuando más del 70% consulte el historial antes de tomar decisiones.
+
+- *Asumimos que* las productoras quieren recibir retroalimentación sobre sus propuestas. *Sabremos* que esto es cierto cuando más del 60% solicite comentarios tras no ganar un proyecto.
+
+- *Asumimos que* las empresas quieren poder guardar o marcar productoras favoritas. *Sabremos* que esto es cierto cuando al menos el 50% utilice esta función si se habilita.
+
+- *Asumimos que* muchas activaciones se planifican en períodos cortos de tiempo. *Sabremos* que esto es cierto cuando más del 40% de las solicitudes tengan plazos de ejecución menores a un mes.
+
+- *Asumimos que* las productoras buscan diferenciarse con propuestas creativas y personalizadas. *Sabremos* que esto es cierto cuando al menos el 60% redacte propuestas únicas en lugar de usar plantillas.
+  
+### 1.2.2.3. Lean UX Hypothesis Statements.
+
+- *Creemos que* las empresas necesitan un canal centralizado para encontrar productoras confiables. *Sabremos* que tenemos razón si al menos el 70% de usuarios nuevos publica un requerimiento en su primera semana.
+
+- *Creemos que* las productoras valoran una plataforma donde puedan mostrar su trabajo. *Sabremos* que tenemos razón si el 75% de productoras completan su portafolio en los primeros 3 días.
+
+- *Creemos que* las empresas quieren ver múltiples propuestas antes de contratar. *Sabremos* que tenemos razón si el 80% de las solicitudes recibe al menos 2 propuestas.
+
+- *Creemos que* las calificaciones de clientes influyen en la decisión de contratación. *Sabremos* que tenemos razón si más del 60% de empresas menciona la reputación como factor clave en encuestas.
+
+- *Creemos que* las productoras quieren recibir notificaciones automáticas de nuevos proyectos. *Sabremos* que tenemos razón si más del 50% activa esta opción.
+
+- *Creemos que* las empresas se comunican más con productoras cuando existe un canal directo dentro de la plataforma. *Sabremos* que tenemos razón si más del 60% de los mensajes se envían vía el sistema interno.
+
+- *Creemos que* las empresas quieren tener un historial organizado de sus contrataciones. *Sabremos* que tenemos razón si al menos el 70% consulta el historial antes de repetir una contratación.
+
+- *Creemos que* las productoras necesitan datos claros sobre las solicitudes (presupuesto, fecha, lugar). *Sabremos* que tenemos razón si las solicitudes incompletas reciben menos del 30% de postulaciones.
+
+- *Creemos que* una interfaz sencilla aumentará el número de requerimientos publicados. *Sabremos* que tenemos razón si los formularios se completan en menos de 3 minutos en el 80% de los casos.
+
+- *Creemos que* las empresas valoran recibir propuestas en menos de 48 horas. *Sabremos* que tenemos razón si el 75% considera el tiempo de respuesta como factor clave en encuestas.
+
+- *Creemos que* las productoras participarán más si pueden recibir métricas sobre su desempeño. *Sabremos* que tenemos razón si más del 50% revisa su tasa de propuestas ganadas.
+
+- *Creemos que* la posibilidad de crear plantillas de propuestas agilizará el proceso para las productoras. *Sabremos* que tenemos razón si más del 60% usa esta función repetidamente.
+
+- *Creemos que* las empresas necesitan asistencia para redactar correctamente sus requerimientos. *Sabremos* que tenemos razón si al menos el 40% utiliza ayudas o plantillas disponibles en la plataforma.
+
+- *Creemos que* la reputación positiva dentro de la plataforma influirá en la fidelización de empresas. *Sabremos* que tenemos razón si más del 50% de contrataciones repetidas se hacen con productoras bien calificadas.
+
+### 1.2.2.4. Lean UX Canvas.
+| **1. Business Problem** | **2. Business Outcomes** | **5. Solutions** |
+|------------------------|--------------------------|------------------|
+| Varias marcas enfrentan la dificultad de intentar organizar activaciones de marketing efectivas. Los eventos requieren coordinación, creatividad, logística y, sobre todo, proveedores confiables. Sin embargo, el proceso actual suele depender de contactos informales, referencias dispersas y gestiones no muy efectivas que comprometen la calidad del resultado final. | - Mejorar la calidad de los eventos de las marcas y empresas.  <br> - Las productoras puedan ofrecer fácilmente sus servicios a otros clientes. <br> - Las empresas y marcas puedan conseguir contactos confiables. <br> - Conectar empresas y productoras de manera efectiva y rápida. | - Desarrollar una aplicación en donde las empresas y marcas puedan buscar productoras para sus eventos o que las mismas productoras brinden sus servicios a marcas. <br> - Que las empresas busquen sus servicios mediante filtros para que se alineen según sus objetivos en el evento que se desea realizar. |
+
+| **3. Users** | **4. User Benefits** |
+|--------------|-----------------------|
+| - **Marcas y empresas (clientes):** Empresas que necesiten de un productor para sus activaciones. <br> - **Productoras (proveedores):** Personas o productoras que cuenten con la capacidad técnica y creativa para realizar los eventos o activaciones de las empresas. | - **Empresas y marcas:** Poder encontrar rápidamente un productor que se encargue de gestionar sus eventos de manera productiva. <br> - **Productoras:** Encontrar una aplicación que les proporcione las herramientas necesarias para brindar sus servicios relacionados a la gestión de eventos. |
+
+| **6. Hypothesis** | **7. What’s the most important thing we need to learn first?** | **8. What’s the least amount of work we need to do to learn the next most important thing?** |
+|------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| - Creemos que las empresas se encontrarán satisfechas con la búsqueda de productoras para la creación de sus eventos y programas. <br> - Sabremos que esta afirmación es cierta cuando la mayoría de productoras cuenten con reseñas y comentarios positivos. | Necesitamos corroborar que las empresas se sientan cómodas con los servicios que puedan brindar los productores. Además, debemos verificar que las productoras cuenten con las herramientas adecuadas para ofrecer sus servicios. | Lanzar una versión de prueba con las funcionalidades más importantes de la aplicación para ver si la misión y el objetivo de la startup se cumplirán. |
+
+
+
+
+
+
+
+
+
+
+
 
 
 
