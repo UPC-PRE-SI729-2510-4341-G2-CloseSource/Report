@@ -153,6 +153,11 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
       - [**5.2.1.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
       - [**5.2.1.7. Software Deployment Evidence for Sprint Review.**](#5217-software-deployment-evidence-for-sprint-review)
       - [**5.2.1.8. Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint)
+    - [**5.2.2. Sprint 2**](#522-sprint-2)
+      - [**5.2.2.1. Sprint Planning 2**](#5221-sprint-planning-2)
+      - [**5.2.1.2. Aspect Leaders and Collaborators**](#5212-aspect-leaders-and-collaborators-1)
+      - [**5.2.2.3. Sprint Backlog 2**](#5223-sprint-backlog-2)
+    - [Sprint Backlog - Sprint 2](#sprint-backlog---sprint-2)
   - [**5.3. Video About-The-Team**](#53-video-about-the-team)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
@@ -2225,6 +2230,71 @@ La colaboración se mantuvo activa mediante revisiones asincrónicas en el repos
 
 ![Team collaboration insights](images/collaboration1.PNG)
 ![Team collaboration insights](images/collaboration2.PNG)
+
+### **5.2.2. Sprint 2**  
+#### **5.2.2.1. Sprint Planning 2**
+
+  Podemos considerar al Sprint Planning como una "ceremonia" fundamental dentro de la metodología ágil Scrum. Su propósito es definir el objetivo del sprint y planificar el trabajo que se realizará durante el mismo. En esta primera planificación, como detallaremos en adelante, el equipo se reunió para analizar los requerimientos del proyecto, priorizar las tareas del backlog y asignar responsabilidades entre los integrantes. Esta sesión permitió establecer una visión compartida sobre los entregables a corto plazo y sentar las bases del desarrollo inicial de la aplicación, partiendo del desarrollo del landing page.
+
+| **Sprint #**                | 2                                  |
+| :-------------------------: |------------------------------------|
+| **Sprint Planning Background**    |                                 |
+| **Date**                    | 04/05/2025                         |
+| **Time**                    | 8:00 pm                            |
+| **Location**                | Reunión virtual a través del canal de discord del equipo llamado “Team CloseSource” |
+| **Prepared by**             | Max Anthony Paitan Pumacahua       |
+| **Attendees (to planning meeting)** | Aaron Alexander Avila Palacios, Gabriel Anthony Braithuaite Toledo, Kevin Alexander Castañeda Llanos, Ivan Jeanpierre La Madrid Lozano, Max Anthony Paitan Pumacahua |
+| **Sprint 2 Review Summary** | Completar el desarrollo de algunas secciones core business y arreglos en la documentación (report) |
+| **Sprint 2 Retrospective Summary** | Se realizó la mayoría de trabajos a tiempo, faltando algunas correciones en la documentación.|
+| **Sprint Goal & User Stories**                                     |
+| **Sprint 2 Goal**           | **Nos enfocamos** en diseñar y desarrollar secciones core business del negocio, además de arreglar errores en la documentación. **Creemos que** esto aportará a la demostración de algunas funciones clave de nuestro projecto. **Esto se confirmará** cuando se hayan cumplido con los bounded context para la realización de diversas secciones de la aplicació web. |
+| **Sprint n Velocity**       | 1.5 semanas                           |
+| **Sum of Story Points**     | 15                                 |
+
+#### **5.2.1.2. Aspect Leaders and Collaborators**
+
+En este Sprint, como grupo identificamos los aspectos principales en los que íbamos a enfocar nuestro trabajo. Para este sprint, decidimos dedicarnos por completo al desarrollo de la creación de funciones clave del negocio, completando el lado Frontend realizando CRUD's, creamos cinco Bonded Contexts los cuales fueron repartidos.
+
+| Team Member | GitHub username | Gestión de Calficaciones | Gestión de Hitos | Gestión de Portafolio | Gestión de propuestas | Gestión de eventos y galerías | Arreglos en documentación |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| Aaron Alexander Avila Palacios | AaronAvilap | L | - | - | - | - | L |
+| Gabriel Anthony Braithuaite Toledo | Gaboo04 | - | - | L | - | - | L | 
+| Kevin Alexander Castañeda Llanos | KevCast1604 | - | - | - | L | - | L |
+| Ivan Jeanpierre La Madrid Lozano | ivanlamadrid | - | - | - | - | L | L|
+| Max Anthony Paitan Pumacahua | MaxPaitanP | - | L | - | - | - | L |
+
+
+#### **5.2.2.3. Sprint Backlog 2**
+El objetivo principal de este Sprint fue avanzar en el desarrollo de las secciones core business, es decir, las más importantes que cumplan con el objetivo de nuestro negocio. Decidimos dividir varios bounded contexts para de esta manera poder crear algunas secciones, utilizando herramientas FrontEnd como Angular y Typescript. También, nos centramos en las correciones de algunas partes del informe, detallando y añadiendo información.
+
+  ![Board en Trello, para el sprint backlog 2](images/trello2.png)   
+[Link del board en Trello: https://trello.com/b/8b0Ucgzs/sprint-2](https://trello.com/invite/b/681be2187eb81b9994744840/ATTI60721459bd21236fea3fa6001b829db5420B8F21/matchevent)
+
+Esta es la tabla del Sprint Backlog 2:
+
+### Sprint Backlog - Sprint 2
+
+| Sprint # | Sprint 2 |  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US001 | Registrar solicitud de activación |  | Registro de solicitud  | La empresa debe de poder registrar una solicitud de activación  | 2 | Max | Done |
+| US002 | Editar solicitud de activación |  | Edición de solicitud  | La empresa debe de poder editar una solicitud de activación  | 2 | Max | Done |
+| US003 | Eliminar solicitud de activación |  | Eliminación de solicitud  | La empresa debe de poder eliminar una solicitud de activación  | 1 | Max | Done |
+| US004 | Ver solicitudes publicadas |  | Solicitudes publicadas  | Se debe de poder ver que solicitudes fueron publicadas por parte de las empresas| 1 | Max | Done |
+| US005 | Ver detalle de solicitud publicada |  | Detalle de solicitud  | La empresa debe poder ver los detalles de su solicitud publicada | 2 | Max | Done |
+| US006 | Registrar servicios ofrecidos |  | Registro de Servicios  | La sección de gestion de portafolios deberá de tener una opción para registar los servicios ofrecidos | 2 | Gabriel | Done |
+| US007 | Editar servicios ofrecidos |  | Edición de Servicios | Una vez registrado un servicio, colocar la opción de poder editar este | 1.5 | Gabriel | Done |
+| US008 | Elimar servicio ofrecido | | Elimar Servicio | Se deberá de poder eliminar un servicio cuando la productora desee | 1.5 | Gabriel | Done |
+| US009 | Visualizar lista de servicios ofrecidos |  | Lista de Servicios | La productora deberá de ver una lista en donde vea todos sus servicios | 1 | Gabriel | Done |
+| US038 | 	Enviar propuesta a solicitud de activación  |  | Propuesta de activacion | La productora debe de acceder a los detalles de una propuesta de activación | 2 | Kevin | Done |
+| US039 | Ver propuesta enviada |  | Propuesta enviada | La productora deberá de ver una tabla de las propuestas enviadas | 1 | Kevin | Done |
+| US043 | Registrar calificación al finalizar evento	 |  | Calificación | El usario debe de poder mandar reseñas y calificaciones despues de la realización de un evento o del servicio de una productora | 1 | Aaron | Done |
+| US044 | Visualizar calificaciones de otros usuarios |  | Calificación | El usario debe de poder ver las calificaciones de otros usuarios en su perfil | 1 | Aaron | Done |
+| US045 | Visualizar mis calificaciones |  | Calificación | El usario debe de poder ver las calificaciones de su perfil  | 1 | Aaron | Done |
+
+
+
 
 ## **5.3. Video About-The-Team**
 
