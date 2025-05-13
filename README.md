@@ -131,6 +131,13 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
       - [Software Development](#software-development)
     - [5.1.2. Source Code Management.](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+      - [Git \& Github](#git--github)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [JavaScript](#javascript)
+      - [Typescript](#typescript)
+      - [Java](#java)
 
 ## Student Outcome
 
@@ -1600,14 +1607,6 @@ Este es nuestro diagrama de base de datos, donde encontramos toda la informació
 
 ![Database](images/database.png)
 
-
-
-
-
-
-
-
-
 # Capítulo V: Product Implementation, Validation & Deployment.
 
 ## 5.1. Software Configuration Management.
@@ -1720,3 +1719,308 @@ Se aplican para:
 Una vez corregido el problema, la rama hotfix se fusiona tanto en main como en develop, para que el arreglo forme parte del historial del proyecto en ambas líneas. Además, se actualiza el número de versión siguiendo Semantic Versioning, generalmente con un incremento en el parche (por ejemplo, de v1.1.0 a v1.1.1).
 
 ![Feature Branches](images/Features_branches.png)
+
+### 5.1.3. Source Code Style Guide & Conventions.
+
+#### Git & Github
+
+En relación con las convenciones de programación, utilizaremos los estilos camelCase y UpperCamelCase según corresponda. También seguiremos las pautas de la "Guía de Estilo HTML/CSS de Google" para garantizar una codificación consistente en HTML y CSS.
+
+Para el control de versiones, adoptaremos la metodología de "conventional commits" en la creación de ramas y en los mensajes de commit. Las ramas se nombrarán siguiendo el formato < type >/< title >, mientras que los mensajes de commit seguirán el patrón < type >(scope opcional):< descripción >. Algunos ejemplos serían:
+
+    Rama: feat/main-component
+
+    Commit: feat: content in profile added
+
+Para el control de versiones relacionado con el Report, implementaremos una ligera variación:
+
+    Rama: feature/capitulo1
+
+    Commit: feat: final report structure implemented
+
+En cuanto a la gestión de ramas, utilizaremos el modelo GitFlow. Esto implicará crear ramas de características (feature branches) con la nomenclatura establecida. La rama principal será main, donde se almacenará la versión estable y en producción de la aplicación. Las ramas de características y correcciones se fusionarán eventualmente con la rama main, mientras que, durante el proceso de desarrollo, se integrarán primero en la rama develop hasta que se logre la versión final.
+
+#### HTML
+
+Se seguirán las recomendaciones de estilo definidas por la Guía de Estilo de HTML/CSS de Google, priorizando buenas prácticas de accesibilidad, claridad y mantenimiento del código.
+
+* Uso de etiquetas en minúsculas (Lowercase)
+
+    Es recomendable escribir los nombres de las etiquetas HTML utilizando solo letras minúsculas. Este enfoque mejora la claridad del código y evita posibles errores en navegadores más estrictos.
+
+    ```
+    <body>
+    <p>This is a paragraph</p>
+    <body>
+    ```
+
+* Cierre adecuado de etiquetas
+
+    Es una buena práctica cerrar explícitamente todas las etiquetas HTML, incluso aquellas que podrían parecer opcionales. Esto asegura un mejor mantenimiento y compatibilidad del documento.
+
+    ```
+    <body>
+    <p>This is a paragraph</p>
+    <p>This is another paragraph</p>
+    <body>
+    ```
+
+* Nombres de atributos en minúsculas
+
+    Los atributos dentro de las etiquetas deben estar en minúsculas para mantener uniformidad y asegurar compatibilidad con estándares actuales.
+
+    ```
+    <a href="https://www.w3schools.com/html/">Visit our HTMLtutorial</a>
+    ```
+
+* Definir alt, width y height en imágenes
+
+    Siempre que se utilicen imágenes, es fundamental especificar los atributos alt, width y height. Esto favorece la accesibilidad, optimiza el rendimiento y mantiene el diseño estable incluso si la imagen no se carga.
+
+    ```
+    <img src="html5.gif" alt="HTML5"
+    style="width:128px;height:128px">
+    ```
+
+* Evitar espacios innecesarios en atributos
+  
+    Al declarar atributos dentro de las etiquetas, se recomienda no dejar espacios alrededor del signo igual. Esto contribuye a que el código sea más limpio y fácil de entender.
+
+    ```
+    <link rel="stylesheet" href="styles.css">
+    ```
+* Principales etiquetas utilizadas en el proyecto
+
+    Durante la construcción del sitio web, se aplicaron diversas etiquetas HTML para organizar el contenido de forma estructurada:
+
+    - header: Define la sección inicial del sitio, normalmente incluye elementos como el logo o la barra de búsqueda.
+
+    - nav: Es usada para definir bloques de navegación del sitio, como menús o enlaces internos.
+
+    - div: Permite agrupar elementos y aplicar estilos específicos a cada sección de la página.
+
+    - img: Inserta imágenes en el contenido. Fue utilizada repetidamente en distintas secciones visuales.
+
+    - ul: Crea listas no ordenadas. En este caso, se empleó principalmente para menús de navegación.
+
+    - li: Define cada elemento dentro de una lista. Se usó tanto en los menús como en otras secciones como el blog.
+
+    - a: Se utiliza para insertar enlaces que permiten navegar dentro del sitio o hacia sitios externos.
+
+    - p: Sección utilizada para organizar y presentar el texto en párrafos.
+
+    - button: Representa botones que el usuario puede pulsar para ejecutar acciones.
+
+    - h1 a h4: Se usaron para definir títulos jerárquicos desde el nivel más importante (h1) hasta subniveles (h4).
+
+#### CSS
+
+Las reglas de estilo están basadas en la Guía de Estilo de HTML/CSS de Google, que promueve consistencia, legibilidad y eficiencia en las hojas de estilo.
+
+* Nombres descriptivos para clases e IDs
+
+  Es preferible usar nombres significativos para identificar elementos mediante clases e IDs. Esto hace que el código sea más entendible tanto para el autor como para otros desarrolladores.
+
+  ```
+  #gallery {}
+  #register {}
+  .video {}
+  ```
+
+
+* Estilo de nombres para clases e IDs
+
+  Los nombres deben ser breves, pero lo suficientemente claros como para expresar la función del elemento al que se aplican.
+
+  ```
+  #nav {}
+  .author {}
+  ```
+
+* Uso de propiedades Shorthand
+
+  Se recomienda emplear la forma abreviada de las propiedades CSS siempre que sea posible. Esto ayuda a reducir el tamaño del archivo y hace el código más eficiente.
+
+  ```
+  border-top: 0;
+  font: 100%/1.6 palatino, georgia, serif;
+  padding: 0 1em 2em;
+  ```
+
+* 0 and Units
+
+  Cuando una propiedad tiene valor 0, no es necesario especificar la unidad (como px o %). Omitirla mejora la limpieza del código.
+
+  ```
+  margin: 0;
+  padding: 0;
+  ```
+
+
+* Orden alfabético en declaraciones
+
+  Organizar las declaraciones de estilos CSS en orden alfabético facilita la lectura y el mantenimiento, especialmente en hojas de estilo extensas.
+
+  ```
+  background: fuchsia;
+  border: 1px solid;
+  border-radius: 4px;
+  color: black;
+  ```
+
+#### JavaScript
+
+Se adoptarán las convenciones de la Guía de Estilo de JavaScript de Google, enfocadas en mantener un código legible, coherente y fácil de mantener en proyectos colaborativos.
+
+* Sintaxis expandida
+
+  Se sugiere estructurar el código JavaScript de forma clara, con una instrucción por línea. Las llaves de apertura deben ir en la misma línea que la declaración de la función, y las de cierre en una nueva línea posterior.
+
+  ```
+  function example() {
+  console.log('Hello developer!');
+  };
+  ```
+
+* Convención para nombrar variables
+
+  Para nombrar variables se recomienda seguir el estilo lowerCamelCase, donde la primera palabra comienza en minúscula y las siguientes con mayúscula.
+
+  ```
+  let sumTwoNumbers = 0;
+  let firstNumber = subNumber1 + subNumber2;
+  ```
+
+* Declaración de variables con let y const
+
+  Es preferible utilizar let y const para definir variables, en lugar de var, ya que ofrecen un mayor control sobre el ámbito y el comportamiento de las mismas.
+
+  ```
+  const Name = 'Ethan';
+  console.log(Name);
+  let currentAge = '20';
+  currentAge++;
+  console.log('Happy birthday to you!');
+  ```
+
+* Convención para nombrar funciones
+
+  Las funciones también deben seguir el formato lowerCamelCase, ayudando a mantener la consistencia con los nombres de las variables.
+
+  ```
+  function sayBye() {
+  alert('Bye!');
+  };
+  ```
+
+#### Typescript
+
+Se seguirán las convenciones propuestas por la Guía de Estilo Oficial de TypeScript, priorizando tipado explícito, legibilidad y organización coherente del código.
+
+* Estilo de nombres para variables y funciones
+
+Se recomienda utilizar el estilo lowerCamelCase para nombrar variables y funciones. Este formato comienza con minúscula y cada palabra adicional inicia en mayúscula.
+
+```
+let userName = 'Carlos';
+function getUserAge() {
+  return 30;
+}
+```
+
+* Estilo de nombres para clases e interfaces
+
+Las clases e interfaces deben seguir el formato UpperCamelCase (PascalCase), con cada palabra empezando con mayúscula. Esto permite diferenciarlas visualmente de funciones o variables.
+
+```
+class UserProfile {
+  constructor(public name: string, public age: number) {}
+}
+
+interface ProductCard {
+  title: string;
+  price: number;
+}
+```
+
+* Uso estricto de tipos
+
+TypeScript se basa en tipado estático. Es importante declarar explícitamente los tipos para variables, parámetros y funciones, lo que ayuda a prevenir errores en tiempo de compilación.
+
+```
+const totalPrice: number = 199.99;
+function calculateDiscount(price: number): number {
+  return price * 0.1;
+}
+```
+
+* Declaración de constantes y variables
+
+Se prioriza el uso de const para valores inmutables y let para aquellos que pueden cambiar. Se evita el uso de var.
+
+```
+const maxItems = 10;
+let currentCount = 0;
+```
+
+#### Java
+
+Se adoptarán las convenciones oficiales de codificación de Java establecidas por Oracle, que definen reglas claras sobre nombres, estructura y estilo del código.
+
+* Convención para nombres de clases y métodos
+
+Las clases deben nombrarse en formato UpperCamelCase, mientras que los métodos deben seguir lowerCamelCase, conforme a las convenciones oficiales de Java.
+
+```
+public class UserService {
+    public void createUser() {
+        // lógica para crear usuario
+    }
+}
+```
+
+* Declaración de constantes
+
+Las constantes se declaran usando final y deben escribirse completamente en mayúsculas, separando las palabras con guiones bajos.
+
+```
+public static final int MAX_USERS = 100;
+```
+
+* Uso adecuado de let y const (no aplica en Java)
+
+Java no cuenta con let ni const, por lo tanto, las variables se declaran con su tipo y pueden o no ser final según si cambiarán su valor.
+
+```
+int userAge = 25;
+final String APP_NAME = "MiAplicación";
+```
+
+* Comentarios en el código
+
+Los comentarios deben explicar el propósito del código. Se recomienda usar // para comentarios de línea y /** */ para documentar clases y métodos públicos.
+
+```
+// Inicializa el contador de usuarios
+int counter = 0;
+
+/**
+ * Devuelve el nombre completo del usuario
+ */
+public String getFullName(String firstName, String lastName) {
+    return firstName + " " + lastName;
+}
+```
+
+* Organización del código
+
+Cada clase debe estar en un archivo separado, con el nombre del archivo igual al de la clase pública. Las llaves de apertura se colocan al final de la línea de declaración.
+
+```
+public class LoginService {
+    public boolean validate(String username, String password) {
+        return username.equals("admin");
+    }
+}
+```
+
