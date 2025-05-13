@@ -98,6 +98,7 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [4.4.1. Web Applications – Wireframes](#441-web-applications--wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
     - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -1091,7 +1092,11 @@ En esta sección se explicará cuáles serán las acciones y técnicas que guiar
 Cada wireframe se diseñó en **blanco y negro** para concentrarse en la disposición de elementos, jerarquía visual y flujos de usuario antes de aplicar color, tipografía y componentes definitivos de UI.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
-![Imagen de WhatsApp 2025-04-23 a las 18 37 58_6c910836](https://github.com/user-attachments/assets/c23f74af-9c92-41bd-b895-de8d6c209ba1)
+Se ha realizado esta parte con Figma, obteniendo el correspondiente prototipo de funcionamiento de nuestra web app:
+![Prototipo](/images/prototype.PNG)
+
+Se encuentra en el siguiente link: https://www.figma.com/proto/eQz3TmfElqfpnzNsrfy33q/MATCH-EVENT?node-id=230-491&p=f&t=f4j2gBCitfGDL2L6-1&scaling=min-zoom&content-scaling=fixed&page-id=227%3A2&starting-point-node-id=230%3A491
+
 ### 4.4.2. Web Applications Mock-ups  
 
 | # | Mock-up | Pantalla / flujo representado | Resumen funcional |
@@ -1107,8 +1112,10 @@ Cada wireframe se diseñó en **blanco y negro** para concentrarse en la disposi
 | 9 | ![Formulario publicación solicitud](https://github.com/user-attachments/assets/31a1857c-4a80-4db5-bb4d-dff8d028b474) | **Publicar solicitud (formulario completo)** | Campos de información general, logística y presupuesto con validaciones obligatorias. |
 | 10 | ![Portafolio servicios](https://github.com/user-attachments/assets/98f32083-7559-4458-8cbc-0a6377a5ab92) | **Gestión de portafolio – Productoras** | Alta de nuevos servicios: nombre, categoría, precio, disponibilidad y upload de imagen. |
 
-Cada mock-up aplica la **paleta azul–mostaza y la tipografía Roboto** definida en las *Style Guides*, ilustrando la experiencia final tras la fase de prototipado.### 4.4.3. Web Applications User Flow Diagrams.
-![Imagen de WhatsApp 2025-04-23 a las 18 33 08_6f6afaee](/images/wireflow1.png)
+Cada mock-up aplica la **paleta azul–mostaza y la tipografía Roboto** definida en las *Style Guides*, ilustrando la experiencia final tras la fase de prototipado.
+
+### 4.4.3. Web Applications User Flow Diagrams.
+
 
 
 
