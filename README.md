@@ -76,11 +76,98 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
     - [2.4. Ubiquitous Language.](#24-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
+    - [3.2. User Stories.](#32-user-stories)
+    - [3.3. Impact Mapping.](#33-impact-mapping)
+    - [3.4. Product Backlog.](#34-product-backlog)
+- [**Capítulo IV: Product Design**](#capítulo-iv-product-design)
+  - [**4.1. Style Guidelines.**](#41-style-guidelines)
+    - [**4.1.1. General Style Guidelines.**](#411-general-style-guidelines)
+    - [**4.1.2. Web Style Guidelines.**](#412-web-style-guidelines)
+  - [**4.2. Information Architecture.**](#42-information-architecture)
+    - [**4.2.1. Organization Systems.**](#421-organization-systems)
+    - [**4.2.2. Labeling Systems.**](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+  - [**4.3. Landing Page UI Design.**](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications – Wireframes](#441-web-applications--wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagrams.](#471-class-diagrams)
+      - [4.7.2. Class Dictionary](#472-class-dictionary)
+    - [👤 Usuario](#-usuario)
+    - [🏢 Empresa](#-empresa)
+    - [🎬 Productora](#-productora)
+    - [📞 Contacto](#-contacto)
+    - [💬 Mensaje](#-mensaje)
+    - [📝 Solicitud de Activación](#-solicitud-de-activación)
+    - [📄 Propuesta](#-propuesta)
+    - [🛠️ Servicio](#️-servicio)
+    - [🗓️ Evento](#️-evento)
+    - [🤝 Contrato](#-contrato)
+    - [💰 Pago](#-pago)
+    - [⭐ Calificación](#-calificación)
+    - [⚙️ Filtro de Evento](#️-filtro-de-evento)
+    - [🖼️ Portafolio](#️-portafolio)
+    - [🏞️ Galería](#️-galería)
+    - [🚦 Gestión de Activación](#-gestión-de-activación)
+    - [🎯 Hito](#-hito)
+    - [4.8. Database Design](#48-database-design)
+      - [4.8.1 Database Diagram](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
       - [Software Development](#software-development)
     - [5.1.2. Source Code Management.](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+      - [Git \& Github](#git--github)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [JavaScript](#javascript)
+      - [Typescript](#typescript)
+      - [Java](#java)
+    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+        - [Consideraciones antes del despliegue](#consideraciones-antes-del-despliegue)
+        - [Requisitos para el despliegue](#requisitos-para-el-despliegue)
+        - [Pasos para desplegar la landing page](#pasos-para-desplegar-la-landing-page)
+  - [**5.2. Landing Page, Services \& Applications Implementation**](#52-landing-page-services--applications-implementation)
+    - [**5.2.1. Sprint 1**](#521-sprint-1)
+      - [**5.2.1.1. Sprint Planning 1**](#5211-sprint-planning-1)
+      - [**5.2.1.2. Aspect Leaders and Collaborators**](#5212-aspect-leaders-and-collaborators)
+      - [**5.2.1.3. Sprint Backlog 1**](#5213-sprint-backlog-1)
+    - [Sprint Backlog - Sprint 1](#sprint-backlog---sprint-1)
+      - [**5.2.1.4. Development Evidence for Sprint Review**](#5214-development-evidence-for-sprint-review)
+      - [**5.2.1.5. Execution Evidence for Sprint Review**](#5215-execution-evidence-for-sprint-review)
+      - [**5.2.1.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
+      - [**5.2.1.7. Software Deployment Evidence for Sprint Review.**](#5217-software-deployment-evidence-for-sprint-review)
+      - [**5.2.1.8. Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint)
+    - [**5.2.2. Sprint 2**](#522-sprint-2)
+      - [**5.2.2.1. Sprint Planning 2**](#5221-sprint-planning-2)
+      - [**5.2.1.2. Aspect Leaders and Collaborators**](#5212-aspect-leaders-and-collaborators-1)
+      - [**5.2.2.3. Sprint Backlog 2**](#5223-sprint-backlog-2)
+    - [Sprint Backlog - Sprint 2](#sprint-backlog---sprint-2)
+      - [**5.2.2.4. Development Evidence for Sprint Review**](#5224-development-evidence-for-sprint-review)
+      - [**5.2.2.5. Execution Evidence for Sprint Review**](#5225-execution-evidence-for-sprint-review)
+      - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
+      - [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#5227-software-deployment-evidence-for-sprint-review)
+      - [**5.2.2.8. Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint)
+  - [**5.3. Video About-The-Team**](#53-video-about-the-team)
+- [Conclusiones](#conclusiones)
+- [Recomendaciones](#recomendaciones)
+- [Bibliografía:](#bibliografía)
+- [Anexos](#anexos)
 
 ## Student Outcome
 
@@ -859,16 +946,696 @@ puntos de historia para facilitar la planificación de sprints.
 **Link del Product Backlog en Trello:** https://trello.com/b/XIu3pRLo/matchevent
 
 
+# **Capítulo IV: Product Design**
+
+## **4.1. Style Guidelines.**
+
+### **4.1.1. General Style Guidelines.**
+
+**Branding:**
+
+Para el diseño del logotipo, se utilizaron los colores base de la paleta principal, buscando transmitir profesionalismo y confianza. Se incorporó un ícono relacionado con la organización de eventos para reforzar visualmente la esencia del servicio. La tipografía fue elegida por su legibilidad y estilo moderno, alineándose con la identidad tecnológica y formal del proyecto.
+
+![Logo - modo claro](images/logo_nombre.PNG) ![Logo - modo oscuro](images/logo_nombre_2.PNG)
+
+![Favicon - modo claro](images/logo.PNG) ![Favicon - modo oscuro](images/logo2.PNG)
+
+![Logo app - modo claro](images/logo_app.PNG) ![Logo app - modo oscuro](images/logo_app2.PNG)
+
+Hemos considerado diseñar el logotipo tanto para el modo claro y el modo oscuro, los cuales cuentan con los colores principales de cada modo.
+
+**Colors:**
+
+Dado que el proyecto está orientado a conectar empresas con productoras especializadas en activaciones de marca, se seleccionó una paleta de colores que refleje profesionalismo, dinamismo y confianza. Los tonos fueron elegidos cuidadosamente para mantener una estética formal, moderna y funcional tanto en modo claro como en modo oscuro, asegurando una experiencia visual agradable y coherente en el aplicativo web.
+
+![Colores](images/colors.png)
+
+En el modo claro, predominan tonos suaves como el gris muy claro (#F5F7FA) y el blanco (#FFFFFF) para los fondos, lo que genera una sensación de limpieza y claridad. El azul profundo (#1D3557), como color primario, representa tecnología y seriedad, mientras que el mostaza suave (#E8B24A) aporta un toque moderno y distintivo sin saturar visualmente. Los acentos en celeste tenue (#457B9D) refuerzan la interacción del usuario, guiándolo sin ser invasivos.
+
+Por otro lado, en el modo oscuro se utilizaron colores que brindan descanso visual, como el azul gris oscuro (#1B1E2B) para el fondo y el gris claro (#E0E0E0) para los textos. El azul suave (#A8DADC) conserva el enfoque tecnológico, pero adaptado a un entorno nocturno, y el mostaza apagado (#D4A62F) mantiene el equilibrio entre sobriedad y acento visual. Estos colores buscan asegurar una experiencia accesible, elegante y funcional en cualquier contexto de uso.
+
+![State Colors](images/state_colors.png)  
+Además tenemos a los colores de estado, los cuales nos permiten comunicar situaciones clave dentro del sistema de forma visual e intuitiva. El rojo se utiliza para errores o alertas críticas, el verde indica acciones exitosas, el amarillo señala advertencias o validaciones pendientes, y el azul (opcional) puede emplearse para mensajes informativos.
+Acompañan estos, los colores neutros como el blanco, el negro y los grises, que aportan equilibrio visual y ayudan a jerarquizar los contenidos sin distraer la atención del usuario
+ 
+
+**Spacing:**
+
+Se ha adoptado un sistema de espaciado modular basado en múltiplos de 4 píxeles (4px, 8px, 12px, 16px, 32px, etc.) con el fin de mantener una estructura visual limpia, ordenada y coherente en toda la interfaz. Esta decisión facilita la alineación precisa entre elementos, mejora la legibilidad del contenido y refuerza la jerarquía visual, permitiendo que la información fluya de forma natural. Al aplicar estas unidades de manera sistemática, se optimiza también la escalabilidad del diseño, haciendo que la interfaz pueda adaptarse fácilmente a diferentes tamaños de pantalla sin perder equilibrio ni armonía visual.
+
+![Espaciado](images/spacing.png)  
+
+**Dimensions:**
+
+Para las dimensiones dentro del proyecto, se ha definido un enfoque que prioriza tanto la accesibilidad como la experiencia de usuario. Los elementos interactivos clave, como botones o campos de formulario, cuentan con dimensiones generosas que facilitan su interacción, especialmente en dispositivos táctiles. Se busca que todos los componentes sean fácilmente identificables y utilizables, reduciendo errores y mejorando la eficiencia al navegar.
+
+El diseño es completamente responsivo, lo que permite que los elementos se ajusten automáticamente al tamaño de pantalla del dispositivo utilizado, ya sea móvil, tablet o escritorio. Imágenes y contenedores mantienen proporciones flexibles para asegurar una correcta visualización sin distorsión. Además, se emplean puntos de quiebre estratégicos (breakpoints) que adaptan las dimensiones de la interfaz para mantener un equilibrio visual y funcional en todo momento.
+
+**Typography:**
+
+Para este proyecto se ha elegido la tipografía Roboto, una fuente sans-serif moderna, versátil y altamente legible que se adapta muy bien a entornos digitales. Su diseño limpio y neutral permite una lectura fluida tanto en pantallas grandes como en dispositivos móviles, lo que la convierte en una excelente opción para interfaces enfocadas en la usabilidad.
+
+Se emplean distintos pesos tipográficos (regular, medium y bold) para jerarquizar correctamente la información y guiar la atención del usuario de forma clara y coherente. Los títulos utilizan un peso más fuerte y tamaños mayores para destacar las secciones importantes, mientras que los textos secundarios y descriptivos mantienen un peso ligero para evitar la sobrecarga visual.
+
+Además, se ha cuidado el interlineado y el espaciado entre caracteres para asegurar una buena legibilidad, especialmente en bloques de texto extensos o formularios. La elección de Roboto no solo responde a una cuestión estética, sino también funcional: mejora la accesibilidad, es compatible con múltiples navegadores y dispositivos, y aporta una sensación profesional y contemporánea a toda la interfaz. 
+
+![Tipografía](images/typography.png)
+
+### **4.1.2. Web Style Guidelines.**
+
+**Buttons:** 
+
+En el desarrollo del proyecto se utilizarán componentes de Angular Material para la implementación de los botones, lo que garantiza consistencia, accesibilidad y buenas prácticas en diseño UI. Los botones adoptarán un estilo con bordes ligeramente redondeados para transmitir una apariencia moderna y amigable, alineada con la estética general de la plataforma.
+
+La paleta de colores personalizada se aplicará a los distintos estados y jerarquías de los botones: el color primario se usará para las acciones principales, mientras que el color secundario servirá de soporte en acciones complementarias. Además, se incluirán efectos de hover y focus con tonos suaves derivados de la paleta, mejorando la retroalimentación visual durante la interacción.
+
+Se mantendrá una proporción adecuada entre tamaño de texto, padding y altura de los botones para asegurar que sean fácilmente clickeables, tanto en pantallas grandes como en dispositivos móviles. Este enfoque busca facilitar la navegación, guiar la acción del usuario y mantener la coherencia visual en toda la interfaz.
+
+![Botones](images/buttons.PNG)  
+
+**Icons:** 
+
+En el desarrollo de la plataforma se emplearán íconos del sistema Material Icons, integrados mediante Angular Material, lo que garantiza compatibilidad, accesibilidad y consistencia visual en toda la interfaz. Estos íconos siguen un estilo sencillo y geométrico, ideal para complementar un diseño limpio, moderno y funcional.
+
+Se priorizará el uso de íconos que refuercen el significado de botones y acciones clave dentro de la aplicación, permitiendo al usuario identificar funcionalidades de forma intuitiva. Además, se adaptarán a la paleta de colores del sistema para mantener una coherencia estética, evitando distracciones o rupturas visuales dentro del flujo de navegación.
+
+Su aplicación estará presente en áreas como navegación, formularios, estados del sistema y acciones secundarias, buscando siempre que los elementos visuales aporten valor informativo sin recargar la interfaz. Esto permitirá mejorar la experiencia de usuario mediante una comunicación visual clara y efectiva.
+
+![Íconos](images/icons.png) 
 
 
+## **4.2. Information Architecture.**
 
+### **4.2.1. Organization Systems.**  
+Considerando que somos estudiantes, decidimos adoptar un formato jerárquico estándar, parecido al enfoque organizativo que podemos encontrar en gran cantidad de páginas web. Esto aplica para:
 
+**Landing page**: Donde se presenta las principales características que tiene el aplicativo web, orientado a los dos segmentos objetivos. Este contará con una sección de inicio, Features, About us y Contact Us.
 
+ - Visual Herarchy: El contenido se organiza de forma clara, destacando los elementos más importantes en la parte superior, como el nombre de la app, la navegación y el botón de llamada a la acción (CTA). Las secciones están organizadas de arriba hacia abajo, priorizando información clave como características, acerca de y beneficios.
+  - Categorización de contenido:
+    - Por público objetivo: La información de la Landing Page se dividirá por temas, en donde se se mostrará información tanto de empresas y productoras (beneficios, características, etc) al ser dos usuarios distintos, por lo que se agruparían por secciones.
 
+**Web Application**: Donde se brinda acceso a los dos segmentos objetivos, para que puedan buscar y generar contactos entre ambos, para el desarrollo de sus eventos/activaciones.
 
+  - Visual Herarchy: La aplicación tiene un diseño de menú de navegación claro, donde las funciones más importantes están destacadas (dashboard, búsqueda, perfil). Los elementos interactivos están priorizados visualmente.
+  - Step-by-Step to Accomplish: En funciones específicas, como el registro del tipo de usuario, la configuración del perfil o creación de un nuevo evento por parte de las empresas, se sigue un flujo paso a paso para guiar al usuario de manera intuitiva.
+  - Matricial: Para funcionalidades avanzadas, como un sistema de búsqueda o un panel de control, se puede utilizar una organización matricial, permitiendo al usuario visualizar múltiples opciones al mismo tiempo (filtros, categorías, resultados).
+  - Categorización del contenido:
+    - Por función: Las secciones de la aplicación, variarán dependiendo de las funciones principales. *Ejemplo: La sección de "Crear Propuesta" presentará la función de que las productoras de eventos formen una propuesta para la gestión de un evento*.
+    - Por rol de usuario: La interfaz del usuario variará dependiendo del **tipo de cuenta**, es decir, la interfaz no será igual para productoras y empresas ya que los objetivos de cada uno son distintos.
+      
 
+### **4.2.2. Labeling Systems.**
+En esta sección se explicará como se representará la información de la Landing Page de nuestra startup con una organización clara y concisa.
 
+**Principios de etiquetado:**
+ - Simplicidad: Buscaremos que las etiquetas tengan nombres entendibles y cortos para que se entienda claramente la información de cada una.
+ - Claridad: El nombre de las etiquetas deben ser claras y fácil de entender, para que transmitan rápidamente la función de la etiqueta.
+**Etiquetas y asociaciones**
+ - Header: Será el encabezado de la página que contendrá el logo de nuestra startup y el sistema de navegación de la landing page como por ejemplo "Contacto" o "Planes".
+ - Secciones: Habrán secciones para cada tipo de información, como por ejemplo la sección relacionada a la información de la startup, la sección de contacto, planes y características.
+ - Call to Action:
+   - Botones: Algunos botones llevarán a otras partes de la Landing Page, como por ejemplo un botón de "Descubre más" que lleve a la sección de Contactos.
+   - Links: La Landing Page tendra links entre secciones del menu de navegación para que al dar clicks a esas opciones, nos lleve a ciertas partes. Por ejemplo, que al darle click a la opción "Sobre     nosotros", te lleve a la sección de información de la startup. También, se puede crear links a redes sociales a través de un SVG o PNG de cada red social.
+ - Footer: El pie de página se encargará de contener información como algunas redes sociales de la startup, preguntas frecuentes, número de contacto, etc.
+### 4.2.3. SEO Tags and Meta Tags
+Los SEO Tags y Meta Tags son sumamente importantes para la aplicación y landing page ya que hará que resalte ante otras páginas a la hora de realizar búsquedas a través de los browser.
 
+ - **Title tag:** 
+   - Valor: "MatchEvent - Conecta Marcas con Productoras de Eventos"
+   - Descripción: Un título corto que describe la funcionalidad de la página.
+     
+ - **Meta tag:**
+   - Valor: "MatchEvent es una aplicación que ayuda a que productoras de eventos puedan brindar sus servicios a empresas y marcas. Además, esetas empresas pueden contactar con las productoras en caso requieran mayor información."
+   - Descripción: Proporciona una mayor descripción al Title Tag, especificando un poco más las características de la startup y como puede influir positivamente.
+     
+ - **Meta keywords:**
+   -Valor: "Gestionar eventos, servicio para empresas, activaciones de marka, marketing, productoras de eventos, organización de eventos."
+   -Descripción: Algunas palabras claves que dan a entender las funcionalidades o lo que desea cumplir la aplicación.
+  
+ - **Meta author:**
+   - Valor: "CloseSource"
+   - Descripción: El nombre del autor, en este caso, el autor detrás de MatchEvent que es CloseSource.
+     
+ - **Meta robots:**
+   - Valor: "index, follow"
+   - Descripción: Son importantes para decirle a los motores de búsqueda cómo deben indexar o no indexar tu página y si deben seguir los enlaces que hay en ella.
+### 4.2.4. Searching Systems.
+
+En esta sección se explica qué medios de ayuda se brindará al usuario para la búsqueda de datos dentro del producto digital. En este caso, nos centraremos en la Landing Page.
+
+  - **Sistema de búsqueda de la Landing Page:**
+  
+    - Menú de navegación: La Landing Page contará con un menu de navegación en el header o encabezado que mostrará cada sección que se mostrará en la pagina web. Al darle click a cada link, este te llevará a su respectiva sección.
+    
+    - Enlaces internos: Habrán enlaces internos tanto en el header como en el footer, que se encargarán de llevar al usuario a diversas partes de la landing page o a lugares externos, como por ejemplo, un link a la red social de la startup.
+    
+    - Palabras destacadas: Algunas palabras estarán resaltadas en negrita o con un tamaño de letra más grande, que resaltará palabras clave.
+
+### 4.2.5. Navigation Systems.
+En esta sección se explicará cuáles serán las acciones y técnicas que guiarán a los usuarios a través del Landing Page y las aplicaciones, permitiéndoles cumplir sus metas e interactuar de forma satisfactoria con el producto.
+  - **Sistemas de navegación para la Landing Page**
+    - Menu de navegación: El menú de navegación que se encontrará al inicio de la página permitirá ver que secciones tendrá la Landing Page, cada sección tendra un link que hará que el usuario pueda ir a cada una de estas unicamente dando click.
+    - Botones: Se utilizarán botones destacados de llamados a la acción (CTA's) para algunas acciones, como por ejemplo, habrá un botón de "Registrate" el cual llevará al usuario a un formulario el cual le permitira iniciar sesión o registrarse.
+    - Diseño por secciones: La Landing Page se dividirá en secciones la cual cada una se encargará de proporcionar un tipo de información. Por ejemplo, en una sección se mostrará toda la información acerca de la startup, otra sobre las características, planes, contacto, etc.
+  - **Sistemas de navegación para la aplicación web**
+    - Barra de navegación: La aplicación contará con una barra de navegación para que las empresas o usuarios busquen a el productor que ellos deseen y que se adapte más a sus necesidades. Además, los productores también podrán buscar empresas y marcas que necesiten de un servicio para así poder enviar su solicitud para brindar su servicio.
+    - Navegación basada en tipo de usuario: Dependiendo de la clase de usuario que se desee ser (empresa o productora), las funciones de la aplicación variarán ya que cada uno de los segmentos objetivos demandan un objetivo diferente.
+    - Ayuda contextual: Se presentará un mini tutorial sobre el uso de la aplicación web para ayudar al usuario a poder entender el funcionamiento de la app.
+
+## **4.3. Landing Page UI Design.**
+### 4.3.1. Landing Page Wireframe  
+![WireframeLanding](https://github.com/user-attachments/assets/24f5f748-cec6-4213-a73b-ac4f5253b6af)
+
+> **Descripción del wireframe**  
+> El bosquejo en baja fidelidad define **la estructura jerárquica** sin distracciones visuales.  
+>
+> | Sección | Objetivo | Componentes claves |
+> |---------|----------|--------------------|
+> | **Header** | Navegación principal | Logo, menú de 5 enlaces y botón CTA destacado |
+> | **Hero (faja en Z-pattern)** | Mensaje de valor + acción inmediata | Título triple-línea, copy breve, 2 CTAs paralelos |
+> | **Bloque “Para Empresas”** | Beneficios dirigidos al segmento demandante | Cuadro de título + 4 tarjetas de ícono/beneficio |
+> | **Bloque “Para Productoras”** | Beneficios al segmento proveedor | Estructura gemela al bloque anterior |
+> | **Proceso Paso-a-Paso** | Explicar flujo MatchEvent | Columna izquierda “Para Empresas” vs. derecha “Para Productoras” con bullet-steps y check-icons |
+> | **Sobre Nosotros** | Presentar al equipo | Avatares circulares y nombres debajo |
+> | **Footer CTA** | Conversión final | Copy de cierre + botones Registro / Iniciar Sesión + footer legal oscuro |
+
+---
+
+### 4.3.2. Landing Page Mock-up  
+![MockUpLanding](https://github.com/user-attachments/assets/a79c6de3-8b0a-4245-b801-2db4e3e94b34)
+
+> **Descripción del mock-up**  
+> La maqueta en alta fidelidad aplica los estilos definidos (paleta azul-mostaza, Roboto, patrón Z) y valida **tono visual y jerarquía de contenidos** antes del prototipo interactivo.  
+>
+> - **Header**: logo minimalista + navegación en texto gris y CTA “Iniciar Sesión” en mostaza para contraste.  
+> - **Hero**: fondo azul medio con pattern, headline centrado (“Conecta con las mejores productoras…”), subcopy y CTAs diferenciados por rol (“Buscar Productora” vs. “Registrarme como Productora”).  
+> - **Secciones de beneficio**: tarjetas con bordes suaves y placeholder de imagen, manteniendo consistencia cromática.  
+> - **Proceso**: dos tarjetas blancas con sombra sutil; bullets azules y numeración clara para reforzar facilidad de uso.  
+> - **Sobre Nosotros**: avatares gris claro listos para foto real; nombres en gris oscuro bajo cada círculo.  
+> - **Footer**: banda azul oscuro replicando el hero; CTA final doble y créditos en gris claro sobre fondo casi negro para completar el patrón Z y reforzar contraste.
+
+## 4.4. Web Applications UX/UI Design.
+### 4.4.1. Web Applications – Wireframes  
+
+> Los wireframes a continuación muestran la navegación núcleo de la aplicación web antes de aplicar estilos finales. Se enumeran en el mismo orden en que un usuario típico (empresa o productora) los encontraría.
+
+| # | Pantalla (wireframe) | Propósito y componentes principales |
+|---|----------------------|-------------------------------------|
+| 1 | ![WF-Home](https://github.com/user-attachments/assets/9f5df8c3-bb12-41c4-94d0-7285fa1cf0f7) | **Home feed** tras iniciar sesión: hero contextual, buscador rápido y carrusel de tarjetas con oportunidades destacadas. |
+| 2 | ![WF-Directory](https://github.com/user-attachments/assets/e2de93a7-155f-4ca5-80b4-d86d6c0b0b51) | **Directorio de productoras** / solicitudes: filtros superiores y tarjetas con mini-portafolio, rating y CTA “Conectar”. |
+| 3 | ![WF-DashboardProd](https://github.com/user-attachments/assets/d190434f-14e7-4d8c-a418-48e6bf1893be) | **Dashboard de productora**: KPIs (propuestas enviadas, contratos, rating) y lista de solicitudes pendientes. |
+| 4 | ![WF-ProfileEdit](https://github.com/user-attachments/assets/f64717a5-0c20-4c91-9317-6a966db01982) | **Edición de perfil** (empresa o productora): avatar, datos de contacto y servicios ofrecidos. |
+| 5 | ![WF-Wizard](https://github.com/user-attachments/assets/5fffe2a8-b7f7-47c9-b802-18aa8e3d6fc8) | **Wizard de publicación de solicitud** (paso a paso, 3 steps): selección de tipo de evento, fechas y presupuesto. |
+| 6 | ![WF-Inbox/List](https://github.com/user-attachments/assets/afda922c-3c13-4217-8def-02fc998791a2) | **Lista de conversaciones / propuestas**: búsqueda, pestañas por estado y paginado inferior. |
+| 7 | ![WF-Login](https://github.com/user-attachments/assets/32961d00-7f2d-4c59-93ff-ecbd281fa767) | **Login simple** con correo y contraseña; enlace a registro y recuperación. |
+| 8 | ![WF-Signup](https://github.com/user-attachments/assets/7ec1e0fe-52ac-4f3d-91d3-7467e53f3680) | **Registro**: selector de tipo de cuenta, datos básicos y doble contraseña. |
+| 9 | ![WF-Verify](https://github.com/user-attachments/assets/8b03dcf3-ed74-4346-b6f0-fa6c1d2fa9c1) | **Pantalla de verificación de correo** con CTA para volver al login. |
+|10 | ![WF-RequestForm](https://github.com/user-attachments/assets/41436ca4-c718-4660-8ee1-7b1df8e83789) | **Formulario completo de solicitud de activación**: detalles del evento, servicios requeridos y fechas. |
+
+Cada wireframe se diseñó en **blanco y negro** para concentrarse en la disposición de elementos, jerarquía visual y flujos de usuario antes de aplicar color, tipografía y componentes definitivos de UI.
+
+### 4.4.2. Web Applications Wireflow Diagrams.
+Se ha realizado esta parte con Figma, obteniendo el correspondiente wireflow de nuestra web app:
+![Prototipo](/images/flow.PNG)
+
+### 4.4.3. Web Applications Mock-ups  
+
+| # | Mock-up | Pantalla / flujo representado | Resumen funcional |
+|---|---------|------------------------------|-------------------|
+| 1 | ![Directorio de productoras](https://github.com/user-attachments/assets/2a6635cc-35ed-42ca-b4f4-ce9460d05d2d) | **Directorio – vista Empresas** | Tarjetas con mini-portafolio, rating y CTA *Ver perfil*; buscador + filtros por categoría/intereses. |
+| 2 | ![Dashboard productora](https://github.com/user-attachments/assets/befa5c6f-15fc-45d2-a9ff-5cafe3e357e6) | **Dashboard – vista Productoras** | KPIs (solicitudes recibidas, contratos, rating), tabs por estado y botón *Enviar propuesta*. |
+| 3 | ![Perfil empresa](https://github.com/user-attachments/assets/6265fd47-62ac-4597-8a2a-5d42383ef22c) | **Perfil de empresa editable** | Sidebar con métricas + formulario con datos, intereses y seguridad. |
+| 4 | ![Wizard nueva solicitud](https://github.com/user-attachments/assets/ac7eff66-435d-4eba-bb55-7e76b34f6ed2) | **Wizard paso 1 – Nueva solicitud** | Selección de tipo de servicio en pasos progresivos (1/3). |
+| 5 | ![Wizard nueva solicitud – pasos](https://github.com/user-attachments/assets/17a75f86-e5f8-4da9-82bd-ba929b471169) | **Wizard paso 2–3** | Datos logísticos y confirmación antes de publicar la solicitud. |
+| 6 | ![Historial solicitudes](https://github.com/user-attachments/assets/b2805d70-bff6-4433-b260-2ff812b76f22) | **Historial de solicitudes** | Listado paginado con filtros (todos/en revisión) y CTA *Ver detalle* / *Cancelar*. |
+| 7 | ![Login](https://github.com/user-attachments/assets/90b2c936-f2f2-4714-8a4f-2675f21eb11e) | **Inicio de sesión** | Logotipo, campos de credenciales y enlaces a registro / recuperación. |
+| 8 | ![Verificación email](https://github.com/user-attachments/assets/1727a0c9-7cd6-4305-b36b-d63fd2ed2b35) | **Confirmación de correo** | Mensaje de éxito con CTA para volver al login. |
+| 9 | ![Formulario publicación solicitud](https://github.com/user-attachments/assets/31a1857c-4a80-4db5-bb4d-dff8d028b474) | **Publicar solicitud (formulario completo)** | Campos de información general, logística y presupuesto con validaciones obligatorias. |
+| 10 | ![Portafolio servicios](https://github.com/user-attachments/assets/98f32083-7559-4458-8cbc-0a6377a5ab92) | **Gestión de portafolio – Productoras** | Alta de nuevos servicios: nombre, categoría, precio, disponibilidad y upload de imagen. |
+
+Cada mock-up aplica la **paleta azul–mostaza y la tipografía Roboto** definida en las *Style Guides*, ilustrando la experiencia final tras la fase de prototipado.
+
+### 4.4.3. Web Applications User Flow Diagrams.
+## 4.5. Web Applications Prototyping.
+Se ha realizado el prototipado del Application Web en figma:
+
+![Prototipo](/images/prototype.PNG)
+
+Se encuentra en el siguiente link: https://www.figma.com/proto/eQz3TmfElqfpnzNsrfy33q/MATCH-EVENT?node-id=230-491&p=f&t=f4j2gBCitfGDL2L6-1&scaling=min-zoom&content-scaling=fixed&page-id=227%3A2&starting-point-node-id=230%3A491
+
+## 4.6. Domain-Driven Software Architecture.
+
+Domain-Driven software architecture es un enfoque de diseño de software que se centra en la creación de un modelo
+conceptual del dominio del problema, permitiendo una mejor comprensión y comunicación entre los desarrolladores y los
+expertos en el dominio. Este enfoque ayuda a alinear el diseño del software con las necesidades del negocio y a crear
+una arquitectura más flexible y mantenible.
+MatchEvent es un ejemplo de una aplicación web que utiliza este enfoque, permitiendo a las empresas y productoras
+gestionar sus eventos de manera eficiente.
+
+### 4.6.1. Software Architecture Context Diagram.
+
+Elementos en el diagrama de contexto:
+
+- MatchEvent: Aplicación web que conecta empresas y productoras.
+- Visitor: Usuario no autenticado que navega por la landing page.
+- Customer: Empresa o marca que publica solicitudes de activación o compañía productora que publica su portafolio.
+
+**Figura 6: Software Architecture Context Diagram**
+
+![Software Architecture Context Diagram](/images/contextDiagram.png)
+
+### 4.6.2. Software Architecture Container Diagrams.
+
+Elementos en el diagrama de contenedores:
+
+- Web Application: Aplicación web que permite a los usuarios interactuar con la plataforma.
+- Database: Base de datos que almacena la información de los usuarios, solicitudes y servicios.
+- Backend API: API que gestiona la lógica de negocio y la comunicación entre la aplicación web y la base de datos.
+- Landing Page: Página de inicio que proporciona información sobre la plataforma y permite a los usuarios registrarse o
+  iniciar sesión.
+- Developer: Desarrollador que trabaja en la implementación y mantenimiento de la aplicación.
+- Visitor: Usuario no autenticado que navega por la landing page.
+- Empresa o marca: Segmento objetivo que publica solicitudes de activación 
+- Productoras Especializadas: Compañía productora que publica su portafolio.
+
+**Figura 7: Software Architecture Container Diagrams**
+
+![Software Architecture Container Diagrams](/images/containerDiagram.png)
+
+![Software Architecture Container Diagrams](/images/containerDiagram2.png)
+
+### 4.6.3. Software Architecture Components Diagrams.
+
+**Bounded Context Identity and Access:**
+
+Elementos en el diagrama de componentes:
+
+- Web Application: Aplicación web que permite a los usuarios interactuar con la plataforma.
+- User Controller: Controlador que gestiona las solicitudes de los usuarios y la autenticación.
+- User Service: Servicio que maneja la lógica de negocio relacionada con los usuarios.
+- User Repository: Repositorio que interactúa con la base de datos para almacenar y recuperar información de los
+  usuarios.
+- Database: Base de datos que almacena la información de los usuarios, solicitudes y servicios.
+
+**Figura 8: Bounded Context Identity and Access**
+
+![Bounded Context Identity and Access](/images/identityAndAccessBoundedContext.png)
+
+**Bounded Context Activation Request**
+
+Responsabilidad:
+
+- Creación de solicitudes de activación
+- Edición o eliminación
+- Listado de solicitudes
+- Visualización de detalles de una solicitud
+
+**Figura 9: Bounded Activation Request**
+
+![Bounded Context Activation Request](/images/activationRequestsBoundedContext.png)
+
+**Bounded Context Activation Quotes**
+
+Responsabilidad:
+
+- Permitir a una productora enviar una propuesta para una solicitud publicada.
+- Listar propuestas enviadas por cada productora.
+- Posible relación con estados: "enviada", "aceptada", "rechazada".
+
+**Figura 10: Bounded Context Activation Quotes**
+
+![Bounded Context Activation Quotes](/images/activationQuotesBoundedContext.png)
+
+**Bounded Context Activation Management**
+
+Responsabilidad:
+
+- Ver el historial de activaciones (mis activaciones)
+- Ver detalles de cada activación.
+- Cambiar estado: "en curso", "finalizada", "cancelada".
+
+**Figura 11: Bounded Context Activation Management**
+
+![Bounded Context Activation Management](/images/activationManagementBoundedContext.png)
+
+**Bounded Context Portafolio Management**
+
+Responsabilidad:
+
+- Permitir a una productora registrar y editar su portafolio de servicios.
+- Cada servicio podría tener: nombre, descripción, categoría, precio, etc.
+- Mostrar estos servicios como parte del perfil público de la productora.
+
+**Figura 12: Bounded Context Portafolio Management**
+
+![Bounded Context Portafolio Management](/images/portafolioManagementBoundedContext.png)
+
+**Bounded Context Providers**
+
+Responsabilidad:
+
+- Buscar productoras por nombre, categoría, tags, ubicación, etc.
+- Visualizar perfil público de una productora
+- Filtros
+
+**Figura 13: Bounded Context Providers**
+
+![Bounded Context Providers](/images/providersBoundedContext.png)
+
+## 4.7. Software Object-Oriented Design.
+
+#### 4.7.1. Class Diagrams.
+![diagrama-de-clases](/images/classDiagram.png)
+
+dada la poca visibilidad del diagrama, compartimos el link para su visualización:
+https://www.mermaidchart.com/raw/014a32de-9057-478f-80b2-f98d8b7fdc4a?theme=light&version=v0.1&format=svg
+
+#### 4.7.2. Class Dictionary
+
+A continuación, se presenta el diccionario de clases correspondiente al modelo de datos de la aplicación MatchEvent. Esta sección describe cada clase identificada en el diagrama de clases, incluyendo sus atributos y relaciones con otras entidades.
+
+---
+
+### 👤 Usuario
+- **Descripción**: Representa a un usuario del sistema, que puede ser tanto una empresa solicitante como una productora de eventos.
+- **Atributos**:
+  - `user_id: int` – Identificador único del usuario.
+  - `name: varchar` – Nombre del usuario.
+  - `email: varchar` – Dirección de correo electrónico del usuario.
+  - `password: varchar` – Contraseña del usuario (debería ser almacenada de forma segura).
+  - `user_type: varchar` – Tipo de usuario (ej., 'company', 'producer').
+- **Métodos**:
+  - `register()`: Permite registrar un nuevo usuario en el sistema.
+  - `login()`: Permite al usuario iniciar sesión en el sistema.
+  - `updateProfile()`: Permite al usuario actualizar su información de perfil.
+- **Relaciones**:
+  - Puede estar asociado a una o más `Empresa` (si es un usuario de tipo empresa).
+  - Puede estar asociado a una o más `Productora` (si es un usuario de tipo productora).
+  - Puede enviar y recibir múltiples `Mensaje`.
+  - Puede emitir y recibir múltiples `Rating`.
+
+---
+
+### 🏢 Empresa
+- **Descripción**: Representa a una marca o compañía que solicita servicios de activación de eventos.
+- **Atributos**:
+  - `company_id: int` – Identificador único de la empresa.
+  - `contact_id: int` – Identificador del contacto principal de la empresa.
+  - `company_name: varchar` – Nombre legal de la empresa.
+  - `business_name: varchar` – Nombre comercial de la empresa.
+  - `tax_id: varchar` – Registro Único de Contribuyente.
+- **Métodos**:
+  - `registerCompany()`: Permite registrar una nueva empresa en el sistema.
+  - `updateCompanyInfo()`: Permite actualizar la información de la empresa.
+- **Relaciones**:
+  - Tiene múltiples `Contacto` asociados.
+  - Crea múltiples `Solicitud de Activación`.
+  - Firma múltiples `Contrato`.
+
+---
+
+### 🎬 Productora
+- **Descripción**: Empresa o equipo encargado de ofrecer servicios de producción de eventos.
+- **Atributos**:
+  - `producer_id: int` – Identificador único de la productora.
+  - `contact_id: int` – Identificador del contacto principal de la productora.
+  - `commercial_name: varchar` – Nombre comercial de la productora.
+  - `specialty: varchar` – Tipo de eventos en los que se especializa.
+  - `user_id: int` – Identificador del `Usuario` asociado a la productora.
+- **Métodos**:
+  - `registerProducer()`: Permite registrar una nueva productora en el sistema.
+  - `updateProducerInfo()`: Permite actualizar la información de la productora.
+  - `viewProposals()`: Permite a la productora ver las propuestas que ha enviado.
+- **Relaciones**:
+  - Tiene múltiples `Contacto` asociados.
+  - Ofrece múltiples `Servicio`.
+  - Envía múltiples `Propuesta`.
+  - Firma múltiples `Contrato`.
+  - Tiene un `Portafolio` de trabajos.
+
+---
+
+### 📞 Contacto
+- **Descripción**: Representa la relación de contacto entre una empresa y una productora.
+- **Atributos**:
+  - `contact_id: int` – Identificador único del contacto.
+  - `producer_id: int` – Identificador de la `Productora` asociada (puede ser nulo).
+  - `company_id: int` – Identificador de la `Empresa` asociada (puede ser nulo).
+  - `start_date: date` – Fecha en que se inició el contacto.
+  - `contact_status: boolean` – Estado del contacto (ej., activo, inactivo).
+- **Métodos**:
+  - `createContact()`: Permite crear un nuevo registro de contacto.
+  - `updateContactStatus()`: Permite actualizar el estado del contacto.
+- **Relaciones**:
+  - Puede estar asociado a una `Empresa`.
+  - Puede estar asociado a una `Productora`.
+  - Puede tener múltiples `Mensaje` asociados.
+
+---
+
+### 💬 Mensaje
+- **Descripción**: Representa un mensaje intercambiado entre usuarios a través del sistema.
+- **Atributos**:
+  - `message_id: int` – Identificador único del mensaje.
+  - `contact_id: int` – Identificador del `Contacto` al que pertenece el mensaje.
+  - `sender_id: int` – Identificador del `Usuario` que envió el mensaje.
+  - `content: text` – Contenido del mensaje.
+  - `send_date: datetime` – Fecha y hora en que se envió el mensaje.
+  - `is_read: boolean` – Indica si el mensaje ha sido leído.
+- **Métodos**:
+  - `sendMessage()`: Permite enviar un nuevo mensaje.
+  - `viewMessages()`: Permite ver los mensajes asociados a un contacto.
+  - `markAsRead()`: Permite marcar un mensaje como leído.
+- **Relaciones**:
+  - Pertenece a un `Contacto`.
+  - Fue enviado por un `Usuario`.
+
+---
+
+### 📝 Solicitud de Activación
+- **Descripción**: Representa una solicitud publicada por una empresa para la realización de una activación de marca o evento.
+- **Atributos**:
+  - `request_id: int` – Identificador único de la solicitud.
+  - `company_id: int` – Identificador de la `Empresa` que creó la solicitud.
+  - `event_title: varchar` – Título descriptivo del evento.
+  - `event_description: text` – Descripción detallada del evento requerido.
+  - `location: varchar` – Ubicación deseada para el evento.
+  - `start_date: date` – Fecha de inicio deseada para el evento.
+  - `end_date: date` – Fecha de fin deseada para el evento.
+  - `status: varchar` – Estado de la solicitud (ej., 'abierta', 'cerrada', 'en progreso').
+- **Métodos**:
+  - `createRequest()`: Permite crear una nueva solicitud de activación.
+  - `updateRequest()`: Permite actualizar los detalles de una solicitud.
+  - `viewProposals()`: Permite ver las propuestas recibidas para esta solicitud.
+- **Relaciones**:
+  - Fue creada por una `Empresa`.
+  - Puede tener múltiples `Propuesta` asociadas.
+  - Puede tener múltiples `Filtro de Evento` aplicados.
+
+---
+
+### 📄 Propuesta
+- **Descripción**: Representa una oferta enviada por una productora en respuesta a una solicitud de activación.
+- **Atributos**:
+  - `proposal_id: int` – Identificador único de la propuesta.
+  - `request_id: int` – Identificador de la `Solicitud de Activación` a la que responde.
+  - `producer_id: int` – Identificador de la `Productora` que envió la propuesta.
+  - `service_id: int` – Identificador del `Servicio` ofrecido en la propuesta.
+  - `offered_price: decimal` – Precio ofrecido en la propuesta.
+  - `submission_date: datetime` – Fecha y hora en que se envió la propuesta.
+  - `proposal_status: varchar` – Estado de la propuesta (ej., 'enviada', 'aceptada', 'rechazada').
+- **Métodos**:
+  - `submitProposal()`: Permite a una productora enviar una nueva propuesta.
+  - `updateProposalStatus()`: Permite actualizar el estado de la propuesta.
+- **Relaciones**:
+  - Responde a una `Solicitud de Activación`.
+  - Fue enviada por una `Productora`.
+  - Incluye un `Servicio` ofrecido.
+  - Puede dar lugar a un `Evento`.
+
+---
+
+### 🛠️ Servicio
+- **Descripción**: Representa un servicio específico ofrecido por una productora.
+- **Atributos**:
+  - `service_id: int` – Identificador único del servicio.
+  - `producer_id: int` – Identificador de la `Productora` que ofrece el servicio.
+  - `name: varchar` – Nombre del servicio.
+  - `description: text` – Descripción del servicio.
+  - `price: decimal` – Precio base del servicio.
+- **Métodos**:
+  - `addService()`: Permite a una productora agregar un nuevo servicio.
+  - `updateService()`: Permite a una productora actualizar la información de un servicio.
+- **Relaciones**:
+  - Es ofrecido por una `Productora`.
+  - Puede ser incluido en múltiples `Propuesta`.
+
+---
+
+### 🗓️ Evento
+- **Descripción**: Representa un evento de activación que se llevará a cabo, resultado de la aceptación de una propuesta.
+- **Atributos**:
+  - `event_id: int` – Identificador único del evento.
+  - `proposal_id: int` – Identificador de la `Propuesta` que dio origen al evento.
+  - `start_date: datetime` – Fecha y hora de inicio del evento.
+  - `end_date: datetime` – Fecha y hora de fin del evento.
+  - `location: varchar` – Ubicación del evento.
+  - `status: varchar` – Estado del evento (ej., 'planificado', 'en curso', 'finalizado').
+  - `rating: varchar` – Calificación general del evento (puede ser calculado a partir de las `Rating`).
+- **Métodos**:
+  - `createEvent()`: Permite crear un nuevo evento a partir de una propuesta aceptada.
+  - `updateEventStatus()`: Permite actualizar el estado del evento.
+- **Relaciones**:
+  - Proviene de una `Propuesta`.
+  - Da lugar a un `Contrato`.
+  - Puede tener múltiples `Rating` asociados.
+  - Puede tener múltiples imágenes en la `Galería`.
+  - Es gestionado por `Gestión de Activación`.
+
+---
+
+### 🤝 Contrato
+- **Descripción**: Representa el acuerdo formal entre una empresa y una productora para la realización de un evento.
+- **Atributos**:
+  - `contract_id: int` – Identificador único del contrato.
+  - `company_id: int` – Identificador de la `Empresa` contratante.
+  - `event_id: int` – Identificador del `Evento` asociado al contrato.
+  - `producer_id: int` – Identificador de la `Productora` contratada.
+  - `start_date: date` – Fecha de inicio del contrato.
+  - `end_date: date` – Fecha de fin del contrato.
+- **Métodos**:
+  - `createContract()`: Permite crear un nuevo contrato para un evento.
+  - `viewContractDetails()`: Permite ver los detalles del contrato.
+- **Relaciones**:
+  - Involucra a una `Empresa`.
+  - Involucra a una `Productora`.
+  - Está asociado a un `Evento`.
+  - Puede tener múltiples `Pago` asociados.
+
+---
+
+### 💰 Pago
+- **Descripción**: Representa un pago realizado en el marco de un contrato.
+- **Atributos**:
+  - `payment_id: int` – Identificador único del pago.
+  - `contract_id: int` – Identificador del `Contrato` al que pertenece el pago.
+  - `amount: decimal` – Monto del pago.
+  - `payment_date: datetime` – Fecha en que se realizó el pago.
+  - `payment_method: varchar` – Método de pago utilizado.
+- **Métodos**:
+  - `recordPayment()`: Permite registrar un nuevo pago.
+  - `viewPaymentDetails()`: Permite ver los detalles de un pago.
+- **Relaciones**:
+  - Pertenece a un `Contrato`.
+
+---
+
+### ⭐ Calificación
+- **Descripción**: Representa una evaluación o reseña que un usuario realiza sobre otro (empresa califica a productora o viceversa) con respecto a un evento.
+- **Atributos**:
+  - `rating_id: int` – Identificador único de la calificación.
+  - `event_id: int` – Identificador del `Evento` al que se refiere la calificación.
+  - `issuer_id: int` – Identificador del `Usuario` que emitió la calificación.
+  - `receiver_id: int` – Identificador del `Usuario` que recibió la calificación.
+  - `score: decimal` – Puntuación otorgada.
+  - `comment: text` – Comentario o reseña opcional.
+- **Métodos**:
+  - `submitRating()`: Permite a un usuario enviar una calificación.
+  - `viewRatings()`: Permite ver las calificaciones de un usuario o evento.
+- **Relaciones**:
+  - Está asociada a un `Evento`.
+  - Fue emitida por un `Usuario`.
+  - Fue recibida por un `Usuario`.
+
+---
+
+### ⚙️ Filtro de Evento
+- **Descripción**: Representa un filtro que se puede aplicar a las solicitudes de activación para facilitar la búsqueda.
+- **Atributos**:
+  - `filter_id: int` – Identificador único del filtro.
+  - `request_id: int` – Identificador de la `Solicitud de Activación` a la que se aplica el filtro.
+  - `filter_type: varchar` – Tipo de filtro (ej., 'ubicación', 'fecha').
+  - `filter_name: varchar` – Valor específico del filtro.
+- **Métodos**:
+  - `applyFilter()`: Permite aplicar el filtro a las solicitudes de activación.
+- **Relaciones**:
+  - Se aplica a una `Solicitud de Activación`.
+
+---
+
+### 🖼️ Portafolio
+- **Descripción**: Representa un proyecto o trabajo anterior realizado por una productora, utilizado para mostrar su experiencia.
+- **Atributos**:
+  - `portfolio_id: int` – Identificador único del proyecto del portafolio.
+  - `producer_id: int` – Identificador de la `Productora` dueña del portafolio.
+  - `portfolio_title: varchar` – Título del proyecto.
+  - `portfolio_description: text` – Descripción del proyecto.
+  - `project_location: varchar` – Ubicación del proyecto.
+  - `project_date: date` – Fecha del proyecto.
+- **Métodos**:
+  - `addProject()`: Permite a una productora agregar un nuevo proyecto a su portafolio.
+  - `viewPortfolio()`: Permite ver el portafolio de una productora.
+- **Relaciones**:
+  - Pertenece a una `Productora`.
+
+---
+
+### 🏞️ Galería
+- **Descripción**: Representa una imagen o archivo multimedia asociado a un evento específico.
+- **Atributos**:
+  - `gallery_id: int` – Identificador único de la imagen en la galería.
+  - `event_id: int` – Identificador del `Evento` al que pertenece la imagen.
+  - `image_url: text` – URL o ruta del archivo de la imagen.
+  - `description: text` – Descripción de la imagen (opcional).
+- **Métodos**:
+  - `uploadImage()`: Permite subir una nueva imagen a la galería de un evento.
+  - `viewGallery()`: Permite ver las imágenes de la galería de un evento.
+- **Relaciones**:
+  - Pertenece a un `Evento`.
+
+---
+
+### 🚦 Gestión de Activación
+- **Descripción**: Gestiona el estado y los hitos de la activación de un evento específico.
+- **Atributos**:
+  - `activation_id: int` – Identificador único de la activación.
+  - `event_id: int` – Identificador del `Evento` que se está gestionando.
+  - `status: varchar` – Estado actual de la activación (ej., 'planificación', 'en progreso', 'finalizada').
+- **Métodos**:
+  - `startActivation()`: Permite iniciar la gestión de la activación de un evento.
+  - `updateActivationStatus()`: Permite actualizar el estado general de la activación.
+  - `getMilestones()`: Permite obtener la lista de hitos asociados a la activación.
+  - `addMilestone(milestone: Milestone)`: Permite agregar un nuevo hito a la activación.
+- **Relaciones**:
+  - Gestiona un `Evento`.
+  - Contiene múltiples `Hito`.
+
+---
+
+### 🎯 Hito
+- **Descripción**: Representa un punto clave o tarea dentro del proceso de activación de un evento.
+- **Atributos**:
+  - `milestone_id: int` – Identificador único del hito.
+  - `activation_id: int` – Identificador de la `Gestión de Activación` al que pertenece el hito.
+  - `title: varchar` – Título del hito.
+  - `description: text` – Descripción del hito.
+  - `due_date: date` – Fecha límite para la finalización del hito.
+  - `completion_date: date` – Fecha en que se completó el hito (puede ser nulo).
+  - `status: varchar` – Estado del hito (ej., 'pendiente', 'en progreso', 'completado').
+- **Métodos**:
+  - `updateStatus()`: Permite actualizar el estado del hito.
+- **Relaciones**:
+  - Pertenece a una `Gestión de Activación`.
+
+---
+
+### 4.8. Database Design
+
+#### 4.8.1 Database Diagram
+Este es nuestro diagrama de base de datos, donde encontramos toda la información a trabajar en nuestra base de datos, incluyendo a todas las entidades y sus correspondientes relaciones.
+
+![Database](images/database.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment.
 
@@ -982,3 +1749,679 @@ Se aplican para:
 Una vez corregido el problema, la rama hotfix se fusiona tanto en main como en develop, para que el arreglo forme parte del historial del proyecto en ambas líneas. Además, se actualiza el número de versión siguiendo Semantic Versioning, generalmente con un incremento en el parche (por ejemplo, de v1.1.0 a v1.1.1).
 
 ![Feature Branches](images/Features_branches.png)
+
+### 5.1.3. Source Code Style Guide & Conventions.
+
+#### Git & Github
+
+En relación con las convenciones de programación, utilizaremos los estilos camelCase y UpperCamelCase según corresponda. También seguiremos las pautas de la "Guía de Estilo HTML/CSS de Google" para garantizar una codificación consistente en HTML y CSS.
+
+Para el control de versiones, adoptaremos la metodología de "conventional commits" en la creación de ramas y en los mensajes de commit. Las ramas se nombrarán siguiendo el formato < type >/< title >, mientras que los mensajes de commit seguirán el patrón < type >(scope opcional):< descripción >. Algunos ejemplos serían:
+
+    Rama: feat/main-component
+
+    Commit: feat: content in profile added
+
+Para el control de versiones relacionado con el Report, implementaremos una ligera variación:
+
+    Rama: feature/capitulo1
+
+    Commit: feat: final report structure implemented
+
+En cuanto a la gestión de ramas, utilizaremos el modelo GitFlow. Esto implicará crear ramas de características (feature branches) con la nomenclatura establecida. La rama principal será main, donde se almacenará la versión estable y en producción de la aplicación. Las ramas de características y correcciones se fusionarán eventualmente con la rama main, mientras que, durante el proceso de desarrollo, se integrarán primero en la rama develop hasta que se logre la versión final.
+
+#### HTML
+
+Se seguirán las recomendaciones de estilo definidas por la Guía de Estilo de HTML/CSS de Google, priorizando buenas prácticas de accesibilidad, claridad y mantenimiento del código.
+
+* Uso de etiquetas en minúsculas (Lowercase)
+
+    Es recomendable escribir los nombres de las etiquetas HTML utilizando solo letras minúsculas. Este enfoque mejora la claridad del código y evita posibles errores en navegadores más estrictos.
+
+    ```
+    <body>
+    <p>This is a paragraph</p>
+    <body>
+    ```
+
+* Cierre adecuado de etiquetas
+
+    Es una buena práctica cerrar explícitamente todas las etiquetas HTML, incluso aquellas que podrían parecer opcionales. Esto asegura un mejor mantenimiento y compatibilidad del documento.
+
+    ```
+    <body>
+    <p>This is a paragraph</p>
+    <p>This is another paragraph</p>
+    <body>
+    ```
+
+* Nombres de atributos en minúsculas
+
+    Los atributos dentro de las etiquetas deben estar en minúsculas para mantener uniformidad y asegurar compatibilidad con estándares actuales.
+
+    ```
+    <a href="https://www.w3schools.com/html/">Visit our HTMLtutorial</a>
+    ```
+
+* Definir alt, width y height en imágenes
+
+    Siempre que se utilicen imágenes, es fundamental especificar los atributos alt, width y height. Esto favorece la accesibilidad, optimiza el rendimiento y mantiene el diseño estable incluso si la imagen no se carga.
+
+    ```
+    <img src="html5.gif" alt="HTML5"
+    style="width:128px;height:128px">
+    ```
+
+* Evitar espacios innecesarios en atributos
+  
+    Al declarar atributos dentro de las etiquetas, se recomienda no dejar espacios alrededor del signo igual. Esto contribuye a que el código sea más limpio y fácil de entender.
+
+    ```
+    <link rel="stylesheet" href="styles.css">
+    ```
+* Principales etiquetas utilizadas en el proyecto
+
+    Durante la construcción del sitio web, se aplicaron diversas etiquetas HTML para organizar el contenido de forma estructurada:
+
+    - header: Define la sección inicial del sitio, normalmente incluye elementos como el logo o la barra de búsqueda.
+
+    - nav: Es usada para definir bloques de navegación del sitio, como menús o enlaces internos.
+
+    - div: Permite agrupar elementos y aplicar estilos específicos a cada sección de la página.
+
+    - img: Inserta imágenes en el contenido. Fue utilizada repetidamente en distintas secciones visuales.
+
+    - ul: Crea listas no ordenadas. En este caso, se empleó principalmente para menús de navegación.
+
+    - li: Define cada elemento dentro de una lista. Se usó tanto en los menús como en otras secciones como el blog.
+
+    - a: Se utiliza para insertar enlaces que permiten navegar dentro del sitio o hacia sitios externos.
+
+    - p: Sección utilizada para organizar y presentar el texto en párrafos.
+
+    - button: Representa botones que el usuario puede pulsar para ejecutar acciones.
+
+    - h1 a h4: Se usaron para definir títulos jerárquicos desde el nivel más importante (h1) hasta subniveles (h4).
+
+#### CSS
+
+Las reglas de estilo están basadas en la Guía de Estilo de HTML/CSS de Google, que promueve consistencia, legibilidad y eficiencia en las hojas de estilo.
+
+* Nombres descriptivos para clases e IDs
+
+  Es preferible usar nombres significativos para identificar elementos mediante clases e IDs. Esto hace que el código sea más entendible tanto para el autor como para otros desarrolladores.
+
+  ```
+  #gallery {}
+  #register {}
+  .video {}
+  ```
+
+
+* Estilo de nombres para clases e IDs
+
+  Los nombres deben ser breves, pero lo suficientemente claros como para expresar la función del elemento al que se aplican.
+
+  ```
+  #nav {}
+  .author {}
+  ```
+
+* Uso de propiedades Shorthand
+
+  Se recomienda emplear la forma abreviada de las propiedades CSS siempre que sea posible. Esto ayuda a reducir el tamaño del archivo y hace el código más eficiente.
+
+  ```
+  border-top: 0;
+  font: 100%/1.6 palatino, georgia, serif;
+  padding: 0 1em 2em;
+  ```
+
+* 0 and Units
+
+  Cuando una propiedad tiene valor 0, no es necesario especificar la unidad (como px o %). Omitirla mejora la limpieza del código.
+
+  ```
+  margin: 0;
+  padding: 0;
+  ```
+
+
+* Orden alfabético en declaraciones
+
+  Organizar las declaraciones de estilos CSS en orden alfabético facilita la lectura y el mantenimiento, especialmente en hojas de estilo extensas.
+
+  ```
+  background: fuchsia;
+  border: 1px solid;
+  border-radius: 4px;
+  color: black;
+  ```
+
+#### JavaScript
+
+Se adoptarán las convenciones de la Guía de Estilo de JavaScript de Google, enfocadas en mantener un código legible, coherente y fácil de mantener en proyectos colaborativos.
+
+* Sintaxis expandida
+
+  Se sugiere estructurar el código JavaScript de forma clara, con una instrucción por línea. Las llaves de apertura deben ir en la misma línea que la declaración de la función, y las de cierre en una nueva línea posterior.
+
+  ```
+  function example() {
+  console.log('Hello developer!');
+  };
+  ```
+
+* Convención para nombrar variables
+
+  Para nombrar variables se recomienda seguir el estilo lowerCamelCase, donde la primera palabra comienza en minúscula y las siguientes con mayúscula.
+
+  ```
+  let sumTwoNumbers = 0;
+  let firstNumber = subNumber1 + subNumber2;
+  ```
+
+* Declaración de variables con let y const
+
+  Es preferible utilizar let y const para definir variables, en lugar de var, ya que ofrecen un mayor control sobre el ámbito y el comportamiento de las mismas.
+
+  ```
+  const Name = 'Ethan';
+  console.log(Name);
+  let currentAge = '20';
+  currentAge++;
+  console.log('Happy birthday to you!');
+  ```
+
+* Convención para nombrar funciones
+
+  Las funciones también deben seguir el formato lowerCamelCase, ayudando a mantener la consistencia con los nombres de las variables.
+
+  ```
+  function sayBye() {
+  alert('Bye!');
+  };
+  ```
+
+#### Typescript
+
+Se seguirán las convenciones propuestas por la Guía de Estilo Oficial de TypeScript, priorizando tipado explícito, legibilidad y organización coherente del código.
+
+* Estilo de nombres para variables y funciones
+
+Se recomienda utilizar el estilo lowerCamelCase para nombrar variables y funciones. Este formato comienza con minúscula y cada palabra adicional inicia en mayúscula.
+
+```
+let userName = 'Carlos';
+function getUserAge() {
+  return 30;
+}
+```
+
+* Estilo de nombres para clases e interfaces
+
+Las clases e interfaces deben seguir el formato UpperCamelCase (PascalCase), con cada palabra empezando con mayúscula. Esto permite diferenciarlas visualmente de funciones o variables.
+
+```
+class UserProfile {
+  constructor(public name: string, public age: number) {}
+}
+
+interface ProductCard {
+  title: string;
+  price: number;
+}
+```
+
+* Uso estricto de tipos
+
+TypeScript se basa en tipado estático. Es importante declarar explícitamente los tipos para variables, parámetros y funciones, lo que ayuda a prevenir errores en tiempo de compilación.
+
+```
+const totalPrice: number = 199.99;
+function calculateDiscount(price: number): number {
+  return price * 0.1;
+}
+```
+
+* Declaración de constantes y variables
+
+Se prioriza el uso de const para valores inmutables y let para aquellos que pueden cambiar. Se evita el uso de var.
+
+```
+const maxItems = 10;
+let currentCount = 0;
+```
+
+#### Java
+
+Se adoptarán las convenciones oficiales de codificación de Java establecidas por Oracle, que definen reglas claras sobre nombres, estructura y estilo del código.
+
+* Convención para nombres de clases y métodos
+
+Las clases deben nombrarse en formato UpperCamelCase, mientras que los métodos deben seguir lowerCamelCase, conforme a las convenciones oficiales de Java.
+
+```
+public class UserService {
+    public void createUser() {
+        // lógica para crear usuario
+    }
+}
+```
+
+* Declaración de constantes
+
+Las constantes se declaran usando final y deben escribirse completamente en mayúsculas, separando las palabras con guiones bajos.
+
+```
+public static final int MAX_USERS = 100;
+```
+
+* Uso adecuado de let y const (no aplica en Java)
+
+Java no cuenta con let ni const, por lo tanto, las variables se declaran con su tipo y pueden o no ser final según si cambiarán su valor.
+
+```
+int userAge = 25;
+final String APP_NAME = "MiAplicación";
+```
+
+* Comentarios en el código
+
+Los comentarios deben explicar el propósito del código. Se recomienda usar // para comentarios de línea y /** */ para documentar clases y métodos públicos.
+
+```
+// Inicializa el contador de usuarios
+int counter = 0;
+
+/**
+ * Devuelve el nombre completo del usuario
+ */
+public String getFullName(String firstName, String lastName) {
+    return firstName + " " + lastName;
+}
+```
+
+* Organización del código
+
+Cada clase debe estar en un archivo separado, con el nombre del archivo igual al de la clase pública. Las llaves de apertura se colocan al final de la línea de declaración.
+
+```
+public class LoginService {
+    public boolean validate(String username, String password) {
+        return username.equals("admin");
+    }
+}
+```
+
+### 5.1.4. Software Deployment Configuration.
+Para el despliegue de la aplicación hemos utilizado GitHub Pages, una herramienta gratuita y confiable para publicar sitios web estáticos directamente desde un repositorio GitHub. A continuación describiremos las consideraciones previas, los requerimientos y los pasos realizados para completar el proceso de despliegue.
+
+##### Consideraciones antes del despliegue
+  
+  - Tecnologías del sitio
+
+    El sitio fue desarrollado utilizando archivos HTML, CSS y JavaScript. Se verificó que todo el contenido estuviera correctamente estructurado en estos formatos para garantizar compatibilidad con GitHub Pages y funcionamiento óptimo en navegadores modernos. Las imágenes fueron incluidas en distintos formatos estándares como .jpg, .png y .webp, priorizando la optimización del rendimiento (todo en la carpeta /images).
+
+  - Repositorio compartido
+   
+    Todo el código fuente se encuentra en un repositorio compartido dentro de la organización del grupo en GitHub. Este enfoque facilita el trabajo colaborativo y permite a todos los integrantes contribuir en paralelo a través de ramas específicas y solicitudes de cambios (pull requests).
+
+  - Pruebas previas al despliegue
+  
+    Antes de cada despliegue, se realizaron pruebas de funcionalidad para asegurar el correcto comportamiento de la interfaz y la navegación.
+
+##### Requisitos para el despliegue
+  - Repositorio alojado en una organización de GitHub (en nuestro caso, tenemos un repositorio específico para el landing page).
+
+  - Visibilidad pública del repositorio para permitir el acceso a cualquier usuario.
+
+  - Código fuente completo y actualizado de la landing page.
+
+  - Permisos adecuados para modificar la configuración del repositorio y activar GitHub Pages.
+
+##### Pasos para desplegar la landing page
+  - Se subió el código fuente al repositorio correspondiente en GitHub (Landing Page).
+
+  - Desde la pestaña de Settings, se accedió a la sección Pages.
+
+  - Se configuró la publicación seleccionando la rama main y la carpeta raíz (/root) como fuente del contenido.
+
+  - Una vez guardados los cambios, GitHub generó automáticamente el sitio y nos proporcionó un enlace público para acceder a la landing page desplegada.
+
+## **5.2. Landing Page, Services & Applications Implementation**  
+### **5.2.1. Sprint 1**  
+#### **5.2.1.1. Sprint Planning 1**
+
+  Podemos considerar al Sprint Planning como una "ceremonia" fundamental dentro de la metodología ágil Scrum. Su propósito es definir el objetivo del sprint y planificar el trabajo que se realizará durante el mismo. En esta primera planificación, como detallaremos en adelante, el equipo se reunió para analizar los requerimientos del proyecto, priorizar las tareas del backlog y asignar responsabilidades entre los integrantes. Esta sesión permitió establecer una visión compartida sobre los entregables a corto plazo y sentar las bases del desarrollo inicial de la aplicación, partiendo del desarrollo del landing page.
+
+| **Sprint #**                | 1                                  |
+| :-------------------------: |------------------------------------|
+| **Sprint Planning Background**    |                                 |
+| **Date**                    | 12/04/2025                         |
+| **Time**                    | 8:00 pm                            |
+| **Location**                | Reunión virtual a través del canal de discord del equipo llamado “Team CloseSource” |
+| **Prepared by**             | Max Anthony Paitan Pumacahua       |
+| **Attendees (to planning meeting)** | Aaron Alexander Avila Palacios, Gabriel Anthony Braithuaite Toledo, Kevin Alexander Castañeda Llanos, Ivan Jeanpierre La Madrid Lozano, Max Anthony Paitan Pumacahua |
+| **Sprint 1 Review Summary** | Completar el desarrollo del Report. Primer avance del Landing Page del proyecto |
+| **Sprint 1 Retrospective Summary** | Se realizó la distribución de temas para completar la documentación, además de diseñar e implementar la primera versión de nuestro landing page |
+| **Sprint Goal & User Stories**                                     |
+| **Sprint 1 Goal**           | **Nos enfocamos** en diseñar y desarrollar la landing page de MatchEvent. **Creemos que** esto aportará una presentación clara y atractiva del propósito de la plataforma, generando confianza inicial en empresas y productoras interesadas en registrarse o conocer más sobre el servicio. **Esto se confirmará** cuando la landing page esté publicada, muestre la identidad visual del proyecto y comunique efectivamente cómo MatchEvent conecta a ambos segmentos de forma ágil y eficiente. |
+| **Sprint n Velocity**       | 1 semana                           |
+| **Sum of Story Points**     | 11                                 |
+
+#### **5.2.1.2. Aspect Leaders and Collaborators**
+
+En este Sprint, como grupo identificamos los aspectos principales en los que íbamos a enfocar nuestro trabajo. Para este sprint, decidimos dedicarnos por completo al desarrollo de la primera versión del landing page, completando el diseño por completo, empezando por la presentación del proyecto, los call to action, las características ofrecidas a cada segmento objetivo y nuestra información como desarrolladores. Resaltamos que, si bien está completo a nivel de estructura, aún falta realizar correcciones y modificaciones conforme se avance el proyecto principal.
+
+Cada aspecto representa una parte del alcance funcional del landing page.Esta división nos permitió organizarnos mejor, asignando a uno como responsable principal, mientras que el resto colaboró según la necesidad del desarrollo. A continuación, mostramos un cuadro donde se detallan los líderes y colaboradores asignados a cada aspecto trabajado durante el Sprint:
+
+| Team Member | GitHub username | Diseño de la UI del Landing Page | Programación de la sección "Cómo funciona"  | Programación de la sección "Productoras" | Programación de la sección "Empresas" | Programación de la sección "Call to action" | Programación de la sección "Quienes somos" | Programación de la sección "Footer" |
+| :--: | :--: | :--: |:--: | :--: | :--: | :--: | :--: | :--: |
+| Aaron Alexander Avila Palacios | AaronAvilap | C | C | C | C | C | C | C |
+| Gabriel Anthony Braithuaite Toledo | Gaboo04 | C | C | C | C | C | C | C | 
+| Kevin Alexander Castañeda Llanos | KevCast1604 | C | C | C | C | C | C | C |
+| Ivan Jeanpierre La Madrid Lozano | ivanlamadrid | C | C | C | C | C | C | C |
+| Max Anthony Paitan Pumacahua | MaxPaitanP | L | L | L | L | L | L | L |
+
+#### **5.2.1.3. Sprint Backlog 1**
+El objetivo principal de este Sprint fue avanzar en el desarrollo de las funcionalidades clave de nuestra solución, priorizando aquellas que nos permitieran entregar una versión funcional inicial de la Landing Page y establecer las bases para el desarrollo posterior del sistema. Para organizar y dar seguimiento a las tareas, utilizamos la herramienta Trello como nuestro tablero de control, donde cada integrante podía visualizar, actualizar y colaborar en las actividades asignadas. A continuación, se presenta una captura del tablero correspondiente al sprint 1:
+
+  ![Board en Trello, para el sprint backlog 1](images/boardSprint1.PNG)   
+Link del board en Trello: https://trello.com/b/8b0Ucgzs/sprint-1
+
+Esta es la tabla del Sprint Backlog 1:
+
+### Sprint Backlog - Sprint 1
+
+| Sprint # | Sprint 1 |  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US003 | Sección Cómo funciona | TS01 | Maquetar estructura HTML | Crear estructura HTML semántica de la sección según mockup | 1 | Max | Done |
+|  |  | TS02 | Aplicar estilos CSS | Dar estilos visuales con CSS respetando el diseño definido | 1 | Max | Done |
+| US004 | Sección Productoras | TS03 | Estructurar HTML | Crear el layout HTML con base en el mockup | 1.5 | Max | Done |
+|  |  | TS04 | Estilizar sección | Aplicar CSS para diseño responsivo y visualmente atractivo | 1 | Max | Done |
+| US005 | Sección Empresas | TS05 | HTML de la sección | Construcción de la estructura HTML semántica | 1.5 | Max | Done |
+|  |  | TS06 | CSS de la sección | Estilos visuales y adaptación responsiva | 1 | Max | Done |
+| US008 | Sección Call to action | TS07 | Estructura HTML del CTA | Maquetar la sección de llamada a la acción | 1 | Max | Done |
+|  |  | TS08 | Estilos y botones del CTA | Aplicar estilos y lógica visual al botón principal | 1 | Max | Done |
+| US007 | Sección Quiénes somos | TS09 | Maquetar HTML | Crear la estructura base de la sección informativa | 1.5 | Max | Done |
+|  |  | TS10 | Aplicar estilos | Dar formato visual mediante CSS, asegurando adaptabilidad | 1.5 | Max | Done |
+| US006 | Sección Footer | TS11 | HTML del Footer | Maquetación básica del pie de página con enlaces e íconos | 0.5 | Max | Done |
+|  |  | TS12 | CSS del Footer | Aplicar diseño visual y responsive | 1 | Max | Done |
+| — | Task general | TS13 | Configurar GitHub Pages | Habilitar GitHub Pages y asegurar despliegue automático desde rama main | 1 | Max | Done |
+| — | Task general | TS14 | Revisión de accesibilidad básica | Verificar contraste, etiquetas y estructura para accesibilidad mínima | 1 | Max | Done |
+
+
+
+#### **5.2.1.4. Development Evidence for Sprint Review** 
+
+Durante este sprint se avanzó con el desarrollo de la primera versión de la Landing Page de nuestro proyecto, registrando los avances en el repositorio. Esta versión inicial incluye la estructura básica del sitio, siguiendo el patrón de diseño en Z, con enfoque en la responsividad, el uso de imágenes relevantes y la implementación de los elementos esenciales de una landing page efectiva: encabezados claros, botones Call to Action, secciones informativas y estilos coherentes con la identidad visual definida para el proyecto; además, tenemos que considerar que, al ser la primera versión, pasará por los cambios que sean necesarios a futuro. El código fuente está organizado y distribuido en archivos independientes de HTML, CSS y JavaScript, permitiendo una mejor mantenibilidad y escalabilidad futura. Así pues, los commits reflejan la implementación de las funcionalidades planeadas para la primera versión del landing page.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
+| :---: | :---: | :---: | :---: | ----- | :---: |
+| CloseSource-Landing-Page | landingPage_v1 | 1bff1d65627964230ae650fe9924be36eb87b533 | Feature: Initial commit | —---------- | 15/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 271aba1fd0932c9194a963bc72774a01c5eb293c | Feature: add README description | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 45f09304157777edbbe534e733bc4ae284536884 | Feature: add image folder, with all the imagen to the landing page | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 0a68cf21f7517938744168537ef22bd17e5c34f9 | Feature: add the index file | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | a26ae6335bf0d2ead8a79f93ed2b935e9e12c1a9 | Feature: add the style file | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 82931dc4ee7e961e6e2a39bb9b44919e4a336df8 | Feature: add the script file | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 4ed473590c8b4e5125d51393b063e8789370ae30 | Chore: clean the style file | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | a4836aefc9a32ad80ea647f7647510b17fe83875 | Fix: fix the activation image's size | —---------- | 20/04/2025 |
+
+#### **5.2.1.5. Execution Evidence for Sprint Review** 
+Para el sprint 1, como ya hemos mencionado, se ha implementado la primera versión del landing page, además de haberse desplegado. Se ha priorizado el avance de las partes planteadas en el Producto Backlog para el landing, además de desarrollar características primordiales como el patrón de diseño "Z" aplicado, hacerla responsive y completar una distribución uniforme de los componentes. Esta primera versión cuenta con las partes importantes ya hechas, las cuales son:
+
+- Cómo funciona:
+  ![Landing page-Cómo funciona](images/como_funciona.PNG) 
+- Call to action:
+  ![Landing page-Call to action](images/call_to_action.PNG) 
+- Beneficios para empresas productoras:
+  ![Landing page-Beneficios para empresas productoras](images/beneficios_productoras.PNG) 
+- Beneficios para marcas:
+  ![Landing page-Beneficios para marcas](images/beneficios_marcas.PNG) 
+- Quienes somos:
+  ![Landing page-Quienes somos](images/quienes_somos.PNG) 
+- Footer:
+  ![Landing page-Footer](images/footer.PNG) 
+
+Link del video demostrativo del Landing Page: https://drive.google.com/file/d/1QT8WiIQAVPe5Z7AJdsWeuyWE4_UwQ5Eh/view?usp=drive_link
+
+#### **5.2.1.6. Services Documentation Evidence for Sprint Review**
+
+No se han implementado servicios para el Landing Page, por lo que no se tiene documentación de los servicios. Por otro lado, aún no hemos desarrollado los servicios para el aplicativo web, lo cual haremos en los siguientes sprints.
+
+#### **5.2.1.7. Software Deployment Evidence for Sprint Review.**  
+Durante este Sprint se realizó el despliegue de la primera versión de la Landing Page de nuestro proyecto CloseSource utilizando GitHub Pages como entorno de publicación. Este paso permitió que la página esté accesible públicamente desde un navegador web, facilitando la revisión del entregable por parte del equipo, el docente y otros stakeholders/interesados del proyecto. El objetivo principal fue validar el diseño, estructura y comportamiento responsive inicial de la landing page en un entorno real.
+
+Los pasos seguidos para el despliegue son los siguientes:
+
+- Creación del repositorio remoto en GitHub con el nombre CloseSource/Landing-Page.
+
+- Organización del proyecto local con los archivos necesarios:
+
+  - index.html (estructura de la landing page)
+
+  - style.css (estilos y diseño)
+
+  - script.js (funcionalidades básicas)
+
+- Carpeta /images con imágenes para la presentación visual.
+
+- Confirmación de que el archivo index.html se encuentra en la raíz del repositorio, ya que GitHub Pages toma este archivo como punto de entrada.
+
+- Push del proyecto a la rama feature/landingPage_v1 usando Git, además de GitHub Desktop. Posteriormente, se hizo push a las ramas develop y main.
+
+- En GitHub, se configuró la opción de GitHub Pages desde la rama Main, seleccionando la carpeta raíz como fuente de despliegue.
+
+- Una vez activado, GitHub generó una URL pública, donde se puede acceder a la landing page desplegada.
+  - Link del Landing Page desplegado: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
+
+- Se verificó que el sitio se visualice correctamente en distintos dispositivos y navegadores, confirmando su comportamiento responsive y su diseño en patrón Z.
+
+Estas son capturas del despliegue realizado:
+
+![Deployment](images/deployment1.PNG) 
+![Deployment](images/deployment2.PNG)
+
+#### **5.2.1.8. Team Collaboration Insights during Sprint.** 
+
+Durante este Sprint, el equipo acordó que la implementación de la primera versión de la Landing Page fuera realizada por un solo integrante, dado que se trataba de una versión inicial, estática y con bajo nivel de complejidad técnica.
+
+El equipo colaboró en la definición del contenido y estructura de la página, revisando los elementos clave como: el enfoque comunicacional, los textos base, los botones de llamado a la acción (CTA), y el uso del patrón de diseño en Z. Una vez definidos estos lineamientos, se asignó la tarea de implementación y despliegue a un integrante del equipo.
+
+La colaboración se mantuvo activa mediante revisiones asincrónicas en el repositorio y espacios breves de retroalimentación, asegurando que el resultado se alinee con los objetivos del Sprint y con el documento de requisitos establecido. Esta forma de trabajo permitió avanzar eficientemente sin generar sobrecarga innecesaria para el equipo, lo cual podría haber afectado el normal desarrollo de sus demás tareas.
+
+![Team collaboration insights](images/collaboration1.PNG)
+![Team collaboration insights](images/collaboration2.PNG)
+
+### **5.2.2. Sprint 2**  
+#### **5.2.2.1. Sprint Planning 2**
+
+  Podemos considerar al Sprint Planning como una "ceremonia" fundamental dentro de la metodología ágil Scrum. Su propósito es definir el objetivo del sprint y planificar el trabajo que se realizará durante el mismo. En esta primera planificación, como detallaremos en adelante, el equipo se reunió para analizar los requerimientos del proyecto, priorizar las tareas del backlog y asignar responsabilidades entre los integrantes. Esta sesión permitió establecer una visión compartida sobre los entregables a corto plazo y sentar las bases del desarrollo inicial de la aplicación, partiendo del desarrollo del landing page.
+
+| **Sprint #**                | 2                                  |
+| :-------------------------: |------------------------------------|
+| **Sprint Planning Background**    |                                 |
+| **Date**                    | 04/05/2025                         |
+| **Time**                    | 8:00 pm                            |
+| **Location**                | Reunión virtual a través del canal de discord del equipo llamado “Team CloseSource” |
+| **Prepared by**             | Max Anthony Paitan Pumacahua       |
+| **Attendees (to planning meeting)** | Aaron Alexander Avila Palacios, Gabriel Anthony Braithuaite Toledo, Kevin Alexander Castañeda Llanos, Ivan Jeanpierre La Madrid Lozano, Max Anthony Paitan Pumacahua |
+| **Sprint 2 Review Summary** | Completar el desarrollo de algunas secciones core business y arreglos en la documentación (report) |
+| **Sprint 2 Retrospective Summary** | Se realizó la mayoría de trabajos a tiempo, faltando algunas correciones en la documentación.|
+| **Sprint Goal & User Stories**                                     |
+| **Sprint 2 Goal**           | **Nos enfocamos** en diseñar y desarrollar secciones core business del negocio, además de arreglar errores en la documentación. **Creemos que** esto aportará a la demostración de algunas funciones clave de nuestro projecto. **Esto se confirmará** cuando se hayan cumplido con los bounded context para la realización de diversas secciones de la aplicació web. |
+| **Sprint n Velocity**       | 1.5 semanas                           |
+| **Sum of Story Points**     | 15                                 |
+
+#### **5.2.1.2. Aspect Leaders and Collaborators**
+
+En este Sprint, como grupo identificamos los aspectos principales en los que íbamos a enfocar nuestro trabajo. Para este sprint, decidimos dedicarnos por completo al desarrollo de la creación de funciones clave del negocio, completando el lado Frontend realizando CRUD's, creamos cinco Bonded Contexts los cuales fueron repartidos.
+
+| Team Member | GitHub username | Gestión de Calficaciones | Gestión de Hitos | Gestión de Portafolio | Gestión de propuestas | Gestión de eventos y galerías | Arreglos en documentación |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| Aaron Alexander Avila Palacios | AaronAvilap | L | - | - | - | - | L |
+| Gabriel Anthony Braithuaite Toledo | Gaboo04 | - | - | L | - | - | L | 
+| Kevin Alexander Castañeda Llanos | KevCast1604 | - | - | - | L | - | L |
+| Ivan Jeanpierre La Madrid Lozano | ivanlamadrid | - | - | - | - | L | L|
+| Max Anthony Paitan Pumacahua | MaxPaitanP | - | L | - | - | - | L |
+
+
+#### **5.2.2.3. Sprint Backlog 2**
+El objetivo principal de este Sprint fue avanzar en el desarrollo de las secciones core business, es decir, las más importantes que cumplan con el objetivo de nuestro negocio. Decidimos dividir varios bounded contexts para de esta manera poder crear algunas secciones, utilizando herramientas FrontEnd como Angular y Typescript. También, nos centramos en las correciones de algunas partes del informe, detallando y añadiendo información.
+
+  ![Board en Trello, para el sprint backlog 2](images/trello2.png)   
+[Link del board en Trello: https://trello.com/b/8b0Ucgzs/sprint-2](https://trello.com/invite/b/681be2187eb81b9994744840/ATTI60721459bd21236fea3fa6001b829db5420B8F21/matchevent)
+
+Esta es la tabla del Sprint Backlog 2:
+
+### Sprint Backlog - Sprint 2
+
+| Sprint # | Sprint 2 |  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US001 | Registrar solicitud de activación |  | Registro de solicitud  | La empresa debe de poder registrar una solicitud de activación  | 2 | Max | Done |
+| US002 | Editar solicitud de activación |  | Edición de solicitud  | La empresa debe de poder editar una solicitud de activación  | 2 | Max | Done |
+| US003 | Eliminar solicitud de activación |  | Eliminación de solicitud  | La empresa debe de poder eliminar una solicitud de activación  | 1 | Max | Done |
+| US004 | Ver solicitudes publicadas |  | Solicitudes publicadas  | Se debe de poder ver que solicitudes fueron publicadas por parte de las empresas| 1 | Max | Done |
+| US005 | Ver detalle de solicitud publicada |  | Detalle de solicitud  | La empresa debe poder ver los detalles de su solicitud publicada | 2 | Max | Done |
+| US006 | Registrar servicios ofrecidos |  | Registro de Servicios  | La sección de gestion de portafolios deberá de tener una opción para registar los servicios ofrecidos | 2 | Gabriel | Done |
+| US007 | Editar servicios ofrecidos |  | Edición de Servicios | Una vez registrado un servicio, colocar la opción de poder editar este | 1.5 | Gabriel | Done |
+| US008 | Elimar servicio ofrecido | | Elimar Servicio | Se deberá de poder eliminar un servicio cuando la productora desee | 1.5 | Gabriel | Done |
+| US009 | Visualizar lista de servicios ofrecidos |  | Lista de Servicios | La productora deberá de ver una lista en donde vea todos sus servicios | 1 | Gabriel | Done |
+| US038 | 	Enviar propuesta a solicitud de activación  |  | Propuesta de activacion | La productora debe de acceder a los detalles de una propuesta de activación | 2 | Kevin | Done |
+| US039 | Ver propuesta enviada |  | Propuesta enviada | La productora deberá de ver una tabla de las propuestas enviadas | 1 | Kevin | Done |
+| US043 | Registrar calificación al finalizar evento	 |  | Calificación | El usario debe de poder mandar reseñas y calificaciones despues de la realización de un evento o del servicio de una productora | 1 | Aaron | Done |
+| US044 | Visualizar calificaciones de otros usuarios |  | Calificación | El usario debe de poder ver las calificaciones de otros usuarios en su perfil | 1 | Aaron | Done |
+| US045 | Visualizar mis calificaciones |  | Calificación | El usario debe de poder ver las calificaciones de su perfil  | 1 | Aaron | Done |
+
+#### **5.2.2.4. Development Evidence for Sprint Review** 
+
+Durante este sprint se avanzó con el desarrollo de la segunda versión de la Landing Page de nuestro proyecto, registrando los avances en el repositorio. Esta versión incluye no solo la estructura básico sino también una mayor cohesión y coherencia con lo propuesto para la app web que estamos desarrollando. Además, empezamos a desarrollar partes del front end, específicamente aquellas que corresponden a los CRUDs principales de cada bounded context.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
+| :---: | :---: | :---: | :---: | ----- | :---: |
+| CloseSource-Landing-Page | landingPage_v1 | 0a68cf21f7517938744168537ef22bd17e5c34f9 | Feature: add content to the index file | —---------- | 09/05/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | a26ae6335bf0d2ead8a79f93ed2b935e9e12c1a9 | Feature: add content to the style file | —---------- | 09/05/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 82931dc4ee7e961e6e2a39bb9b44919e4a336df8 | Feature: add content to the script file | —---------- | 09/05/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 4ed473590c8b4e5125d51393b063e8789370ae30 | Chore: clean the style file | —---------- | 09/05/2025 |
+
+
+#### **5.2.2.5. Execution Evidence for Sprint Review** 
+Para el sprint 2, como ya hemos mencionado, se ha implementado la segunda versión del Landing Page, además de las primeras versiones del front end, desarrollando y desplegando la vista de los CRUDs de los bounded Context:
+
+- Cómo funciona:
+  ![Landing page-Cómo funciona](images/como_funciona.PNG) 
+- Call to action:
+  ![Landing page-Call to action](images/call_to_action.PNG) 
+- Beneficios para empresas productoras:
+  ![Landing page-Beneficios para empresas productoras](images/beneficios_productoras.PNG) 
+- Beneficios para marcas:
+  ![Landing page-Beneficios para marcas](images/beneficios_marcas.PNG) 
+- Quienes somos:
+  ![Landing page-Quienes somos](images/quienes_somos.PNG) 
+- Footer:
+  ![Landing page-Footer](images/footer.PNG) 
+- Frontend - Activation Management Bounded Context:
+  ![Frontend - Activation Management Bounded Context](images/activationManagementFront.PNG) 
+
+Link del video demostrativo del Landing Page: https://drive.google.com/file/d/1QT8WiIQAVPe5Z7AJdsWeuyWE4_UwQ5Eh/view?usp=drive_link
+
+#### **5.2.2.6. Services Documentation Evidence for Sprint Review**
+
+Se ha implementado un fake api para cada parte desplegada por cada uno de los integrantes, siendo este un ejemplo:
+
+  ![Mock API 1](images/beeceptor1.PNG)
+  ![Mock API 2](images/beeceptor2.PNG)
+
+#### **5.2.2.7. Software Deployment Evidence for Sprint Review.**  
+Durante este Sprint se realizó el despliegue de la primera versión de la Landing Page de nuestro proyecto CloseSource utilizando GitHub Pages como entorno de publicación. Este paso permitió que la página esté accesible públicamente desde un navegador web, facilitando la revisión del entregable por parte del equipo, el docente y otros stakeholders/interesados del proyecto. El objetivo principal fue validar el diseño, estructura y comportamiento responsive inicial de la landing page en un entorno real.
+
+Los pasos seguidos para el despliegue son los siguientes:
+
+- Creación del repositorio remoto en GitHub con el nombre CloseSource/Landing-Page.
+
+- Organización del proyecto local con los archivos necesarios:
+
+  - index.html (estructura de la landing page)
+
+  - style.css (estilos y diseño)
+
+  - script.js (funcionalidades básicas)
+
+- Carpeta /images con imágenes para la presentación visual.
+
+- Confirmación de que el archivo index.html se encuentra en la raíz del repositorio, ya que GitHub Pages toma este archivo como punto de entrada.
+
+- Push del proyecto a la rama feature/landingPage_v1 usando Git, además de GitHub Desktop. Posteriormente, se hizo push a las ramas develop y main.
+
+- En GitHub, se configuró la opción de GitHub Pages desde la rama Main, seleccionando la carpeta raíz como fuente de despliegue.
+
+- Una vez activado, GitHub generó una URL pública, donde se puede acceder a la landing page desplegada.
+  - Link del Landing Page desplegado: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
+
+- Se verificó que el sitio se visualice correctamente en distintos dispositivos y navegadores, confirmando su comportamiento responsive y su diseño en patrón Z.
+
+Estas son capturas del despliegue realizado:
+
+![Deployment](images/deployment1.PNG) 
+![Deployment](images/deployment2.PNG)
+
+#### **5.2.2.8. Team Collaboration Insights during Sprint.** 
+
+Durante este Sprint, el equipo acordó que la implementación de la primera versión de la Landing Page fuera realizada por un solo integrante, dado que se trataba de una versión inicial, estática y con bajo nivel de complejidad técnica.
+
+El equipo colaboró en la definición del contenido y estructura de la página, revisando los elementos clave como: el enfoque comunicacional, los textos base, los botones de llamado a la acción (CTA), y el uso del patrón de diseño en Z. Una vez definidos estos lineamientos, se asignó la tarea de implementación y despliegue a un integrante del equipo.
+
+La colaboración se mantuvo activa mediante revisiones asincrónicas en el repositorio y espacios breves de retroalimentación, asegurando que el resultado se alinee con los objetivos del Sprint y con el documento de requisitos establecido. Esta forma de trabajo permitió avanzar eficientemente sin generar sobrecarga innecesaria para el equipo, lo cual podría haber afectado el normal desarrollo de sus demás tareas.
+
+![Team collaboration insights](images/collaboration1.PNG)
+![Team collaboration insights](images/collaboration2.PNG)
+
+
+## **5.3. Video About-The-Team**
+
+Link del video: 
+> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/EUyvInesFzdJmWMysZ4lPcIByep3N3oj_vODWkoify006w?e=8AGKCA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+# Conclusiones
+
+El desarrollo inicial del proyecto MatchEvent ha permitido establecer una base sólida para una plataforma que busca facilitar la conexión entre empresas que requieren activaciones de marca y productoras que las ejecutan. A través del diseño de la landing page, se ha logrado plasmar una identidad visual coherente, moderna y alineada con los objetivos del negocio.
+
+Además, se definieron aspectos clave como la propuesta de valor, los segmentos de usuarios, el flujo de navegación y la estructura técnica del proyecto, todo lo cual servirá como punto de partida para iteraciones futuras.
+
+Este primer sprint ha sido fundamental para alinear al equipo en torno a una visión común, definir los lineamientos visuales y técnicos del producto, y validar decisiones iniciales desde una perspectiva de diseño centrado en el usuario.
+
+# Recomendaciones
+
+* Comprender en profundidad a los usuarios clave, para diseñar soluciones alineadas con sus necesidades, expectativas y comportamientos reales.
+
+* Definir una propuesta de valor clara y visible desde el primer contacto, para captar la atención del usuario y comunicar rápidamente el propósito de la plataforma.
+
+* Diseñar interfaces intuitivas que transmitan confianza, optimizando la navegación y facilitando los procesos tanto para empresas como para productoras.
+
+* Utilizar tecnologías y metodologías escalables, que permitan mantener una base sólida y facilitar el crecimiento ordenado del proyecto.
+
+* Validar constantemente con usuarios reales, a fin de recoger feedback temprano y ajustar funcionalidades antes de avanzar hacia etapas más complejas.
+
+# Bibliografía:
+
+Bardales, A., & Herrera, K. (2017). *Propuesta de modelo de gestión basado en el marketing experiencial para la generación de Brand Equity en el contexto peruano* (Tesis de licenciatura, Pontificia Universidad Católica del Perú). PUCP Repositorio Institucional. Recuperado de https://tesis.pucp.edu.pe/items/c66796b3-30b9-46b7-aae2-3c2ba015936a [Consulta: 16 de abril de 2025]
+
+Moser, M. (2012). *Estrategias de marketing experiencial aplicadas al retail*. Universidad de San Andrés. Recuperado de https://repositorio.udesa.edu.ar/handle/10908/963 [Consulta: 16 de abril de 2025]
+
+Verhelst, L. (2020). *Evolución del marketing experiencial desde la perspectiva de sus principales exponentes*. (Trabajo de grado, Pontificia Universidad Javeriana). Repositorio Institucional PUJ. Recuperado de https://repository.javeriana.edu.co/handle/10554/52760 [Consulta: 16 de abril de 2025]
+
+# Anexos
+
+* Landing Page link: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
+* Board de las actividades del grupo en Trello: https://trello.com/invite/b/681be2187eb81b9994744840/ATTI7372931ffb26577c2d3c044b0abd9148045BF9CD/matchevent
+* Board de las actividades del grupo en Trello para el Landing Page: https://trello.com/invite/b/681e9c71bf39eef1c3e85e6e/ATTIfd11a9d55c40c54a482dbddf22c12a1765A5D176/sprint-1-matchevent-closesource
+  
+
+
+
+
