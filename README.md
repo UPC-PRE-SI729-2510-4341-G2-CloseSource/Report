@@ -142,6 +142,22 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
         - [Consideraciones antes del despliegue](#consideraciones-antes-del-despliegue)
         - [Requisitos para el despliegue](#requisitos-para-el-despliegue)
         - [Pasos para desplegar la landing page](#pasos-para-desplegar-la-landing-page)
+  - [**5.2. Landing Page, Services \& Applications Implementation**](#52-landing-page-services--applications-implementation)
+    - [**5.2.1. Sprint 1**](#521-sprint-1)
+      - [**5.2.1.1. Sprint Planning 1**](#5211-sprint-planning-1)
+      - [**5.2.1.2. Aspect Leaders and Collaborators**](#5212-aspect-leaders-and-collaborators)
+      - [**5.2.1.3. Sprint Backlog 1**](#5213-sprint-backlog-1)
+    - [Sprint Backlog - Sprint 1](#sprint-backlog---sprint-1)
+      - [**5.2.1.4. Development Evidence for Sprint Review**](#5214-development-evidence-for-sprint-review)
+      - [**5.2.1.5. Execution Evidence for Sprint Review**](#5215-execution-evidence-for-sprint-review)
+      - [**5.2.1.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
+      - [**5.2.1.7. Software Deployment Evidence for Sprint Review.**](#5217-software-deployment-evidence-for-sprint-review)
+      - [**5.2.1.8. Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint)
+  - [**5.3. Video About-The-Team**](#53-video-about-the-team)
+- [Conclusiones](#conclusiones)
+- [Recomendaciones](#recomendaciones)
+- [Bibliografía:](#bibliografía)
+- [Anexos](#anexos)
 
 ## Student Outcome
 
@@ -2062,3 +2078,194 @@ Para el despliegue de la aplicación hemos utilizado GitHub Pages, una herramien
   - Se configuró la publicación seleccionando la rama main y la carpeta raíz (/root) como fuente del contenido.
 
   - Una vez guardados los cambios, GitHub generó automáticamente el sitio y nos proporcionó un enlace público para acceder a la landing page desplegada.
+
+## **5.2. Landing Page, Services & Applications Implementation**  
+### **5.2.1. Sprint 1**  
+#### **5.2.1.1. Sprint Planning 1**
+
+  Podemos considerar al Sprint Planning como una "ceremonia" fundamental dentro de la metodología ágil Scrum. Su propósito es definir el objetivo del sprint y planificar el trabajo que se realizará durante el mismo. En esta primera planificación, como detallaremos en adelante, el equipo se reunió para analizar los requerimientos del proyecto, priorizar las tareas del backlog y asignar responsabilidades entre los integrantes. Esta sesión permitió establecer una visión compartida sobre los entregables a corto plazo y sentar las bases del desarrollo inicial de la aplicación, partiendo del desarrollo del landing page.
+
+| **Sprint #**                | 1                                  |
+| :-------------------------: |------------------------------------|
+| **Sprint Planning Background**    |                                 |
+| **Date**                    | 12/04/2025                         |
+| **Time**                    | 8:00 pm                            |
+| **Location**                | Reunión virtual a través del canal de discord del equipo llamado “Team CloseSource” |
+| **Prepared by**             | Max Anthony Paitan Pumacahua       |
+| **Attendees (to planning meeting)** | Aaron Alexander Avila Palacios, Gabriel Anthony Braithuaite Toledo, Kevin Alexander Castañeda Llanos, Ivan Jeanpierre La Madrid Lozano, Max Anthony Paitan Pumacahua |
+| **Sprint 1 Review Summary** | Completar el desarrollo del Report. Primer avance del Landing Page del proyecto |
+| **Sprint 1 Retrospective Summary** | Se realizó la distribución de temas para completar la documentación, además de diseñar e implementar la primera versión de nuestro landing page |
+| **Sprint Goal & User Stories**                                     |
+| **Sprint 1 Goal**           | **Nos enfocamos** en diseñar y desarrollar la landing page de MatchEvent. **Creemos que** esto aportará una presentación clara y atractiva del propósito de la plataforma, generando confianza inicial en empresas y productoras interesadas en registrarse o conocer más sobre el servicio. **Esto se confirmará** cuando la landing page esté publicada, muestre la identidad visual del proyecto y comunique efectivamente cómo MatchEvent conecta a ambos segmentos de forma ágil y eficiente. |
+| **Sprint n Velocity**       | 1 semana                           |
+| **Sum of Story Points**     | 11                                 |
+
+#### **5.2.1.2. Aspect Leaders and Collaborators**
+
+En este Sprint, como grupo identificamos los aspectos principales en los que íbamos a enfocar nuestro trabajo. Para este sprint, decidimos dedicarnos por completo al desarrollo de la primera versión del landing page, completando el diseño por completo, empezando por la presentación del proyecto, los call to action, las características ofrecidas a cada segmento objetivo y nuestra información como desarrolladores. Resaltamos que, si bien está completo a nivel de estructura, aún falta realizar correcciones y modificaciones conforme se avance el proyecto principal.
+
+Cada aspecto representa una parte del alcance funcional del landing page.Esta división nos permitió organizarnos mejor, asignando a uno como responsable principal, mientras que el resto colaboró según la necesidad del desarrollo. A continuación, mostramos un cuadro donde se detallan los líderes y colaboradores asignados a cada aspecto trabajado durante el Sprint:
+
+| Team Member | GitHub username | Diseño de la UI del Landing Page | Programación de la sección "Cómo funciona"  | Programación de la sección "Productoras" | Programación de la sección "Empresas" | Programación de la sección "Call to action" | Programación de la sección "Quienes somos" | Programación de la sección "Footer" |
+| :--: | :--: | :--: |:--: | :--: | :--: | :--: | :--: | :--: |
+| Aaron Alexander Avila Palacios | AaronAvilap | C | C | C | C | C | C | C |
+| Gabriel Anthony Braithuaite Toledo | Gaboo04 | C | C | C | C | C | C | C | 
+| Kevin Alexander Castañeda Llanos | KevCast1604 | C | C | C | C | C | C | C |
+| Ivan Jeanpierre La Madrid Lozano | ivanlamadrid | C | C | C | C | C | C | C |
+| Max Anthony Paitan Pumacahua | MaxPaitanP | L | L | L | L | L | L | L |
+
+#### **5.2.1.3. Sprint Backlog 1**
+El objetivo principal de este Sprint fue avanzar en el desarrollo de las funcionalidades clave de nuestra solución, priorizando aquellas que nos permitieran entregar una versión funcional inicial de la Landing Page y establecer las bases para el desarrollo posterior del sistema. Para organizar y dar seguimiento a las tareas, utilizamos la herramienta Trello como nuestro tablero de control, donde cada integrante podía visualizar, actualizar y colaborar en las actividades asignadas. A continuación, se presenta una captura del tablero correspondiente al sprint 1:
+
+  ![Board en Trello, para el sprint backlog 1](images/boardSprint1.PNG)   
+Link del board en Trello: https://trello.com/b/8b0Ucgzs/sprint-1
+
+Esta es la tabla del Sprint Backlog 1:
+
+### Sprint Backlog - Sprint 1
+
+| Sprint # | Sprint 1 |  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US003 | Sección Cómo funciona | TS01 | Maquetar estructura HTML | Crear estructura HTML semántica de la sección según mockup | 1 | Max | Done |
+|  |  | TS02 | Aplicar estilos CSS | Dar estilos visuales con CSS respetando el diseño definido | 1 | Max | Done |
+| US004 | Sección Productoras | TS03 | Estructurar HTML | Crear el layout HTML con base en el mockup | 1.5 | Max | Done |
+|  |  | TS04 | Estilizar sección | Aplicar CSS para diseño responsivo y visualmente atractivo | 1 | Max | Done |
+| US005 | Sección Empresas | TS05 | HTML de la sección | Construcción de la estructura HTML semántica | 1.5 | Max | Done |
+|  |  | TS06 | CSS de la sección | Estilos visuales y adaptación responsiva | 1 | Max | Done |
+| US008 | Sección Call to action | TS07 | Estructura HTML del CTA | Maquetar la sección de llamada a la acción | 1 | Max | Done |
+|  |  | TS08 | Estilos y botones del CTA | Aplicar estilos y lógica visual al botón principal | 1 | Max | Done |
+| US007 | Sección Quiénes somos | TS09 | Maquetar HTML | Crear la estructura base de la sección informativa | 1.5 | Max | Done |
+|  |  | TS10 | Aplicar estilos | Dar formato visual mediante CSS, asegurando adaptabilidad | 1.5 | Max | Done |
+| US006 | Sección Footer | TS11 | HTML del Footer | Maquetación básica del pie de página con enlaces e íconos | 0.5 | Max | Done |
+|  |  | TS12 | CSS del Footer | Aplicar diseño visual y responsive | 1 | Max | Done |
+| — | Task general | TS13 | Configurar GitHub Pages | Habilitar GitHub Pages y asegurar despliegue automático desde rama main | 1 | Max | Done |
+| — | Task general | TS14 | Revisión de accesibilidad básica | Verificar contraste, etiquetas y estructura para accesibilidad mínima | 1 | Max | Done |
+
+
+
+#### **5.2.1.4. Development Evidence for Sprint Review** 
+
+Durante este sprint se avanzó con el desarrollo de la primera versión de la Landing Page de nuestro proyecto, registrando los avances en el repositorio. Esta versión inicial incluye la estructura básica del sitio, siguiendo el patrón de diseño en Z, con enfoque en la responsividad, el uso de imágenes relevantes y la implementación de los elementos esenciales de una landing page efectiva: encabezados claros, botones Call to Action, secciones informativas y estilos coherentes con la identidad visual definida para el proyecto; además, tenemos que considerar que, al ser la primera versión, pasará por los cambios que sean necesarios a futuro. El código fuente está organizado y distribuido en archivos independientes de HTML, CSS y JavaScript, permitiendo una mejor mantenibilidad y escalabilidad futura. Así pues, los commits reflejan la implementación de las funcionalidades planeadas para la primera versión del landing page.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
+| :---: | :---: | :---: | :---: | ----- | :---: |
+| CloseSource-Landing-Page | landingPage_v1 | 1bff1d65627964230ae650fe9924be36eb87b533 | Feature: Initial commit | —---------- | 15/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 271aba1fd0932c9194a963bc72774a01c5eb293c | Feature: add README description | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 45f09304157777edbbe534e733bc4ae284536884 | Feature: add image folder, with all the imagen to the landing page | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 0a68cf21f7517938744168537ef22bd17e5c34f9 | Feature: add the index file | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | a26ae6335bf0d2ead8a79f93ed2b935e9e12c1a9 | Feature: add the style file | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 82931dc4ee7e961e6e2a39bb9b44919e4a336df8 | Feature: add the script file | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 4ed473590c8b4e5125d51393b063e8789370ae30 | Chore: clean the style file | —---------- | 20/04/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | a4836aefc9a32ad80ea647f7647510b17fe83875 | Fix: fix the activation image's size | —---------- | 20/04/2025 |
+
+#### **5.2.1.5. Execution Evidence for Sprint Review** 
+Para el sprint 1, como ya hemos mencionado, se ha implementado la primera versión del landing page, además de haberse desplegado. Se ha priorizado el avance de las partes planteadas en el Producto Backlog para el landing, además de desarrollar características primordiales como el patrón de diseño "Z" aplicado, hacerla responsive y completar una distribución uniforme de los componentes. Esta primera versión cuenta con las partes importantes ya hechas, las cuales son:
+
+- Cómo funciona:
+  ![Landing page-Cómo funciona](images/como_funciona.PNG) 
+- Call to action:
+  ![Landing page-Call to action](images/call_to_action.PNG) 
+- Beneficios para empresas productoras:
+  ![Landing page-Beneficios para empresas productoras](images/beneficios_productoras.PNG) 
+- Beneficios para marcas:
+  ![Landing page-Beneficios para marcas](images/beneficios_marcas.PNG) 
+- Quienes somos:
+  ![Landing page-Quienes somos](images/quienes_somos.PNG) 
+- Footer:
+  ![Landing page-Footer](images/footer.PNG) 
+
+Link del video demostrativo del Landing Page: https://drive.google.com/file/d/1QT8WiIQAVPe5Z7AJdsWeuyWE4_UwQ5Eh/view?usp=drive_link
+
+#### **5.2.1.6. Services Documentation Evidence for Sprint Review**
+
+No se han implementado servicios para el Landing Page, por lo que no se tiene documentación de los servicios. Por otro lado, aún no hemos desarrollado los servicios para el aplicativo web, lo cual haremos en los siguientes sprints.
+
+#### **5.2.1.7. Software Deployment Evidence for Sprint Review.**  
+Durante este Sprint se realizó el despliegue de la primera versión de la Landing Page de nuestro proyecto CloseSource utilizando GitHub Pages como entorno de publicación. Este paso permitió que la página esté accesible públicamente desde un navegador web, facilitando la revisión del entregable por parte del equipo, el docente y otros stakeholders/interesados del proyecto. El objetivo principal fue validar el diseño, estructura y comportamiento responsive inicial de la landing page en un entorno real.
+
+Los pasos seguidos para el despliegue son los siguientes:
+
+- Creación del repositorio remoto en GitHub con el nombre CloseSource/Landing-Page.
+
+- Organización del proyecto local con los archivos necesarios:
+
+  - index.html (estructura de la landing page)
+
+  - style.css (estilos y diseño)
+
+  - script.js (funcionalidades básicas)
+
+- Carpeta /images con imágenes para la presentación visual.
+
+- Confirmación de que el archivo index.html se encuentra en la raíz del repositorio, ya que GitHub Pages toma este archivo como punto de entrada.
+
+- Push del proyecto a la rama feature/landingPage_v1 usando Git, además de GitHub Desktop. Posteriormente, se hizo push a las ramas develop y main.
+
+- En GitHub, se configuró la opción de GitHub Pages desde la rama Main, seleccionando la carpeta raíz como fuente de despliegue.
+
+- Una vez activado, GitHub generó una URL pública, donde se puede acceder a la landing page desplegada.
+  - Link del Landing Page desplegado: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
+
+- Se verificó que el sitio se visualice correctamente en distintos dispositivos y navegadores, confirmando su comportamiento responsive y su diseño en patrón Z.
+
+Estas son capturas del despliegue realizado:
+
+![Deployment](images/deployment1.PNG) 
+![Deployment](images/deployment2.PNG)
+
+#### **5.2.1.8. Team Collaboration Insights during Sprint.** 
+
+Durante este Sprint, el equipo acordó que la implementación de la primera versión de la Landing Page fuera realizada por un solo integrante, dado que se trataba de una versión inicial, estática y con bajo nivel de complejidad técnica.
+
+El equipo colaboró en la definición del contenido y estructura de la página, revisando los elementos clave como: el enfoque comunicacional, los textos base, los botones de llamado a la acción (CTA), y el uso del patrón de diseño en Z. Una vez definidos estos lineamientos, se asignó la tarea de implementación y despliegue a un integrante del equipo.
+
+La colaboración se mantuvo activa mediante revisiones asincrónicas en el repositorio y espacios breves de retroalimentación, asegurando que el resultado se alinee con los objetivos del Sprint y con el documento de requisitos establecido. Esta forma de trabajo permitió avanzar eficientemente sin generar sobrecarga innecesaria para el equipo, lo cual podría haber afectado el normal desarrollo de sus demás tareas.
+
+![Team collaboration insights](images/collaboration1.PNG)
+![Team collaboration insights](images/collaboration2.PNG)
+
+## **5.3. Video About-The-Team**
+
+Link del video: 
+> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/EUyvInesFzdJmWMysZ4lPcIByep3N3oj_vODWkoify006w?e=8AGKCA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+# Conclusiones
+
+El desarrollo inicial del proyecto MatchEvent ha permitido establecer una base sólida para una plataforma que busca facilitar la conexión entre empresas que requieren activaciones de marca y productoras que las ejecutan. A través del diseño de la landing page, se ha logrado plasmar una identidad visual coherente, moderna y alineada con los objetivos del negocio.
+
+Además, se definieron aspectos clave como la propuesta de valor, los segmentos de usuarios, el flujo de navegación y la estructura técnica del proyecto, todo lo cual servirá como punto de partida para iteraciones futuras.
+
+Este primer sprint ha sido fundamental para alinear al equipo en torno a una visión común, definir los lineamientos visuales y técnicos del producto, y validar decisiones iniciales desde una perspectiva de diseño centrado en el usuario.
+
+# Recomendaciones
+
+* Comprender en profundidad a los usuarios clave, para diseñar soluciones alineadas con sus necesidades, expectativas y comportamientos reales.
+
+* Definir una propuesta de valor clara y visible desde el primer contacto, para captar la atención del usuario y comunicar rápidamente el propósito de la plataforma.
+
+* Diseñar interfaces intuitivas que transmitan confianza, optimizando la navegación y facilitando los procesos tanto para empresas como para productoras.
+
+* Utilizar tecnologías y metodologías escalables, que permitan mantener una base sólida y facilitar el crecimiento ordenado del proyecto.
+
+* Validar constantemente con usuarios reales, a fin de recoger feedback temprano y ajustar funcionalidades antes de avanzar hacia etapas más complejas.
+
+# Bibliografía:
+
+Bardales, A., & Herrera, K. (2017). *Propuesta de modelo de gestión basado en el marketing experiencial para la generación de Brand Equity en el contexto peruano* (Tesis de licenciatura, Pontificia Universidad Católica del Perú). PUCP Repositorio Institucional. Recuperado de https://tesis.pucp.edu.pe/items/c66796b3-30b9-46b7-aae2-3c2ba015936a [Consulta: 16 de abril de 2025]
+
+Moser, M. (2012). *Estrategias de marketing experiencial aplicadas al retail*. Universidad de San Andrés. Recuperado de https://repositorio.udesa.edu.ar/handle/10908/963 [Consulta: 16 de abril de 2025]
+
+Verhelst, L. (2020). *Evolución del marketing experiencial desde la perspectiva de sus principales exponentes*. (Trabajo de grado, Pontificia Universidad Javeriana). Repositorio Institucional PUJ. Recuperado de https://repository.javeriana.edu.co/handle/10554/52760 [Consulta: 16 de abril de 2025]
+
+# Anexos
+
+* Landing Page link: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
+* Board de las actividades del grupo en Trello: https://trello.com/invite/b/681be2187eb81b9994744840/ATTI7372931ffb26577c2d3c044b0abd9148045BF9CD/matchevent
+* Board de las actividades del grupo en Trello para el Landing Page: https://trello.com/invite/b/681e9c71bf39eef1c3e85e6e/ATTIfd11a9d55c40c54a482dbddf22c12a1765A5D176/sprint-1-matchevent-closesource
+  
+
+
+
+
