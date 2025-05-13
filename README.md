@@ -158,6 +158,11 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
       - [**5.2.1.2. Aspect Leaders and Collaborators**](#5212-aspect-leaders-and-collaborators-1)
       - [**5.2.2.3. Sprint Backlog 2**](#5223-sprint-backlog-2)
     - [Sprint Backlog - Sprint 2](#sprint-backlog---sprint-2)
+      - [**5.2.2.4. Development Evidence for Sprint Review**](#5224-development-evidence-for-sprint-review)
+      - [**5.2.2.5. Execution Evidence for Sprint Review**](#5225-execution-evidence-for-sprint-review)
+      - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
+      - [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#5227-software-deployment-evidence-for-sprint-review)
+      - [**5.2.2.8. Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint)
   - [**5.3. Video About-The-Team**](#53-video-about-the-team)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
@@ -2293,7 +2298,88 @@ Esta es la tabla del Sprint Backlog 2:
 | US044 | Visualizar calificaciones de otros usuarios |  | Calificación | El usario debe de poder ver las calificaciones de otros usuarios en su perfil | 1 | Aaron | Done |
 | US045 | Visualizar mis calificaciones |  | Calificación | El usario debe de poder ver las calificaciones de su perfil  | 1 | Aaron | Done |
 
+#### **5.2.2.4. Development Evidence for Sprint Review** 
 
+Durante este sprint se avanzó con el desarrollo de la segunda versión de la Landing Page de nuestro proyecto, registrando los avances en el repositorio. Esta versión incluye no solo la estructura básico sino también una mayor cohesión y coherencia con lo propuesto para la app web que estamos desarrollando. Además, empezamos a desarrollar partes del front end, específicamente aquellas que corresponden a los CRUDs principales de cada bounded context.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
+| :---: | :---: | :---: | :---: | ----- | :---: |
+| CloseSource-Landing-Page | landingPage_v1 | 0a68cf21f7517938744168537ef22bd17e5c34f9 | Feature: add content to the index file | —---------- | 09/05/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | a26ae6335bf0d2ead8a79f93ed2b935e9e12c1a9 | Feature: add content to the style file | —---------- | 09/05/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 82931dc4ee7e961e6e2a39bb9b44919e4a336df8 | Feature: add content to the script file | —---------- | 09/05/2025 |
+| CloseSource-Landing-Page | landingPage_v1 | 4ed473590c8b4e5125d51393b063e8789370ae30 | Chore: clean the style file | —---------- | 09/05/2025 |
+
+
+#### **5.2.2.5. Execution Evidence for Sprint Review** 
+Para el sprint 2, como ya hemos mencionado, se ha implementado la segunda versión del Landing Page, además de las primeras versiones del front end, desarrollando y desplegando la vista de los CRUDs de los bounded Context:
+
+- Cómo funciona:
+  ![Landing page-Cómo funciona](images/como_funciona.PNG) 
+- Call to action:
+  ![Landing page-Call to action](images/call_to_action.PNG) 
+- Beneficios para empresas productoras:
+  ![Landing page-Beneficios para empresas productoras](images/beneficios_productoras.PNG) 
+- Beneficios para marcas:
+  ![Landing page-Beneficios para marcas](images/beneficios_marcas.PNG) 
+- Quienes somos:
+  ![Landing page-Quienes somos](images/quienes_somos.PNG) 
+- Footer:
+  ![Landing page-Footer](images/footer.PNG) 
+- Frontend - Activation Management Bounded Context:
+  ![Frontend - Activation Management Bounded Context](images/activationManagementFront.PNG) 
+
+Link del video demostrativo del Landing Page: https://drive.google.com/file/d/1QT8WiIQAVPe5Z7AJdsWeuyWE4_UwQ5Eh/view?usp=drive_link
+
+#### **5.2.2.6. Services Documentation Evidence for Sprint Review**
+
+Se ha implementado un fake api para cada parte desplegada por cada uno de los integrantes, siendo este un ejemplo:
+
+  ![Mock API 1](images/beeceptor1.PNG)
+  ![Mock API 2](images/beeceptor2.PNG)
+
+#### **5.2.2.7. Software Deployment Evidence for Sprint Review.**  
+Durante este Sprint se realizó el despliegue de la primera versión de la Landing Page de nuestro proyecto CloseSource utilizando GitHub Pages como entorno de publicación. Este paso permitió que la página esté accesible públicamente desde un navegador web, facilitando la revisión del entregable por parte del equipo, el docente y otros stakeholders/interesados del proyecto. El objetivo principal fue validar el diseño, estructura y comportamiento responsive inicial de la landing page en un entorno real.
+
+Los pasos seguidos para el despliegue son los siguientes:
+
+- Creación del repositorio remoto en GitHub con el nombre CloseSource/Landing-Page.
+
+- Organización del proyecto local con los archivos necesarios:
+
+  - index.html (estructura de la landing page)
+
+  - style.css (estilos y diseño)
+
+  - script.js (funcionalidades básicas)
+
+- Carpeta /images con imágenes para la presentación visual.
+
+- Confirmación de que el archivo index.html se encuentra en la raíz del repositorio, ya que GitHub Pages toma este archivo como punto de entrada.
+
+- Push del proyecto a la rama feature/landingPage_v1 usando Git, además de GitHub Desktop. Posteriormente, se hizo push a las ramas develop y main.
+
+- En GitHub, se configuró la opción de GitHub Pages desde la rama Main, seleccionando la carpeta raíz como fuente de despliegue.
+
+- Una vez activado, GitHub generó una URL pública, donde se puede acceder a la landing page desplegada.
+  - Link del Landing Page desplegado: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
+
+- Se verificó que el sitio se visualice correctamente en distintos dispositivos y navegadores, confirmando su comportamiento responsive y su diseño en patrón Z.
+
+Estas son capturas del despliegue realizado:
+
+![Deployment](images/deployment1.PNG) 
+![Deployment](images/deployment2.PNG)
+
+#### **5.2.2.8. Team Collaboration Insights during Sprint.** 
+
+Durante este Sprint, el equipo acordó que la implementación de la primera versión de la Landing Page fuera realizada por un solo integrante, dado que se trataba de una versión inicial, estática y con bajo nivel de complejidad técnica.
+
+El equipo colaboró en la definición del contenido y estructura de la página, revisando los elementos clave como: el enfoque comunicacional, los textos base, los botones de llamado a la acción (CTA), y el uso del patrón de diseño en Z. Una vez definidos estos lineamientos, se asignó la tarea de implementación y despliegue a un integrante del equipo.
+
+La colaboración se mantuvo activa mediante revisiones asincrónicas en el repositorio y espacios breves de retroalimentación, asegurando que el resultado se alinee con los objetivos del Sprint y con el documento de requisitos establecido. Esta forma de trabajo permitió avanzar eficientemente sin generar sobrecarga innecesaria para el equipo, lo cual podría haber afectado el normal desarrollo de sus demás tareas.
+
+![Team collaboration insights](images/collaboration1.PNG)
+![Team collaboration insights](images/collaboration2.PNG)
 
 
 ## **5.3. Video About-The-Team**
