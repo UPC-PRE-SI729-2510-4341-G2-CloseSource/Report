@@ -647,7 +647,67 @@ un nexo entre los usuarios y los desarrolladores:
 | Engagement           | Interacción / Compromiso | Grado de conexión emocional o participación que un consumidor muestra hacia una marca durante una experiencia. |
 | Event Staffing       | Personal de Evento       | Equipo de trabajo contratado para ejecutar tareas específicas en un evento (anfitriones, promotores, técnicos, etc.). |
 
+## Capítulo III: Requirements Specification
 
+### 3.1. To-Be Scenario Mapping.
+
+**Etapa de Preparación.**
+
+En esta fase nos enfocamos en definir claramente el objetivo de la herramienta y comprender los perfiles clave de
+usuario para guiar la construcción del To-Be Scenario Mapping.
+
+**Objetivo de la plataforma.**
+
+Facilitar la conexión entre empresas productoras y marcas que requieren servicios de activación o eventos,
+centralizando el proceso de búsqueda, evaluación, contratación y gestión en un solo entorno.
+
+**Identificación de usuarios clave:**
+
+1. Gerente de Marketing: Publica solicitudes de eventos y contrata productoras.
+   
+2. Coordinador Comercial: Publica su portafolio y envía propuestas a solicitudes.
+
+**Brainstorming inicial:**
+Cada miembro del equipo propuso ideas desde la perspectiva de uno de los usuarios. Luego, se recogieron las, se
+analizaron y se seleccionaron las más relevantes para construir el To-Be Scenario Mapping.
+
+**Brainstorming con perspectiva del Gerente de Marketing:**
+
+Figura 1: Brainstorming con perspectiva del Gerente de Marketing
+
+![Brainstorming con perspectiva del gerente](/images/BrainstormingGerenteMarketing.png)
+
+En esta figura el equipo realizó un brainstorming desde la perspectiva del Gerente de Marketing, identificando las
+necesidades y expectativas al utilizar la plataforma. Se discutieron aspectos como la facilidad de búsqueda de
+productoras, la evaluación de propuestas y la gestión de solicitudes.
+
+**Brainstorming con perspectiva del Coordinador Comercial:**
+
+Figura 2: Brainstorming con perspectiva del Coordinador Comercial
+
+![Brainstorming con perspectiva del coordinador comercial](/images/BrainstormingCoordinadorComercial.png)
+
+En esta figura el equipo realizó un brainstorming desde la perspectiva del Coordinador Comercial, identificando las
+necesidades y expectativas al utilizar la plataforma. Se discutieron aspectos como la publicación de su portafolio, el
+envío de propuestas y la gestión de solicitudes.
+
+**Construcción del To-Be Scenario Mapping:**
+<br>Con base en los resultados del brainstorming, se construyó el To-Be Scenario Mapping, que representa la experiencia
+ideal de los usuarios al interactuar con la plataforma.
+
+**Figura 3: To-Be Scenario Mapping Gerente de Marketing**
+
+![To-Be Scenario Mapping](/images/ToBeScenarioMappingGerenteMarketing.png)
+
+En esta figura, se observa el flujo de acciones del Gerente de Marketing al utilizar la plataforma. Se destacan las
+etapas de búsqueda de productoras, evaluación de propuestas y contratación.
+
+**Figura 4: To-Be Scenario Mapping Coordinador Comercial**
+
+![To-Be Scenario Mapping](/images/ToBeScenarioMappingCoordinadorComercial.png)
+
+En esta figura, se observa el flujo de acciones del Coordinador Comercial al utilizar la plataforma. Se destacan las
+etapas de publicación de portafolio, envío de propuestas y gestión de solicitudes.
 
 
 
