@@ -414,6 +414,61 @@ Para posicionarse de manera efectiva, se plantean las siguientes estrategias dif
 
 7. **Alianzas estratégicas**  
    Establecer convenios con entidades del sector, agencias o plataformas complementarias para potenciar la red de usuarios y aumentar la credibilidad del producto.
+### 2.2. Entrevistas.
+
+### 2.2.1. Diseño de entrevistas.
+
+El diseño de entrevistas tiene como objetivo validar los supuestos clave del proyecto, entender las necesidades reales de los usuarios y recopilar información cualitativa que permita orientar el desarrollo de la plataforma. Se proponen dos perfiles principales a entrevistar: **empresas/marcas** que requieren servicios de producción de eventos y **productoras** que ofrecen dichos servicios.
+
+#### Objetivos de la entrevista
+
+- Identificar las principales dificultades que enfrentan las empresas al organizar eventos.
+- Validar el interés en una plataforma centralizada para conectar con productoras.
+- Comprender cómo las productoras gestionan actualmente la captación de clientes.
+- Evaluar la disposición de ambos perfiles a utilizar una solución tecnológica para este fin.
+- Identificar las funcionalidades más valoradas por cada tipo de usuario.
+
+#### Perfil de entrevistados
+
+- **Empresas y marcas**:
+  - Responsables de marketing, comunicación o eventos.
+  - Empresas que hayan organizado al menos un evento en el último año.
+  - Empresas sin experiencia previa pero con intención de realizar eventos en el corto plazo.
+
+- **Productoras**:
+  - Empresas o freelancers dedicados a la producción de eventos o activaciones de marca.
+  - Productoras con experiencia en diversos tipos de eventos (corporativos, BTL, culturales, etc.).
+  - Interesados en aumentar su visibilidad o ampliar su cartera de clientes.
+
+#### Guía de preguntas para empresas/marcas
+
+1. ¿Qué tipo de eventos organiza su empresa y con qué frecuencia?
+2. ¿Cómo suele encontrar proveedores para la producción de eventos?
+3. ¿Qué dificultades ha tenido al contratar una productora?
+4. ¿Qué valoraría más en una plataforma para encontrar productoras?
+5. ¿Qué criterios utiliza para seleccionar una productora?
+6. ¿Ha tenido experiencias negativas en la organización de eventos? ¿Por qué?
+7. ¿Le interesaría una plataforma donde pueda ver reseñas y comparar ofertas?
+8. ¿Qué información le gustaría ver en el perfil de una productora?
+9. ¿Estaría dispuesto a interactuar directamente por la plataforma con los proveedores?
+
+#### Guía de preguntas para productoras
+
+1. ¿Qué tipo de eventos realiza su productora con mayor frecuencia?
+2. ¿Cómo consigue actualmente nuevos clientes?
+3. ¿Cuáles son los mayores retos al promocionar sus servicios?
+4. ¿Qué canales utiliza para mostrar su portafolio o experiencia?
+5. ¿Le interesaría una plataforma donde pudiera conectarse directamente con empresas interesadas?
+6. ¿Qué herramientas considera necesarias dentro de una plataforma de este tipo?
+7. ¿Cómo influye la reputación o las reseñas en la captación de nuevos clientes?
+8. ¿Estaría dispuesto a especializarse en un tipo de evento dentro de la plataforma?
+9. ¿Qué espera de una plataforma que busca profesionalizar la conexión entre marcas y productoras?
+
+#### Formato y duración
+
+- Entrevistas semiestructuradas de 30 a 45 minutos.
+- Modalidad virtual o presencial según disponibilidad.
+- Registro de respuestas mediante notas o grabaciones con consentimiento previo.
 
 
 
