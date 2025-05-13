@@ -1,3 +1,165 @@
+<h2 style="text-align:center;">Universidad Peruana de Ciencias Aplicadas</h2>
+<h2 style="text-align:center;">Ingeniería de Software</h2>
+<h2 style="text-align:center;">Ciclo 2025 - 1 </h2>
+<p align="center">
+  <img src="images/UPC_logo.png" />
+</p>
+<h2 style="text-align:center;">1ASI0729 - Desarrollo de Aplicaciones Open Source</h2>
+<h2 style="text-align:center;">Sección - 4341</h2>
+<h2 style="text-align:center;">Docente: Juan Antonio Flores Moroco</h2>
+<h2 style="text-align:center;">"Informe de Trabajo Final"</h2>
+<h2 style="text-align:center;">Startup: CloseSource</h2>
+<h2 style="text-align:center;">Producto: MatchEvent</h2>
+<h2 style="text-align:center;">Integrantes:</h2>
+<h3 style="text-align:center;">Aaron Alexander Avila Palacios</h3>
+<h3 style="text-align:center;">Gabriel Anthony Braithuaite Toledo</h3>
+<h3 style="text-align:center;">Kevin Alexander Castañeda Llanos</h3>
+<h3 style="text-align:center;">Ivan Jeanpierre La Madrid Lozano</h3>
+<h3 style="text-align:center;">Max Anthony Paitan Pumacahua</h3>
+<h2 style="text-align:center;">2025</h2>
+
+## Registro de Versiones del Informe
+| Versión | Fecha    | Autor                      | Descripción de modificación |
+|---------|----------|----------------------------|-----------------------------|
+| 1.0     | 2025-04-16 | Gabriel Braithuaite Toledo| Desarollo del punto 3.1 al 3.4                    |
+| 1.0     | 2025-04-20 | Aaron Avila Palacios       | Desarrollo del punto 2.3.2 al 2.4|
+| 1.0     | 2025-04- | Kevin Castañeda Llanos     | Desarrollo del punto 1.2.2.2 al 1.3, 4.2.2 al 4.2.5 y del 4.8|
+| 1.0     | 2025-04- | Ivan La Madrid Lozano      | Desarrollo del 2.1 al 2.3.1.                    |
+| 1.0     | 2025-04- | Max Paitan Pamacahua       | Desarrollo del punto 1.1.al 1.2.2.1., 4.1. al4.2.1., y del 5.1. al 5.2.1.8 |
+## Project Report Collaboration Insights
+URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource
+## Contenido
+### Tabla de Contenido
+- [Capítulo 1: Introducción](#capítulo-1-introducción)
+  - [**1.1. Startup Profile**](#11-startup-profile)
+    - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
+      - [**Descripción de la empresa:**](#descripción-de-la-empresa)
+        - [**Misión:**](#misión)
+        - [**Visión:**](#visión)
+    - [**1.1.2. Perfiles de integrantes del equipo**](#112-perfiles-de-integrantes-del-equipo)
+      - [Nombre: Avila Palacios, Aaron Alexander | U201823654](#nombre-avila-palacios-aaron-alexander--u201823654)
+      - [Nombre: Braithuaite Toledo, Gabriel Anthony | U20201e889](#nombre-braithuaite-toledo-gabriel-anthony--u20201e889)
+      - [Nombre: Castañeda Llanos, Kevin Alexander | U202318814](#nombre-castañeda-llanos-kevin-alexander--u202318814)
+      - [Nombre: La Madrid Lozano, Ivan Jeanpierre | UU202113432](#nombre-la-madrid-lozano-ivan-jeanpierre--uu202113432)
+      - [Nombre: Paitan Pumacahua, Max Anthony | U201314454](#nombre-paitan-pumacahua-max-anthony--u201314454)
+  - [**1.2. Solution Profile**](#12-solution-profile)
+    - [**1.2.1 Antecedentes y problemática**](#121-antecedentes-y-problemática)
+    - [**1.2.2 Lean UX Process.**](#122-lean-ux-process)
+      - [**1.2.2.1. Lean UX Problem Statements.**](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores.](#21-competidores)
+    - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. .](#22-)
+    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
+      - [Objetivos de la entrevista](#objetivos-de-la-entrevista)
+      - [Perfil de entrevistados](#perfil-de-entrevistados)
+      - [Guía de preguntas para empresas/marcas](#guía-de-preguntas-para-empresasmarcas)
+      - [Guía de preguntas para productoras](#guía-de-preguntas-para-productoras)
+      - [Formato y duración](#formato-y-duración)
+    - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding.](#23-needfinding)
+    - [2.3.1. User Personas.](#231-user-personas)
+    - [2.3.2. User Task Matrix.](#232-user-task-matrix)
+      - [Tareas con mayor frecuencia e importancia:](#tareas-con-mayor-frecuencia-e-importancia)
+      - [Principales diferencias:](#principales-diferencias)
+      - [Coincidencias relevantes:](#coincidencias-relevantes)
+    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language.](#24-ubiquitous-language)
+    - [Ubiquitous Language – Business Domain Glossary](#ubiquitous-language--business-domain-glossary)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
+    - [3.2. User Stories.](#32-user-stories)
+    - [3.3. Impact Mapping.](#33-impact-mapping)
+    - [3.4. Product Backlog.](#34-product-backlog)
+- [**Capítulo IV: Product Design**](#capítulo-iv-product-design)
+  - [**4.1. Style Guidelines.**](#41-style-guidelines)
+    - [**4.1.1. General Style Guidelines.**](#411-general-style-guidelines)
+    - [**4.1.2. Web Style Guidelines.**](#412-web-style-guidelines)
+  - [**4.2. Information Architecture.**](#42-information-architecture)
+    - [**4.2.1. Organization Systems.**](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+    - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagrams.](#471-class-diagrams)
+      - [4.7.2. Class Dictionary](#472-class-dictionary)
+    - [📦 Empresa](#-empresa)
+    - [🎥 Productora](#-productora)
+    - [👤 Usuario](#-usuario)
+    - [🤝 Contacto](#-contacto)
+    - [💬 Mensaje](#-mensaje)
+    - [📄 SolicitudActivacion](#-solicitudactivacion)
+    - [🛠️ Servicio](#️-servicio)
+    - [📦 Propuesta](#-propuesta)
+    - [🎉 Evento](#-evento)
+    - [⭐ Calificacion](#-calificacion)
+    - [4.8. Database Design](#48-database-design)
+      - [4.8.1 Database Diagram](#481-database-diagram)
+- [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management.](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+      - [Software Development](#software-development)
+    - [5.1.2. Source Code Management.](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
+      - [Git \& Github](#git--github)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [JavaScript](#javascript)
+    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+  - [**5.2. Landing Page, Services \& Applications Implementation**](#52-landing-page-services--applications-implementation)
+    - [**5.2.1. Sprint 1**](#521-sprint-1)
+      - [**5.2.1.1. Sprint Planning 1**](#5211-sprint-planning-1)
+      - [**5.2.1.2. Aspect Leaders and Collaborators**](#5212-aspect-leaders-and-collaborators)
+      - [**5.2.1.3. Sprint Backlog 1**](#5213-sprint-backlog-1)
+      - [**5.2.1.4. Development Evidence for Sprint Review**](#5214-development-evidence-for-sprint-review)
+      - [**5.2.1.5. Execution Evidence for Sprint Review**](#5215-execution-evidence-for-sprint-review)
+      - [**5.2.1.6. Services Documentation Evidence for Sprint Review**](#5216-services-documentation-evidence-for-sprint-review)
+      - [**5.2.1.7. Software Deployment Evidence for Sprint Review.**](#5217-software-deployment-evidence-for-sprint-review)
+      - [**5.2.1.8. Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint)
+  - [**5.3. Video About-The-Team**](#53-video-about-the-team)
+- [Conclusiones](#conclusiones)
+- [Recomendaciones](#recomendaciones)
+- [Bibliografía:](#bibliografía)
+- [Anexos](#anexos)
+
+## Student Outcome
+
+| Criterio Específico | Acciones Realizadas                                                                                                     | Conclusiones           |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------|------------------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br> Comunicó ideas y decisiones con el equipo para la elaboración del To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog, entre otros.   <br>Kevin Castañeda - TB1 <br>Comunicó y compartió sus ideas con el equipo, para poder completar el trabajo con el aporte de todos. <br>Aaron Avila - TB1 <br>Se coordino con el equipo el desarrollo del informe y la asignación de las tareas. <br>Max Paitan - TB1 <br>Coordinó con el equipo para la repartición y desarrollo del report, así como gestioné la colaboración grupal para el desarrollo de tareas complejas <br>Ivan La Madrid - TB1 | **TB1** <br>El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas. |
+|Comunica por escrito con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br>redactó ideas en el brainstorming, el Scenario Mapping y user stories para ambos segmentos objetivos y user personas.   <br>Kevin Castañeda - TB1 <br> Apoyé con los UX assuptions, los segmentos objetivos, así como los labeling systems y los navigations systems <br>Aaron Avila - TB1 <br> Presente el desarrollo de User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping,Ubiquitous Language<br>Max Paitan - TB1 <br> Redacté parte del capitulo 1, donde están la descripción de la empresa, el solution profile y el Lean UX Problem Statements. También avancé parte del capítulo 4, con los General Style Guidelines. Finalmente, avance con lo correspondiente al capítulo 5 para esta entrega. <br>Ivan La Madrid - TB1 <br> Colaboré con los competidores, así como los user personas | **TB1** <br>A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como UXPressia permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto. |
+
+
+
+
+
+
+
+
+
+
 # Capítulo V: Product Implementation, Validation & Deployment.
 
 ## 5.1. Software Configuration Management.
