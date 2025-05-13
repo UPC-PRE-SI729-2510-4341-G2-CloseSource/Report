@@ -76,6 +76,14 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
     - [2.4. Ubiquitous Language.](#24-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
+    - [3.2. User Stories.](#32-user-stories)
+    - [3.3. Impact Mapping.](#33-impact-mapping)
+    - [3.4. Product Backlog.](#34-product-backlog)
+- [**Capítulo IV: Product Design**](#capítulo-iv-product-design)
+  - [**4.1. Style Guidelines.**](#41-style-guidelines)
+    - [**4.1.1. General Style Guidelines.**](#411-general-style-guidelines)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -859,7 +867,60 @@ puntos de historia para facilitar la planificación de sprints.
 **Link del Product Backlog en Trello:** https://trello.com/b/XIu3pRLo/matchevent
 
 
+# **Capítulo IV: Product Design**
 
+## **4.1. Style Guidelines.**
+
+### **4.1.1. General Style Guidelines.**
+
+**Branding:**
+
+Para el diseño del logotipo, se utilizaron los colores base de la paleta principal, buscando transmitir profesionalismo y confianza. Se incorporó un ícono relacionado con la organización de eventos para reforzar visualmente la esencia del servicio. La tipografía fue elegida por su legibilidad y estilo moderno, alineándose con la identidad tecnológica y formal del proyecto.
+
+![Logo - modo claro](images/logo_nombre.PNG) ![Logo - modo oscuro](images/logo_nombre_2.PNG)
+
+![Favicon - modo claro](images/logo.PNG) ![Favicon - modo oscuro](images/logo2.PNG)
+
+![Logo app - modo claro](images/logo_app.PNG) ![Logo app - modo oscuro](images/logo_app2.PNG)
+
+Hemos considerado diseñar el logotipo tanto para el modo claro y el modo oscuro, los cuales cuentan con los colores principales de cada modo.
+
+**Colors:**
+
+Dado que el proyecto está orientado a conectar empresas con productoras especializadas en activaciones de marca, se seleccionó una paleta de colores que refleje profesionalismo, dinamismo y confianza. Los tonos fueron elegidos cuidadosamente para mantener una estética formal, moderna y funcional tanto en modo claro como en modo oscuro, asegurando una experiencia visual agradable y coherente en el aplicativo web.
+
+![Colores](images/colors.png)
+
+En el modo claro, predominan tonos suaves como el gris muy claro (#F5F7FA) y el blanco (#FFFFFF) para los fondos, lo que genera una sensación de limpieza y claridad. El azul profundo (#1D3557), como color primario, representa tecnología y seriedad, mientras que el mostaza suave (#E8B24A) aporta un toque moderno y distintivo sin saturar visualmente. Los acentos en celeste tenue (#457B9D) refuerzan la interacción del usuario, guiándolo sin ser invasivos.
+
+Por otro lado, en el modo oscuro se utilizaron colores que brindan descanso visual, como el azul gris oscuro (#1B1E2B) para el fondo y el gris claro (#E0E0E0) para los textos. El azul suave (#A8DADC) conserva el enfoque tecnológico, pero adaptado a un entorno nocturno, y el mostaza apagado (#D4A62F) mantiene el equilibrio entre sobriedad y acento visual. Estos colores buscan asegurar una experiencia accesible, elegante y funcional en cualquier contexto de uso.
+
+![State Colors](images/state_colors.png)  
+Además tenemos a los colores de estado, los cuales nos permiten comunicar situaciones clave dentro del sistema de forma visual e intuitiva. El rojo se utiliza para errores o alertas críticas, el verde indica acciones exitosas, el amarillo señala advertencias o validaciones pendientes, y el azul (opcional) puede emplearse para mensajes informativos.
+Acompañan estos, los colores neutros como el blanco, el negro y los grises, que aportan equilibrio visual y ayudan a jerarquizar los contenidos sin distraer la atención del usuario
+ 
+
+**Spacing:**
+
+Se ha adoptado un sistema de espaciado modular basado en múltiplos de 4 píxeles (4px, 8px, 12px, 16px, 32px, etc.) con el fin de mantener una estructura visual limpia, ordenada y coherente en toda la interfaz. Esta decisión facilita la alineación precisa entre elementos, mejora la legibilidad del contenido y refuerza la jerarquía visual, permitiendo que la información fluya de forma natural. Al aplicar estas unidades de manera sistemática, se optimiza también la escalabilidad del diseño, haciendo que la interfaz pueda adaptarse fácilmente a diferentes tamaños de pantalla sin perder equilibrio ni armonía visual.
+
+![Espaciado](images/spacing.png)  
+
+**Dimensions:**
+
+Para las dimensiones dentro del proyecto, se ha definido un enfoque que prioriza tanto la accesibilidad como la experiencia de usuario. Los elementos interactivos clave, como botones o campos de formulario, cuentan con dimensiones generosas que facilitan su interacción, especialmente en dispositivos táctiles. Se busca que todos los componentes sean fácilmente identificables y utilizables, reduciendo errores y mejorando la eficiencia al navegar.
+
+El diseño es completamente responsivo, lo que permite que los elementos se ajusten automáticamente al tamaño de pantalla del dispositivo utilizado, ya sea móvil, tablet o escritorio. Imágenes y contenedores mantienen proporciones flexibles para asegurar una correcta visualización sin distorsión. Además, se emplean puntos de quiebre estratégicos (breakpoints) que adaptan las dimensiones de la interfaz para mantener un equilibrio visual y funcional en todo momento.
+
+**Typography:**
+
+Para este proyecto se ha elegido la tipografía Roboto, una fuente sans-serif moderna, versátil y altamente legible que se adapta muy bien a entornos digitales. Su diseño limpio y neutral permite una lectura fluida tanto en pantallas grandes como en dispositivos móviles, lo que la convierte en una excelente opción para interfaces enfocadas en la usabilidad.
+
+Se emplean distintos pesos tipográficos (regular, medium y bold) para jerarquizar correctamente la información y guiar la atención del usuario de forma clara y coherente. Los títulos utilizan un peso más fuerte y tamaños mayores para destacar las secciones importantes, mientras que los textos secundarios y descriptivos mantienen un peso ligero para evitar la sobrecarga visual.
+
+Además, se ha cuidado el interlineado y el espaciado entre caracteres para asegurar una buena legibilidad, especialmente en bloques de texto extensos o formularios. La elección de Roboto no solo responde a una cuestión estética, sino también funcional: mejora la accesibilidad, es compatible con múltiples navegadores y dispositivos, y aporta una sensación profesional y contemporánea a toda la interfaz. 
+
+![Tipografía](images/typography.png)
 
 
 
