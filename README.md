@@ -85,6 +85,12 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
   - [**4.1. Style Guidelines.**](#41-style-guidelines)
     - [**4.1.1. General Style Guidelines.**](#411-general-style-guidelines)
     - [**4.1.2. Web Style Guidelines.**](#412-web-style-guidelines)
+  - [**4.2. Information Architecture.**](#42-information-architecture)
+    - [**4.2.1. Organization Systems.**](#421-organization-systems)
+    - [**4.2.2. Labeling Systems.**](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -946,7 +952,84 @@ Su aplicación estará presente en áreas como navegación, formularios, estados
 ![Íconos](images/icons.png) 
 
 
+## **4.2. Information Architecture.**
 
+### **4.2.1. Organization Systems.**  
+Considerando que somos estudiantes, decidimos adoptar un formato jerárquico estándar, parecido al enfoque organizativo que podemos encontrar en gran cantidad de páginas web. Esto aplica para:
+
+**Landing page**: Donde se presenta las principales características que tiene el aplicativo web, orientado a los dos segmentos objetivos. Este contará con una sección de inicio, Features, About us y Contact Us.
+
+ - Visual Herarchy: El contenido se organiza de forma clara, destacando los elementos más importantes en la parte superior, como el nombre de la app, la navegación y el botón de llamada a la acción (CTA). Las secciones están organizadas de arriba hacia abajo, priorizando información clave como características, acerca de y beneficios.
+  - Categorización de contenido:
+    - Por público objetivo: La información de la Landing Page se dividirá por temas, en donde se se mostrará información tanto de empresas y productoras (beneficios, características, etc) al ser dos usuarios distintos, por lo que se agruparían por secciones.
+
+**Web Application**: Donde se brinda acceso a los dos segmentos objetivos, para que puedan buscar y generar contactos entre ambos, para el desarrollo de sus eventos/activaciones.
+
+  - Visual Herarchy: La aplicación tiene un diseño de menú de navegación claro, donde las funciones más importantes están destacadas (dashboard, búsqueda, perfil). Los elementos interactivos están priorizados visualmente.
+  - Step-by-Step to Accomplish: En funciones específicas, como el registro del tipo de usuario, la configuración del perfil o creación de un nuevo evento por parte de las empresas, se sigue un flujo paso a paso para guiar al usuario de manera intuitiva.
+  - Matricial: Para funcionalidades avanzadas, como un sistema de búsqueda o un panel de control, se puede utilizar una organización matricial, permitiendo al usuario visualizar múltiples opciones al mismo tiempo (filtros, categorías, resultados).
+  - Categorización del contenido:
+    - Por función: Las secciones de la aplicación, variarán dependiendo de las funciones principales. *Ejemplo: La sección de "Crear Propuesta" presentará la función de que las productoras de eventos formen una propuesta para la gestión de un evento*.
+    - Por rol de usuario: La interfaz del usuario variará dependiendo del **tipo de cuenta**, es decir, la interfaz no será igual para productoras y empresas ya que los objetivos de cada uno son distintos.
+      
+
+### **4.2.2. Labeling Systems.**
+En esta sección se explicará como se representará la información de la Landing Page de nuestra startup con una organización clara y concisa.
+
+**Principios de etiquetado:**
+ - Simplicidad: Buscaremos que las etiquetas tengan nombres entendibles y cortos para que se entienda claramente la información de cada una.
+ - Claridad: El nombre de las etiquetas deben ser claras y fácil de entender, para que transmitan rápidamente la función de la etiqueta.
+**Etiquetas y asociaciones**
+ - Header: Será el encabezado de la página que contendrá el logo de nuestra startup y el sistema de navegación de la landing page como por ejemplo "Contacto" o "Planes".
+ - Secciones: Habrán secciones para cada tipo de información, como por ejemplo la sección relacionada a la información de la startup, la sección de contacto, planes y características.
+ - Call to Action:
+   - Botones: Algunos botones llevarán a otras partes de la Landing Page, como por ejemplo un botón de "Descubre más" que lleve a la sección de Contactos.
+   - Links: La Landing Page tendra links entre secciones del menu de navegación para que al dar clicks a esas opciones, nos lleve a ciertas partes. Por ejemplo, que al darle click a la opción "Sobre     nosotros", te lleve a la sección de información de la startup. También, se puede crear links a redes sociales a través de un SVG o PNG de cada red social.
+ - Footer: El pie de página se encargará de contener información como algunas redes sociales de la startup, preguntas frecuentes, número de contacto, etc.
+### 4.2.3. SEO Tags and Meta Tags
+Los SEO Tags y Meta Tags son sumamente importantes para la aplicación y landing page ya que hará que resalte ante otras páginas a la hora de realizar búsquedas a través de los browser.
+
+ - **Title tag:** 
+   - Valor: "MatchEvent - Conecta Marcas con Productoras de Eventos"
+   - Descripción: Un título corto que describe la funcionalidad de la página.
+     
+ - **Meta tag:**
+   - Valor: "MatchEvent es una aplicación que ayuda a que productoras de eventos puedan brindar sus servicios a empresas y marcas. Además, esetas empresas pueden contactar con las productoras en caso requieran mayor información."
+   - Descripción: Proporciona una mayor descripción al Title Tag, especificando un poco más las características de la startup y como puede influir positivamente.
+     
+ - **Meta keywords:**
+   -Valor: "Gestionar eventos, servicio para empresas, activaciones de marka, marketing, productoras de eventos, organización de eventos."
+   -Descripción: Algunas palabras claves que dan a entender las funcionalidades o lo que desea cumplir la aplicación.
+  
+ - **Meta author:**
+   - Valor: "CloseSource"
+   - Descripción: El nombre del autor, en este caso, el autor detrás de MatchEvent que es CloseSource.
+     
+ - **Meta robots:**
+   - Valor: "index, follow"
+   - Descripción: Son importantes para decirle a los motores de búsqueda cómo deben indexar o no indexar tu página y si deben seguir los enlaces que hay en ella.
+### 4.2.4. Searching Systems.
+
+En esta sección se explica qué medios de ayuda se brindará al usuario para la búsqueda de datos dentro del producto digital. En este caso, nos centraremos en la Landing Page.
+
+  - **Sistema de búsqueda de la Landing Page:**
+  
+    - Menú de navegación: La Landing Page contará con un menu de navegación en el header o encabezado que mostrará cada sección que se mostrará en la pagina web. Al darle click a cada link, este te llevará a su respectiva sección.
+    
+    - Enlaces internos: Habrán enlaces internos tanto en el header como en el footer, que se encargarán de llevar al usuario a diversas partes de la landing page o a lugares externos, como por ejemplo, un link a la red social de la startup.
+    
+    - Palabras destacadas: Algunas palabras estarán resaltadas en negrita o con un tamaño de letra más grande, que resaltará palabras clave.
+
+### 4.2.5. Navigation Systems.
+En esta sección se explicará cuáles serán las acciones y técnicas que guiarán a los usuarios a través del Landing Page y las aplicaciones, permitiéndoles cumplir sus metas e interactuar de forma satisfactoria con el producto.
+  - **Sistemas de navegación para la Landing Page**
+    - Menu de navegación: El menú de navegación que se encontrará al inicio de la página permitirá ver que secciones tendrá la Landing Page, cada sección tendra un link que hará que el usuario pueda ir a cada una de estas unicamente dando click.
+    - Botones: Se utilizarán botones destacados de llamados a la acción (CTA's) para algunas acciones, como por ejemplo, habrá un botón de "Registrate" el cual llevará al usuario a un formulario el cual le permitira iniciar sesión o registrarse.
+    - Diseño por secciones: La Landing Page se dividirá en secciones la cual cada una se encargará de proporcionar un tipo de información. Por ejemplo, en una sección se mostrará toda la información acerca de la startup, otra sobre las características, planes, contacto, etc.
+  - **Sistemas de navegación para la aplicación web**
+    - Barra de navegación: La aplicación contará con una barra de navegación para que las empresas o usuarios busquen a el productor que ellos deseen y que se adapte más a sus necesidades. Además, los productores también podrán buscar empresas y marcas que necesiten de un servicio para así poder enviar su solicitud para brindar su servicio.
+    - Navegación basada en tipo de usuario: Dependiendo de la clase de usuario que se desee ser (empresa o productora), las funciones de la aplicación variarán ya que cada uno de los segmentos objetivos demandan un objetivo diferente.
+    - Ayuda contextual: Se presentará un mini tutorial sobre el uso de la aplicación web para ayudar al usuario a poder entender el funcionamiento de la app.
 
 
 
