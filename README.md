@@ -91,6 +91,9 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems.](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
+    - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -1031,8 +1034,37 @@ En esta sección se explicará cuáles serán las acciones y técnicas que guiar
     - Navegación basada en tipo de usuario: Dependiendo de la clase de usuario que se desee ser (empresa o productora), las funciones de la aplicación variarán ya que cada uno de los segmentos objetivos demandan un objetivo diferente.
     - Ayuda contextual: Se presentará un mini tutorial sobre el uso de la aplicación web para ayudar al usuario a poder entender el funcionamiento de la app.
 
+### 4.3. Landing Page UI Design.
+### 4.3.1. Landing Page Wireframe  
+![WireframeLanding](https://github.com/user-attachments/assets/24f5f748-cec6-4213-a73b-ac4f5253b6af)
 
+> **Descripción del wireframe**  
+> El bosquejo en baja fidelidad define **la estructura jerárquica** sin distracciones visuales.  
+>
+> | Sección | Objetivo | Componentes claves |
+> |---------|----------|--------------------|
+> | **Header** | Navegación principal | Logo, menú de 5 enlaces y botón CTA destacado |
+> | **Hero (faja en Z-pattern)** | Mensaje de valor + acción inmediata | Título triple-línea, copy breve, 2 CTAs paralelos |
+> | **Bloque “Para Empresas”** | Beneficios dirigidos al segmento demandante | Cuadro de título + 4 tarjetas de ícono/beneficio |
+> | **Bloque “Para Productoras”** | Beneficios al segmento proveedor | Estructura gemela al bloque anterior |
+> | **Proceso Paso-a-Paso** | Explicar flujo MatchEvent | Columna izquierda “Para Empresas” vs. derecha “Para Productoras” con bullet-steps y check-icons |
+> | **Sobre Nosotros** | Presentar al equipo | Avatares circulares y nombres debajo |
+> | **Footer CTA** | Conversión final | Copy de cierre + botones Registro / Iniciar Sesión + footer legal oscuro |
 
+---
+
+### 4.3.2. Landing Page Mock-up  
+![MockUpLanding](https://github.com/user-attachments/assets/a79c6de3-8b0a-4245-b801-2db4e3e94b34)
+
+> **Descripción del mock-up**  
+> La maqueta en alta fidelidad aplica los estilos definidos (paleta azul-mostaza, Roboto, patrón Z) y valida **tono visual y jerarquía de contenidos** antes del prototipo interactivo.  
+>
+> - **Header**: logo minimalista + navegación en texto gris y CTA “Iniciar Sesión” en mostaza para contraste.  
+> - **Hero**: fondo azul medio con pattern, headline centrado (“Conecta con las mejores productoras…”), subcopy y CTAs diferenciados por rol (“Buscar Productora” vs. “Registrarme como Productora”).  
+> - **Secciones de beneficio**: tarjetas con bordes suaves y placeholder de imagen, manteniendo consistencia cromática.  
+> - **Proceso**: dos tarjetas blancas con sombra sutil; bullets azules y numeración clara para reforzar facilidad de uso.  
+> - **Sobre Nosotros**: avatares gris claro listos para foto real; nombres en gris oscuro bajo cada círculo.  
+> - **Footer**: banda azul oscuro replicando el hero; CTA final doble y créditos en gris claro sobre fondo casi negro para completar el patrón Z y reforzar contraste.
 
 
 # Capítulo V: Product Implementation, Validation & Deployment.
