@@ -594,16 +594,14 @@ La curva emocional del mapeo muestra un ascenso desde la incertidumbre inicial h
   Carla comienza su recorrido cuando surge una nueva campaña que requiere una activación de marca. En ese momento, inicia una búsqueda informal de proveedores, se comunica con algunos recomendados, y solicita cotizaciones que evalúa con incertidumbre. Tras negociar, 
   contrata una productora con la esperanza de obtener buenos resultados, aunque el proceso fue largo y poco claro. Al finalizar el evento, Carla recibe resultados, pero sin métricas claras ni seguimiento profesional.
   
-  ![User journey map Carla](/images/UserJourneymapCarla.png)
-  
-  
+  ![User journey map Carla](https://github.com/user-attachments/assets/ad6557cd-a1d6-4559-9d66-2a1199a5ba96)
 
 - Andrés Gutiérrez – Productora Especializada:
   
   Andrés inicia su recorrido al identificar posibles oportunidades de trabajo, normalmente por referencias o publicaciones informales. Se contacta directamente con empresas enviando propuestas, muchas veces sin obtener respuesta. Cuando logra negociar, enfrenta un
   proceso complejo para cerrar el trato. Luego ejecuta el evento con dedicación, pero sin recibir siempre retroalimentación ni lograr una relación sostenida con el cliente, sintiendo que su trabajo no se valoró del todo.
   
- ![User journey map Andrés](/images/UserjourneymapAndres.png)
+  ![User journey map Andrés](https://github.com/user-attachments/assets/b5251bf1-3682-45f3-ad74-f31d3f6dc430)
   
 ### 2.3.4. Empathy Mapping.
 
@@ -622,11 +620,11 @@ a la hora de utilizar la aplicación actual.
 
 - Empresas o Marcas:
 
-  ![As-is Scenario Mapping_Empresas o Marcas.png](/images/As-isScenarioMapping_EmpresasoMarcas.png)
-
+  ![As-is Scenario Mapping_Empresas o Marcas.png](https://github.com/user-attachments/assets/81affefd-f567-4f08-8992-657057e21626)
+  
 - Productoras Especializadas:
   
-   ![As-is Scenario Mapping_Productoras Especializadas](/images/As-isScenarioMapping_ProductorasEspecializadas.png)
+  ![As-is Scenario Mapping_Productoras Especializadas](https://github.com/user-attachments/assets/6da7216a-fc97-4a9d-894f-b45ef957ecee)
   
 ### 2.4. Ubiquitous Language.
 Según Domain Driven Design (2019), The ubiquitous language es la descripción de conceptos y términos dentro del negocio para construir un lenguaje en 
@@ -675,7 +673,7 @@ analizaron y se seleccionaron las más relevantes para construir el To-Be Scenar
 
 Figura 1: Brainstorming con perspectiva del Gerente de Marketing
 
-![Brainstorming con perspectiva del gerente](/images/BrainstormingGerenteMarketing.png)
+![Brainstorming con perspectiva del gerente](https://github.com/user-attachments/assets/e9fab555-235c-4ed8-ae83-3956da2d9f16)
 
 En esta figura el equipo realizó un brainstorming desde la perspectiva del Gerente de Marketing, identificando las
 necesidades y expectativas al utilizar la plataforma. Se discutieron aspectos como la facilidad de búsqueda de
@@ -685,7 +683,7 @@ productoras, la evaluación de propuestas y la gestión de solicitudes.
 
 Figura 2: Brainstorming con perspectiva del Coordinador Comercial
 
-![Brainstorming con perspectiva del coordinador comercial](/images/BrainstormingCoordinadorComercial.png)
+![Brainstorming con perspectiva del coordinador comercial](https://github.com/user-attachments/assets/a6ac3eff-820d-4983-9b04-ac01c41a7079)
 
 En esta figura el equipo realizó un brainstorming desde la perspectiva del Coordinador Comercial, identificando las
 necesidades y expectativas al utilizar la plataforma. Se discutieron aspectos como la publicación de su portafolio, el
@@ -697,14 +695,14 @@ ideal de los usuarios al interactuar con la plataforma.
 
 **Figura 3: To-Be Scenario Mapping Gerente de Marketing**
 
-![To-Be Scenario Mapping](/images/ToBeScenarioMappingGerenteMarketing.png)
+![To-Be Scenario Mapping](https://github.com/user-attachments/assets/d0a6e040-4bef-4a18-82e4-3729bf103e09)
 
 En esta figura, se observa el flujo de acciones del Gerente de Marketing al utilizar la plataforma. Se destacan las
 etapas de búsqueda de productoras, evaluación de propuestas y contratación.
 
 **Figura 4: To-Be Scenario Mapping Coordinador Comercial**
 
-![To-Be Scenario Mapping](/images/ToBeScenarioMappingCoordinadorComercial.png)
+![To-Be Scenario Mapping](https://github.com/user-attachments/assets/18810aba-961b-4e49-999b-d7969238e96f)
 
 En esta figura, se observa el flujo de acciones del Coordinador Comercial al utilizar la plataforma. Se destacan las
 etapas de publicación de portafolio, envío de propuestas y gestión de solicitudes.
@@ -790,7 +788,7 @@ Gerente de Marketing de una empresa o marca, y el Coordinador Comercial de una e
 
 **Figura 5: Impact Mapping**
 
-![Impact Mapping](/images/ImpactMap.png)
+![Impact Mapping](https://github.com/user-attachments/assets/f78ac701-701c-46cf-b518-1ff266739e44)
 
 Esta figura muestra el Impact Mapping en el cual se definieron tres Business Goals SMART: (1) alcanzar 600 usuarios
 registrados en 8 meses, (2) lograr que el 50% de las empresas publiquen una solicitud dentro de los primeros 10 días,
