@@ -366,6 +366,11 @@ Las productoras especializadas en activaciones enfrentan serias limitaciones par
 | - Creemos que las empresas se encontrarán satisfechas con la búsqueda de productoras para la creación de sus eventos y programas. <br> - Sabremos que esta afirmación es cierta cuando la mayoría de productoras cuenten con reseñas y comentarios positivos. | Necesitamos corroborar que las empresas se sientan cómodas con los servicios que puedan brindar los productores. Además, debemos verificar que las productoras cuenten con las herramientas adecuadas para ofrecer sus servicios. | Lanzar una versión de prueba con las funcionalidades más importantes de la aplicación para ver si la misión y el objetivo de la startup se cumplirán. |
 
 
+### 1.3. Segmentos objetivo.
+Hemos decidido dividir nuestros segmentos objetivo en dos usuarios objetivos. Estos son las empresas y marcas que demanden servicios de alguien para poder realizar sus eventos y las productas que se encargarán de brindar sus servicios a las empresas.
+
+- **Empresas y marcas:** Usuarios que buscan realizar activaciones de marca y necesitan contactar productoras para recibir propuestas, cotizaciones o contratar servicios de producción de evento.
+- **Productoras especializadas:** Empresas o equipos de producción que ofrecen servicios relacionados a la ejecución de activaciones y eventos de marca, y que desean expandir su base de clientes o mejorar su visibilidad en el mercado.
 
 
 
