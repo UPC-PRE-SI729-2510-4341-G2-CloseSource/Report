@@ -373,7 +373,47 @@ Hemos decidido dividir nuestros segmentos objetivo en dos usuarios objetivos. Es
 - **Productoras especializadas:** Empresas o equipos de producción que ofrecen servicios relacionados a la ejecución de activaciones y eventos de marca, y que desean expandir su base de clientes o mejorar su visibilidad en el mercado.
 
 
+## Capítulo II: Requirements Elicitation & Analysis
+### 2.1. Competidores.
+### 2.1.1. Análisis competitivo.
 
+El mercado de plataformas para la gestión y contratación de servicios para eventos cuenta con diversos actores consolidados. A continuación, se identifican los principales competidores:
+
+- **Eventtia**: Plataforma integral para la gestión de eventos presenciales, virtuales e híbridos. Destaca por su personalización, herramientas de marketing y analítica avanzada.
+
+- **Eventbrite**: Solución global orientada a la promoción y venta de entradas para eventos. Reconocida por su interfaz intuitiva y amplio alcance.
+
+- **Crosalia**: Marketplace en la nube enfocado en la contratación de servicios para eventos. Ofrece una solución integral tanto para proveedores como para organizadores.
+
+- **eEvents Live**: Especializada en eventos digitales e híbridos. Brinda herramientas completas para la organización, promoción y análisis de eventos.
+
+- **GoTab**: Plataforma orientada a mejorar la experiencia del asistente mediante pedidos y pagos sin contacto, enfocándose en la eficiencia operativa durante el evento.
+![image](https://github.com/user-attachments/assets/563692ce-2eab-4061-80be-c39ce2d35d86)
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+Para posicionarse de manera efectiva, se plantean las siguientes estrategias diferenciadoras:
+
+1. **Especialización del servicio**  
+   Focalizarse en conectar empresas con productoras especializadas en tipos específicos de eventos, como activaciones de marca o lanzamientos corporativos.
+
+2. **Sistema de reputación transparente**  
+   Incorporar un sistema de calificaciones y reseñas verificadas que fomente la confianza y facilite la toma de decisiones de los usuarios.
+
+3. **Acompañamiento personalizado**  
+   Brindar orientación directa a empresas con poca experiencia en producción de eventos, destacando el valor consultivo de la plataforma.
+
+4. **Filtros avanzados y búsqueda inteligente**  
+   Desarrollar funcionalidades que permitan segmentar resultados según necesidades específicas (tipo de evento, presupuesto, experiencia, etc.).
+
+5. **Modelo freemium**  
+   Ofrecer acceso gratuito a funcionalidades básicas, reservando herramientas avanzadas para usuarios suscritos, incentivando así la adopción progresiva.
+
+6. **Promoción interna para productoras**  
+   Integrar herramientas de visibilidad dentro de la plataforma, como destacación de servicios, portafolio y campañas promocionales internas.
+
+7. **Alianzas estratégicas**  
+   Establecer convenios con entidades del sector, agencias o plataformas complementarias para potenciar la red de usuarios y aumentar la credibilidad del producto.
 
 
 
