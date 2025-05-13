@@ -43,3 +43,70 @@
 - **JS:** JavaScript es un lenguaje de programación esencial en el desarrollo web, utilizado para dotar de interactividad y dinamismo a sitios y aplicaciones en línea. Permite manipular el contenido de la página en tiempo real, responder a acciones del usuario, validar formularios, y mucho más. Su versatilidad lo convierte en una herramienta clave tanto en el frontend como en el backend de aplicaciones modernas.
 
 ![Javascript](images/JS_Logo.jpeg)
+
+### 5.1.2. Source Code Management.
+
+Creamos una organización en Github con todos los miembros del grupo, y dentro de esta creamos un repositorio para cada parte del proyecto, siendo:
+
+| **Segmento** | **URL** |
+|-----------|-----------| 
+| Organización | https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource| 
+|Report|https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource/Report| 
+| Repositorio Landing Page| https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource/Landing-Page | 
+| Backend | https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource/Backend |
+| Frontend | https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource/Frontend |
+
+
+**GitFlow Implementation:**
+
+GitFlow es una estrategia estructurada para el control de versiones en Git, que establece un flujo de trabajo claro mediante la organización de ramas. Bajo este modelo, la rama develop sirve como base para integrar nuevas funcionalidades en desarrollo, mientras que la rama main almacena la versión estable del proyecto, lista para ser desplegada, en este caso, a través de GitHub Pages. Además, se crean ramas específicas para cada funcionalidad o tarea (feature), lo cual permite trabajar de forma paralela y controlada, facilitando la colaboración y el mantenimiento del código. Por ello, lo convierte en la herramienta perfecta para que nosotros podamos gestionar y administrar el desarrollo de nuestro proyecto sin problemas.
+
+![Implementación de GitFlow](images/GitFlow_Implementation.png)
+
+**Feature Branches:**
+
+Cada nueva característica se desarrolla en una rama separada, que se crea a partir de la rama develop. Estas ramas permiten mantener el trabajo en curso aislado, lo que facilita la integración de nuevas funcionalidades sin interrumpir el flujo principal de desarrollo.
+
+**Release Branches:**
+
+Las ramas release se utilizan para preparar una versión estable del proyecto que está próxima a desplegarse. Se crean desde la rama develop una vez que se ha completado y probado un conjunto significativo de funcionalidades. Su uso permite estabilizar la versión, hacer pruebas finales, documentar y realizar pequeñas correcciones sin interrumpir el desarrollo de nuevas funcionalidades en curso.
+
+Convención de nombres: release/vX.Y.Z, aplicando Semantic Versioning:
+
+    X = versión mayor (cambios incompatibles)
+
+    Y = versión menor (nuevas funcionalidades compatibles)
+
+    Z = parche (correcciones menores)
+
+Solo se permiten tareas como:
+
+  - Correcciones de bugs
+
+  - Ajustes menores en la interfaz
+
+  - Revisión de documentación
+
+Una vez que la rama release está lista, se fusiona en main (para despliegue) y en develop (para mantener actualizada la base de desarrollo). Por ejemplo, una rama release/v1.1.0 indicaría que se está preparando la segunda versión menor del sistema con mejoras sobre una versión previamente estable.
+
+**Hotfix Branches:**
+
+Utilizaremos las ramas hotfix cuando sea necesario resolver un error crítico que afecta a la versión en producción y requiere una solución inmediata, sin esperar al próximo ciclo de desarrollo. Estas ramas son creadas directamente desde main y su objetivo es implementar una solución rápida, pero controlada.
+
+Convención de nombres: hotfix/fix-descripcion-breve, por ejemplo:
+
+  - hotfix/fix-login-error
+
+  - hotfix/fix-css-navbar
+
+Se aplican para:
+
+  - Fallos críticos en producción
+
+  - Correcciones urgentes de seguridad
+
+  - Errores funcionales graves
+
+Una vez corregido el problema, la rama hotfix se fusiona tanto en main como en develop, para que el arreglo forme parte del historial del proyecto en ambas líneas. Además, se actualiza el número de versión siguiendo Semantic Versioning, generalmente con un incremento en el parche (por ejemplo, de v1.1.0 a v1.1.1).
+
+![Feature Branches](images/Features_branches.png)
