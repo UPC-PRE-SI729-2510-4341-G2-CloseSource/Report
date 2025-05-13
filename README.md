@@ -84,6 +84,7 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
 - [**Capítulo IV: Product Design**](#capítulo-iv-product-design)
   - [**4.1. Style Guidelines.**](#41-style-guidelines)
     - [**4.1.1. General Style Guidelines.**](#411-general-style-guidelines)
+    - [**4.1.2. Web Style Guidelines.**](#412-web-style-guidelines)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -922,7 +923,27 @@ Además, se ha cuidado el interlineado y el espaciado entre caracteres para aseg
 
 ![Tipografía](images/typography.png)
 
+### **4.1.2. Web Style Guidelines.**
 
+**Buttons:** 
+
+En el desarrollo del proyecto se utilizarán componentes de Angular Material para la implementación de los botones, lo que garantiza consistencia, accesibilidad y buenas prácticas en diseño UI. Los botones adoptarán un estilo con bordes ligeramente redondeados para transmitir una apariencia moderna y amigable, alineada con la estética general de la plataforma.
+
+La paleta de colores personalizada se aplicará a los distintos estados y jerarquías de los botones: el color primario se usará para las acciones principales, mientras que el color secundario servirá de soporte en acciones complementarias. Además, se incluirán efectos de hover y focus con tonos suaves derivados de la paleta, mejorando la retroalimentación visual durante la interacción.
+
+Se mantendrá una proporción adecuada entre tamaño de texto, padding y altura de los botones para asegurar que sean fácilmente clickeables, tanto en pantallas grandes como en dispositivos móviles. Este enfoque busca facilitar la navegación, guiar la acción del usuario y mantener la coherencia visual en toda la interfaz.
+
+![Botones](images/buttons.PNG)  
+
+**Icons:** 
+
+En el desarrollo de la plataforma se emplearán íconos del sistema Material Icons, integrados mediante Angular Material, lo que garantiza compatibilidad, accesibilidad y consistencia visual en toda la interfaz. Estos íconos siguen un estilo sencillo y geométrico, ideal para complementar un diseño limpio, moderno y funcional.
+
+Se priorizará el uso de íconos que refuercen el significado de botones y acciones clave dentro de la aplicación, permitiendo al usuario identificar funcionalidades de forma intuitiva. Además, se adaptarán a la paleta de colores del sistema para mantener una coherencia estética, evitando distracciones o rupturas visuales dentro del flujo de navegación.
+
+Su aplicación estará presente en áreas como navegación, formularios, estados del sistema y acciones secundarias, buscando siempre que los elementos visuales aporten valor informativo sin recargar la interfaz. Esto permitirá mejorar la experiencia de usuario mediante una comunicación visual clara y efectiva.
+
+![Íconos](images/icons.png) 
 
 
 
