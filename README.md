@@ -104,6 +104,26 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
     - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
     - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagrams.](#471-class-diagrams)
+      - [4.7.2. Class Dictionary](#472-class-dictionary)
+    - [👤 Usuario](#-usuario)
+    - [🏢 Empresa](#-empresa)
+    - [🎬 Productora](#-productora)
+    - [📞 Contacto](#-contacto)
+    - [💬 Mensaje](#-mensaje)
+    - [📝 Solicitud de Activación](#-solicitud-de-activación)
+    - [📄 Propuesta](#-propuesta)
+    - [🛠️ Servicio](#️-servicio)
+    - [🗓️ Evento](#️-evento)
+    - [🤝 Contrato](#-contrato)
+    - [💰 Pago](#-pago)
+    - [⭐ Calificación](#-calificación)
+    - [⚙️ Filtro de Evento](#️-filtro-de-evento)
+    - [🖼️ Portafolio](#️-portafolio)
+    - [🏞️ Galería](#️-galería)
+    - [🚦 Gestión de Activación](#-gestión-de-activación)
+    - [🎯 Hito](#-hito)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -1244,6 +1264,332 @@ Responsabilidad:
 
 ![Bounded Context Providers](/images/providersBoundedContext.png)
 
+## 4.7. Software Object-Oriented Design.
+
+#### 4.7.1. Class Diagrams.
+![diagrama-de-clases](/images/classDiagram.png)
+
+dada la poca visibilidad del diagrama, compartimos el link para su visualización:
+https://www.mermaidchart.com/raw/014a32de-9057-478f-80b2-f98d8b7fdc4a?theme=light&version=v0.1&format=svg
+
+#### 4.7.2. Class Dictionary
+
+A continuación, se presenta el diccionario de clases correspondiente al modelo de datos de la aplicación MatchEvent. Esta sección describe cada clase identificada en el diagrama de clases, incluyendo sus atributos y relaciones con otras entidades.
+
+---
+
+### 👤 Usuario
+- **Descripción**: Representa a un usuario del sistema, que puede ser tanto una empresa solicitante como una productora de eventos.
+- **Atributos**:
+  - `user_id: int` – Identificador único del usuario.
+  - `name: varchar` – Nombre del usuario.
+  - `email: varchar` – Dirección de correo electrónico del usuario.
+  - `password: varchar` – Contraseña del usuario (debería ser almacenada de forma segura).
+  - `user_type: varchar` – Tipo de usuario (ej., 'company', 'producer').
+- **Métodos**:
+  - `register()`: Permite registrar un nuevo usuario en el sistema.
+  - `login()`: Permite al usuario iniciar sesión en el sistema.
+  - `updateProfile()`: Permite al usuario actualizar su información de perfil.
+- **Relaciones**:
+  - Puede estar asociado a una o más `Empresa` (si es un usuario de tipo empresa).
+  - Puede estar asociado a una o más `Productora` (si es un usuario de tipo productora).
+  - Puede enviar y recibir múltiples `Mensaje`.
+  - Puede emitir y recibir múltiples `Rating`.
+
+---
+
+### 🏢 Empresa
+- **Descripción**: Representa a una marca o compañía que solicita servicios de activación de eventos.
+- **Atributos**:
+  - `company_id: int` – Identificador único de la empresa.
+  - `contact_id: int` – Identificador del contacto principal de la empresa.
+  - `company_name: varchar` – Nombre legal de la empresa.
+  - `business_name: varchar` – Nombre comercial de la empresa.
+  - `tax_id: varchar` – Registro Único de Contribuyente.
+- **Métodos**:
+  - `registerCompany()`: Permite registrar una nueva empresa en el sistema.
+  - `updateCompanyInfo()`: Permite actualizar la información de la empresa.
+- **Relaciones**:
+  - Tiene múltiples `Contacto` asociados.
+  - Crea múltiples `Solicitud de Activación`.
+  - Firma múltiples `Contrato`.
+
+---
+
+### 🎬 Productora
+- **Descripción**: Empresa o equipo encargado de ofrecer servicios de producción de eventos.
+- **Atributos**:
+  - `producer_id: int` – Identificador único de la productora.
+  - `contact_id: int` – Identificador del contacto principal de la productora.
+  - `commercial_name: varchar` – Nombre comercial de la productora.
+  - `specialty: varchar` – Tipo de eventos en los que se especializa.
+  - `user_id: int` – Identificador del `Usuario` asociado a la productora.
+- **Métodos**:
+  - `registerProducer()`: Permite registrar una nueva productora en el sistema.
+  - `updateProducerInfo()`: Permite actualizar la información de la productora.
+  - `viewProposals()`: Permite a la productora ver las propuestas que ha enviado.
+- **Relaciones**:
+  - Tiene múltiples `Contacto` asociados.
+  - Ofrece múltiples `Servicio`.
+  - Envía múltiples `Propuesta`.
+  - Firma múltiples `Contrato`.
+  - Tiene un `Portafolio` de trabajos.
+
+---
+
+### 📞 Contacto
+- **Descripción**: Representa la relación de contacto entre una empresa y una productora.
+- **Atributos**:
+  - `contact_id: int` – Identificador único del contacto.
+  - `producer_id: int` – Identificador de la `Productora` asociada (puede ser nulo).
+  - `company_id: int` – Identificador de la `Empresa` asociada (puede ser nulo).
+  - `start_date: date` – Fecha en que se inició el contacto.
+  - `contact_status: boolean` – Estado del contacto (ej., activo, inactivo).
+- **Métodos**:
+  - `createContact()`: Permite crear un nuevo registro de contacto.
+  - `updateContactStatus()`: Permite actualizar el estado del contacto.
+- **Relaciones**:
+  - Puede estar asociado a una `Empresa`.
+  - Puede estar asociado a una `Productora`.
+  - Puede tener múltiples `Mensaje` asociados.
+
+---
+
+### 💬 Mensaje
+- **Descripción**: Representa un mensaje intercambiado entre usuarios a través del sistema.
+- **Atributos**:
+  - `message_id: int` – Identificador único del mensaje.
+  - `contact_id: int` – Identificador del `Contacto` al que pertenece el mensaje.
+  - `sender_id: int` – Identificador del `Usuario` que envió el mensaje.
+  - `content: text` – Contenido del mensaje.
+  - `send_date: datetime` – Fecha y hora en que se envió el mensaje.
+  - `is_read: boolean` – Indica si el mensaje ha sido leído.
+- **Métodos**:
+  - `sendMessage()`: Permite enviar un nuevo mensaje.
+  - `viewMessages()`: Permite ver los mensajes asociados a un contacto.
+  - `markAsRead()`: Permite marcar un mensaje como leído.
+- **Relaciones**:
+  - Pertenece a un `Contacto`.
+  - Fue enviado por un `Usuario`.
+
+---
+
+### 📝 Solicitud de Activación
+- **Descripción**: Representa una solicitud publicada por una empresa para la realización de una activación de marca o evento.
+- **Atributos**:
+  - `request_id: int` – Identificador único de la solicitud.
+  - `company_id: int` – Identificador de la `Empresa` que creó la solicitud.
+  - `event_title: varchar` – Título descriptivo del evento.
+  - `event_description: text` – Descripción detallada del evento requerido.
+  - `location: varchar` – Ubicación deseada para el evento.
+  - `start_date: date` – Fecha de inicio deseada para el evento.
+  - `end_date: date` – Fecha de fin deseada para el evento.
+  - `status: varchar` – Estado de la solicitud (ej., 'abierta', 'cerrada', 'en progreso').
+- **Métodos**:
+  - `createRequest()`: Permite crear una nueva solicitud de activación.
+  - `updateRequest()`: Permite actualizar los detalles de una solicitud.
+  - `viewProposals()`: Permite ver las propuestas recibidas para esta solicitud.
+- **Relaciones**:
+  - Fue creada por una `Empresa`.
+  - Puede tener múltiples `Propuesta` asociadas.
+  - Puede tener múltiples `Filtro de Evento` aplicados.
+
+---
+
+### 📄 Propuesta
+- **Descripción**: Representa una oferta enviada por una productora en respuesta a una solicitud de activación.
+- **Atributos**:
+  - `proposal_id: int` – Identificador único de la propuesta.
+  - `request_id: int` – Identificador de la `Solicitud de Activación` a la que responde.
+  - `producer_id: int` – Identificador de la `Productora` que envió la propuesta.
+  - `service_id: int` – Identificador del `Servicio` ofrecido en la propuesta.
+  - `offered_price: decimal` – Precio ofrecido en la propuesta.
+  - `submission_date: datetime` – Fecha y hora en que se envió la propuesta.
+  - `proposal_status: varchar` – Estado de la propuesta (ej., 'enviada', 'aceptada', 'rechazada').
+- **Métodos**:
+  - `submitProposal()`: Permite a una productora enviar una nueva propuesta.
+  - `updateProposalStatus()`: Permite actualizar el estado de la propuesta.
+- **Relaciones**:
+  - Responde a una `Solicitud de Activación`.
+  - Fue enviada por una `Productora`.
+  - Incluye un `Servicio` ofrecido.
+  - Puede dar lugar a un `Evento`.
+
+---
+
+### 🛠️ Servicio
+- **Descripción**: Representa un servicio específico ofrecido por una productora.
+- **Atributos**:
+  - `service_id: int` – Identificador único del servicio.
+  - `producer_id: int` – Identificador de la `Productora` que ofrece el servicio.
+  - `name: varchar` – Nombre del servicio.
+  - `description: text` – Descripción del servicio.
+  - `price: decimal` – Precio base del servicio.
+- **Métodos**:
+  - `addService()`: Permite a una productora agregar un nuevo servicio.
+  - `updateService()`: Permite a una productora actualizar la información de un servicio.
+- **Relaciones**:
+  - Es ofrecido por una `Productora`.
+  - Puede ser incluido en múltiples `Propuesta`.
+
+---
+
+### 🗓️ Evento
+- **Descripción**: Representa un evento de activación que se llevará a cabo, resultado de la aceptación de una propuesta.
+- **Atributos**:
+  - `event_id: int` – Identificador único del evento.
+  - `proposal_id: int` – Identificador de la `Propuesta` que dio origen al evento.
+  - `start_date: datetime` – Fecha y hora de inicio del evento.
+  - `end_date: datetime` – Fecha y hora de fin del evento.
+  - `location: varchar` – Ubicación del evento.
+  - `status: varchar` – Estado del evento (ej., 'planificado', 'en curso', 'finalizado').
+  - `rating: varchar` – Calificación general del evento (puede ser calculado a partir de las `Rating`).
+- **Métodos**:
+  - `createEvent()`: Permite crear un nuevo evento a partir de una propuesta aceptada.
+  - `updateEventStatus()`: Permite actualizar el estado del evento.
+- **Relaciones**:
+  - Proviene de una `Propuesta`.
+  - Da lugar a un `Contrato`.
+  - Puede tener múltiples `Rating` asociados.
+  - Puede tener múltiples imágenes en la `Galería`.
+  - Es gestionado por `Gestión de Activación`.
+
+---
+
+### 🤝 Contrato
+- **Descripción**: Representa el acuerdo formal entre una empresa y una productora para la realización de un evento.
+- **Atributos**:
+  - `contract_id: int` – Identificador único del contrato.
+  - `company_id: int` – Identificador de la `Empresa` contratante.
+  - `event_id: int` – Identificador del `Evento` asociado al contrato.
+  - `producer_id: int` – Identificador de la `Productora` contratada.
+  - `start_date: date` – Fecha de inicio del contrato.
+  - `end_date: date` – Fecha de fin del contrato.
+- **Métodos**:
+  - `createContract()`: Permite crear un nuevo contrato para un evento.
+  - `viewContractDetails()`: Permite ver los detalles del contrato.
+- **Relaciones**:
+  - Involucra a una `Empresa`.
+  - Involucra a una `Productora`.
+  - Está asociado a un `Evento`.
+  - Puede tener múltiples `Pago` asociados.
+
+---
+
+### 💰 Pago
+- **Descripción**: Representa un pago realizado en el marco de un contrato.
+- **Atributos**:
+  - `payment_id: int` – Identificador único del pago.
+  - `contract_id: int` – Identificador del `Contrato` al que pertenece el pago.
+  - `amount: decimal` – Monto del pago.
+  - `payment_date: datetime` – Fecha en que se realizó el pago.
+  - `payment_method: varchar` – Método de pago utilizado.
+- **Métodos**:
+  - `recordPayment()`: Permite registrar un nuevo pago.
+  - `viewPaymentDetails()`: Permite ver los detalles de un pago.
+- **Relaciones**:
+  - Pertenece a un `Contrato`.
+
+---
+
+### ⭐ Calificación
+- **Descripción**: Representa una evaluación o reseña que un usuario realiza sobre otro (empresa califica a productora o viceversa) con respecto a un evento.
+- **Atributos**:
+  - `rating_id: int` – Identificador único de la calificación.
+  - `event_id: int` – Identificador del `Evento` al que se refiere la calificación.
+  - `issuer_id: int` – Identificador del `Usuario` que emitió la calificación.
+  - `receiver_id: int` – Identificador del `Usuario` que recibió la calificación.
+  - `score: decimal` – Puntuación otorgada.
+  - `comment: text` – Comentario o reseña opcional.
+- **Métodos**:
+  - `submitRating()`: Permite a un usuario enviar una calificación.
+  - `viewRatings()`: Permite ver las calificaciones de un usuario o evento.
+- **Relaciones**:
+  - Está asociada a un `Evento`.
+  - Fue emitida por un `Usuario`.
+  - Fue recibida por un `Usuario`.
+
+---
+
+### ⚙️ Filtro de Evento
+- **Descripción**: Representa un filtro que se puede aplicar a las solicitudes de activación para facilitar la búsqueda.
+- **Atributos**:
+  - `filter_id: int` – Identificador único del filtro.
+  - `request_id: int` – Identificador de la `Solicitud de Activación` a la que se aplica el filtro.
+  - `filter_type: varchar` – Tipo de filtro (ej., 'ubicación', 'fecha').
+  - `filter_name: varchar` – Valor específico del filtro.
+- **Métodos**:
+  - `applyFilter()`: Permite aplicar el filtro a las solicitudes de activación.
+- **Relaciones**:
+  - Se aplica a una `Solicitud de Activación`.
+
+---
+
+### 🖼️ Portafolio
+- **Descripción**: Representa un proyecto o trabajo anterior realizado por una productora, utilizado para mostrar su experiencia.
+- **Atributos**:
+  - `portfolio_id: int` – Identificador único del proyecto del portafolio.
+  - `producer_id: int` – Identificador de la `Productora` dueña del portafolio.
+  - `portfolio_title: varchar` – Título del proyecto.
+  - `portfolio_description: text` – Descripción del proyecto.
+  - `project_location: varchar` – Ubicación del proyecto.
+  - `project_date: date` – Fecha del proyecto.
+- **Métodos**:
+  - `addProject()`: Permite a una productora agregar un nuevo proyecto a su portafolio.
+  - `viewPortfolio()`: Permite ver el portafolio de una productora.
+- **Relaciones**:
+  - Pertenece a una `Productora`.
+
+---
+
+### 🏞️ Galería
+- **Descripción**: Representa una imagen o archivo multimedia asociado a un evento específico.
+- **Atributos**:
+  - `gallery_id: int` – Identificador único de la imagen en la galería.
+  - `event_id: int` – Identificador del `Evento` al que pertenece la imagen.
+  - `image_url: text` – URL o ruta del archivo de la imagen.
+  - `description: text` – Descripción de la imagen (opcional).
+- **Métodos**:
+  - `uploadImage()`: Permite subir una nueva imagen a la galería de un evento.
+  - `viewGallery()`: Permite ver las imágenes de la galería de un evento.
+- **Relaciones**:
+  - Pertenece a un `Evento`.
+
+---
+
+### 🚦 Gestión de Activación
+- **Descripción**: Gestiona el estado y los hitos de la activación de un evento específico.
+- **Atributos**:
+  - `activation_id: int` – Identificador único de la activación.
+  - `event_id: int` – Identificador del `Evento` que se está gestionando.
+  - `status: varchar` – Estado actual de la activación (ej., 'planificación', 'en progreso', 'finalizada').
+- **Métodos**:
+  - `startActivation()`: Permite iniciar la gestión de la activación de un evento.
+  - `updateActivationStatus()`: Permite actualizar el estado general de la activación.
+  - `getMilestones()`: Permite obtener la lista de hitos asociados a la activación.
+  - `addMilestone(milestone: Milestone)`: Permite agregar un nuevo hito a la activación.
+- **Relaciones**:
+  - Gestiona un `Evento`.
+  - Contiene múltiples `Hito`.
+
+---
+
+### 🎯 Hito
+- **Descripción**: Representa un punto clave o tarea dentro del proceso de activación de un evento.
+- **Atributos**:
+  - `milestone_id: int` – Identificador único del hito.
+  - `activation_id: int` – Identificador de la `Gestión de Activación` al que pertenece el hito.
+  - `title: varchar` – Título del hito.
+  - `description: text` – Descripción del hito.
+  - `due_date: date` – Fecha límite para la finalización del hito.
+  - `completion_date: date` – Fecha en que se completó el hito (puede ser nulo).
+  - `status: varchar` – Estado del hito (ej., 'pendiente', 'en progreso', 'completado').
+- **Métodos**:
+  - `updateStatus()`: Permite actualizar el estado del hito.
+- **Relaciones**:
+  - Pertenece a una `Gestión de Activación`.
+
+---
 
 
 
