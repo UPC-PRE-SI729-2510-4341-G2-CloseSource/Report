@@ -100,6 +100,10 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
     - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -1120,6 +1124,135 @@ Se ha realizado el prototipado del Application Web en figma:
 ![Prototipo](/images/prototype.PNG)
 
 Se encuentra en el siguiente link: https://www.figma.com/proto/eQz3TmfElqfpnzNsrfy33q/MATCH-EVENT?node-id=230-491&p=f&t=f4j2gBCitfGDL2L6-1&scaling=min-zoom&content-scaling=fixed&page-id=227%3A2&starting-point-node-id=230%3A491
+
+## 4.6. Domain-Driven Software Architecture.
+
+Domain-Driven software architecture es un enfoque de diseño de software que se centra en la creación de un modelo
+conceptual del dominio del problema, permitiendo una mejor comprensión y comunicación entre los desarrolladores y los
+expertos en el dominio. Este enfoque ayuda a alinear el diseño del software con las necesidades del negocio y a crear
+una arquitectura más flexible y mantenible.
+MatchEvent es un ejemplo de una aplicación web que utiliza este enfoque, permitiendo a las empresas y productoras
+gestionar sus eventos de manera eficiente.
+
+### 4.6.1. Software Architecture Context Diagram.
+
+Elementos en el diagrama de contexto:
+
+- MatchEvent: Aplicación web que conecta empresas y productoras.
+- Visitor: Usuario no autenticado que navega por la landing page.
+- Customer: Empresa o marca que publica solicitudes de activación o compañía productora que publica su portafolio.
+
+**Figura 6: Software Architecture Context Diagram**
+
+![Software Architecture Context Diagram](/images/contextDiagram.png)
+
+### 4.6.2. Software Architecture Container Diagrams.
+
+Elementos en el diagrama de contenedores:
+
+- Web Application: Aplicación web que permite a los usuarios interactuar con la plataforma.
+- Database: Base de datos que almacena la información de los usuarios, solicitudes y servicios.
+- Backend API: API que gestiona la lógica de negocio y la comunicación entre la aplicación web y la base de datos.
+- Landing Page: Página de inicio que proporciona información sobre la plataforma y permite a los usuarios registrarse o
+  iniciar sesión.
+- Developer: Desarrollador que trabaja en la implementación y mantenimiento de la aplicación.
+- Visitor: Usuario no autenticado que navega por la landing page.
+- Empresa o marca: Segmento objetivo que publica solicitudes de activación 
+- Productoras Especializadas: Compañía productora que publica su portafolio.
+
+**Figura 7: Software Architecture Container Diagrams**
+
+![Software Architecture Container Diagrams](/images/containerDiagram.png)
+
+![Software Architecture Container Diagrams](/images/containerDiagram2.png)
+
+### 4.6.3. Software Architecture Components Diagrams.
+
+**Bounded Context Identity and Access:**
+
+Elementos en el diagrama de componentes:
+
+- Web Application: Aplicación web que permite a los usuarios interactuar con la plataforma.
+- User Controller: Controlador que gestiona las solicitudes de los usuarios y la autenticación.
+- User Service: Servicio que maneja la lógica de negocio relacionada con los usuarios.
+- User Repository: Repositorio que interactúa con la base de datos para almacenar y recuperar información de los
+  usuarios.
+- Database: Base de datos que almacena la información de los usuarios, solicitudes y servicios.
+
+**Figura 8: Bounded Context Identity and Access**
+
+![Bounded Context Identity and Access](/images/identityAndAccessBoundedContext.png)
+
+**Bounded Context Activation Request**
+
+Responsabilidad:
+
+- Creación de solicitudes de activación
+- Edición o eliminación
+- Listado de solicitudes
+- Visualización de detalles de una solicitud
+
+**Figura 9: Bounded Activation Request**
+
+![Bounded Context Activation Request](/images/activationRequestsBoundedContext.png)
+
+**Bounded Context Activation Quotes**
+
+Responsabilidad:
+
+- Permitir a una productora enviar una propuesta para una solicitud publicada.
+- Listar propuestas enviadas por cada productora.
+- Posible relación con estados: "enviada", "aceptada", "rechazada".
+
+**Figura 10: Bounded Context Activation Quotes**
+
+![Bounded Context Activation Quotes](/images/activationQuotesBoundedContext.png)
+
+**Bounded Context Activation Management**
+
+Responsabilidad:
+
+- Ver el historial de activaciones (mis activaciones)
+- Ver detalles de cada activación.
+- Cambiar estado: "en curso", "finalizada", "cancelada".
+
+**Figura 11: Bounded Context Activation Management**
+
+![Bounded Context Activation Management](/images/activationManagementBoundedContext.png)
+
+**Bounded Context Portafolio Management**
+
+Responsabilidad:
+
+- Permitir a una productora registrar y editar su portafolio de servicios.
+- Cada servicio podría tener: nombre, descripción, categoría, precio, etc.
+- Mostrar estos servicios como parte del perfil público de la productora.
+
+**Figura 12: Bounded Context Portafolio Management**
+
+![Bounded Context Portafolio Management](/images/portafolioManagementBoundedContext.png)
+
+**Bounded Context Providers**
+
+Responsabilidad:
+
+- Buscar productoras por nombre, categoría, tags, ubicación, etc.
+- Visualizar perfil público de una productora
+- Filtros
+
+**Figura 13: Bounded Context Providers**
+
+![Bounded Context Providers](/images/providersBoundedContext.png)
+
+
+
+
+
+
+
+
+
+
 
 
 # Capítulo V: Product Implementation, Validation & Deployment.
