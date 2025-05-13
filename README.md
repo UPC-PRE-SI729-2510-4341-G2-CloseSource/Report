@@ -566,6 +566,149 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed sapien a
 ![image](https://github.com/user-attachments/assets/fe96f6a1-973b-47ee-9210-12bd43ef37c3)
 ![image](https://github.com/user-attachments/assets/a7b30721-2f60-49ad-a462-56ea7312b133)
 
+### 2.3.2. User Task Matrix.
+
+- Empresas o Marcas:
+  
+| Nº  | Actividad                                                                 | Frecuencia  | Importancia |
+|-----|---------------------------------------------------------------------------|-------------|-------------|
+| 1   | Buscar proveedores para eventos                                           | Mensual     | Alta        |
+| 2   | Comparar presupuestos y propuestas                                        | Mensual     | Alta        |
+| 3   | Revisar portafolios y referencias                                         | Mensual     | Alta        |
+| 4   | Publicar requerimientos para activaciones                                 | Mensual     | Alta        |
+| 5   | Comunicarse con potenciales proveedores                                   | Mensual     | Alta        |
+| 6   | Negociar condiciones (presupuesto, plazos, servicios)                     | Mensual     | Alta        |
+| 7   | Calificar o dejar feedback tras un evento                                 | Mensual     | Media       |
+| 8   | Gestionar propuestas comerciales de manera organizada                     | Quincenal   | Alta        |
+| 9   | Encontrar soluciones rápidas sin depender de contactos informales        | Siempre     | Alta        |
+| 10  | Evaluar calidad antes de contratar                                        | Simepre     | Alta        |
+
+
+- Productoras Especializadas:
+  
+| Nº  | Actividad                                                                                     | Frecuencia | Importancia |
+|-----|-----------------------------------------------------------------------------------------------|------------|-------------|
+| 1   | Revisar portafolios y referencias                                                             | Mensual    | Alta        |
+| 2   | Comunicarse con potenciales clientes                                                          | Mensual    | Alta        |
+| 3   | Negociar condiciones (presupuesto, plazos, servicios)                                         | Mensual    | Alta        |
+| 4   | Calificar o dejar feedback tras un evento                                                     | Mensual    | Alta        |
+| 5   | Difundir portafolio o servicios de producción                                                 | Mensual    | Alta        |
+| 6   | Captar nuevos clientes fuera de su red de contactos                                           | Mensual    | Alta        |
+| 7   | Gestionar propuestas comerciales de manera organizada                                         | Mensual    | Alta        |
+| 8   | Asegurar visibilidad en canales digitales formales                                            | Mensual    | Alta        |
+| 9   | Posicionarse como experto en un nicho de eventos                                              | Mensual    | Alta        |
+| 10  | Evitar pérdida de tiempo con clientes no alineados a su especialidad                          | Mensual    | Alta        |
+
+
+**Tareas con mayor frecuencia e importancia:**
+
+-Ambas partes coinciden en que comunicarse, negociar condiciones y revisar referencias o portafolios son tareas de alta frecuencia e importancia. Estas acciones forman parte esencial del proceso previo a la contratación.
+
+-Para las empresas, destacan las tareas de buscar proveedores y publicar requerimientos, esenciales para iniciar la gestión de activaciones.
+
+-Para las productoras, resultan críticas las tareas de difundir su portafolio, captar nuevos clientes y asegurar visibilidad digital, todas con alta importancia, aunque con frecuencias variables dependiendo de sus recursos actuales.
+
+**Principales diferencias:**
+
+-Las empresas priorizan encontrar y seleccionar proveedores adecuados, mientras que las productoras se enfocan más en ser encontradas y mostrarse de forma profesional.
+
+-La gestión de propuestas comerciales y la visibilidad en canales digitales tiene una importancia mayor para las productoras, ya que les permite ampliar su alcance y mejorar sus oportunidades comerciales.
+
+**Coincidencias relevantes:**
+
+-Ambas partes valoran la calidad del contacto y la comunicación directa, así como la posibilidad de revisar y comparar propuestas de manera clara y estructurada.
+
+-También existe coincidencia en la importancia de calificar el trabajo recibido o realizado, lo que refuerza la necesidad de sistemas de reputación y feedback dentro de la plataforma.
+
+### 2.3.3. User Journey Mapping.
+
+A continuación, el **recorrido end-to-end** que la plataforma MatchEvent busca transformar:
+
+1. **AWARE** –  
+   - *Empresa*: Detecta la necesidad de una activación para campaña o lanzamiento.  
+   - *Productora*: Percibe una posible oportunidad de negocio.  
+   Ambos se mueven en canales informales y comparten la frustración de no saber a quién acudir.
+
+2. **JOIN** –  
+   - *Empresa*: Contacta varios proveedores sin criterio estandarizado.  
+   - *Productora*: Se presenta con información básica, sin garantía de ser escuchada.  
+   La validación de experiencia y calidad es el principal dolor.
+
+3. **USE** –  
+   - Intercambio de propuestas, revisión de portafolios y negociación.  
+   La comunicación dispersa (WhatsApp, e-mail) provoca ciclos lentos y confusión, aunque crece la expectativa de concretar el proyecto.
+
+4. **LEAVE** –  
+   - Ejecución del evento y cierre.  
+   - Empresa mide impacto de forma manual; productora espera testimonios y reputación.  
+   Falta un sistema post-evento de métricas y calificaciones que capture el valor generado.
+
+La curva emocional del mapeo muestra un ascenso desde la incertidumbre inicial hasta la satisfacción final, evidenciando cuatro *insights* claves que MatchEvent atenderá:
+
+* Centralizar proveedores con filtros especializados.  
+* Portafolios y propuestas estructuradas y verificadas.  
+* Comunicación y seguimiento dentro de la misma aplicación.  
+* Métricas post-evento y reputación bilateral.
+
+---
+
+- Carla Ramírez – Empresa / Marca:
+  
+  Carla comienza su recorrido cuando surge una nueva campaña que requiere una activación de marca. En ese momento, inicia una búsqueda informal de proveedores, se comunica con algunos recomendados, y solicita cotizaciones que evalúa con incertidumbre. Tras negociar, 
+  contrata una productora con la esperanza de obtener buenos resultados, aunque el proceso fue largo y poco claro. Al finalizar el evento, Carla recibe resultados, pero sin métricas claras ni seguimiento profesional.
+  
+  ![User journey map Carla](/images/UserJourneymapCarla.png)
+  
+  
+
+- Andrés Gutiérrez – Productora Especializada:
+  
+  Andrés inicia su recorrido al identificar posibles oportunidades de trabajo, normalmente por referencias o publicaciones informales. Se contacta directamente con empresas enviando propuestas, muchas veces sin obtener respuesta. Cuando logra negociar, enfrenta un
+  proceso complejo para cerrar el trato. Luego ejecuta el evento con dedicación, pero sin recibir siempre retroalimentación ni lograr una relación sostenida con el cliente, sintiendo que su trabajo no se valoró del todo.
+  
+ ![User journey map Andrés](/images/UserjourneymapAndres.png)
+  
+### 2.3.4. Empathy Mapping.
+
+- Empresas o Marcas:
+
+  ![Empathy map Empresas o Marcas](/images/EmpathymapEmpresasoMarcas.png)
+
+- Productoras Especializadas:
+
+  ![Empathy map Productoras Especializadas](/images/EmpathymapProductorasEspecializadas.png)
+  
+### 2.3.5. As-is Scenario Mapping.
+
+El As-Is Scenario Mapping es una herramienta para identificar los pensamientos que tendrán los usuarios
+a la hora de utilizar la aplicación actual.
+
+- Empresas o Marcas:
+
+  ![As-is Scenario Mapping_Empresas o Marcas.png](/images/As-isScenarioMapping_EmpresasoMarcas.png)
+
+- Productoras Especializadas:
+  
+   ![As-is Scenario Mapping_Productoras Especializadas](/images/As-isScenarioMapping_ProductorasEspecializadas.png)
+  
+### 2.4. Ubiquitous Language.
+Según Domain Driven Design (2019), The ubiquitous language es la descripción de conceptos y términos dentro del negocio para construir un lenguaje en 
+común entre todos los implicados dentro del contexto del negocio. A continuación, se han identificado los siguientes conceptos que ayudarán a crear 
+un nexo entre los usuarios y los desarrolladores:
+
+
+ | Term (English)       | Término (Español)        | Definition (Spanish)                                                                                      |
+|----------------------|--------------------------|-----------------------------------------------------------------------------------------------------------|
+| Brand Activation     | Activación de Marca      | Conjunto de acciones que buscan generar una experiencia memorable para el consumidor y conectar emocionalmente con la marca. |
+| Experiential Marketing | Marketing Experiencial | Estrategia de marketing que busca involucrar activamente a los consumidores a través de experiencias sensoriales, emocionales o interactivas. |
+| Production Company   | Productora               | Empresa o equipo especializado en la ejecución técnica y creativa de eventos y activaciones de marca.     |
+| Proposal             | Propuesta                | Documento o presentación donde una productora describe su solución creativa y operativa para un requerimiento de activación. |
+| Client Brief         | Brief del Cliente        | Documento inicial proporcionado por la empresa donde se detallan los objetivos, público objetivo, presupuesto y expectativas del evento. |
+| Quote                | Cotización               | Estimación económica que presenta una productora para ejecutar un evento, basada en los requerimientos del cliente. |
+| Portfolio            | Portafolio               | Conjunto de trabajos anteriores que muestra la experiencia, estilo y capacidades de una productora.        |
+| Lead                 | Cliente Potencial        | Empresa o persona interesada en contratar servicios para una activación o evento, que aún no ha concretado una contratación. |
+| Engagement           | Interacción / Compromiso | Grado de conexión emocional o participación que un consumidor muestra hacia una marca durante una experiencia. |
+| Event Staffing       | Personal de Evento       | Equipo de trabajo contratado para ejecutar tareas específicas en un evento (anfitriones, promotores, técnicos, etc.). |
 
 
 
