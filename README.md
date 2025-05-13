@@ -2338,49 +2338,22 @@ Se ha implementado un fake api para cada parte desplegada por cada uno de los in
   ![Mock API 2](images/beeceptor2.PNG)
 
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review.**  
-Durante este Sprint se realizó el despliegue de la primera versión de la Landing Page de nuestro proyecto CloseSource utilizando GitHub Pages como entorno de publicación. Este paso permitió que la página esté accesible públicamente desde un navegador web, facilitando la revisión del entregable por parte del equipo, el docente y otros stakeholders/interesados del proyecto. El objetivo principal fue validar el diseño, estructura y comportamiento responsive inicial de la landing page en un entorno real.
-
-Los pasos seguidos para el despliegue son los siguientes:
-
-- Creación del repositorio remoto en GitHub con el nombre CloseSource/Landing-Page.
-
-- Organización del proyecto local con los archivos necesarios:
-
-  - index.html (estructura de la landing page)
-
-  - style.css (estilos y diseño)
-
-  - script.js (funcionalidades básicas)
-
-- Carpeta /images con imágenes para la presentación visual.
-
-- Confirmación de que el archivo index.html se encuentra en la raíz del repositorio, ya que GitHub Pages toma este archivo como punto de entrada.
-
-- Push del proyecto a la rama feature/landingPage_v1 usando Git, además de GitHub Desktop. Posteriormente, se hizo push a las ramas develop y main.
-
-- En GitHub, se configuró la opción de GitHub Pages desde la rama Main, seleccionando la carpeta raíz como fuente de despliegue.
-
-- Una vez activado, GitHub generó una URL pública, donde se puede acceder a la landing page desplegada.
-  - Link del Landing Page desplegado: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
-
-- Se verificó que el sitio se visualice correctamente en distintos dispositivos y navegadores, confirmando su comportamiento responsive y su diseño en patrón Z.
-
-Estas son capturas del despliegue realizado:
+Durante este Sprint se realizó el despliegue de la segunda versión de la Landing Page de nuestro proyecto CloseSource utilizando GitHub Pages como entorno de publicación. Este paso permitió que la página tenga actualizado el desarrollo de nuestra web application, mostrando mayor detalle del funcionamiento del mismo. 
 
 ![Deployment](images/deployment1.PNG) 
 ![Deployment](images/deployment2.PNG)
 
+Además, también desplegamos parte del front end, realizando el despliegue en Firebase, cada uno, del CRUD del Bounded Context desarrollado:
+
+![Firebase](images/firebase.PNG)
 #### **5.2.2.8. Team Collaboration Insights during Sprint.** 
 
-Durante este Sprint, el equipo acordó que la implementación de la primera versión de la Landing Page fuera realizada por un solo integrante, dado que se trataba de una versión inicial, estática y con bajo nivel de complejidad técnica.
-
-El equipo colaboró en la definición del contenido y estructura de la página, revisando los elementos clave como: el enfoque comunicacional, los textos base, los botones de llamado a la acción (CTA), y el uso del patrón de diseño en Z. Una vez definidos estos lineamientos, se asignó la tarea de implementación y despliegue a un integrante del equipo.
-
-La colaboración se mantuvo activa mediante revisiones asincrónicas en el repositorio y espacios breves de retroalimentación, asegurando que el resultado se alinee con los objetivos del Sprint y con el documento de requisitos establecido. Esta forma de trabajo permitió avanzar eficientemente sin generar sobrecarga innecesaria para el equipo, lo cual podría haber afectado el normal desarrollo de sus demás tareas.
+Hubo un trabajo colaborativo para poder completar el trabajo, utilizando github para el manejo de la información. Así, se obtuvo las siguientes gráficas:
 
 ![Team collaboration insights](images/collaboration1.PNG)
 ![Team collaboration insights](images/collaboration2.PNG)
-
+![Team collaboration insights](images/colab1.PNG)
+![Team collaboration insights](images/colab2.PNG)
 
 ## **5.3. Video About-The-Team**
 
