@@ -151,6 +151,49 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
 |Comunica oralmente con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br> Comunicó ideas y decisiones con el equipo para la elaboración del To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog, entre otros.   <br>Kevin Castañeda - TB1 <br>Comunicó y compartió sus ideas con el equipo, para poder completar el trabajo con el aporte de todos. <br>Aaron Avila - TB1 <br>Se coordino con el equipo el desarrollo del informe y la asignación de las tareas. <br>Max Paitan - TB1 <br>Coordinó con el equipo para la repartición y desarrollo del report, así como gestioné la colaboración grupal para el desarrollo de tareas complejas <br>Ivan La Madrid - TB1 | **TB1** <br>El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas. |
 |Comunica por escrito con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br>redactó ideas en el brainstorming, el Scenario Mapping y user stories para ambos segmentos objetivos y user personas.   <br>Kevin Castañeda - TB1 <br> Apoyé con los UX assuptions, los segmentos objetivos, así como los labeling systems y los navigations systems <br>Aaron Avila - TB1 <br> Presente el desarrollo de User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping,Ubiquitous Language<br>Max Paitan - TB1 <br> Redacté parte del capitulo 1, donde están la descripción de la empresa, el solution profile y el Lean UX Problem Statements. También avancé parte del capítulo 4, con los General Style Guidelines. Finalmente, avance con lo correspondiente al capítulo 5 para esta entrega. <br>Ivan La Madrid - TB1 <br> Colaboré con los competidores, así como los user personas | **TB1** <br>A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como UXPressia permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto. |
 
+# Capítulo 1: Introducción
+
+## **1.1. Startup Profile**
+
+El concepto de startup hace referencia a pequeñas o medianas empresas emergentes que ingresan al mercado impulsadas por propuestas tecnológicas, con un alto potencial de crecimiento. Estas empresas se caracterizan por su capacidad de escalar rápidamente y expandirse de manera eficiente. Además, suelen originarse con el objetivo de ofrecer soluciones claras, creativas y sencillas a problemas sociales relevantes.
+
+### **1.1.1. Descripción de la Startup**
+
+#### **Descripción de la empresa:**
+
+Somos un grupo de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC) los que formamos CloseSource, una organización que apuesta por el desarrollo de soluciones tecnológicas enfocadas en resolver problemas concretos del mercado. Como parte de este enfoque, se ha planteado el diseño y desarrollo de un aplicativo web orientado al sector del marketing experiencial.
+
+El producto, denominado MatchEvent, busca explorar una problemática latente: la dificultad que enfrentan muchas marcas al intentar organizar activaciones de marketing efectivas. Las activaciones requieren coordinación, creatividad, logística y, sobre todo, proveedores confiables. Sin embargo, el proceso actual suele depender de contactos informales, referencias dispersas y gestiones manuales que pueden comprometer la calidad del resultado final.
+
+A su vez, muchas productoras —especializadas en ejecutar eventos y activaciones— cuentan con la capacidad técnica y creativa para asumir estos retos, pero no siempre tienen acceso a nuevas oportunidades de negocio ni a canales digitales donde puedan mostrar su trabajo, recibir solicitudes o hacer propuestas de manera eficiente. Por ello, MatchEvent se concibe como una plataforma que intermedie entre estos dos actores. 
+
+##### **Misión:**
+
+Facilitar y hacer más eficiente el proceso de búsqueda, contacto y contratación de servicios de activación de marca, mediante una plataforma digital que conecte a empresas con productoras especializadas, promoviendo la transparencia, la calidad y la innovación en cada colaboración.
+
+##### **Visión:**
+
+Convertirnos en la plataforma líder en Perú para la gestión de activaciones de marca, siendo reconocidos por impulsar conexiones estratégicas entre empresas y productoras, y por contribuir al desarrollo del sector marketing a través del uso de soluciones tecnológicas innovadoras. 
+
+### **1.1.2. Perfiles de integrantes del equipo**
+
+####  Nombre: Avila Palacios, Aaron Alexander | U201823654
+![Aaron Avila Palacios](images/aaron.jpeg)  
+> Soy estudiante de Ingeniería de software y estoy cursando el quinto ciclo de la carrera. Tengo 23 años. Tengo conocimientos en programación orientada a objetos en lenguaje de programación C++, también en diseño de prototipos de aplicaciones, diseño gráfico, diseño e implementación de páginas web. Todas estas habilidades ayudan al desarrollo del proyecto, dado que son de vital importancia en este curso y en nuestra carrera. Soy capaz de desarrollar de manera eficaz cualquier tarea que se me asigne.
+#### Nombre: Braithuaite Toledo, Gabriel Anthony | U20201e889
+![Gabriel Braithuaite Toledo](images/gabriel.jpeg)  
+> Mi nombre es Gabriel Anthony Braithuaite Toledo, soy estudiante de la carrera de Ingeniería de Software. apasionado por la tecnología. Soy una persona disciplinada y organizada.
+####  Nombre: Castañeda Llanos, Kevin Alexander | U202318814
+![Kevin Castañeda Llanos](images/kevin.jpeg)  
+> Soy un estudiante de la carrera de ingeniería de software, tengo 19 años y estoy en el 5to ciclo, actualmente me encuentro interesado en el desarrollo de aplicaciones, IA y ciberseguridad
+####  Nombre: La Madrid Lozano, Ivan Jeanpierre | UU202113432
+![Ivan La Madrid Lozano](images/ivan.jpeg)  
+> Soy un estudiante de ingenieria de software de 21 años apasionado por el mundo de la programación y desarrollo web. Colaborativo y entusiasta en el mundo tecnologico.
+####  Nombre: Paitan Pumacahua, Max Anthony | U201314454
+![Max Paitan Pumacahua](images/max.jpg)  
+> Soy Max Anthony y tengo 27 años. Estoy retomando Ingeniería de Software como segunda carrera, ya que siempre tuvo ello como objetivo; en la actualidad, me encuentro cursando el séptimo ciclo.
+> Entre mis habilidades están: Ágil capacidad de análisis -tanto individual como también en colectivo-, empático en un contexto determinado -tomando decisiones de manera sensata-, y puedo ser tanto gestor como un participante activo dentro de un grupo de trabajo.
+
 
 
 
