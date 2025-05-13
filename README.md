@@ -124,6 +124,8 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [🏞️ Galería](#️-galería)
     - [🚦 Gestión de Activación](#-gestión-de-activación)
     - [🎯 Hito](#-hito)
+    - [4.8. Database Design](#48-database-design)
+      - [4.8.1 Database Diagram](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -1591,7 +1593,12 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
+### 4.8. Database Design
 
+#### 4.8.1 Database Diagram
+Este es nuestro diagrama de base de datos, donde encontramos toda la información a trabajar en nuestra base de datos, incluyendo a todas las entidades y sus correspondientes relaciones.
+
+![Database](images/database.png)
 
 
 
