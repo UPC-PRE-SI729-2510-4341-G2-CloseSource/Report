@@ -526,6 +526,49 @@ El diseño de entrevistas tiene como objetivo validar los supuestos clave del pr
 - Modalidad virtual o presencial según disponibilidad.
 - Registro de respuestas mediante notas o grabaciones con consentimiento previo.
 
+### 2.2.2. Registro de entrevistas.
+
+A continuación, se presenta un cuadro con los enlaces a los videos de las entrevistas realizadas a representantes de los dos segmentos objetivo: empresas/marcas y productoras de eventos. Cada enlace lleva a una entrevista individual realizada como parte del proceso de validación de necesidades.
+
+| Nº | Segmento objetivo         | Link de video                                               |
+|----|---------------------------|--------------------------------------------------------------|
+| 1  | Empresa o marca           | [Entrevista 1](https://www.youtube.com/watch?v=X76bS3vwYbI) |
+| 2  | Productora de eventos     | [Entrevista 2](https://www.youtube.com/watch?v=g6iUemJmMIA) |
+| 3  | Empresa o marca           | [Entrevista 3](https://www.youtube.com/watch?v=fKm5kj0AMhY) |
+| 4  | Productora de eventos     | [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e889_upc_edu_pe/EcmRlg9SH7hMgicVmwNKdlMBPwKH_j_3IHvtCxIKPzyZkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aS1JAw) |
+| 5  | Empresa o marca           | [Entrevista 5](https://www.youtube.com/watch?v=xxxxxxxxxxx) |
+| 6  | Productora de eventos     | [Entrevista 6](https://www.youtube.com/watch?v=xxxxxxxxxxx) |
+
+---
+
+### 2.2.3. Análisis de entrevistas.
+
+**Entrevista 1 – Empresa o marca**  
+En esta entrevista, se identificó al entrevistado como representante del segmento objetivo de empresas o marcas, confirmando su rol al hablar sobre la organización de eventos como lanzamientos de productos y aniversarios. A lo largo de la conversación, se evidenciaron diversas necesidades clave: dificultad para encontrar proveedores confiables, poca transparencia al evaluar experiencias previas y falta de canales centralizados para comparar propuestas. Asimismo, valoró la posibilidad de contar con una plataforma que permita visualizar portafolios, leer testimonios y comunicarse directamente con las productoras. Esta información valida de manera directa los supuestos planteados en el diseño de MatchEvent y respalda funcionalidades esenciales como la comparación de propuestas, el sistema de calificaciones y la mensajería integrada.
+
+**Entrevista 2 – Productora de eventos**  
+En esta entrevista, la participante representa al segmento de productoras de eventos, especializadas en activaciones de marca y eventos corporativos. Actualmente consigue clientes por recomendaciones y redes sociales, pero identifica como reto la falta de visibilidad y diferenciación en un mercado competitivo. Señala la necesidad de una plataforma que permita mostrar un portafolio completo, recibir reseñas, contactar directamente con empresas y filtrar proyectos por tipo de evento. Además, valora que la plataforma funcione como una comunidad confiable, donde se priorice la calidad y se generen oportunidades reales. Sus respuestas validan las funcionalidades clave de MatchEvent enfocadas en reputación, especialización y conexión directa.
+
+**Entrevista 3 – Empresa o marca**  
+En esta entrevista, el gerente Henry, representante de la empresa Tutus, forma parte del segmento objetivo de empresas o marcas. Su empresa organiza activaciones de marca y lanzamientos de productos de forma recurrente, especialmente en campañas clave. Identifica como principales dificultades la falta de referencias confiables, problemas de puntualidad y presupuestos poco claros al contratar productoras. Valora especialmente una plataforma que permita comparar opciones, ver opiniones de clientes, revisar portafolios y precios estimados, además de facilitar la comunicación directa. También comparte una experiencia negativa relacionada con subcontratación sin aviso, lo que refuerza la necesidad de transparencia. Su interés en interactuar directamente con proveedores y contar con reseñas valida funcionalidades clave de MatchEvent, como perfiles detallados, filtros de búsqueda y mensajería integrada.
+
+**Entrevista 4 – Productora de eventos**  
+La entrevistada representa a una joven productora de eventos con conocimientos tecnológicos básicos, lo que sugiere que la plataforma debe ser accesible y compatible con sistemas comunes como Windows, Android y Google Chrome. Su principal desafío es la baja visibilidad frente a competidores, a pesar de usar redes sociales como Instagram y WhatsApp. Destaca la necesidad de una herramienta que le permita presentar su portafolio de forma profesional. Además, depende del boca a boca para captar clientes, por lo que valora un sistema de reseñas. Está dispuesta a especializarse en un tipo de evento si eso mejora su posicionamiento, lo cual respalda la inclusión de filtros por nicho. Finalmente, espera que la plataforma sea transparente, útil y que facilite la gestión de su trabajo, reforzando la importancia de crear una solución práctica y orientada al valor profesional.
+
+**Entrevista 5 – Empresa o marca**  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, elit vel fermentum tincidunt, ligula libero ultrices diam, et pretium lectus erat id urna. Duis sagittis nec sapien ac dapibus. Sed tristique sem sed sem ultrices, ac finibus nunc eleifend.
+
+**Entrevista 6 – Productora de eventos**  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed sapien ac diam imperdiet lacinia. Sed luctus justo non lorem pharetra, in finibus magna pulvinar. Vivamus convallis purus ac velit tincidunt, ac dictum justo convallis.
+
+### 2.3. Needfinding.
+### 2.3.1. User Personas.
+![image](https://github.com/user-attachments/assets/fe96f6a1-973b-47ee-9210-12bd43ef37c3)
+![image](https://github.com/user-attachments/assets/a7b30721-2f60-49ad-a462-56ea7312b133)
+
+
+
+
 
 
 
