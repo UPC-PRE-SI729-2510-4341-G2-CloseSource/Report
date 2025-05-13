@@ -797,7 +797,66 @@ registrados en 8 meses, (2) lograr que el 50% de las empresas publiquen una soli
 y (3) conseguir que el 60% de las productoras activas generen al menos un contrato en los primeros 4 meses. Además, se
 identificaron las acciones que deben realizar para alcanzar estos objetivos.
 
+### 3.4. Product Backlog.
 
+En esta sección se presenta el Product Backlog, que incluye las historias de usuario priorizadas y sus respectivas
+estimaciones de esfuerzo. El backlog está organizado por User Stories, y cada historia tiene asignada una estimación en
+puntos de historia para facilitar la planificación de sprints.
+
+| Orden | User Story ID | Título                                          | Descripción                                                                                                          | Story Points |
+|-------|---------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US014         | Sección “Cómo funciona”                         | Como visitante, quiero entender el funcionamiento general de la plataforma desde la landing page.                    | 1            |
+| 2     | US015         | Sección de beneficios para empresas productoras | Como visitante del segmento Productoras, quiero leer los beneficios de unirme a la plataforma.                       | 1            |
+| 3     | US016         | Sección de beneficios para marcas               | Como visitante del segmento Empresa o marca, quiero conocer los beneficios de publicar necesidades en la plataforma. | 1            |
+| 4     | US017         | Sección de pie de página (footer)               | Como visitante, quiero acceder desde el footer a información adicional.                                              | 1            |
+| 5     | US018         | Sección “¿Quiénes somos?”                       | Como visitante, quiero conocer quién está detrás de la plataforma.                                                   | 1            |
+| 6     | US019         | Llamado a la acción (Call to Action)            | Como visitante, quiero ver un botón claro que me invite a acceder a la app web.                                      | 1            |
+| 7     | US001         | Registrar solicitud de activación               | Como Empresa o marca, quiero registrar una solicitud de activación.                                                  | 3            |
+| 8     | US038         | Enviar propuesta a solicitud de activación      | Como Productora, quiero enviar una propuesta a una solicitud de activación.                                          | 3            |
+| 9     | US034         | Aceptar propuesta para formalizar activación    | Como Empresa o marca, quiero contratar a una productora desde su propuesta.                                          | 3            |
+| 10    | US036         | Marcar activación como finalizada               | Como Empresa o marca, quiero marcar una activación como finalizada.                                                  | 2            |
+| 11    | US043         | Registrar calificación al finalizar evento      | Como usuario, quiero calificar a la otra parte al finalizar un evento.                                               | 2            |
+| 12    | US002         | Editar solicitud de activación                  | Como Empresa o marca, quiero editar una solicitud publicada.                                                         | 2            |
+| 13    | US003         | Eliminar solicitud de activación                | Como Empresa o marca, quiero eliminar una solicitud publicada.                                                       | 2            |
+| 14    | US004         | Ver solicitudes publicadas                      | Como Empresa o marca, quiero ver mis solicitudes activas.                                                            | 1            |
+| 15    | US005         | Ver detalle de solicitud publicada              | Como Empresa o marca, quiero ver el detalle de una solicitud que he creado.                                          | 1            |
+| 16    | US040         | Ver propuestas recibidas                        | Como Empresa o marca, quiero ver las propuestas que he recibido.                                                     | 2            |
+| 17    | US041         | Ver detalles de una propuesta recibida          | Como Empresa o marca, quiero ver los detalles de una propuesta que he recibido.                                      | 2            |
+| 18    | US042         | Aceptar o rechazar propuesta                    | Como Empresa o marca, quiero aceptar o rechazar propuestas recibidas.                                                | 2            |
+| 19    | US039         | Ver propuestas enviadas                         | Como Productora, quiero ver las propuestas que he enviado.                                                           | 1            |
+| 20    | US033         | Ver detalles de una activación contratada       | Como Empresa o marca, quiero ver los detalles de una activación contratada.                                          | 1            |
+| 21    | US035         | Ver activaciones en curso y finalizadas         | Como Empresa o marca, quiero ver las activaciones en curso y finalizadas.                                            | 1            |
+| 22    | US037         | Seguimiento de eventos contratados              | Como Productora, quiero acceder a las activaciones en las que estoy trabajando.                                      | 1            |
+| 23    | US006         | Registrar servicios ofrecidos                   | Como Productora, quiero registrar los servicios que ofrece mi empresa.                                               | 2            |
+| 24    | US007         | Editar servicios ofrecidos                      | Como Productora, quiero editar los servicios que ofrezco.                                                            | 2            |
+| 25    | US008         | Eliminar servicios registrados                  | Como Productora, quiero eliminar un servicio registrado.                                                             | 2            |
+| 26    | US009         | Visualizar lista de servicios registrados       | Como Productora, quiero ver una lista de todos los servicios registrados.                                            | 1            |
+| 27    | US010         | Registrar trabajo previo en el portafolio       | Como Productora, quiero registrar un trabajo previo con imágenes y descripciones.                                    | 2            |
+| 28    | US011         | Editar trabajo previo en el portafolio          | Como Productora, quiero editar un trabajo registrado.                                                                | 2            |
+| 29    | US012         | Eliminar trabajo previo en el portafolio        | Como Productora, quiero eliminar un trabajo registrado.                                                              | 2            |
+| 30    | US013         | Visualizar portafolio de trabajos realizados    | Como Productora, quiero ver un portafolio con todos los trabajos registrados.                                        | 1            |
+| 31    | TS46          | Crear endpoint para registrar solicitud         | Como Developer, quiero crear un endpoint POST para registrar solicitudes.                                            | 3            |
+| 32    | TS47          | Crear endpoint para enviar propuestas           | Como Developer, quiero implementar un endpoint POST para propuestas.                                                 | 3            |
+| 33    | TS48          | Obtener propuestas por solicitud                | Como Developer, quiero implementar un GET para propuestas ligadas a una solicitud.                                   | 3            |
+| 34    | TS49          | Endpoints de login y registro                   | Como Developer, quiero implementar endpoints de login y registro.                                                    | 3            |
+| 35    | TS50          | Endpoint para calificaciones                    | Como Developer, quiero crear un endpoint para registrar calificaciones.                                              | 3            |
+| 36    | US020         | Selección de tipo de perfil al registrarse      | Como nuevo usuario, quiero seleccionar si soy Empresa o Productora.                                                  | 1            |
+| 37    | US021         | Vista principal para productoras                | Como Productora, quiero ver solicitudes de activación al iniciar sesión.                                             | 1            |
+| 38    | US022         | Vista principal para empresas                   | Como Empresa, quiero ver perfiles de productoras al iniciar sesión.                                                  | 1            |
+| 39    | US026         | Iniciar conversación con otro usuario           | Como usuario, quiero iniciar conversación desde una solicitud o perfil.                                              | 2            |
+| 40    | US027         | Ver listado de conversaciones                   | Como usuario, quiero ver una lista de mis conversaciones.                                                            | 2            |
+| 41    | US028         | Leer y escribir mensajes                        | Como usuario, quiero entrar a una conversación, leer mensajes y enviar nuevos.                                       | 2            |
+| 42    | US029         | Notificaciones de solicitudes                   | Como Empresa, quiero recibir notificaciones cuando una productora responde.                                          | 2            |
+| 43    | US030         | Notificaciones de contratación                  | Como Productora, quiero recibir alertas cuando soy contratada.                                                       | 2            |
+| 44    | US031         | Notificaciones de mensajes                      | Como usuario, quiero recibir notificaciones al recibir un mensaje.                                                   | 2            |
+| 45    | US032         | Notificaciones de calificaciones                | Como usuario, quiero recibir notificaciones cuando recibo una calificación.                                          | 2            |
+| 46    | US024         | Contactar a productora desde su perfil          | Como Empresa, quiero contactar a una productora desde su perfil.                                                     | 2            |
+| 47    | US025         | Contactar a empresa desde una solicitud         | Como Productora, quiero contactar a una empresa desde una solicitud.                                                 | 2            |
+| 48    | US044         | Visualizar calificaciones de otros usuarios     | Como usuario, quiero ver calificaciones y comentarios de otros usuarios.                                             | 1            |
+| 49    | US045         | Visualizar mis calificaciones recibidas         | Como usuario, quiero ver las calificaciones y comentarios que he recibido.                                           | 1            |
+| 50    | US023         | Visualizar mis activaciones                     | Como Productora, quiero ver el listado de activaciones donde estoy trabajando.                                       | 1            |
+
+**Link del Product Backlog en Trello:** https://trello.com/b/XIu3pRLo/matchevent
 
 
 
