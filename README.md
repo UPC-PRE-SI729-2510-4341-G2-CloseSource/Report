@@ -783,6 +783,19 @@ coordinadores comerciales de empresas productoras.
 | TS49            | Crear endpoints para la autenticación de usuarios         | Como Developer, quiero implementar endpoints de login y registro, para autenticar usuarios y otorgar acceso basado en roles.                                                                | -Given que un usuario envía credenciales correctas al endpoint /api/auth/login, Then el sistema retorna un token JWT válido. <br> -Given que se intenta registrar un usuario en /api/auth/register, When los datos son válidos, Then se registra el usuario correctamente y se retorna 201 Created. <br> -Given que el usuario ya existe o los datos son inválidos, Then se retorna un error 400 con el mensaje adecuado. | EP012                     |
 | TS50            | Crear endpoint para calificaciones                        | Como Developer, quiero crear un endpoint para que los usuarios registren calificaciones, para que puedan evaluar su experiencia.                                                            | -Given que un usuario autenticado envía una evaluación a /api/ratings, When los datos son válidos, Then la calificación es almacenada y se retorna 201 Created. <br> -Given que el ID de evento no corresponde a una activación finalizada, Then el sistema retorna un error 403 Forbidden.                                                                                                                               | EP012                     |
 
+### 3.3. Impact Mapping.
+
+En esta sección se presenta el Impact Mapping realizado para nuestros dos user personas previamente definidos: el
+Gerente de Marketing de una empresa o marca, y el Coordinador Comercial de una empresa productora de eventos.
+
+**Figura 5: Impact Mapping**
+
+![Impact Mapping](/images/ImpactMap.png)
+
+Esta figura muestra el Impact Mapping en el cual se definieron tres Business Goals SMART: (1) alcanzar 600 usuarios
+registrados en 8 meses, (2) lograr que el 50% de las empresas publiquen una solicitud dentro de los primeros 10 días,
+y (3) conseguir que el 60% de las productoras activas generen al menos un contrato en los primeros 4 meses. Además, se
+identificaron las acciones que deben realizar para alcanzar estos objetivos.
 
 
 
