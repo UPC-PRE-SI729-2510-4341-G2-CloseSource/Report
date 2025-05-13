@@ -138,6 +138,10 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
       - [JavaScript](#javascript)
       - [Typescript](#typescript)
       - [Java](#java)
+    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+        - [Consideraciones antes del despliegue](#consideraciones-antes-del-despliegue)
+        - [Requisitos para el despliegue](#requisitos-para-el-despliegue)
+        - [Pasos para desplegar la landing page](#pasos-para-desplegar-la-landing-page)
 
 ## Student Outcome
 
@@ -2024,3 +2028,37 @@ public class LoginService {
 }
 ```
 
+### 5.1.4. Software Deployment Configuration.
+Para el despliegue de la aplicación hemos utilizado GitHub Pages, una herramienta gratuita y confiable para publicar sitios web estáticos directamente desde un repositorio GitHub. A continuación describiremos las consideraciones previas, los requerimientos y los pasos realizados para completar el proceso de despliegue.
+
+##### Consideraciones antes del despliegue
+  
+  - Tecnologías del sitio
+
+    El sitio fue desarrollado utilizando archivos HTML, CSS y JavaScript. Se verificó que todo el contenido estuviera correctamente estructurado en estos formatos para garantizar compatibilidad con GitHub Pages y funcionamiento óptimo en navegadores modernos. Las imágenes fueron incluidas en distintos formatos estándares como .jpg, .png y .webp, priorizando la optimización del rendimiento (todo en la carpeta /images).
+
+  - Repositorio compartido
+   
+    Todo el código fuente se encuentra en un repositorio compartido dentro de la organización del grupo en GitHub. Este enfoque facilita el trabajo colaborativo y permite a todos los integrantes contribuir en paralelo a través de ramas específicas y solicitudes de cambios (pull requests).
+
+  - Pruebas previas al despliegue
+  
+    Antes de cada despliegue, se realizaron pruebas de funcionalidad para asegurar el correcto comportamiento de la interfaz y la navegación.
+
+##### Requisitos para el despliegue
+  - Repositorio alojado en una organización de GitHub (en nuestro caso, tenemos un repositorio específico para el landing page).
+
+  - Visibilidad pública del repositorio para permitir el acceso a cualquier usuario.
+
+  - Código fuente completo y actualizado de la landing page.
+
+  - Permisos adecuados para modificar la configuración del repositorio y activar GitHub Pages.
+
+##### Pasos para desplegar la landing page
+  - Se subió el código fuente al repositorio correspondiente en GitHub (Landing Page).
+
+  - Desde la pestaña de Settings, se accedió a la sección Pages.
+
+  - Se configuró la publicación seleccionando la rama main y la carpeta raíz (/root) como fuente del contenido.
+
+  - Una vez guardados los cambios, GitHub generó automáticamente el sitio y nos proporcionó un enlace público para acceder a la landing page desplegada.
