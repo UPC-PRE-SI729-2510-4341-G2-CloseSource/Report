@@ -91,13 +91,13 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems.](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
-    - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+  - [**4.3. Landing Page UI Design.**](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications – Wireframes](#441-web-applications--wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
     - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
@@ -1039,7 +1039,7 @@ En esta sección se explicará cuáles serán las acciones y técnicas que guiar
     - Navegación basada en tipo de usuario: Dependiendo de la clase de usuario que se desee ser (empresa o productora), las funciones de la aplicación variarán ya que cada uno de los segmentos objetivos demandan un objetivo diferente.
     - Ayuda contextual: Se presentará un mini tutorial sobre el uso de la aplicación web para ayudar al usuario a poder entender el funcionamiento de la app.
 
-### 4.3. Landing Page UI Design.
+## **4.3. Landing Page UI Design.**
 ### 4.3.1. Landing Page Wireframe  
 ![WireframeLanding](https://github.com/user-attachments/assets/24f5f748-cec6-4213-a73b-ac4f5253b6af)
 
@@ -1071,7 +1071,7 @@ En esta sección se explicará cuáles serán las acciones y técnicas que guiar
 > - **Sobre Nosotros**: avatares gris claro listos para foto real; nombres en gris oscuro bajo cada círculo.  
 > - **Footer**: banda azul oscuro replicando el hero; CTA final doble y créditos en gris claro sobre fondo casi negro para completar el patrón Z y reforzar contraste.
 
-### 4.4. Web Applications UX/UI Design.
+## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications – Wireframes  
 
 > Los wireframes a continuación muestran la navegación núcleo de la aplicación web antes de aplicar estilos finales. Se enumeran en el mismo orden en que un usuario típico (empresa o productora) los encontraría.
@@ -1092,12 +1092,10 @@ En esta sección se explicará cuáles serán las acciones y técnicas que guiar
 Cada wireframe se diseñó en **blanco y negro** para concentrarse en la disposición de elementos, jerarquía visual y flujos de usuario antes de aplicar color, tipografía y componentes definitivos de UI.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
-Se ha realizado esta parte con Figma, obteniendo el correspondiente prototipo de funcionamiento de nuestra web app:
-![Prototipo](/images/prototype.PNG)
+Se ha realizado esta parte con Figma, obteniendo el correspondiente wireflow de nuestra web app:
+![Prototipo](/images/flow.PNG)
 
-Se encuentra en el siguiente link: https://www.figma.com/proto/eQz3TmfElqfpnzNsrfy33q/MATCH-EVENT?node-id=230-491&p=f&t=f4j2gBCitfGDL2L6-1&scaling=min-zoom&content-scaling=fixed&page-id=227%3A2&starting-point-node-id=230%3A491
-
-### 4.4.2. Web Applications Mock-ups  
+### 4.4.3. Web Applications Mock-ups  
 
 | # | Mock-up | Pantalla / flujo representado | Resumen funcional |
 |---|---------|------------------------------|-------------------|
