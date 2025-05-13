@@ -25,12 +25,12 @@
 | 1.0     | 2025-04-20 | Aaron Avila Palacios       | Desarrollo del punto 2.3.2 al 2.4|
 | 1.0     | 2025-04-20 | Kevin Castañeda Llanos     | Desarrollo del punto 1.2.2.2 al 1.3, 4.2.2 al 4.2.5 y del 4.8|
 | 1.0     | 2025-04-20 | Ivan La Madrid Lozano      | Desarrollo del 2.1 al 2.3.1.                    |
-| 1.0     | 2025-04-20 | Max Paitan Pamacahua       | Desarrollo del punto 1.1.al 1.2.2.1., 4.1. al4.2.1., y del 5.1. al 5.2.1.8 |
+| 1.0     | 2025-04-20 | Max Paitan Pumacahua       | Desarrollo del punto 1.1.al 1.2.2.1., 4.1. al4.2.1., y del 5.1. al 5.2.1.8 |
 | 2.0     | 2025-05-12 | Gabriel Braithuaite Toledo| Corrección del report y avance del sprint 2                    |
 | 2.0     | 2025-05-12 | Aaron Avila Palacios       | Corrección del report y avance del sprint 2|
 | 2.0     | 2025-05-12 | Kevin Castañeda Llanos     | Corrección del report y avance del sprint 2|
 | 2.0     | 2025-05-12 | Ivan La Madrid Lozano      | Corrección del report y avance del sprint 2                    |
-| 2.0     | 2025-05-12 | Max Paitan Pamacahua       | Corrección del report y avance del sprint 2 |
+| 2.0     | 2025-05-12 | Max Paitan Pumacahua       | Corrección del report y avance del sprint 2 |
 ## Project Report Collaboration Insights
 URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource
 ## Contenido
