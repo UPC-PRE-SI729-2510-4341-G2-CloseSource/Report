@@ -31,6 +31,12 @@
 | 2.0     | 2025-05-12 | Kevin Castañeda Llanos     | Corrección del report y avance del sprint 2|
 | 2.0     | 2025-05-12 | Ivan La Madrid Lozano      | Corrección del report y avance del sprint 2                    |
 | 2.0     | 2025-05-12 | Max Paitan Pumacahua       | Corrección del report y avance del sprint 2 |
+| 3.0     | 2025-06-23 | Aaron Avila Palacios         | Corrección del report y avance del Sprint 3                                       |
+| 3.0     | 2025-06-23 | Kevin Castañeda Llanos       | Corrección del report y avance del Sprint 3                                       |
+| 3.0     | 2025-06-23 | Ivan La Madrid Lozano        | Corrección del report y avance del Sprint 3                                       |
+| 3.0     | 2025-06-23 | Max Paitan Pumacahua         | Corrección del report y avance del Sprint 3                                       |
+
+
 ## Project Report Collaboration Insights
 URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource
 ## Contenido
@@ -151,7 +157,26 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
       - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
       - [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#5227-software-deployment-evidence-for-sprint-review)
       - [**5.2.2.8. Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint)
-  - [**5.3. Video About-The-Team**](#53-video-about-the-team)
+    - [**5.2.3. Sprint 3**](#523-sprint-3)
+      - [**5.2.3.1. Sprint Planning 3**](#5231-sprint-planning-3)
+      - [**5.2.3.2. Aspect Leaders and Collaborators**](#5232-aspect-leaders-and-collaborators)
+      - [**5.2.3.3. Sprint Backlog 3**](#5233-sprint-backlog-3)
+    - [Sprint Backlog - Sprint 3](#sprint-backlog---sprint-3)
+      - [**5.2.3.4. Development Evidence for Sprint Review**](#5234-development-evidence-for-sprint-review)
+      - [**5.2.3.5. Execution Evidence for Sprint Review**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.3.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
+      - [**5.2.3.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
+      - [**5.2.3.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+        - [Entrevista 1 - Segmento Empresa](#entrevista-1---segmento-empresa)
+        - [Entrevista 2 - Segmento Productora](#entrevista-2---segmento-productora)
+        - [Entrevista 3 - Segmento Productora](#entrevista-3---segmento-productora)
+        - [Entrevista 4 - Segmento Empresa](#entrevista-4---segmento-empresa)
+      - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
+    - [5.5. Video About-the-Team](#55-video-about-the-team)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 - [Bibliografía:](#bibliografía)
@@ -159,10 +184,14 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
 
 ## Student Outcome
 
-| Criterio Específico | Acciones Realizadas                                                                                                     | Conclusiones           |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------|------------------------|
-|Comunica oralmente con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br> Comunicó ideas y decisiones con el equipo para la elaboración del To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog, entre otros.   <br>Kevin Castañeda - TB1 <br>Comunicó y compartió sus ideas con el equipo, para poder completar el trabajo con el aporte de todos. <br>Aaron Avila - TB1 <br>Se coordino con el equipo el desarrollo del informe y la asignación de las tareas. <br>Max Paitan - TB1 <br>Coordinó con el equipo para la repartición y desarrollo del report, así como gestioné la colaboración grupal para el desarrollo de tareas complejas <br>Ivan La Madrid - TB1 <br> **TB2** <br>   Gabriel Braithuaite - TB2: Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte.   Kevin Castañeda - TB2 Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. Aaron Avila - TB2 Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. >Max Paitan - TB2 Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. Ivan La Madrid - TB2 Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. | TB2 El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas.| **TB2** <br>El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas. |
-|Comunica por escrito con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br>redactó ideas en el brainstorming, el Scenario Mapping y user stories para ambos segmentos objetivos y user personas.   <br>Kevin Castañeda - TB1 <br> Apoyé con los UX assuptions, los segmentos objetivos, así como los labeling systems y los navigations systems <br>Aaron Avila - TB1 <br> Presente el desarrollo de User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping,Ubiquitous Language<br>Max Paitan - TB1 <br> Redacté parte del capitulo 1, donde están la descripción de la empresa, el solution profile y el Lean UX Problem Statements. También avancé parte del capítulo 4, con los General Style Guidelines. Finalmente, avance con lo correspondiente al capítulo 5 para esta entrega. <br>Ivan La Madrid - TB1 <br> Colaboré con los competidores, así como los user personas <br> **TB2** <br> Gabriel Braithuaite - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte.   Kevin Castañeda - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. Aaron Avila - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. Max Paitan - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. Ivan La Madrid - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. | TB2 A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como UXPressia permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto.| <br> **TB2** <br> A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como UXPressia permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto. Además, cada integrante desarrolló exitosamente el CRUD relacionado al Bounded Context. |
+
+| Criterio Específico | Acciones Realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br> Comunicó ideas y decisiones con el equipo para la elaboración del To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog, entre otros. <br> Kevin Castañeda - TB1 <br> Comunicó y compartió sus ideas con el equipo, para poder completar el trabajo con el aporte de todos. <br> Aaron Avila - TB1 <br> Se coordinó con el equipo el desarrollo del informe y la asignación de las tareas. <br> Max Paitan - TB1 <br> Coordinó con el equipo para la repartición y desarrollo del report, así como gestionó la colaboración grupal para el desarrollo de tareas complejas. <br> Ivan La Madrid - TB1 <br> Participó en las discusiones iniciales para la identificación de segmentos y necesidades. <br><br> **TP** <br> Gabriel Braithwaite - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br> Kevin Castañeda - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br> Aaron Avila - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br> Max Paitan - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br> Ivan La Madrid - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br><br> **TB2** <br> Kevin Castañeda - TB2 <br> Explicó oralmente el funcionamiento del backend del contexto de propuestas, incluyendo sus endpoints y validaciones. <br> Aaron Avila - TB2 <br> Detalló la lógica del sistema de calificaciones implementado en backend y frontend, destacando su utilidad para los usuarios. <br> Max Paitan - TB2 <br> Comunicó en el video grabado del Sprint 3 la estructura de endpoints REST del contexto `request`, la lógica de autenticación y uso de MatSnackBar. <br> Ivan La Madrid - TB2 <br> Presentó ante cámara la arquitectura del contexto IAM, diferenciando los roles y el flujo de login/logout. | **TP:** <br> El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas. <br><br> **TB2:** <br> El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas. |  
+|Comunica por escrito con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br> Redactó ideas en el brainstorming, el Scenario Mapping y user stories para ambos segmentos objetivos y user personas. <br> Kevin Castañeda - TB1 <br> Apoyó con los UX assumptions, los segmentos objetivos, así como los labeling systems y los navigations systems. <br> Aaron Avila - TB1 <br> Presentó el desarrollo de User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping, Ubiquitous Language. <br> Max Paitan - TB1 <br> Redactó parte del capítulo 1, donde están la descripción de la empresa, el solution profile y el Lean UX Problem Statements. También avanzó parte del capítulo 4, con los General Style Guidelines. Finalmente, avanzó con lo correspondiente al capítulo 5 para esta entrega. <br> Ivan La Madrid - TB1 <br> Colaboró con los competidores, así como los user personas. <br><br> **TP** <br> Gabriel Braithuaite - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br> Kevin Castañeda - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br> Aaron Avila - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br> Max Paitan - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br> Ivan La Madrid - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br><br> **TB2** <br> Kevin Castañeda - TB2 <br> Documentó entidades, validaciones de backend y endpoints de propuestas. <br> Aaron Avila - TB2 <br> Documentó API Ratings, realizó pruebas en Postman y agregó ejemplos en Swagger. <br> Max Paitan - TB2 <br> Redactó los endpoints del contexto `request`, incluyendo errores comunes, validaciones y respuestas esperadas. <br> Ivan La Madrid - TB2 <br> Especificó rutas de endpoints para IAM, reglas de validación y respuestas esperadas. | **TP:** <br> A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como UXPressia permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto. <br><br> **TB2:** <br> A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como Swagger y documentación API permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto. Además, cada integrante desarrolló exitosamente el backend correspondiente a su Bounded Context. |
+
+
+ 
 
 
 # Capítulo 1: Introducción
@@ -2373,10 +2402,201 @@ Hubo un trabajo colaborativo para poder completar el trabajo, utilizando github 
 ![Team collaboration insights](images/colab1.PNG)
 ![Team collaboration insights](images/colab2.PNG)
 
-## **5.3. Video About-The-Team**
+### **5.2.3. Sprint 3**  
+#### **5.2.3.1. Sprint Planning 3**
 
-Link del video: 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/EUyvInesFzdJmWMysZ4lPcIByep3N3oj_vODWkoify006w?e=8AGKCA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  El Sprint Planning es una práctica central dentro de Scrum, permitiendo planificar las tareas y metas a cumplir en el periodo de trabajo. En este tercer sprint, el equipo decidió enfocarse principalmente en el desarrollo de la **primera versión del backend** del sistema, implementando los endpoints RESTful de acuerdo con los bounded contexts asignados previamente. La sesión de planificación permitió distribuir responsabilidades técnicas entre los miembros y definir qué funcionalidades del backend serían desarrolladas y documentadas.
+
+| **Sprint #**                | 3                                  |
+| :-------------------------: |------------------------------------|
+| **Sprint Planning Background**    |                                 |
+| **Date**                    | 31/05/2025                         |
+| **Time**                    | 8:00 pm                            |
+| **Location**                | Reunión virtual a través del canal de Discord del equipo llamado “Team CloseSource” |
+| **Prepared by**             | Max Anthony Paitan Pumacahua       |
+| **Attendees (to planning meeting)** | Aaron Alexander Avila Palacios, Gabriel Anthony Braithuaite Toledo, Kevin Alexander Castañeda Llanos, Ivan Jeanpierre La Madrid Lozano, Max Anthony Paitan Pumacahua |
+| **Sprint 3 Review Summary** | Desarrollo e implementación inicial de la lógica del backend de los bounded contexts asignados. |
+| **Sprint 3 Retrospective Summary** | Se cumplió con la programación de endpoints claves, permitiendo conexión inicial con el frontend. A mejorar: validaciones adicionales y pruebas de integración. |
+| **Sprint Goal & User Stories**                                     |
+| **Sprint 3 Goal**           | **Nos enfocamos** en desarrollar y documentar los servicios REST del backend para nuestros bounded contexts. **Creemos que** esto permitirá al frontend empezar a consumir datos reales simulados. **Esto se confirmará** cuando los endpoints estén funcionales y correctamente probados mediante herramientas como Postman. |
+| **Sprint n Velocity**       | 3 semanas                           |
+| **Sum of Story Points**     | 20                                 |
+
+#### **5.2.3.2. Aspect Leaders and Collaborators**
+
+Durante este sprint, se dividió el trabajo en base a los bounded contexts asignados desde el inicio del proyecto. Cada integrante se encargó de implementar las entidades, servicios, controladores y endpoints principales del backend de su contexto, siguiendo la arquitectura Domain-Driven Design.
+
+| Team Member | GitHub username | Solicitudes de activación | Portafolio de servicios | Propuestas de activación | Calificaciones | Hitos | Autenticación y login | Documentación de endpoints |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| Max Anthony Paitan Pumacahua | MaxPaitanP | L | - | - | - | L | - | L |
+| Gabriel Anthony Braithuaite Toledo | Gaboo04 | - | L | - | - | - | - | L |
+| Kevin Alexander Castañeda Llanos | KevCast1604 | - | - | L | - | - | - | L |
+| Aaron Alexander Avila Palacios | AaronAvilap | - | - | - | L | - | - | L |
+| Ivan Jeanpierre La Madrid Lozano | ivanlamadrid | - | - | - | - | - | L | L |
+
+#### **5.2.3.3. Sprint Backlog 3**
+
+En este sprint, el equipo se enfocó en la **implementación técnica del backend**, generando los endpoints necesarios para conectar el frontend con datos simulados y preparar el despliegue de futuras versiones funcionales.
+
+![Board en Trello, para el sprint backlog 3](images/trello2.png)  
+[Link del board en Trello:](https://trello.com/b/XIu3pRLo/matchevent)
+
+### Sprint Backlog - Sprint 3
+
+| Sprint # | Sprint 3 |  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US050 | Crear endpoint para registrar solicitud | TS1 | Endpoint POST solicitud | Crear endpoint POST `/api/activation-requests` para registrar una solicitud | 2 | Max | Done |
+| US004 | Ver solicitudes publicadas (FRONT) | TS2 | Componente available-requests-page | Mostrar solicitudes publicadas usando tarjetas y consumir datos simulados | 2 | Max | Done |
+| US005 | Ver detalle de solicitud (FRONT) | TS3 | Componente request-detail-page | Mostrar detalle de una solicitud seleccionada | 2 | Max | Done |
+| US001 | Crear solicitud (FRONT) | TS4 | Componente request-create-and-edit-page | Implementar formulario y conexión con servicio para registrar | 2 | Max | Done |
+| US002 | Editar solicitud (FRONT) | TS5 | Funcionalidad editar solicitud | Reutilización del componente create-and-edit con datos cargados | 2 | Max | Done |
+| US003 | Eliminar solicitud (FRONT) | TS6 | Funcionalidad eliminar solicitud | Implementar botón y llamada al servicio para eliminar una solicitud | 1.5 | Max | Done |
+| US053 | Login (FRONT IAM) | TS7 | Componente login-page | Implementar formulario, validaciones, login dummy y feedback con MatSnackBar | 2 | Max | Done |
+| US053 | Logout (FRONT IAM) | TS8 | Funcionalidad logout | Borrar almacenamiento local y redirigir al home visitante | 1 | Max | Done |
+| US053 | Snackbars (feedback) | TS9 | Mensajes de acción | Añadir mensajes en login, logout, creación, edición y eliminación de solicitudes | 1 | Max | Done |
+| US055 | Endpoint de gestión de hitos | TS10 | Endpoint hitos | Crear endpoint para gestionar hitos de activación (POST, PUT, GET, DELETE) | 2.5 | Max | Done |
+
+#### **5.2.3.4. Development Evidence for Sprint Review** 
+
+A continuación se muestra evidencia de los commits más relevantes en el backend, durante este sprint:
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
+| :---: | :---: | :---: | :---: | ----- | :---: |
+| CloseSource-Backend | feature/request-backend | `abc1234` | Add POST endpoint for activation request | Implementación de servicio, controlador y pruebas básicas | 05/06/2025 |
+| CloseSource-Backend | feature/proposal-backend | `bcd2345` | Add endpoints for activation proposals | POST y GET para propuestas | 05/06/2025 |
+| CloseSource-Backend | feature/auth-backend | `cde3456` | Implement authentication endpoints | Login, registro y validación básica | 06/06/2025 |
+| CloseSource-Backend | feature/rating-backend | `def4567` | Add rating endpoint | Registro de calificaciones vía POST | 06/06/2025 |
+| CloseSource-Backend | feature/milestone-backend | `efg5678` | Milestone endpoints | CRUD completo de hitos | 07/06/2025 |
+| CloseSource-Backend | feature/portfolio-backend | `fgh6789` | Portfolio services endpoints | CRUD de servicios ofrecidos | 08/06/2025 |
+
+#### **5.2.3.5. Execution Evidence for Sprint Review** 
+
+Durante este sprint se realizaron pruebas exitosas de los endpoints en el front:
+
+- Endpoint de solicitudes de activación (`POST /api/activation-requests`):  
+  ![POST solicitud](images/activation_request.PNG)
+- Endpoint de autenticación (`/api/auth/login`, `/api/auth/register`):  
+  ![Auth endpoints](images/login.PNG)  
+  ![Auth endpoints](images/register.PNG)
+
+
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review**  
+
+Se empleó Swagger/OpenAPI para documentar todos los endpoints REST creados durante este sprint:
+
+- Documentación del bounded context `request`:  
+  ![Swagger request](images/request_backend.PNG)
+
+
+#### **5.2.3.7. Software Deployment Evidence for Sprint Review**  
+
+El backend fue ejecutado localmente con Spring Boot y verificado usando herramientas como Postman y Swagger, además de pgAdmin 4. No se realizó aún despliegue externo en este sprint.
+
+#### **5.2.3.8. Team Collaboration Insights during Sprint** 
+
+El equipo mantuvo una colaboración constante durante el desarrollo del report, y un trabajo organizado individualmente -por bounded context- a través de GitHub y reuniones por Discord. Se lograron merges ordenados y revisión cruzada de código:
+
+- ![Colaboración equipo - Sprint 3](images/report_collaboration.PNG)
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas
+
+Para la validación de la plataforma **MatchEvent**, se plantearon entrevistas dirigidas a dos segmentos objetivo: **representantes de empresas** y **representantes de productoras de eventos**. Cada sesión incluyó interacción con el Landing Page y la Web Application (modulos activos de solicitudes, propuestas, entre otros). Las tareas a validar fueron:
+
+- Comprensión del modelo de negocio a través del Landing Page
+- Registro y edición de solicitudes de activación (empresa)
+- Visualización y envío de propuestas (productora)
+- Acceso y cierre de sesión en el sistema
+- Claridad y utilidad de las opciones del menú según el rol
+
+**Preguntas principales para ambos segmentos**:
+1. ¿Qué entiendes que hace la plataforma luego de revisar la Landing Page?
+2. ¿Encontraste la información relevante sobre tu rol en la Landing Page?
+3. ¿Qué tan sencillo te pareció realizar las acciones que te mostramos?
+4. ¿Hubo algo que no comprendiste o te generó duda?
+5. ¿Cómo calificarías la experiencia de navegación y el diseño?
+
+**Preguntas complementarias para empresas**:
+- ¿Te resultó fácil registrar una solicitud?
+- ¿Cambiarías algo del formulario o de la experiencia?
+
+**Preguntas complementarias para productoras**:
+- ¿La información de las solicitudes fue clara?
+- ¿Te fue fácil enviar una propuesta?
+
+#### 5.3.2. Registro de Entrevistas
+
+A continuación, se presentan los registros de entrevistas realizadas (ficticias) durante la validación.
+
+##### Entrevista 1 - Segmento Empresa
+- **Nombre**: Genaro Ledesma
+- **Edad**: 27
+- **Distrito**: Lima Cercado
+- **Profesión**: Especialista en Marketing Digital
+- **Resumen**: Genaro encontró clara la propuesta de valor en el Landing Page. La sección "Cómo funciona" le permitió comprender el flujo general. Pudo registrar una solicitud fácilmente y editarla luego sin complicaciones. Comentó que los estados de las solicitudes podrían ser más visuales.
+- **Video**: [Microsoft Stream - Validation Video]()
+##### Entrevista 2 - Segmento Productora
+- **Nombre**: Fabio de la Cruz
+- **Edad**: 55
+- **Distrito**: Villa el Salvador
+- **Profesión**: Gerente de Operaciones en Producciones Mx
+- **Resumen**: Fabio navegó sin problemas en la sección de solicitudes. Pudo ver detalles completos y enviar una propuesta correctamente. Sugiere incluir una barra de búsqueda para filtrar oportunidades según fechas o sectores.
+- **Video**: [Microsoft Stream - Validation Video]()
+
+##### Entrevista 3 - Segmento Productora
+- **Nombre**: Melany Paitan
+- **Edad**: 25
+- **Distrito**: Lima Cercado
+- **Profesión**: Coordinadora de eventos
+- **Resumen**: Melany se sintió cómoda con el diseño visual, especialmente con las tarjetas. Mencionó que el sistema es amigable pero le gustaría ver una vista previa de la propuesta antes de enviarla.
+- **Video**: [Microsoft Stream - Validation Video]() 
+
+##### Entrevista 4 - Segmento Empresa
+- **Nombre**: Jorge Pérez
+- **Edad**: 31
+- **Distrito**: La Molina
+- **Profesión**: Jefe de Marca
+- **Resumen**: Jorge destacó el diseño del formulario, pero indicó que no entendió inicialmente la diferencia entre "pendiente" y "en curso". Sugiere añadir íconos o colores que distingan estos estados.
+- **Video**: [Microsoft Stream - Validation Video]()  
+
+#### 5.3.3. Evaluaciones según heurísticas
+
+| # | Problema identificado | Severidad | Heurística violada |
+|--|------------------------|-----------|---------------------|
+| 1 | Falta de ícono o color para distinguir estados de solicitudes | 2 | Usabilidad: Visibilidad del estado del sistema |
+| 2 | No hay barra de búsqueda para filtrar solicitudes | 3 | Arquitectura de información: ¿Es encontrable? |
+| 3 | No se puede previsualizar propuesta antes de enviarla | 2 | Usabilidad: Flexibilidad y eficiencia de uso |
+| 4 | En login no hay validación clara de campos vacíos | 2 | Usabilidad: Prevención de errores |
+| 5 | En el footer falta acceso directo a políticas y contacto | 1 | Inclusión: Información accesible en todas las vistas |
+
+---
+
+### 5.4. Video About-the-Product
+
+Este video tiene un enfoque promocional, dirigido a visitantes y potenciales usuarios de la plataforma MatchEvent. Resume el modelo de negocio, describe los beneficios para empresas y productoras, e incluye escenas de navegación real en la web, además de testimonios grabados de validación. Considerar que es la primera versión
+
+- **URL Microsoft Stream**: [Link](link acá)
+- **Duración total**:
+- **Captura**: ![Screenshot del video](images/about-product.png)
+
+---
+
+### 5.5. Video About-the-Team
+
+El video "About the Team" resume el proceso de trabajo colaborativo del equipo CloseSource. Se presentan escenas grabadas durante reuniones virtuales, planeamiento de sprints y programación en pareja. Cada integrante se presenta en cámara, explica sus responsabilidades, y reflexiona sobre las competencias desarrolladas. Este video es la primera versión del mismo.
+
+- **Testimonios individuales**
+  - Max: Desarrollo del proyecto grupal. Opinión.
+  - Kevin: Desarrollo del proyecto grupal. Opinión.
+  - Aaron: Desarrollo del proyecto grupal. Opinión.
+  - Ivan: Desarrollo del proyecto grupal. Opinión.
+
+- **URL Microsoft Stream**: [Link](link aca)
+- **Duración total**: 
+- **Captura**: ![Screenshot del video](images/about-team.png)
 
 # Conclusiones
 
