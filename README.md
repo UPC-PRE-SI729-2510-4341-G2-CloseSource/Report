@@ -63,7 +63,7 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
   - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
     - [2.1. Competidores.](#21-competidores)
-    - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
     - [2.2. Entrevistas.](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
@@ -124,6 +124,7 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
       - [Software Development](#software-development)
+      - [Software Deployment](#software-deployment)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
       - [Git \& Github](#git--github)
@@ -155,7 +156,7 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
       - [**5.2.2.4. Development Evidence for Sprint Review**](#5224-development-evidence-for-sprint-review)
       - [**5.2.2.5. Execution Evidence for Sprint Review**](#5225-execution-evidence-for-sprint-review)
       - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
-      - [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#5227-software-deployment-evidence-for-sprint-review)
+      - [**5.2.2.7. Software Deployment Evidence for Sprint Review**](#5227-software-deployment-evidence-for-sprint-review)
       - [**5.2.2.8. Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint)
     - [**5.2.3. Sprint 3**](#523-sprint-3)
       - [**5.2.3.1. Sprint Planning 3**](#5231-sprint-planning-3)
@@ -418,19 +419,19 @@ Hemos decidido dividir nuestros segmentos objetivo en dos usuarios objetivos. Es
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores.
-### 2.1.1. Análisis competitivo.
+### 2.1.1. Análisis competitivo
 
-El mercado de plataformas para la gestión y contratación de servicios para eventos cuenta con diversos actores consolidados. A continuación, se identifican los principales competidores:
+A continuación se presenta el cuadro **Competitive Analysis Landscape**, donde se comparan los principales competidores directos e indirectos con nuestra propuesta MatchEvent:
 
-- **Eventtia**: Plataforma integral para la gestión de eventos presenciales, virtuales e híbridos. Destaca por su personalización, herramientas de marketing y analítica avanzada.
+| **Aspecto**              | **MatchEvent**                                                                  | **Eventtia**                                                  | **Eventbrite**                                       | **Crosalia**                                                     |
+|--------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------|------------------------------------------------------------------|
+| **Overview**             | Plataforma que conecta empresas con productoras especializadas en activaciones de marca. | Solución integral para eventos híbridos.                      | Venta de entradas y eventos abiertos.               | Marketplace de servicios para eventos.                           |
+| **Ventaja competitiva**  | Especialización en activaciones, sistema de reputación y acompañamiento personalizado. | Amplia personalización y analítica.                          | Alcance masivo y fácil uso.                         | Variedad de servicios en la nube.                                |
+| **Mercado objetivo**     | Empresas con necesidades de activación de marca, productoras especializadas.    | Organizadores de eventos corporativos y educativos.            | Usuarios generales y organizadores independientes.   | Personas naturales y empresas pequeñas que organizan eventos.    |
+| **Canales principales**  | Web App y contacto directo con ONG / redes sociales.                           | Plataforma web, correos corporativos.                         | App móvil, redes sociales y correo.                 | Plataforma web y campañas de Google Ads.                         |
+| **Relación con el cliente** | Registro y seguimiento personalizado vía la plataforma.                       | Soporte 24/7, onboarding digital.                             | Autoservicio y centro de ayuda.                     | Asesoría directa y contacto a demanda.                           |
 
-- **Eventbrite**: Solución global orientada a la promoción y venta de entradas para eventos. Reconocida por su interfaz intuitiva y amplio alcance.
 
-- **Crosalia**: Marketplace en la nube enfocado en la contratación de servicios para eventos. Ofrece una solución integral tanto para proveedores como para organizadores.
-
-- **eEvents Live**: Especializada en eventos digitales e híbridos. Brinda herramientas completas para la organización, promoción y análisis de eventos.
-
-- **GoTab**: Plataforma orientada a mejorar la experiencia del asistente mediante pedidos y pagos sin contacto, enfocándose en la eficiencia operativa durante el evento.
 ![image](https://github.com/user-attachments/assets/563692ce-2eab-4061-80be-c39ce2d35d86)
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
@@ -663,6 +664,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed sapien a
 -También existe coincidencia en la importancia de calificar el trabajo recibido o realizado, lo que refuerza la necesidad de sistemas de reputación y feedback dentro de la plataforma.
 
 ### 2.3.3. User Journey Mapping.
+
+**Introducción:**   
+A continuación se ilustra el recorrido típico que realiza un usuario del segmento “Empresa” desde el ingreso a la plataforma hasta la aceptación de una propuesta de activación. El journey refleja tanto la experiencia emocional como los puntos de contacto con el sistema.
 
 A continuación, el **recorrido end-to-end** que la plataforma MatchEvent busca transformar:
 
@@ -1712,6 +1716,16 @@ Este es nuestro diagrama de base de datos, donde encontramos toda la informació
 
 ![Javascript](images/JS_Logo.jpeg)
 
+#### Software Deployment
+
+- **Firebase:** Firebase es una plataforma desarrollada por Google que proporciona una variedad de servicios para el desarrollo y despliegue de aplicaciones web y móviles. En nuestro proyecto, utilizamos Firebase Hosting para desplegar el frontend desarrollado en Angular, permitiendo así compartir una versión funcional del producto con usuarios y docentes de forma rápida y segura. Este servicio facilita el acceso público a las vistas implementadas y respalda las pruebas de usabilidad y validación.
+
+![Firebase](images/firebase.png)
+
+- **Swagger:** Swagger es una herramienta de documentación de APIs que facilita la visualización, prueba y mantenimiento de servicios RESTful. En el proyecto MatchEvent, se integró Swagger mediante la dependencia `springdoc-openapi` en Spring Boot, lo que permite generar automáticamente una interfaz interactiva para explorar los endpoints del backend. Esto garantiza la transparencia del servicio, acelera las pruebas y sirve como guía para el consumo de las APIs desde el frontend.
+
+![Swagger](images/swagger.png)
+
 ### 5.1.2. Source Code Management.
 
 Creamos una organización en Github con todos los miembros del grupo, y dentro de esta creamos un repositorio para cada parte del proyecto, siendo:
@@ -2376,23 +2390,50 @@ Link del video demostrativo del Landing Page: https://drive.google.com/file/d/1Q
 
 #### **5.2.2.6. Services Documentation Evidence for Sprint Review**
 
-Se ha implementado un fake api para cada parte desplegada por cada uno de los integrantes, siendo este un ejemplo:
+Durante este sprint, se avanzó con la implementación de los servicios RESTful para los bounded contexts trabajados por cada integrante. Se utilizó **JSON Server** para simular las APIs en frontend y **Beeceptor** para pruebas simples de integración. Además, se elaboró la documentación básica para cada endpoint, detallando sus acciones HTTP, parámetros requeridos y rutas base.
 
-- Despliegue de MOCK API en Beeceptor - Activation Management Bounded Context - Max:
-  ![Mock API 1](images/beeceptor1.PNG)
-  ![Mock API 2](images/beeceptor2.PNG)
+A continuación, se muestra un ejemplo del despliegue de los servicios simulados:
 
-#### **5.2.2.7. Software Deployment Evidence for Sprint Review.**  
-Durante este Sprint se realizó el despliegue de la segunda versión de la Landing Page de nuestro proyecto CloseSource utilizando GitHub Pages como entorno de publicación. Este paso permitió que la página tenga actualizado el desarrollo de nuestra web application, mostrando mayor detalle del funcionamiento del mismo. 
+- Despliegue de MOCK API en Beeceptor - Activation Management Bounded Context - Max:  
+  ![Mock API 1](images/beeceptor1.PNG)  
+  ![Mock API 2](images/beeceptor2.PNG)  
+
+**Tabla de Endpoints Implementados:**
+
+| Bounded Context | Endpoint                        | Acción HTTP | Descripción                                           |
+|-----------------|----------------------------------|-------------|-------------------------------------------------------|
+| Activation      | `/api/activation-requests`       | POST        | Crear nueva solicitud de activación                   |
+| Activation      | `/api/activation-requests`       | GET         | Obtener todas las solicitudes                         |
+| Activation      | `/api/activation-requests/{id}`  | PUT         | Editar solicitud específica                           |
+| Activation      | `/api/activation-requests/{id}`  | DELETE      | Eliminar solicitud específica                         |
+| Milestones      | `/api/milestones`                | GET         | Listar todos los hitos registrados                    |
+| Milestones      | `/api/milestones`                | POST        | Registrar un nuevo hito                               |
+| Milestones      | `/api/milestones/{id}`           | PATCH       | Actualizar estado de un hito                          |
+
+---
+
+#### **5.2.2.7. Software Deployment Evidence for Sprint Review**
+
+Durante este Sprint se realizó el despliegue de la segunda versión de la Landing Page utilizando **GitHub Pages** y **Firebase**. La página se actualizó con nuevas secciones y correcciones de diseño alineadas al branding definido.
+
+**Pasos realizados para el despliegue del frontend (ejemplo - Max):**
+
+1. Se construyó el proyecto Angular con `ng build --configuration=production`.
+2. Se configuró el repositorio con la rama `gh-pages` y se instaló `angular-cli-ghpages`.
+3. Se ejecutó el comando `npx angular-cli-ghpages --dir=dist/project-name`.
+4. Se verificó visualmente el despliegue en GitHub Pages.
+5. Para el CRUD del bounded context, se utilizó Firebase:
+   - Se instaló Firebase CLI.
+   - Se realizó `firebase login` y `firebase init`.
+   - Se seleccionó el hosting del proyecto y carpeta de salida (`dist/project-name`).
+   - Se ejecutó `firebase deploy` y se validó el dominio proporcionado.
+
+**Despliegues realizados:**
+
+- Despliegue del CRUD del Bounded Context Activation Management – Max:  
+  ![Firebase](images/firebase.PNG)
 
 
-![Deployment](images/deployment1.PNG) 
-![Deployment](images/deployment2.PNG)
-
-Además, también desplegamos parte del front end, realizando el despliegue en Firebase, cada uno, del CRUD del Bounded Context desarrollado:
-
-- Despliegue del CRUD perteneciente al Bounded Context Activation Managemenent - Max:
-![Firebase](images/firebase.PNG)
 #### **5.2.2.8. Team Collaboration Insights during Sprint.** 
 
 Hubo un trabajo colaborativo para poder completar el trabajo, utilizando github para el manejo de la información. Así, se obtuvo las siguientes gráficas:
@@ -2464,36 +2505,73 @@ A continuación se muestra evidencia de los commits más relevantes en el backen
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
 | :---: | :---: | :---: | :---: | ----- | :---: |
-| CloseSource-Backend | feature/request-backend | `abc1234` | Add POST endpoint for activation request | Implementación de servicio, controlador y pruebas básicas | 05/06/2025 |
-| CloseSource-Backend | feature/proposal-backend | `bcd2345` | Add endpoints for activation proposals | POST y GET para propuestas | 05/06/2025 |
-| CloseSource-Backend | feature/auth-backend | `cde3456` | Implement authentication endpoints | Login, registro y validación básica | 06/06/2025 |
-| CloseSource-Backend | feature/rating-backend | `def4567` | Add rating endpoint | Registro de calificaciones vía POST | 06/06/2025 |
-| CloseSource-Backend | feature/milestone-backend | `efg5678` | Milestone endpoints | CRUD completo de hitos | 07/06/2025 |
-| CloseSource-Backend | feature/portfolio-backend | `fgh6789` | Portfolio services endpoints | CRUD de servicios ofrecidos | 08/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Add POST endpoint for activation request | Implementación de servicio, controlador y pruebas básicas | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Add endpoints for activation proposals | POST y GET para propuestas | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Implement authentication endpoints | Login, registro y validación básica | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Add rating endpoint | Registro de calificaciones vía POST | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Milestone endpoints | CRUD completo de hitos | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Portfolio services endpoints | CRUD de servicios ofrecidos | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add request-create-and-edit-page | Componente para registrar y editar solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add request-available-page | Vista principal para productoras autenticadas | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add request-detail-page | Vista con información detallada de solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add snackbar feedback | Integración de MatSnackBar para acciones exitosas | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` ` | Add login-page component | Formulario de acceso de usuarios autenticados | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` ` | Add logout functionality | Lógica de cierre de sesión y redirección | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` ` | Add login feedback with snackbar | Mensaje de ingreso exitoso con MatSnackBar | 23/06/2025 |
 
 #### **5.2.3.5. Execution Evidence for Sprint Review** 
 
 Durante este sprint se realizaron pruebas exitosas de los endpoints en el front:
 
-- Endpoint de solicitudes de activación (`POST /api/activation-requests`):  
+- Endpoint de solicitudes de activación (`GET /api/activation-requests`):  
   ![POST solicitud](images/activation_request.PNG)
 - Endpoint de autenticación (`/api/auth/login`, `/api/auth/register`):  
   ![Auth endpoints](images/login.PNG)  
   ![Auth endpoints](images/register.PNG)
+Además se realizó la nueva versión del Landing Page: 
+  ![Auth endpoints](images/landing_page_v2_1.PNG)  
+  ![Auth endpoints](images/landing_page_v2_2.PNG)
 
 
-#### **5.2.3.6. Services Documentation Evidence for Sprint Review**  
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review**
 
-Se empleó Swagger/OpenAPI para documentar todos los endpoints REST creados durante este sprint:
+Durante el Sprint 3, se implementaron los primeros servicios REST reales utilizando Spring Boot para cada uno de los bounded contexts asignados. Se configuraron controladores, validaciones, servicios y persistencia, permitiendo la gestión básica desde el frontend. Como parte de las buenas prácticas, se empleó **Swagger/OpenAPI** para documentar los endpoints, facilitando su prueba e integración posterior.
+
+A continuación, se muestra un ejemplo de la documentación generada:
 
 - Documentación del bounded context `request`:  
   ![Swagger request](images/request_backend.PNG)
 
+**Tabla de Endpoints Implementados (Sprint 3):**
 
-#### **5.2.3.7. Software Deployment Evidence for Sprint Review**  
+| Bounded Context | Endpoint                             | Método HTTP | Descripción                                          |
+|-----------------|--------------------------------------|-------------|------------------------------------------------------|
+| Request         | `/api/activation-requests`           | POST        | Registrar solicitud de activación                    |
+| Request         | `/api/activation-requests`           | GET         | Listar todas las solicitudes registradas             |
+| Request         | `/api/activation-requests/{id}`      | PUT         | Editar solicitud de activación                       |
+| Request         | `/api/activation-requests/{id}`      | DELETE      | Eliminar solicitud de activación                     |
+| Request         | `/api/activation-requests/{id}`      | GET         | Ver detalle de solicitud                             |
+| IAM             | `/api/auth/login`                    | POST        | Iniciar sesión con credenciales                      |
+| IAM             | `/api/auth/register`                 | POST        | Registrar nuevo usuario con tipo (empresa/productora)|
 
-El backend fue ejecutado localmente con Spring Boot y verificado usando herramientas como Postman y Swagger, además de pgAdmin 4. No se realizó aún despliegue externo en este sprint.
+---
 
+#### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+
+El backend fue ejecutado localmente usando **Spring Boot 3.5.0**, con configuración de base de datos PostgreSQL en entorno de desarrollo. La verificación funcional se realizó mediante **Postman**, **Swagger UI** y consultas directas en **pgAdmin 4**. Aún no se ha efectuado un despliegue externo (como en Railway o Render) debido a que las funcionalidades están en su fase inicial de conexión.
+
+Por otro lado, el frontend fue desplegado por cada integrante usando **Firebase Hosting**, integrando las vistas CRUD del bounded context respectivo y validando la comunicación simulada con JSON Server (en espera de conexión real al backend). Además, se añadieron mejoras visuales y notificaciones con MatSnackBar.
+
+**Pasos realizados para el despliegue del frontend (ejemplo - Max):**
+
+1. Se ejecutó `ng build --configuration=production` para compilar el proyecto.
+2. Se configuró Firebase con `firebase init` (seleccionando carpeta `dist/matchevent`).
+3. Se utilizó `firebase deploy` para subir la versión final del contexto `request`.
+4. Se verificó visualmente el funcionamiento de formularios y respuestas.
+
+**Captura del despliegue del bounded context Request – Max:**
+
+- ![Request Bounded Context - Max](images/max_deploy.PNG)
 #### **5.2.3.8. Team Collaboration Insights during Sprint** 
 
 El equipo mantuvo una colaboración constante durante el desarrollo del report, y un trabajo organizado individualmente -por bounded context- a través de GitHub y reuniones por Discord. Se lograron merges ordenados y revisión cruzada de código:
@@ -2578,9 +2656,9 @@ A continuación, se presentan los registros de entrevistas realizadas (ficticias
 
 Este video tiene un enfoque promocional, dirigido a visitantes y potenciales usuarios de la plataforma MatchEvent. Resume el modelo de negocio, describe los beneficios para empresas y productoras, e incluye escenas de navegación real en la web, además de testimonios grabados de validación. Considerar que es la primera versión
 
-- **URL Microsoft Stream**: [Link](link acá)
+- **URL Microsoft Stream**: [about the product](https://upcedupe-my.sharepoint.com/personal/u202318814_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202318814%5Fupc%5Fedu%5Fpe%2FDocuments%2Fabout%5Fthe%5Fproduct%5Fmatchevent%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E783e1ebd%2D564c%2D4e1d%2D949b%2D12a542cd0c27)
 - **Duración total**:
-- **Captura**: ![Screenshot del video](images/about-product.png)
+- **Captura**: ![Screenshot del video](images/about_the_product.PNG)
 
 ---
 
@@ -2631,6 +2709,7 @@ Verhelst, L. (2020). *Evolución del marketing experiencial desde la perspectiva
 * Landing Page link: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
 * Board de las actividades del grupo en Trello: https://trello.com/invite/b/681be2187eb81b9994744840/ATTI7372931ffb26577c2d3c044b0abd9148045BF9CD/matchevent
 * Board de las actividades del grupo en Trello para el Landing Page: https://trello.com/invite/b/681e9c71bf39eef1c3e85e6e/ATTIfd11a9d55c40c54a482dbddf22c12a1765A5D176/sprint-1-matchevent-closesource
+* Frontend Max: [match-event.web.app](https://match-event.web.app/)
   
 
 
