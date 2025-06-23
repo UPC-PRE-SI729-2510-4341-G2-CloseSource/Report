@@ -31,6 +31,12 @@
 | 2.0     | 2025-05-12 | Kevin Castañeda Llanos     | Corrección del report y avance del sprint 2|
 | 2.0     | 2025-05-12 | Ivan La Madrid Lozano      | Corrección del report y avance del sprint 2                    |
 | 2.0     | 2025-05-12 | Max Paitan Pumacahua       | Corrección del report y avance del sprint 2 |
+| 3.0     | 2025-06-23 | Aaron Avila Palacios         | Corrección del report y avance del Sprint 3                                       |
+| 3.0     | 2025-06-23 | Kevin Castañeda Llanos       | Corrección del report y avance del Sprint 3                                       |
+| 3.0     | 2025-06-23 | Ivan La Madrid Lozano        | Corrección del report y avance del Sprint 3                                       |
+| 3.0     | 2025-06-23 | Max Paitan Pumacahua         | Corrección del report y avance del Sprint 3                                       |
+
+
 ## Project Report Collaboration Insights
 URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource
 ## Contenido
@@ -57,7 +63,7 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
   - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
     - [2.1. Competidores.](#21-competidores)
-    - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
     - [2.2. Entrevistas.](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
@@ -112,29 +118,13 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
   - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
       - [4.7.1. Class Diagrams.](#471-class-diagrams)
       - [4.7.2. Class Dictionary](#472-class-dictionary)
-    - [👤 Usuario](#-usuario)
-    - [🏢 Empresa](#-empresa)
-    - [🎬 Productora](#-productora)
-    - [📞 Contacto](#-contacto)
-    - [💬 Mensaje](#-mensaje)
-    - [📝 Solicitud de Activación](#-solicitud-de-activación)
-    - [📄 Propuesta](#-propuesta)
-    - [🛠️ Servicio](#️-servicio)
-    - [🗓️ Evento](#️-evento)
-    - [🤝 Contrato](#-contrato)
-    - [💰 Pago](#-pago)
-    - [⭐ Calificación](#-calificación)
-    - [⚙️ Filtro de Evento](#️-filtro-de-evento)
-    - [🖼️ Portafolio](#️-portafolio)
-    - [🏞️ Galería](#️-galería)
-    - [🚦 Gestión de Activación](#-gestión-de-activación)
-    - [🎯 Hito](#-hito)
     - [4.8. Database Design](#48-database-design)
       - [4.8.1 Database Diagram](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment.](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
       - [Software Development](#software-development)
+      - [Software Deployment](#software-deployment)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
       - [Git \& Github](#git--github)
@@ -166,9 +156,28 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
       - [**5.2.2.4. Development Evidence for Sprint Review**](#5224-development-evidence-for-sprint-review)
       - [**5.2.2.5. Execution Evidence for Sprint Review**](#5225-execution-evidence-for-sprint-review)
       - [**5.2.2.6. Services Documentation Evidence for Sprint Review**](#5226-services-documentation-evidence-for-sprint-review)
-      - [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#5227-software-deployment-evidence-for-sprint-review)
+      - [**5.2.2.7. Software Deployment Evidence for Sprint Review**](#5227-software-deployment-evidence-for-sprint-review)
       - [**5.2.2.8. Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint)
-  - [**5.3. Video About-The-Team**](#53-video-about-the-team)
+    - [**5.2.3. Sprint 3**](#523-sprint-3)
+      - [**5.2.3.1. Sprint Planning 3**](#5231-sprint-planning-3)
+      - [**5.2.3.2. Aspect Leaders and Collaborators**](#5232-aspect-leaders-and-collaborators)
+      - [**5.2.3.3. Sprint Backlog 3**](#5233-sprint-backlog-3)
+    - [Sprint Backlog - Sprint 3](#sprint-backlog---sprint-3)
+      - [**5.2.3.4. Development Evidence for Sprint Review**](#5234-development-evidence-for-sprint-review)
+      - [**5.2.3.5. Execution Evidence for Sprint Review**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.3.6. Services Documentation Evidence for Sprint Review**](#5236-services-documentation-evidence-for-sprint-review)
+      - [**5.2.3.7. Software Deployment Evidence for Sprint Review**](#5237-software-deployment-evidence-for-sprint-review)
+      - [**5.2.3.8. Team Collaboration Insights during Sprint**](#5238-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+        - [Entrevista 1 - Segmento Empresa](#entrevista-1---segmento-empresa)
+        - [Entrevista 2 - Segmento Productora](#entrevista-2---segmento-productora)
+        - [Entrevista 3 - Segmento Productora](#entrevista-3---segmento-productora)
+        - [Entrevista 4 - Segmento Empresa](#entrevista-4---segmento-empresa)
+      - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
+    - [5.5. Video About-the-Team](#55-video-about-the-team)
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 - [Bibliografía:](#bibliografía)
@@ -176,10 +185,14 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
 
 ## Student Outcome
 
-| Criterio Específico | Acciones Realizadas                                                                                                     | Conclusiones           |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------|------------------------|
-|Comunica oralmente con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br> Comunicó ideas y decisiones con el equipo para la elaboración del To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog, entre otros.   <br>Kevin Castañeda - TB1 <br>Comunicó y compartió sus ideas con el equipo, para poder completar el trabajo con el aporte de todos. <br>Aaron Avila - TB1 <br>Se coordino con el equipo el desarrollo del informe y la asignación de las tareas. <br>Max Paitan - TB1 <br>Coordinó con el equipo para la repartición y desarrollo del report, así como gestioné la colaboración grupal para el desarrollo de tareas complejas <br>Ivan La Madrid - TB1 | **TB1** <br>El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas. <br> **TB2** <br>   Gabriel Braithuaite - TB2: Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte.   Kevin Castañeda - TB2 Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. Aaron Avila - TB2 Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. >Max Paitan - TB2 Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. Ivan La Madrid - TB2 Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. | TB2 El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas.|
-|Comunica por escrito con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br>redactó ideas en el brainstorming, el Scenario Mapping y user stories para ambos segmentos objetivos y user personas.   <br>Kevin Castañeda - TB1 <br> Apoyé con los UX assuptions, los segmentos objetivos, así como los labeling systems y los navigations systems <br>Aaron Avila - TB1 <br> Presente el desarrollo de User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping,Ubiquitous Language<br>Max Paitan - TB1 <br> Redacté parte del capitulo 1, donde están la descripción de la empresa, el solution profile y el Lean UX Problem Statements. También avancé parte del capítulo 4, con los General Style Guidelines. Finalmente, avance con lo correspondiente al capítulo 5 para esta entrega. <br>Ivan La Madrid - TB1 <br> Colaboré con los competidores, así como los user personas | **TB1** <br>A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como UXPressia permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto. <br> **TB2** <br> Gabriel Braithuaite - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte.   Kevin Castañeda - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. Aaron Avila - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. Max Paitan - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. Ivan La Madrid - TB2 Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDS de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. | TB2 A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como UXPressia permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto.|
+
+| Criterio Específico | Acciones Realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br> Comunicó ideas y decisiones con el equipo para la elaboración del To-Be Scenario Mapping, User Stories, Impact Mapping, Product Backlog, entre otros. <br> Kevin Castañeda - TB1 <br> Comunicó y compartió sus ideas con el equipo, para poder completar el trabajo con el aporte de todos. <br> Aaron Avila - TB1 <br> Se coordinó con el equipo el desarrollo del informe y la asignación de las tareas. <br> Max Paitan - TB1 <br> Coordinó con el equipo para la repartición y desarrollo del report, así como gestionó la colaboración grupal para el desarrollo de tareas complejas. <br> Ivan La Madrid - TB1 <br> Participó en las discusiones iniciales para la identificación de segmentos y necesidades. <br><br> **TP** <br> Gabriel Braithwaite - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br> Kevin Castañeda - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br> Aaron Avila - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br> Max Paitan - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br> Ivan La Madrid - TP <br> Este avance se logró de manera colaborativa, a través de reuniones donde todos plantearon su punto de vista, para acabar el sprint 2 y hacer mejoras en el reporte. <br><br> **TB2** <br> Kevin Castañeda - TB2 <br> Explicó oralmente el funcionamiento del backend del contexto de propuestas, incluyendo sus endpoints y validaciones. <br> Aaron Avila - TB2 <br> Detalló la lógica del sistema de calificaciones implementado en backend y frontend, destacando su utilidad para los usuarios. <br> Max Paitan - TB2 <br> Comunicó en el video grabado del Sprint 3 la estructura de endpoints REST del contexto `request`, la lógica de autenticación y uso de MatSnackBar. <br> Ivan La Madrid - TB2 <br> Presentó ante cámara la arquitectura del contexto IAM, diferenciando los roles y el flujo de login/logout. | **TP:** <br> El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas. <br><br> **TB2:** <br> El equipo demostró habilidades de comunicación oral al presentar y discutir avances técnicos, decisiones estratégicas y conceptos funcionales del proyecto con claridad y coherencia. Se adaptó el lenguaje en función del público, facilitando el diálogo entre desarrolladores, docentes y posibles usuarios. Esta capacidad permitió resolver dudas, alinear expectativas y fortalecer la toma de decisiones colaborativas. |  
+|Comunica por escrito con efectividad a diferentes rangos de audiencia.| Gabriel Braithuaite - TB1 <br> Redactó ideas en el brainstorming, el Scenario Mapping y user stories para ambos segmentos objetivos y user personas. <br> Kevin Castañeda - TB1 <br> Apoyó con los UX assumptions, los segmentos objetivos, así como los labeling systems y los navigations systems. <br> Aaron Avila - TB1 <br> Presentó el desarrollo de User Task Matrix, User Journey Mapping, Empathy Mapping, As-is Scenario Mapping, Ubiquitous Language. <br> Max Paitan - TB1 <br> Redactó parte del capítulo 1, donde están la descripción de la empresa, el solution profile y el Lean UX Problem Statements. También avanzó parte del capítulo 4, con los General Style Guidelines. Finalmente, avanzó con lo correspondiente al capítulo 5 para esta entrega. <br> Ivan La Madrid - TB1 <br> Colaboró con los competidores, así como los user personas. <br><br> **TP** <br> Gabriel Braithuaite - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br> Kevin Castañeda - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br> Aaron Avila - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br> Max Paitan - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br> Ivan La Madrid - TP <br> Avanzamos colaborativamente con el frontend del app web, específicamente en los CRUDs de los bounded context que tenemos. Además, corregimos imágenes y contenido del reporte. <br><br> **TB2** <br> Kevin Castañeda - TB2 <br> Documentó entidades, validaciones de backend y endpoints de propuestas. <br> Aaron Avila - TB2 <br> Documentó API Ratings, realizó pruebas en Postman y agregó ejemplos en Swagger. <br> Max Paitan - TB2 <br> Redactó los endpoints del contexto `request`, incluyendo errores comunes, validaciones y respuestas esperadas. <br> Ivan La Madrid - TB2 <br> Especificó rutas de endpoints para IAM, reglas de validación y respuestas esperadas. | **TP:** <br> A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como UXPressia permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto. <br><br> **TB2:** <br> A través de documentos como el Impact Mapping, las User Stories y el Product Backlog, el equipo comunicó por escrito de manera clara y estructurada los aspectos clave del desarrollo. El uso de formatos comprensibles, lenguaje accesible y herramientas visuales como Swagger y documentación API permitió transmitir información técnica a distintos públicos, asegurando una comprensión común de los objetivos, funcionalidades y valor del proyecto. Además, cada integrante desarrolló exitosamente el backend correspondiente a su Bounded Context. |
+
+
+ 
 
 
 # Capítulo 1: Introducción
@@ -406,19 +419,19 @@ Hemos decidido dividir nuestros segmentos objetivo en dos usuarios objetivos. Es
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores.
-### 2.1.1. Análisis competitivo.
+### 2.1.1. Análisis competitivo
 
-El mercado de plataformas para la gestión y contratación de servicios para eventos cuenta con diversos actores consolidados. A continuación, se identifican los principales competidores:
+A continuación se presenta el cuadro **Competitive Analysis Landscape**, donde se comparan los principales competidores directos e indirectos con nuestra propuesta MatchEvent:
 
-- **Eventtia**: Plataforma integral para la gestión de eventos presenciales, virtuales e híbridos. Destaca por su personalización, herramientas de marketing y analítica avanzada.
+| **Aspecto**              | **MatchEvent**                                                                  | **Eventtia**                                                  | **Eventbrite**                                       | **Crosalia**                                                     |
+|--------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------|------------------------------------------------------------------|
+| **Overview**             | Plataforma que conecta empresas con productoras especializadas en activaciones de marca. | Solución integral para eventos híbridos.                      | Venta de entradas y eventos abiertos.               | Marketplace de servicios para eventos.                           |
+| **Ventaja competitiva**  | Especialización en activaciones, sistema de reputación y acompañamiento personalizado. | Amplia personalización y analítica.                          | Alcance masivo y fácil uso.                         | Variedad de servicios en la nube.                                |
+| **Mercado objetivo**     | Empresas con necesidades de activación de marca, productoras especializadas.    | Organizadores de eventos corporativos y educativos.            | Usuarios generales y organizadores independientes.   | Personas naturales y empresas pequeñas que organizan eventos.    |
+| **Canales principales**  | Web App y contacto directo con ONG / redes sociales.                           | Plataforma web, correos corporativos.                         | App móvil, redes sociales y correo.                 | Plataforma web y campañas de Google Ads.                         |
+| **Relación con el cliente** | Registro y seguimiento personalizado vía la plataforma.                       | Soporte 24/7, onboarding digital.                             | Autoservicio y centro de ayuda.                     | Asesoría directa y contacto a demanda.                           |
 
-- **Eventbrite**: Solución global orientada a la promoción y venta de entradas para eventos. Reconocida por su interfaz intuitiva y amplio alcance.
 
-- **Crosalia**: Marketplace en la nube enfocado en la contratación de servicios para eventos. Ofrece una solución integral tanto para proveedores como para organizadores.
-
-- **eEvents Live**: Especializada en eventos digitales e híbridos. Brinda herramientas completas para la organización, promoción y análisis de eventos.
-
-- **GoTab**: Plataforma orientada a mejorar la experiencia del asistente mediante pedidos y pagos sin contacto, enfocándose en la eficiencia operativa durante el evento.
 ![image](https://github.com/user-attachments/assets/563692ce-2eab-4061-80be-c39ce2d35d86)
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
@@ -652,6 +665,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed sapien a
 
 ### 2.3.3. User Journey Mapping.
 
+**Introducción:**   
+A continuación se ilustra el recorrido típico que realiza un usuario del segmento “Empresa” desde el ingreso a la plataforma hasta la aceptación de una propuesta de activación. El journey refleja tanto la experiencia emocional como los puntos de contacto con el sistema.
+
 A continuación, el **recorrido end-to-end** que la plataforma MatchEvent busca transformar:
 
 1. **AWARE** –  
@@ -687,7 +703,7 @@ La curva emocional del mapeo muestra un ascenso desde la incertidumbre inicial h
   Carla comienza su recorrido cuando surge una nueva campaña que requiere una activación de marca. En ese momento, inicia una búsqueda informal de proveedores, se comunica con algunos recomendados, y solicita cotizaciones que evalúa con incertidumbre. Tras negociar, 
   contrata una productora con la esperanza de obtener buenos resultados, aunque el proceso fue largo y poco claro. Al finalizar el evento, Carla recibe resultados, pero sin métricas claras ni seguimiento profesional.
   
-  ![User journey map Carla](/images/UserJourneymapCarla.png)
+  ![User journey map Carla](images/UserJourneymapCarla.png)
   
   
 
@@ -696,17 +712,17 @@ La curva emocional del mapeo muestra un ascenso desde la incertidumbre inicial h
   Andrés inicia su recorrido al identificar posibles oportunidades de trabajo, normalmente por referencias o publicaciones informales. Se contacta directamente con empresas enviando propuestas, muchas veces sin obtener respuesta. Cuando logra negociar, enfrenta un
   proceso complejo para cerrar el trato. Luego ejecuta el evento con dedicación, pero sin recibir siempre retroalimentación ni lograr una relación sostenida con el cliente, sintiendo que su trabajo no se valoró del todo.
   
- ![User journey map Andrés](/images/UserjourneymapAndres.png)
+ ![User journey map Andrés](images/UserjourneymapAndres.png)
   
 ### 2.3.4. Empathy Mapping.
 
 - Empresas o Marcas:
 
-  ![Empathy map Empresas o Marcas](/images/EmpathymapEmpresasoMarcas.png)
+  ![Empathy map Empresas o Marcas](images/EmpathymapEmpresasoMarcas.png)
 
 - Productoras Especializadas:
 
-  ![Empathy map Productoras Especializadas](/images/EmpathymapProductorasEspecializadas.png)
+  ![Empathy map Productoras Especializadas](images/EmpathymapProductorasEspecializadas.png)
   
 ### 2.3.5. As-is Scenario Mapping.
 
@@ -715,11 +731,11 @@ a la hora de utilizar la aplicación actual.
 
 - Empresas o Marcas:
 
-  ![As-is Scenario Mapping_Empresas o Marcas.png](/images/As-isScenarioMapping_EmpresasoMarcas.png)
+  ![As-is Scenario Mapping_Empresas o Marcas.png](images/As-isScenarioMapping_EmpresasoMarcas.png)
 
 - Productoras Especializadas:
   
-   ![As-is Scenario Mapping_Productoras Especializadas](/images/As-isScenarioMapping_ProductorasEspecializadas.png)
+   ![As-is Scenario Mapping_Productoras Especializadas](images/As-isScenarioMapping_ProductorasEspecializadas.png)
   
 ### 2.4. Ubiquitous Language.
 Según Domain Driven Design (2019), The ubiquitous language es la descripción de conceptos y términos dentro del negocio para construir un lenguaje en 
@@ -768,7 +784,7 @@ analizaron y se seleccionaron las más relevantes para construir el To-Be Scenar
 
 Figura 1: Brainstorming con perspectiva del Gerente de Marketing
 
-![Brainstorming con perspectiva del gerente](/images/BrainstormingGerenteMarketing.png)
+![Brainstorming con perspectiva del gerente](images/BrainstormingGerenteMarketing.png)
 
 En esta figura el equipo realizó un brainstorming desde la perspectiva del Gerente de Marketing, identificando las
 necesidades y expectativas al utilizar la plataforma. Se discutieron aspectos como la facilidad de búsqueda de
@@ -778,7 +794,7 @@ productoras, la evaluación de propuestas y la gestión de solicitudes.
 
 Figura 2: Brainstorming con perspectiva del Coordinador Comercial
 
-![Brainstorming con perspectiva del coordinador comercial](/images/BrainstormingCoordinadorComercial.png)
+![Brainstorming con perspectiva del coordinador comercial](images/BrainstormingCoordinadorComercial.png)
 
 En esta figura el equipo realizó un brainstorming desde la perspectiva del Coordinador Comercial, identificando las
 necesidades y expectativas al utilizar la plataforma. Se discutieron aspectos como la publicación de su portafolio, el
@@ -790,14 +806,14 @@ ideal de los usuarios al interactuar con la plataforma.
 
 **Figura 3: To-Be Scenario Mapping Gerente de Marketing**
 
-![To-Be Scenario Mapping](/images/ToBeScenarioMappingGerenteMarketing.png)
+![To-Be Scenario Mapping](images/ToBeScenarioMappingGerenteMarketing.png)
 
 En esta figura, se observa el flujo de acciones del Gerente de Marketing al utilizar la plataforma. Se destacan las
 etapas de búsqueda de productoras, evaluación de propuestas y contratación.
 
 **Figura 4: To-Be Scenario Mapping Coordinador Comercial**
 
-![To-Be Scenario Mapping](/images/ToBeScenarioMappingCoordinadorComercial.png)
+![To-Be Scenario Mapping](images/ToBeScenarioMappingCoordinadorComercial.png)
 
 En esta figura, se observa el flujo de acciones del Coordinador Comercial al utilizar la plataforma. Se destacan las
 etapas de publicación de portafolio, envío de propuestas y gestión de solicitudes.
@@ -869,12 +885,18 @@ coordinadores comerciales de empresas productoras.
 | US43            | Registrar calificación al finalizar evento                | Como usuario, quiero calificar a la otra parte al finalizar un evento, para evaluar la experiencia recibida.                                                                                | Given que el evento está finalizado, When accedo a su detalle, Then puedo registrar una evaluación con comentario. <br> Given que envío la evaluación, When se registra correctamente, Then queda asociada al perfil de la otra parte.                                                                                                                                                                                    | EP011                     |
 | US44            | Visualizar calificaciones de otros usuarios               | Como usuario, quiero ver las calificaciones y comentarios recibidos por otros usuarios, para decidir con quién trabajar.                                                                    | - Given que accedo al perfil de otro usuario, When tiene calificaciones, Then puedo ver su historial público. <br> - Given que veo una calificación, When es registrada, Then queda visible para otros usuarios.                                                                                                                                                                                                          | EP011                     |
 | US45            | Visualizar mis calificaciones recibidas                   | Como usuario, quiero ver las calificaciones y comentarios que he recibido, para conocer mi reputación.                                                                                      | - Given que soy un usuario autenticado, When accedo a mi perfil, Then puedo ver las calificaciones y comentarios recibidos. <br> - Given que veo una calificación, When es registrada, Then queda visible para otros usuarios.                                                                                                                                                                                            | EP011                     |
-| EP012           | Implementación técnica del backend RESTful API            | Como Developer, quiero desarrollar y documentar los servicios REST del sistema, para garantizar que cada funcionalidad esté correctamente disponible para el frontend.                      |                                                                                                                                                                                                                                                                                                                                                                                                                           |                           |
-| TS46            | Crear endpoint para registrar una solicitud de activación | Como Developer, quiero crear un endpoint POST para registrar solicitudes de activación, para que las empresas puedan enviar sus requerimientos desde el frontend.                           | -Given que se realiza una solicitud HTTP POST al endpoint /api/activation-requests, When el cuerpo contiene datos válidos, Then se registra una nueva solicitud en la base de datos y se retorna un status 201 con el ID generado. <br> - Given que los datos son inválidos, When se valida la entrada, Then se retorna un error 400 con detalles del fallo.                                                              | EP012                     |
-| TS47            | Crear endpoint para enviar propuestas de activación       | Como Developer, quiero implementar un endpoint POST para que las productoras envíen propuestas, para que puedan responder solicitudes de las empresas.                                      | -Given que se realiza una solicitud POST a /api/activation-proposals, When el cuerpo contiene datos válidos de propuesta, Then se guarda en la base de datos y se retorna 201 Created. <br> -Given que falta información obligatoria, Then el sistema retorna un código 400 con mensaje de error.                                                                                                                         | EP012                     |
-| TS48            | Crear endpoint para obtener propuestas por solicitud      | Como Developer, quiero implementar un endpoint GET que retorne todas las propuestas ligadas a una solicitud de activación, para que las empresas puedan revisar opciones recibidas.         | -Given que se realiza un GET a /api/activation-requests/{id}/proposals, When el ID existe, Then el sistema retorna un array JSON con todas las propuestas asociadas. <br> -Given que el ID no existe, Then el sistema retorna 404 Not Found.                                                                                                                                                                              | EP012                     |
-| TS49            | Crear endpoints para la autenticación de usuarios         | Como Developer, quiero implementar endpoints de login y registro, para autenticar usuarios y otorgar acceso basado en roles.                                                                | -Given que un usuario envía credenciales correctas al endpoint /api/auth/login, Then el sistema retorna un token JWT válido. <br> -Given que se intenta registrar un usuario en /api/auth/register, When los datos son válidos, Then se registra el usuario correctamente y se retorna 201 Created. <br> -Given que el usuario ya existe o los datos son inválidos, Then se retorna un error 400 con el mensaje adecuado. | EP012                     |
-| TS50            | Crear endpoint para calificaciones                        | Como Developer, quiero crear un endpoint para que los usuarios registren calificaciones, para que puedan evaluar su experiencia.                                                            | -Given que un usuario autenticado envía una evaluación a /api/ratings, When los datos son válidos, Then la calificación es almacenada y se retorna 201 Created. <br> -Given que el ID de evento no corresponde a una activación finalizada, Then el sistema retorna un error 403 Forbidden.                                                                                                                               | EP012                     |
+| EP012           | Gestión de Hitos de Activación    | Como usuario de la plataforma, quiero crear, administrar y dar seguimiento a los hitos (milestones) de las activaciones contratadas para asegurar una ejecución efectiva y exitosa de los eventos, mantener a todas las partes informadas sobre el progreso, y garantizar el cumplimiento de los plazos establecidos en la planificación de las activaciones de marca.                      |                                                                                                                                                                                                                                                                                                                                                                                                                           |                           |
+| US46            | Crear y asignar hitos a activaciones                   | Como Productora, quiero crear y asignar hitos con fechas límite a las activaciones contratadas para planificar y organizar mejor el trabajo.                                                                                      | -Given que soy una Productora con una activación contratada, When accedo a la sección de hitos y completo el formulario con título, descripción y fecha límite, Then se crea un nuevo hito asociado a esa activación. <br> -Given que intento crear un hito sin completar los campos obligatorios, Then el sistema muestra un mensaje de error indicando los campos faltantes. <br> -Given que tengo varios hitos creados, When visualizo la lista de hitos, Then puedo ver todos organizados por fecha límite.                                                                                                                                                                                            | EP012                     |
+| US47            | Actualizar estado de hitos de activación                   | Como Productora o Empresa, quiero actualizar el estado de los hitos (pendiente, en progreso, completado) y registrar la fecha de finalización para mantener un seguimiento del avance de la activación.                                                                                      | -Given que existe un hito en estado "pendiente", When cambio su estado a "en progreso", Then el sistema actualiza el estado sin requerir fecha de finalización. <br> -Given que existe un hito en cualquier estado, When cambio su estado a "completado", Then el sistema registra automáticamente la fecha actual como fecha de finalización. <br> -Given que un hito está marcado como "completado", When intento cambiar su estado a otro diferente, Then el sistema solicita confirmación antes de eliminar la fecha de finalización.                                                                                                                                                                                            | EP012                     |
+| US48            | Visualizar hitos de una activación                   | Como Productora o Empresa, quiero ver todos los hitos asociados a una activación específica para tener una visión clara del progreso del proyecto.                                                                                      | -Given que accedo a los detalles de una activación, When selecciono la pestaña de hitos, Then puedo ver todos los hitos ordenados cronológicamente. <br> -Given que estoy viendo la lista de hitos, Then puedo identificar claramente el estado de cada hito mediante códigos de color o etiquetas. <br> -Given que hay hitos con fechas límite próximas o vencidas, Then estos se destacan visualmente para llamar la atención.                                                                                                                                                                                            | EP012                     |
+| US49            | Eliminar hitos de una activación                   | Como Productora, quiero eliminar hitos que ya no son relevantes para mantener organizado el plan de trabajo de la activación.                                                                                      | -Given que soy una Productora y selecciono un hito, When hago clic en "Eliminar", Then el sistema solicita confirmación antes de eliminarlo. <br> -Given que confirmo la eliminación de un hito, Then este desaparece de la lista y se registra la acción. <br> -Given que intento eliminar un hito ya completado, Then el sistema muestra una advertencia especial antes de permitir la eliminación.                                                                                                                                                                                            | EP012                     |
+| EP013           | Implementación técnica del backend RESTful API            | Como Developer, quiero desarrollar y documentar los servicios REST del sistema, para garantizar que cada funcionalidad esté correctamente disponible para el frontend.                      |                                                                                                                                                                                                                                                                                                                                                                                                                           |                           |
+| US50            | Crear endpoint para registrar una solicitud de activación | Como Developer, quiero crear un endpoint POST para registrar solicitudes de activación, para que las empresas puedan enviar sus requerimientos desde el frontend.                           | -Given que se realiza una solicitud HTTP POST al endpoint /api/activation-requests, When el cuerpo contiene datos válidos, Then se registra una nueva solicitud en la base de datos y se retorna un status 201 con el ID generado. <br> - Given que los datos son inválidos, When se valida la entrada, Then se retorna un error 400 con detalles del fallo.                                                              | EP013                     |
+| US51            | Crear endpoint para enviar propuestas de activación       | Como Developer, quiero implementar un endpoint POST para que las productoras envíen propuestas, para que puedan responder solicitudes de las empresas.                                      | -Given que se realiza una solicitud POST a /api/activation-proposals, When el cuerpo contiene datos válidos de propuesta, Then se guarda en la base de datos y se retorna 201 Created. <br> -Given que falta información obligatoria, Then el sistema retorna un código 400 con mensaje de error.                                                                                                                         | EP013                     |
+| US52            | Crear endpoint para obtener propuestas por solicitud      | Como Developer, quiero implementar un endpoint GET que retorne todas las propuestas ligadas a una solicitud de activación, para que las empresas puedan revisar opciones recibidas.         | -Given que se realiza un GET a /api/activation-requests/{id}/proposals, When el ID existe, Then el sistema retorna un array JSON con todas las propuestas asociadas. <br> -Given que el ID no existe, Then el sistema retorna 404 Not Found.                                                                                                                                                                              | EP013                     |
+| US53            | Crear endpoints para la autenticación de usuarios         | Como Developer, quiero implementar endpoints de login y registro, para autenticar usuarios y otorgar acceso basado en roles.                                                                | -Given que un usuario envía credenciales correctas al endpoint /api/auth/login, Then el sistema retorna un token JWT válido. <br> -Given que se intenta registrar un usuario en /api/auth/register, When los datos son válidos, Then se registra el usuario correctamente y se retorna 201 Created. <br> -Given que el usuario ya existe o los datos son inválidos, Then se retorna un error 400 con el mensaje adecuado. | EP013                     |
+| US54            | Crear endpoint para calificaciones                        | Como Developer, quiero crear un endpoint para que los usuarios registren calificaciones, para que puedan evaluar su experiencia.                                                            | -Given que un usuario autenticado envía una evaluación a /api/ratings, When los datos son válidos, Then la calificación es almacenada y se retorna 201 Created. <br> -Given que el ID de evento no corresponde a una activación finalizada, Then el sistema retorna un error 403 Forbidden.                                                                                                                               | EP013                     |
+| US55            | Crear endpoint para los hitos/milestones                        | Como Developer, quiero crear un endpoint para que los usuarios puedan visualizar y gestionar los hitos desarrollados para su activación.                                                            | -Given que un usuario autenticado envía el registro de un nuevo hito en el desarrollo de la activación, When los datos son válidos, Then los datos del hito son almacenados y se retorna 201 Created. <br> -Given que el ID de hito no corresponde a una ID válida, Then el sistema retorna un error 403 Forbidden.                                                                                                                               | EP013                     |
 
 ### 3.3. Impact Mapping.
 
@@ -883,7 +905,7 @@ Gerente de Marketing de una empresa o marca, y el Coordinador Comercial de una e
 
 **Figura 5: Impact Mapping**
 
-![Impact Mapping](/images/ImpactMap.png)
+![Impact Mapping](images/ImpactMap.png)
 
 Esta figura muestra el Impact Mapping en el cual se definieron tres Business Goals SMART: (1) alcanzar 600 usuarios
 registrados en 8 meses, (2) lograr que el 50% de las empresas publiquen una solicitud dentro de los primeros 10 días,
@@ -928,13 +950,14 @@ puntos de historia para facilitar la planificación de sprints.
 | 28    | US011         | Editar trabajo previo en el portafolio          | Como Productora, quiero editar un trabajo registrado.                                                                | 2            |
 | 29    | US012         | Eliminar trabajo previo en el portafolio        | Como Productora, quiero eliminar un trabajo registrado.                                                              | 2            |
 | 30    | US013         | Visualizar portafolio de trabajos realizados    | Como Productora, quiero ver un portafolio con todos los trabajos registrados.                                        | 1            |
-| 31    | TS46          | Crear endpoint para registrar solicitud         | Como Developer, quiero crear un endpoint POST para registrar solicitudes.                                            | 3            |
-| 32    | TS47          | Crear endpoint para enviar propuestas           | Como Developer, quiero implementar un endpoint POST para propuestas.                                                 | 3            |
-| 33    | TS48          | Obtener propuestas por solicitud                | Como Developer, quiero implementar un GET para propuestas ligadas a una solicitud.                                   | 3            |
-| 34    | TS49          | Endpoints de login y registro                   | Como Developer, quiero implementar endpoints de login y registro.                                                    | 3            |
-| 35    | TS50          | Endpoint para calificaciones                    | Como Developer, quiero crear un endpoint para registrar calificaciones.                                              | 3            |
-| 36    | US020         | Selección de tipo de perfil al registrarse      | Como nuevo usuario, quiero seleccionar si soy Empresa o Productora.                                                  | 1            |
-| 37    | US021         | Vista principal para productoras                | Como Productora, quiero ver solicitudes de activación al iniciar sesión.                                             | 1            |
+| 31    | US50          | Crear endpoint para registrar solicitud         | Como Developer, quiero crear un endpoint POST para registrar solicitudes.                                            | 3            |
+| 32    | US51          | Crear endpoint para enviar propuestas           | Como Developer, quiero implementar un endpoint POST para propuestas.                                                 | 3            |
+| 33    | US52          | Obtener propuestas por solicitud                | Como Developer, quiero implementar un GET para propuestas ligadas a una solicitud.                                   | 3            |
+| 34    | US53          | Endpoints de login y registro                   | Como Developer, quiero implementar endpoints de login y registro.                                                    | 3            |
+| 35    | US54          | Endpoint para calificaciones                    | Como Developer, quiero crear un endpoint para registrar calificaciones.                                              | 3            |
+| 36    | US55          | Endpoint para hitos                    | Como Developer, quiero crear un endpoint para registrar hitos.                                              | 3            |
+| 37    | US020         | Selección de tipo de perfil al registrarse      | Como nuevo usuario, quiero seleccionar si soy Empresa o Productora.                                                  | 1            |
+| 38    | US021         | Vista principal para productoras                | Como Productora, quiero ver solicitudes de activación al iniciar sesión.                                             | 1            |
 | 38    | US022         | Vista principal para empresas                   | Como Empresa, quiero ver perfiles de productoras al iniciar sesión.                                                  | 1            |
 | 39    | US026         | Iniciar conversación con otro usuario           | Como usuario, quiero iniciar conversación desde una solicitud o perfil.                                              | 2            |
 | 40    | US027         | Ver listado de conversaciones                   | Como usuario, quiero ver una lista de mis conversaciones.                                                            | 2            |
@@ -947,7 +970,11 @@ puntos de historia para facilitar la planificación de sprints.
 | 47    | US025         | Contactar a empresa desde una solicitud         | Como Productora, quiero contactar a una empresa desde una solicitud.                                                 | 2            |
 | 48    | US044         | Visualizar calificaciones de otros usuarios     | Como usuario, quiero ver calificaciones y comentarios de otros usuarios.                                             | 1            |
 | 49    | US045         | Visualizar mis calificaciones recibidas         | Como usuario, quiero ver las calificaciones y comentarios que he recibido.                                           | 1            |
-| 50    | US023         | Visualizar mis activaciones                     | Como Productora, quiero ver el listado de activaciones donde estoy trabajando.                                       | 1            |
+| 50    | US046         | Crear y asignar hitos a activaciones         | Como Productora, quiero poder crear y asignar hitos con fechas límite a las activaciones contratadas.                                           | 1            |
+| 51    | US047         | Actualizar estado de hitos de activación         | Como Productora o Empresa, quiero actualizar el estado de los hitos (pendiente, en progreso, completado) y registrar la fecha de finalización                                           | 1            |
+| 52    | US048         | Visualizar hitos de una activación         | Como Productora o Empresa, quiero ver todos los hitos asociados a una activación específica                                           | 1            |
+| 53    | US049         | Eliminar hitos de una activación         | Como Productora, quiero poder eliminar hitos que ya no son relevantes                                           | 1            |
+| 54    | US023         | Visualizar mis activaciones                     | Como Productora, quiero ver el listado de activaciones donde estoy trabajando.                                       | 1            |
 
 **Link del Product Backlog en Trello:** https://trello.com/b/XIu3pRLo/matchevent
 
@@ -1163,7 +1190,7 @@ Cada wireframe se diseñó en **blanco y negro** para concentrarse en la disposi
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 Se ha realizado esta parte con Figma, obteniendo el correspondiente wireflow de nuestra web app:
-![Prototipo](/images/flow.PNG)
+![Prototipo](images/flow.PNG)
 
 ### 4.4.3. Web Applications Mock-ups  
 
@@ -1186,7 +1213,7 @@ Cada mock-up aplica la **paleta azul–mostaza y la tipografía Roboto** definid
 ## 4.5. Web Applications Prototyping.
 Se ha realizado el prototipado del Application Web en figma:
 
-![Prototipo](/images/prototype.PNG)
+![Prototipo](images/prototype.PNG)
 
 Se encuentra en el siguiente link: https://www.figma.com/proto/eQz3TmfElqfpnzNsrfy33q/MATCH-EVENT?node-id=230-491&p=f&t=f4j2gBCitfGDL2L6-1&scaling=min-zoom&content-scaling=fixed&page-id=227%3A2&starting-point-node-id=230%3A491
 
@@ -1209,7 +1236,7 @@ Elementos en el diagrama de contexto:
 
 **Figura 6: Software Architecture Context Diagram**
 
-![Software Architecture Context Diagram](/images/contextDiagram.png)
+![Software Architecture Context Diagram](images/contextDiagram.png)
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
@@ -1227,9 +1254,9 @@ Elementos en el diagrama de contenedores:
 
 **Figura 7: Software Architecture Container Diagrams**
 
-![Software Architecture Container Diagrams](/images/containerDiagram.png)
+![Software Architecture Container Diagrams](images/containerDiagram.png)
 
-![Software Architecture Container Diagrams](/images/containerDiagram2.png)
+![Software Architecture Container Diagrams](images/containerDiagram2.png)
 
 ### 4.6.3. Software Architecture Components Diagrams.
 
@@ -1246,7 +1273,7 @@ Elementos en el diagrama de componentes:
 
 **Figura 8: Bounded Context Identity and Access**
 
-![Bounded Context Identity and Access](/images/identityAndAccessBoundedContext.png)
+![Bounded Context Identity and Access](images/identityAndAccessBoundedContext.png)
 
 **Bounded Context Activation Request**
 
@@ -1259,7 +1286,7 @@ Responsabilidad:
 
 **Figura 9: Bounded Activation Request**
 
-![Bounded Context Activation Request](/images/activationRequestsBoundedContext.png)
+![Bounded Context Activation Request](images/activationRequestsBoundedContext.png)
 
 **Bounded Context Activation Quotes**
 
@@ -1271,7 +1298,7 @@ Responsabilidad:
 
 **Figura 10: Bounded Context Activation Quotes**
 
-![Bounded Context Activation Quotes](/images/activationQuotesBoundedContext.png)
+![Bounded Context Activation Quotes](images/activationQuotesBoundedContext.png)
 
 **Bounded Context Activation Management**
 
@@ -1283,7 +1310,7 @@ Responsabilidad:
 
 **Figura 11: Bounded Context Activation Management**
 
-![Bounded Context Activation Management](/images/activationManagementBoundedContext.png)
+![Bounded Context Activation Management](images/activationManagementBoundedContext.png)
 
 **Bounded Context Portafolio Management**
 
@@ -1295,7 +1322,7 @@ Responsabilidad:
 
 **Figura 12: Bounded Context Portafolio Management**
 
-![Bounded Context Portafolio Management](/images/portafolioManagementBoundedContext.png)
+![Bounded Context Portafolio Management](images/portafolioManagementBoundedContext.png)
 
 **Bounded Context Providers**
 
@@ -1307,12 +1334,12 @@ Responsabilidad:
 
 **Figura 13: Bounded Context Providers**
 
-![Bounded Context Providers](/images/providersBoundedContext.png)
+![Bounded Context Providers](images/providersBoundedContext.png)
 
 ## 4.7. Software Object-Oriented Design.
 
 #### 4.7.1. Class Diagrams.
-![diagrama-de-clases](/images/classDiagram.png)
+![diagrama-de-clases](images/classDiagram.png)
 
 dada la poca visibilidad del diagrama, compartimos el link para su visualización:
 https://www.mermaidchart.com/raw/014a32de-9057-478f-80b2-f98d8b7fdc4a?theme=light&version=v0.1&format=svg
@@ -1323,7 +1350,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 👤 Usuario
+ 👤 Usuario
 - **Descripción**: Representa a un usuario del sistema, que puede ser tanto una empresa solicitante como una productora de eventos.
 - **Atributos**:
   - `user_id: int` – Identificador único del usuario.
@@ -1343,7 +1370,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 🏢 Empresa
+ 🏢 Empresa
 - **Descripción**: Representa a una marca o compañía que solicita servicios de activación de eventos.
 - **Atributos**:
   - `company_id: int` – Identificador único de la empresa.
@@ -1361,7 +1388,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 🎬 Productora
+ 🎬 Productora
 - **Descripción**: Empresa o equipo encargado de ofrecer servicios de producción de eventos.
 - **Atributos**:
   - `producer_id: int` – Identificador único de la productora.
@@ -1382,7 +1409,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 📞 Contacto
+ 📞 Contacto
 - **Descripción**: Representa la relación de contacto entre una empresa y una productora.
 - **Atributos**:
   - `contact_id: int` – Identificador único del contacto.
@@ -1400,7 +1427,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 💬 Mensaje
+ 💬 Mensaje
 - **Descripción**: Representa un mensaje intercambiado entre usuarios a través del sistema.
 - **Atributos**:
   - `message_id: int` – Identificador único del mensaje.
@@ -1419,7 +1446,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 📝 Solicitud de Activación
+ 📝 Solicitud de Activación
 - **Descripción**: Representa una solicitud publicada por una empresa para la realización de una activación de marca o evento.
 - **Atributos**:
   - `request_id: int` – Identificador único de la solicitud.
@@ -1441,7 +1468,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 📄 Propuesta
+ 📄 Propuesta
 - **Descripción**: Representa una oferta enviada por una productora en respuesta a una solicitud de activación.
 - **Atributos**:
   - `proposal_id: int` – Identificador único de la propuesta.
@@ -1462,7 +1489,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 🛠️ Servicio
+ 🛠️ Servicio
 - **Descripción**: Representa un servicio específico ofrecido por una productora.
 - **Atributos**:
   - `service_id: int` – Identificador único del servicio.
@@ -1479,7 +1506,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 🗓️ Evento
+ 🗓️ Evento
 - **Descripción**: Representa un evento de activación que se llevará a cabo, resultado de la aceptación de una propuesta.
 - **Atributos**:
   - `event_id: int` – Identificador único del evento.
@@ -1501,7 +1528,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 🤝 Contrato
+🤝 Contrato
 - **Descripción**: Representa el acuerdo formal entre una empresa y una productora para la realización de un evento.
 - **Atributos**:
   - `contract_id: int` – Identificador único del contrato.
@@ -1521,7 +1548,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 💰 Pago
+ 💰 Pago
 - **Descripción**: Representa un pago realizado en el marco de un contrato.
 - **Atributos**:
   - `payment_id: int` – Identificador único del pago.
@@ -1537,7 +1564,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### ⭐ Calificación
+ ⭐ Calificación
 - **Descripción**: Representa una evaluación o reseña que un usuario realiza sobre otro (empresa califica a productora o viceversa) con respecto a un evento.
 - **Atributos**:
   - `rating_id: int` – Identificador único de la calificación.
@@ -1556,7 +1583,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### ⚙️ Filtro de Evento
+ ⚙️ Filtro de Evento
 - **Descripción**: Representa un filtro que se puede aplicar a las solicitudes de activación para facilitar la búsqueda.
 - **Atributos**:
   - `filter_id: int` – Identificador único del filtro.
@@ -1570,7 +1597,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 🖼️ Portafolio
+ 🖼️ Portafolio
 - **Descripción**: Representa un proyecto o trabajo anterior realizado por una productora, utilizado para mostrar su experiencia.
 - **Atributos**:
   - `portfolio_id: int` – Identificador único del proyecto del portafolio.
@@ -1587,7 +1614,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 🏞️ Galería
+ 🏞️ Galería
 - **Descripción**: Representa una imagen o archivo multimedia asociado a un evento específico.
 - **Atributos**:
   - `gallery_id: int` – Identificador único de la imagen en la galería.
@@ -1602,7 +1629,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 🚦 Gestión de Activación
+ 🚦 Gestión de Activación
 - **Descripción**: Gestiona el estado y los hitos de la activación de un evento específico.
 - **Atributos**:
   - `activation_id: int` – Identificador único de la activación.
@@ -1619,7 +1646,7 @@ A continuación, se presenta el diccionario de clases correspondiente al modelo 
 
 ---
 
-### 🎯 Hito
+ 🎯 Hito
 - **Descripción**: Representa un punto clave o tarea dentro del proceso de activación de un evento.
 - **Atributos**:
   - `milestone_id: int` – Identificador único del hito.
@@ -1688,6 +1715,16 @@ Este es nuestro diagrama de base de datos, donde encontramos toda la informació
 - **JS:** JavaScript es un lenguaje de programación esencial en el desarrollo web, utilizado para dotar de interactividad y dinamismo a sitios y aplicaciones en línea. Permite manipular el contenido de la página en tiempo real, responder a acciones del usuario, validar formularios, y mucho más. Su versatilidad lo convierte en una herramienta clave tanto en el frontend como en el backend de aplicaciones modernas.
 
 ![Javascript](images/JS_Logo.jpeg)
+
+#### Software Deployment
+
+- **Firebase:** Firebase es una plataforma desarrollada por Google que proporciona una variedad de servicios para el desarrollo y despliegue de aplicaciones web y móviles. En nuestro proyecto, utilizamos Firebase Hosting para desplegar el frontend desarrollado en Angular, permitiendo así compartir una versión funcional del producto con usuarios y docentes de forma rápida y segura. Este servicio facilita el acceso público a las vistas implementadas y respalda las pruebas de usabilidad y validación.
+
+![Firebase](images/firebase.png)
+
+- **Swagger:** Swagger es una herramienta de documentación de APIs que facilita la visualización, prueba y mantenimiento de servicios RESTful. En el proyecto MatchEvent, se integró Swagger mediante la dependencia `springdoc-openapi` en Spring Boot, lo que permite generar automáticamente una interfaz interactiva para explorar los endpoints del backend. Esto garantiza la transparencia del servicio, acelera las pruebas y sirve como guía para el consumo de las APIs desde el frontend.
+
+![Swagger](images/swagger.png)
 
 ### 5.1.2. Source Code Management.
 
@@ -2258,7 +2295,7 @@ La colaboración se mantuvo activa mediante revisiones asincrónicas en el repos
 | **Sprint 2 Review Summary** | Completar el desarrollo de algunas secciones core business y arreglos en la documentación (report) |
 | **Sprint 2 Retrospective Summary** | Se realizó la mayoría de trabajos a tiempo, faltando algunas correciones en la documentación.|
 | **Sprint Goal & User Stories**                                     |
-| **Sprint 2 Goal**           | **Nos enfocamos** en diseñar y desarrollar secciones core business del negocio, además de arreglar errores en la documentación. **Creemos que** esto aportará a la demostración de algunas funciones clave de nuestro projecto. **Esto se confirmará** cuando se hayan cumplido con los bounded context para la realización de diversas secciones de la aplicació web. |
+| **Sprint 2 Goal**           | **Nos enfocamos** en diseñar y desarrollar secciones core business del negocio, además de arreglar errores en la documentación. **Creemos que** esto aportará a la demostración de algunas funciones clave de nuestro projecto. **Esto se confirmará** cuando se hayan cumplido con el desarrllo de los CRUDs de los bounded context para la realización de diversas secciones de la aplicació web. |
 | **Sprint n Velocity**       | 1.5 semanas                           |
 | **Sum of Story Points**     | 15                                 |
 
@@ -2289,20 +2326,19 @@ Esta es la tabla del Sprint Backlog 2:
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | User Story |  | Work-Item / Task |  |  |  |  |  |
 | ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US001 | Registrar solicitud de activación |  | Registro de solicitud  | La empresa debe de poder registrar una solicitud de activación  | 2 | Max | Done |
-| US002 | Editar solicitud de activación |  | Edición de solicitud  | La empresa debe de poder editar una solicitud de activación  | 2 | Max | Done |
-| US003 | Eliminar solicitud de activación |  | Eliminación de solicitud  | La empresa debe de poder eliminar una solicitud de activación  | 1 | Max | Done |
-| US004 | Ver solicitudes publicadas |  | Solicitudes publicadas  | Se debe de poder ver que solicitudes fueron publicadas por parte de las empresas| 1 | Max | Done |
-| US005 | Ver detalle de solicitud publicada |  | Detalle de solicitud  | La empresa debe poder ver los detalles de su solicitud publicada | 2 | Max | Done |
-| US006 | Registrar servicios ofrecidos |  | Registro de Servicios  | La sección de gestion de portafolios deberá de tener una opción para registar los servicios ofrecidos | 2 | Gabriel | Done |
-| US007 | Editar servicios ofrecidos |  | Edición de Servicios | Una vez registrado un servicio, colocar la opción de poder editar este | 1.5 | Gabriel | Done |
-| US008 | Elimar servicio ofrecido | | Elimar Servicio | Se deberá de poder eliminar un servicio cuando la productora desee | 1.5 | Gabriel | Done |
-| US009 | Visualizar lista de servicios ofrecidos |  | Lista de Servicios | La productora deberá de ver una lista en donde vea todos sus servicios | 1 | Gabriel | Done |
-| US038 | 	Enviar propuesta a solicitud de activación  |  | Propuesta de activacion | La productora debe de acceder a los detalles de una propuesta de activación | 2 | Kevin | Done |
-| US039 | Ver propuesta enviada |  | Propuesta enviada | La productora deberá de ver una tabla de las propuestas enviadas | 1 | Kevin | Done |
-| US043 | Registrar calificación al finalizar evento	 |  | Calificación | El usario debe de poder mandar reseñas y calificaciones despues de la realización de un evento o del servicio de una productora | 1 | Aaron | Done |
-| US044 | Visualizar calificaciones de otros usuarios |  | Calificación | El usario debe de poder ver las calificaciones de otros usuarios en su perfil | 1 | Aaron | Done |
-| US045 | Visualizar mis calificaciones |  | Calificación | El usario debe de poder ver las calificaciones de su perfil  | 1 | Aaron | Done |
+| US046 | Crear y asignar hitos a activaciones | TS1 | Creación de hitos  | Crear y asignar hitos con fechas límite a las activaciones contratadas  | 2 | Max | Done |
+| US047 | Actualizar estado de hitos de activación | TS2 | Actualización de hitos  | Actualizar el estado de los hitos  | 2 | Max | Done |
+| US048| Visualizar hitos de una activación | TS3 | Visualización de hitos  | Ver todos los hitos asociados a una activación específica  | 1 | Max | Done |
+| US049 | Eliminar hitos | TS4 | Eliminación de los hitos de una activación  | Eliminar hitos que ya no son relevantes | 1 | Max | Done |
+| US006 | Registrar servicios ofrecidos | TS5 | Registro de Servicios  | La sección de gestion de portafolios deberá de tener una opción para registar los servicios ofrecidos | 2 | Gabriel | Done |
+| US007 | Editar servicios ofrecidos | TS6 | Edición de Servicios | Una vez registrado un servicio, colocar la opción de poder editar este | 1.5 | Gabriel | Done |
+| US008 | Elimar servicio ofrecido | TS7| Eliminar Servicio | Se deberá de poder eliminar un servicio cuando la productora desee | 1.5 | Gabriel | Done |
+| US009 | Visualizar lista de servicios ofrecidos | TS8 | Lista de Servicios | La productora deberá de ver una lista en donde vea todos sus servicios | 1 | Gabriel | Done |
+| US038 | 	Enviar propuesta a solicitud de activación  | TS9 | Propuesta de activacion | La productora debe de acceder a los detalles de una propuesta de activación | 2 | Kevin | Done |
+| US039 | Ver propuesta enviada | TS10 | Propuesta enviada | La productora deberá de ver una tabla de las propuestas enviadas | 1 | Kevin | Done |
+| US043 | Registrar calificación al finalizar evento	 | TS11 | Calificación | El usario debe de poder mandar reseñas y calificaciones despues de la realización de un evento o del servicio de una productora | 1 | Aaron | Done |
+| US044 | Visualizar calificaciones de otros usuarios | TS12 | Calificación | El usario debe de poder ver las calificaciones de otros usuarios en su perfil | 1 | Aaron | Done |
+| US045 | Visualizar mis calificaciones | TS13 | Calificación | El usario debe de poder ver las calificaciones de su perfil  | 1 | Aaron | Done |
 
 #### **5.2.2.4. Development Evidence for Sprint Review** 
 
@@ -2310,10 +2346,24 @@ Durante este sprint se avanzó con el desarrollo de la segunda versión de la La
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
 | :---: | :---: | :---: | :---: | ----- | :---: |
-| CloseSource-Landing-Page | landingPage_v1 | 0a68cf21f7517938744168537ef22bd17e5c34f9 | Feature: add content to the index file | —---------- | 09/05/2025 |
-| CloseSource-Landing-Page | landingPage_v1 | a26ae6335bf0d2ead8a79f93ed2b935e9e12c1a9 | Feature: add content to the style file | —---------- | 09/05/2025 |
-| CloseSource-Landing-Page | landingPage_v1 | 82931dc4ee7e961e6e2a39bb9b44919e4a336df8 | Feature: add content to the script file | —---------- | 09/05/2025 |
-| CloseSource-Landing-Page | landingPage_v1 | 4ed473590c8b4e5125d51393b063e8789370ae30 | Chore: clean the style file | —---------- | 09/05/2025 |
+| CloseSource-Frontend | feature/Rating-Context | 44df028e0bfd06eb33e213ad35277682147731ab | Feature: add files via upload | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | 9193a9ae4d53b58387632d9fc0628fa33010284a | Feature: create project | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | 959944385d82ee20bb3908845a120594abcc364f | Feature(public): add i18n files | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | aa1b4982cfe12546bf519f3e079dc789a4746352 | Feature(server): add database and routes| —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | 7264733e6ae591583abe454805e36497a4336e27 | Feature(environments): add environment | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | d5c5c0390129af606b369e817a9f5f9d9898423d | Feature (app): add home component | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | ba4bc590345d8dc359c3386ede4431521d2ee625 | Feature (app): add page not found component| —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | 732aadcaa04bd668d1a1ea19b581fa467c4108b2 | Feature (app): add milestone-create-and-edit component | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | 8b48b1b5f9098c1d18c3cc96a89d533151984a50 | Feature (app): add milestone-management component| —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | a00640c654946675848cbaf21614af1e5caf3764 | Feature (app): add milestone entity | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | c98468401f7b95d05e847ffbebccf49a26bfc8c4 | Feature (app): add milestone service | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | 5c82a2fa6eb658f783749b1ba5be1a0315b66f14 | Feature (app): add language component | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | 1a9dd419662cc102dde50901319b56d07c764c5a | Feature (app): add base service | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/activation-management  | 3f94948ad2c3942a72db82721ff96c5a14fe4375 | Feature (app): add some files | —---------- | 13/05/2025 |
+| CloseSource-Frontend | feature/portafolio-management | 7621427d63b51d48f2435803278e83a7421f086a | Feature: Initial Commit | —---------- | 12/05/2025 |
+| CloseSource-Frontend | feature/portafolio-management | 71d63ac153faf13b85698fbd7f8d7ac8ff016b3c | Feature: Angular + Material + Translate + JSON Server | —---------- | 12/05/2025 |
+| CloseSource-Frontend | feature/portafolio-management | 5fee2965f399451f4374c7a1dab5ede250cf19e2 | Feature: update README.md | —---------- | 12/05/2025 |
+| CloseSource-Frontend | feature/proposal-context | 2eb995827d922b598be2cb290f7d02df9e8fed85 | Feature:add proposal-context bounded context | —---------- | 13/05/2025 |
 
 
 #### **5.2.2.5. Execution Evidence for Sprint Review** 
@@ -2329,6 +2379,8 @@ Para el sprint 2, como ya hemos mencionado, se ha implementado la segunda versi�
   ![Landing page-Beneficios para marcas](images/beneficios_marcas.PNG) 
 - Quienes somos:
   ![Landing page-Quienes somos](images/quienes_somos.PNG) 
+- Información del aplicativo:
+  ![Landing-page-information](images/landingPageV2.JPG) 
 - Footer:
   ![Landing page-Footer](images/footer.PNG) 
 - Frontend - Activation Management Bounded Context:
@@ -2338,20 +2390,50 @@ Link del video demostrativo del Landing Page: https://drive.google.com/file/d/1Q
 
 #### **5.2.2.6. Services Documentation Evidence for Sprint Review**
 
-Se ha implementado un fake api para cada parte desplegada por cada uno de los integrantes, siendo este un ejemplo:
+Durante este sprint, se avanzó con la implementación de los servicios RESTful para los bounded contexts trabajados por cada integrante. Se utilizó **JSON Server** para simular las APIs en frontend y **Beeceptor** para pruebas simples de integración. Además, se elaboró la documentación básica para cada endpoint, detallando sus acciones HTTP, parámetros requeridos y rutas base.
 
-  ![Mock API 1](images/beeceptor1.PNG)
-  ![Mock API 2](images/beeceptor2.PNG)
+A continuación, se muestra un ejemplo del despliegue de los servicios simulados:
 
-#### **5.2.2.7. Software Deployment Evidence for Sprint Review.**  
-Durante este Sprint se realizó el despliegue de la segunda versión de la Landing Page de nuestro proyecto CloseSource utilizando GitHub Pages como entorno de publicación. Este paso permitió que la página tenga actualizado el desarrollo de nuestra web application, mostrando mayor detalle del funcionamiento del mismo. 
+- Despliegue de MOCK API en Beeceptor - Activation Management Bounded Context - Max:  
+  ![Mock API 1](images/beeceptor1.PNG)  
+  ![Mock API 2](images/beeceptor2.PNG)  
 
-![Deployment](images/deployment1.PNG) 
-![Deployment](images/deployment2.PNG)
+**Tabla de Endpoints Implementados:**
 
-Además, también desplegamos parte del front end, realizando el despliegue en Firebase, cada uno, del CRUD del Bounded Context desarrollado:
+| Bounded Context | Endpoint                        | Acción HTTP | Descripción                                           |
+|-----------------|----------------------------------|-------------|-------------------------------------------------------|
+| Activation      | `/api/activation-requests`       | POST        | Crear nueva solicitud de activación                   |
+| Activation      | `/api/activation-requests`       | GET         | Obtener todas las solicitudes                         |
+| Activation      | `/api/activation-requests/{id}`  | PUT         | Editar solicitud específica                           |
+| Activation      | `/api/activation-requests/{id}`  | DELETE      | Eliminar solicitud específica                         |
+| Milestones      | `/api/milestones`                | GET         | Listar todos los hitos registrados                    |
+| Milestones      | `/api/milestones`                | POST        | Registrar un nuevo hito                               |
+| Milestones      | `/api/milestones/{id}`           | PATCH       | Actualizar estado de un hito                          |
 
-![Firebase](images/firebase.PNG)
+---
+
+#### **5.2.2.7. Software Deployment Evidence for Sprint Review**
+
+Durante este Sprint se realizó el despliegue de la segunda versión de la Landing Page utilizando **GitHub Pages** y **Firebase**. La página se actualizó con nuevas secciones y correcciones de diseño alineadas al branding definido.
+
+**Pasos realizados para el despliegue del frontend (ejemplo - Max):**
+
+1. Se construyó el proyecto Angular con `ng build --configuration=production`.
+2. Se configuró el repositorio con la rama `gh-pages` y se instaló `angular-cli-ghpages`.
+3. Se ejecutó el comando `npx angular-cli-ghpages --dir=dist/project-name`.
+4. Se verificó visualmente el despliegue en GitHub Pages.
+5. Para el CRUD del bounded context, se utilizó Firebase:
+   - Se instaló Firebase CLI.
+   - Se realizó `firebase login` y `firebase init`.
+   - Se seleccionó el hosting del proyecto y carpeta de salida (`dist/project-name`).
+   - Se ejecutó `firebase deploy` y se validó el dominio proporcionado.
+
+**Despliegues realizados:**
+
+- Despliegue del CRUD del Bounded Context Activation Management – Max:  
+  ![Firebase](images/firebase.PNG)
+
+
 #### **5.2.2.8. Team Collaboration Insights during Sprint.** 
 
 Hubo un trabajo colaborativo para poder completar el trabajo, utilizando github para el manejo de la información. Así, se obtuvo las siguientes gráficas:
@@ -2361,10 +2443,238 @@ Hubo un trabajo colaborativo para poder completar el trabajo, utilizando github 
 ![Team collaboration insights](images/colab1.PNG)
 ![Team collaboration insights](images/colab2.PNG)
 
-## **5.3. Video About-The-Team**
+### **5.2.3. Sprint 3**  
+#### **5.2.3.1. Sprint Planning 3**
 
-Link del video: 
-> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/EUyvInesFzdJmWMysZ4lPcIByep3N3oj_vODWkoify006w?e=8AGKCA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  El Sprint Planning es una práctica central dentro de Scrum, permitiendo planificar las tareas y metas a cumplir en el periodo de trabajo. En este tercer sprint, el equipo decidió enfocarse principalmente en el desarrollo de la **primera versión del backend** del sistema, implementando los endpoints RESTful de acuerdo con los bounded contexts asignados previamente. La sesión de planificación permitió distribuir responsabilidades técnicas entre los miembros y definir qué funcionalidades del backend serían desarrolladas y documentadas.
+
+| **Sprint #**                | 3                                  |
+| :-------------------------: |------------------------------------|
+| **Sprint Planning Background**    |                                 |
+| **Date**                    | 31/05/2025                         |
+| **Time**                    | 8:00 pm                            |
+| **Location**                | Reunión virtual a través del canal de Discord del equipo llamado “Team CloseSource” |
+| **Prepared by**             | Max Anthony Paitan Pumacahua       |
+| **Attendees (to planning meeting)** | Aaron Alexander Avila Palacios, Gabriel Anthony Braithuaite Toledo, Kevin Alexander Castañeda Llanos, Ivan Jeanpierre La Madrid Lozano, Max Anthony Paitan Pumacahua |
+| **Sprint 3 Review Summary** | Desarrollo e implementación inicial de la lógica del backend de los bounded contexts asignados. |
+| **Sprint 3 Retrospective Summary** | Se cumplió con la programación de endpoints claves, permitiendo conexión inicial con el frontend. A mejorar: validaciones adicionales y pruebas de integración. |
+| **Sprint Goal & User Stories**                                     |
+| **Sprint 3 Goal**           | **Nos enfocamos** en desarrollar y documentar los servicios REST del backend para nuestros bounded contexts. **Creemos que** esto permitirá al frontend empezar a consumir datos reales simulados. **Esto se confirmará** cuando los endpoints estén funcionales y correctamente probados mediante herramientas como Postman. |
+| **Sprint n Velocity**       | 3 semanas                           |
+| **Sum of Story Points**     | 20                                 |
+
+#### **5.2.3.2. Aspect Leaders and Collaborators**
+
+Durante este sprint, se dividió el trabajo en base a los bounded contexts asignados desde el inicio del proyecto. Cada integrante se encargó de implementar las entidades, servicios, controladores y endpoints principales del backend de su contexto, siguiendo la arquitectura Domain-Driven Design.
+
+| Team Member | GitHub username | Solicitudes de activación | Portafolio de servicios | Propuestas de activación | Calificaciones | Hitos | Autenticación y login | Documentación de endpoints |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| Max Anthony Paitan Pumacahua | MaxPaitanP | L | - | - | - | L | - | L |
+| Gabriel Anthony Braithuaite Toledo | Gaboo04 | - | L | - | - | - | - | L |
+| Kevin Alexander Castañeda Llanos | KevCast1604 | - | - | L | - | - | - | L |
+| Aaron Alexander Avila Palacios | AaronAvilap | - | - | - | L | - | - | L |
+| Ivan Jeanpierre La Madrid Lozano | ivanlamadrid | - | - | - | - | - | L | L |
+
+#### **5.2.3.3. Sprint Backlog 3**
+
+En este sprint, el equipo se enfocó en la **implementación técnica del backend**, generando los endpoints necesarios para conectar el frontend con datos simulados y preparar el despliegue de futuras versiones funcionales.
+
+![Board en Trello, para el sprint backlog 3](images/trello2.png)  
+[Link del board en Trello:](https://trello.com/b/XIu3pRLo/matchevent)
+
+### Sprint Backlog - Sprint 3
+
+| Sprint # | Sprint 3 |  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US050 | Crear endpoint para registrar solicitud | TS1 | Endpoint POST solicitud | Crear endpoint POST `/api/activation-requests` para registrar una solicitud | 2 | Max | Done |
+| US004 | Ver solicitudes publicadas (FRONT) | TS2 | Componente available-requests-page | Mostrar solicitudes publicadas usando tarjetas y consumir datos simulados | 2 | Max | Done |
+| US005 | Ver detalle de solicitud (FRONT) | TS3 | Componente request-detail-page | Mostrar detalle de una solicitud seleccionada | 2 | Max | Done |
+| US001 | Crear solicitud (FRONT) | TS4 | Componente request-create-and-edit-page | Implementar formulario y conexión con servicio para registrar | 2 | Max | Done |
+| US002 | Editar solicitud (FRONT) | TS5 | Funcionalidad editar solicitud | Reutilización del componente create-and-edit con datos cargados | 2 | Max | Done |
+| US003 | Eliminar solicitud (FRONT) | TS6 | Funcionalidad eliminar solicitud | Implementar botón y llamada al servicio para eliminar una solicitud | 1.5 | Max | Done |
+| US053 | Login (FRONT IAM) | TS7 | Componente login-page | Implementar formulario, validaciones, login dummy y feedback con MatSnackBar | 2 | Max | Done |
+| US053 | Logout (FRONT IAM) | TS8 | Funcionalidad logout | Borrar almacenamiento local y redirigir al home visitante | 1 | Max | Done |
+| US053 | Snackbars (feedback) | TS9 | Mensajes de acción | Añadir mensajes en login, logout, creación, edición y eliminación de solicitudes | 1 | Max | Done |
+| US055 | Endpoint de gestión de hitos | TS10 | Endpoint hitos | Crear endpoint para gestionar hitos de activación (POST, PUT, GET, DELETE) | 2.5 | Max | Done |
+
+#### **5.2.3.4. Development Evidence for Sprint Review** 
+
+A continuación se muestra evidencia de los commits más relevantes en el backend, durante este sprint:
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
+| :---: | :---: | :---: | :---: | ----- | :---: |
+| CloseSource-Backend | feature/max | ` ` | Add POST endpoint for activation request | Implementación de servicio, controlador y pruebas básicas | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Add endpoints for activation proposals | POST y GET para propuestas | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Implement authentication endpoints | Login, registro y validación básica | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Add rating endpoint | Registro de calificaciones vía POST | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Milestone endpoints | CRUD completo de hitos | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Portfolio services endpoints | CRUD de servicios ofrecidos | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add request-create-and-edit-page | Componente para registrar y editar solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add request-available-page | Vista principal para productoras autenticadas | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add request-detail-page | Vista con información detallada de solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add snackbar feedback | Integración de MatSnackBar para acciones exitosas | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` ` | Add login-page component | Formulario de acceso de usuarios autenticados | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` ` | Add logout functionality | Lógica de cierre de sesión y redirección | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` ` | Add login feedback with snackbar | Mensaje de ingreso exitoso con MatSnackBar | 23/06/2025 |
+
+#### **5.2.3.5. Execution Evidence for Sprint Review** 
+
+Durante este sprint se realizaron pruebas exitosas de los endpoints en el front:
+
+- Endpoint de solicitudes de activación (`GET /api/activation-requests`):  
+  ![POST solicitud](images/activation_request.PNG)
+- Endpoint de autenticación (`/api/auth/login`, `/api/auth/register`):  
+  ![Auth endpoints](images/login.PNG)  
+  ![Auth endpoints](images/register.PNG)
+Además se realizó la nueva versión del Landing Page: 
+  ![Auth endpoints](images/landing_page_v2_1.PNG)  
+  ![Auth endpoints](images/landing_page_v2_2.PNG)
+
+
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+
+Durante el Sprint 3, se implementaron los primeros servicios REST reales utilizando Spring Boot para cada uno de los bounded contexts asignados. Se configuraron controladores, validaciones, servicios y persistencia, permitiendo la gestión básica desde el frontend. Como parte de las buenas prácticas, se empleó **Swagger/OpenAPI** para documentar los endpoints, facilitando su prueba e integración posterior.
+
+A continuación, se muestra un ejemplo de la documentación generada:
+
+- Documentación del bounded context `request`:  
+  ![Swagger request](images/request_backend.PNG)
+
+**Tabla de Endpoints Implementados (Sprint 3):**
+
+| Bounded Context | Endpoint                             | Método HTTP | Descripción                                          |
+|-----------------|--------------------------------------|-------------|------------------------------------------------------|
+| Request         | `/api/activation-requests`           | POST        | Registrar solicitud de activación                    |
+| Request         | `/api/activation-requests`           | GET         | Listar todas las solicitudes registradas             |
+| Request         | `/api/activation-requests/{id}`      | PUT         | Editar solicitud de activación                       |
+| Request         | `/api/activation-requests/{id}`      | DELETE      | Eliminar solicitud de activación                     |
+| Request         | `/api/activation-requests/{id}`      | GET         | Ver detalle de solicitud                             |
+| IAM             | `/api/auth/login`                    | POST        | Iniciar sesión con credenciales                      |
+| IAM             | `/api/auth/register`                 | POST        | Registrar nuevo usuario con tipo (empresa/productora)|
+
+---
+
+#### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+
+El backend fue ejecutado localmente usando **Spring Boot 3.5.0**, con configuración de base de datos PostgreSQL en entorno de desarrollo. La verificación funcional se realizó mediante **Postman**, **Swagger UI** y consultas directas en **pgAdmin 4**. Aún no se ha efectuado un despliegue externo (como en Railway o Render) debido a que las funcionalidades están en su fase inicial de conexión.
+
+Por otro lado, el frontend fue desplegado por cada integrante usando **Firebase Hosting**, integrando las vistas CRUD del bounded context respectivo y validando la comunicación simulada con JSON Server (en espera de conexión real al backend). Además, se añadieron mejoras visuales y notificaciones con MatSnackBar.
+
+**Pasos realizados para el despliegue del frontend (ejemplo - Max):**
+
+1. Se ejecutó `ng build --configuration=production` para compilar el proyecto.
+2. Se configuró Firebase con `firebase init` (seleccionando carpeta `dist/matchevent`).
+3. Se utilizó `firebase deploy` para subir la versión final del contexto `request`.
+4. Se verificó visualmente el funcionamiento de formularios y respuestas.
+
+**Captura del despliegue del bounded context Request – Max:**
+
+- ![Request Bounded Context - Max](images/max_deploy.PNG)
+#### **5.2.3.8. Team Collaboration Insights during Sprint** 
+
+El equipo mantuvo una colaboración constante durante el desarrollo del report, y un trabajo organizado individualmente -por bounded context- a través de GitHub y reuniones por Discord. Se lograron merges ordenados y revisión cruzada de código:
+
+- ![Colaboración equipo - Sprint 3](images/report_collaboration.PNG)
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas
+
+Para la validación de la plataforma **MatchEvent**, se plantearon entrevistas dirigidas a dos segmentos objetivo: **representantes de empresas** y **representantes de productoras de eventos**. Cada sesión incluyó interacción con el Landing Page y la Web Application (modulos activos de solicitudes, propuestas, entre otros). Las tareas a validar fueron:
+
+- Comprensión del modelo de negocio a través del Landing Page
+- Registro y edición de solicitudes de activación (empresa)
+- Visualización y envío de propuestas (productora)
+- Acceso y cierre de sesión en el sistema
+- Claridad y utilidad de las opciones del menú según el rol
+
+**Preguntas principales para ambos segmentos**:
+1. ¿Qué entiendes que hace la plataforma luego de revisar la Landing Page?
+2. ¿Encontraste la información relevante sobre tu rol en la Landing Page?
+3. ¿Qué tan sencillo te pareció realizar las acciones que te mostramos?
+4. ¿Hubo algo que no comprendiste o te generó duda?
+5. ¿Cómo calificarías la experiencia de navegación y el diseño?
+
+**Preguntas complementarias para empresas**:
+- ¿Te resultó fácil registrar una solicitud?
+- ¿Cambiarías algo del formulario o de la experiencia?
+
+**Preguntas complementarias para productoras**:
+- ¿La información de las solicitudes fue clara?
+- ¿Te fue fácil enviar una propuesta?
+
+#### 5.3.2. Registro de Entrevistas
+
+A continuación, se presentan los registros de entrevistas realizadas (ficticias) durante la validación.
+
+##### Entrevista 1 - Segmento Empresa
+- **Nombre**: Genaro Ledesma
+- **Edad**: 27
+- **Distrito**: Lima Cercado
+- **Profesión**: Especialista en Marketing Digital
+- **Resumen**: Genaro encontró clara la propuesta de valor en el Landing Page. La sección "Cómo funciona" le permitió comprender el flujo general. Pudo registrar una solicitud fácilmente y editarla luego sin complicaciones. Comentó que los estados de las solicitudes podrían ser más visuales.
+- **Video**: [Microsoft Stream - Validation Video]()
+##### Entrevista 2 - Segmento Productora
+- **Nombre**: Fabio de la Cruz
+- **Edad**: 55
+- **Distrito**: Villa el Salvador
+- **Profesión**: Gerente de Operaciones en Producciones Mx
+- **Resumen**: Fabio navegó sin problemas en la sección de solicitudes. Pudo ver detalles completos y enviar una propuesta correctamente. Sugiere incluir una barra de búsqueda para filtrar oportunidades según fechas o sectores.
+- **Video**: [Microsoft Stream - Validation Video]()
+
+##### Entrevista 3 - Segmento Productora
+- **Nombre**: Melany Paitan
+- **Edad**: 25
+- **Distrito**: Lima Cercado
+- **Profesión**: Coordinadora de eventos
+- **Resumen**: Melany se sintió cómoda con el diseño visual, especialmente con las tarjetas. Mencionó que el sistema es amigable pero le gustaría ver una vista previa de la propuesta antes de enviarla.
+- **Video**: [Microsoft Stream - Validation Video]() 
+
+##### Entrevista 4 - Segmento Empresa
+- **Nombre**: Jorge Pérez
+- **Edad**: 31
+- **Distrito**: La Molina
+- **Profesión**: Jefe de Marca
+- **Resumen**: Jorge destacó el diseño del formulario, pero indicó que no entendió inicialmente la diferencia entre "pendiente" y "en curso". Sugiere añadir íconos o colores que distingan estos estados.
+- **Video**: [Microsoft Stream - Validation Video]()  
+
+#### 5.3.3. Evaluaciones según heurísticas
+
+| # | Problema identificado | Severidad | Heurística violada |
+|--|------------------------|-----------|---------------------|
+| 1 | Falta de ícono o color para distinguir estados de solicitudes | 2 | Usabilidad: Visibilidad del estado del sistema |
+| 2 | No hay barra de búsqueda para filtrar solicitudes | 3 | Arquitectura de información: ¿Es encontrable? |
+| 3 | No se puede previsualizar propuesta antes de enviarla | 2 | Usabilidad: Flexibilidad y eficiencia de uso |
+| 4 | En login no hay validación clara de campos vacíos | 2 | Usabilidad: Prevención de errores |
+| 5 | En el footer falta acceso directo a políticas y contacto | 1 | Inclusión: Información accesible en todas las vistas |
+
+---
+
+### 5.4. Video About-the-Product
+
+Este video tiene un enfoque promocional, dirigido a visitantes y potenciales usuarios de la plataforma MatchEvent. Resume el modelo de negocio, describe los beneficios para empresas y productoras, e incluye escenas de navegación real en la web, además de testimonios grabados de validación. Considerar que es la primera versión
+
+- **URL Microsoft Stream**: [about the product](https://upcedupe-my.sharepoint.com/personal/u202318814_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202318814%5Fupc%5Fedu%5Fpe%2FDocuments%2Fabout%5Fthe%5Fproduct%5Fmatchevent%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E783e1ebd%2D564c%2D4e1d%2D949b%2D12a542cd0c27)
+- **Duración total**:
+- **Captura**: ![Screenshot del video](images/about_the_product.PNG)
+
+---
+
+### 5.5. Video About-the-Team
+
+El video "About the Team" resume el proceso de trabajo colaborativo del equipo CloseSource. Se presentan escenas grabadas durante reuniones virtuales, planeamiento de sprints y programación en pareja. Cada integrante se presenta en cámara, explica sus responsabilidades, y reflexiona sobre las competencias desarrolladas. Este video es la primera versión del mismo.
+
+- **Testimonios individuales**
+  - Max: Desarrollo del proyecto grupal. Opinión.
+  - Kevin: Desarrollo del proyecto grupal. Opinión.
+  - Aaron: Desarrollo del proyecto grupal. Opinión.
+  - Ivan: Desarrollo del proyecto grupal. Opinión.
+
+- **URL Microsoft Stream**: [Link](link aca)
+- **Duración total**: 
+- **Captura**: ![Screenshot del video](images/about-team.png)
 
 # Conclusiones
 
@@ -2399,6 +2709,7 @@ Verhelst, L. (2020). *Evolución del marketing experiencial desde la perspectiva
 * Landing Page link: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
 * Board de las actividades del grupo en Trello: https://trello.com/invite/b/681be2187eb81b9994744840/ATTI7372931ffb26577c2d3c044b0abd9148045BF9CD/matchevent
 * Board de las actividades del grupo en Trello para el Landing Page: https://trello.com/invite/b/681e9c71bf39eef1c3e85e6e/ATTIfd11a9d55c40c54a482dbddf22c12a1765A5D176/sprint-1-matchevent-closesource
+* Frontend Max: [match-event.web.app](https://match-event.web.app/)
   
 
 
