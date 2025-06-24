@@ -2621,7 +2621,7 @@ Las tareas evaluadas fueron:
 - **Distrito**: San Miguel  
 - **Profesión**: Gerente de marca  
 - **Resumen**:   
-- **Video**: [Validation Video 3]()
+- **Video**: [Validation Video 3](https://drive.google.com/drive/folders/1S8HUSprgIv6b4-AWHjjIS14WS6Tn7Xh9?usp=drive_link)
 
 ##### Entrevista 4 - Segmento Empresa
 - **Nombre**: Edery Abanto  
