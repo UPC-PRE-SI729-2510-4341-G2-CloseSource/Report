@@ -2657,10 +2657,10 @@ Este video tiene un enfoque promocional, dirigido a visitantes y potenciales usu
 El video "About the Team" resume el proceso de trabajo colaborativo del equipo CloseSource. Se presentan escenas grabadas durante reuniones virtuales, planeamiento de sprints y programación en pareja. Cada integrante se presenta en cámara, explica sus responsabilidades, y reflexiona sobre las competencias desarrolladas. Este video es la primera versión del mismo.
 
 - **Testimonios individuales**
-  - Max: Desarrollo del proyecto grupal. Opinión.
-  - Kevin: Desarrollo del proyecto grupal. Opinión.
+  - Max: Desarrollo del proyecto grupal. El equipo trabajo de forma correcta y ordenada para cada entregable, con algunos problemas debido al orden.
+  - Kevin: Desarrollo del proyecto grupal. El grupo cumplió con los objetivos del trabajo, sin embargo hubieron algunos problemas de organización después del retiro de un integrante.
   - Aaron: Desarrollo del proyecto grupal. Opinión.
-  - Ivan: Desarrollo del proyecto grupal. Opinión.
+  - Ivan: Desarrollo del proyecto grupal. El proyecto avanzo de forma correcta y ordenada.
 
 - **URL Microsoft Stream**: [about_the_team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/ESbuya-RJ71CkQaHGRaNfuAByKqsW-uVv7q88odjCS7UFg?e=7iMXnD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
 - **Duración total**: 5 minutos 45 segundos
