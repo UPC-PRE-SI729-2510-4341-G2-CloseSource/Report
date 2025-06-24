@@ -2387,6 +2387,21 @@ A continuación, se muestra un ejemplo del despliegue de los servicios simulados
 | Milestones      | `/api/milestones`                | POST        | Registrar un nuevo hito                               |
 | Milestones      | `/api/milestones/{id}`           | PATCH       | Actualizar estado de un hito                          |
 
+- Despliegue de  API - Event Context - Ivan:
+  
+![image](https://github.com/user-attachments/assets/a2f73a9f-8312-432c-a482-c77a018ab5d4)
+![image](https://github.com/user-attachments/assets/564d8f58-0909-43ce-9988-4968e7e11bd9)
+
+**Tabla de Endpoints Implementados:**
+
+| Bounded Context | Endpoint                          | Acción HTTP | Descripción                                           |
+|-----------------|------------------------------------|-------------|-------------------------------------------------------|
+| EventContext    | `/api/v1/events`                   | POST        | Crear un nuevo evento                                |
+| EventContext    | `/api/v1/events/{id}`              | GET         | Obtener un evento por su ID                          |
+| EventContext    | `/api/v1/events/views/{id}`        | GET         | Obtener una proyección (vista) de un evento          |
+| EventContext    | `/api/v1/events/{id}/status`       | PATCH       | Actualizar el estado de un evento                    |
+| EventContext    | `/api/v1/events/{id}/gallery`      | POST        | Agregar una imagen a la galería de un evento         |
+
 ---
 
 #### **5.2.2.7. Software Deployment Evidence for Sprint Review**
