@@ -2701,7 +2701,7 @@ Verhelst, L. (2020). *Evolución del marketing experiencial desde la perspectiva
 * Board de las actividades del grupo en Trello para el Landing Page: https://trello.com/invite/b/681e9c71bf39eef1c3e85e6e/ATTIfd11a9d55c40c54a482dbddf22c12a1765A5D176/sprint-1-matchevent-closesource
 * Frontend Max: [match-event.web.app](https://match-event.web.app/)  
 * Frontend Kevin: [proposal-context.web.app](https://proposal-context.web.app/)  
-* Frontend Ivan: []()  
+* Frontend Ivan: [event-context.web.app](https://event-context.web.app/)  
 * Frontend Aaron: []()  
   
 
