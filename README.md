@@ -2496,6 +2496,7 @@ A continuación se muestra evidencia de los commits más relevantes en el backen
 | CloseSource-Frontend | feature/iam | ` ` | Add logout functionality | Lógica de cierre de sesión y redirección | 23/06/2025 |
 | CloseSource-Frontend | feature/iam | ` ` | Add login feedback with snackbar | Mensaje de ingreso exitoso con MatSnackBar | 23/06/2025 |
 
+
 #### **5.2.3.5. Execution Evidence for Sprint Review** 
 
 Durante este sprint se realizaron pruebas exitosas de los endpoints en el front:
@@ -2530,6 +2531,10 @@ A continuación, se muestra un ejemplo de la documentación generada:
 | Request         | `/api/activation-requests/{id}`      | GET         | Ver detalle de solicitud                             |
 | IAM             | `/api/auth/login`                    | POST        | Iniciar sesión con credenciales                      |
 | IAM             | `/api/auth/register`                 | POST        | Registrar nuevo usuario con tipo (empresa/productora)|
+| Proposal        | `/api/v1/proposals`                  | POST        | Crear nueva propuesta                                |
+| Proposal        | `/api/v1/proposals       `           | GET         | Obtener todas las propuestas                         |
+| Proposal        | `/api/v1/proposals/{id}`             | PUT         | Actualizar propuesta a activación                    |
+| Proposal        | `/api/v1/proposals/{id}`             | DELETE      | Eliminar propuesta                                   |
 
 ---
 
