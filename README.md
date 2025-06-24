@@ -2613,7 +2613,7 @@ Las tareas evaluadas fueron:
 - **Distrito**: Surco  
 - **Profesión**: Productora de Eventos  
 - **Resumen**:   
-- **Video**: [Validation Video 2]()
+- **Video**: [Validation Video 2](https://drive.google.com/drive/folders/1vCfH6CBmZOIxzOCrbepUk1BCeysNC4xx?usp=sharing)
 
 ##### Entrevista 3 - Segmento Productora
 - **Nombre**: Henrry Raúl Aiquipa  
