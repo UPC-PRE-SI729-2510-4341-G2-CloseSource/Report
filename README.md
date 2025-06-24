@@ -2521,7 +2521,7 @@ A continuación, se muestra un ejemplo de la documentación generada:
   ![Swagger request](images/request_backend.PNG)
 
 - Documentación del bounded context `proposal`
-  ![Swagger_proposal](images/proposal_backend.PNG)
+  ![Swagger_proposal](images/proposal_backend.png)
 **Tabla de Endpoints Implementados (Sprint 3):**
 
 | Bounded Context | Endpoint                             | Método HTTP | Descripción                                          |
