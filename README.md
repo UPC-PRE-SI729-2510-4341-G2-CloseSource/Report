@@ -2474,7 +2474,8 @@ En este sprint, el equipo se enfocó en la **implementación técnica del backen
 | US053 | Login (FRONT IAM) | TS7 | Componente login-page | Implementar formulario, validaciones, login dummy y feedback con MatSnackBar | 2 | Max | Done |
 | US053 | Logout (FRONT IAM) | TS8 | Funcionalidad logout | Borrar almacenamiento local y redirigir al home visitante | 1 | Max | Done |
 | US053 | Snackbars (feedback) | TS9 | Mensajes de acción | Añadir mensajes en login, logout, creación, edición y eliminación de solicitudes | 1 | Max | Done |
-| US055 | Endpoint de gestión de hitos | TS10 | Endpoint hitos | Crear endpoint para gestionar hitos de activación (POST, PUT, GET, DELETE) | 2.5 | Max | Done |
+| US055 | Endpoint de gestión de hitos | TS10 | Endpoint hitos | Crear endpoint para gestionar hitos de activación (POST, PUT, GET, DELETE) | 2.5 | Max, Kevin | Done |
+| US038 | 	Enviar propuesta a solicitud de activación  | TS9 | Propuesta de activacion | La productora debe de acceder a los detalles de una propuesta de activación | 2 | Kevin | Done |
 
 #### **5.2.3.4. Development Evidence for Sprint Review** 
 
