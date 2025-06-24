@@ -2582,73 +2582,69 @@ El equipo mantuvo una colaboración constante durante el desarrollo del report, 
 
 #### 5.3.1. Diseño de Entrevistas
 
-Para la validación de la plataforma **MatchEvent**, se plantearon entrevistas dirigidas a dos segmentos objetivo: **representantes de empresas** y **representantes de productoras de eventos**. Cada sesión incluyó interacción con el Landing Page y la Web Application (modulos activos de solicitudes, propuestas, entre otros). Las tareas a validar fueron:
+Para la validación del primer entregable funcional del proyecto **MatchEvent**, se diseñaron entrevistas orientadas únicamente al módulo **Landing Page**. Las entrevistas se dirigieron a usuarios de ambos segmentos objetivo (empresas y productoras), con el fin de validar la claridad del mensaje, diseño, accesibilidad a la información y comprensión general del modelo de negocio.
 
-- Comprensión del modelo de negocio a través del Landing Page
-- Registro y edición de solicitudes de activación (empresa)
-- Visualización y envío de propuestas (productora)
-- Acceso y cierre de sesión en el sistema
-- Claridad y utilidad de las opciones del menú según el rol
+Las tareas evaluadas fueron:
 
-**Preguntas principales para ambos segmentos**:
-1. ¿Qué entiendes que hace la plataforma luego de revisar la Landing Page?
-2. ¿Encontraste la información relevante sobre tu rol en la Landing Page?
-3. ¿Qué tan sencillo te pareció realizar las acciones que te mostramos?
-4. ¿Hubo algo que no comprendiste o te generó duda?
-5. ¿Cómo calificarías la experiencia de navegación y el diseño?
+- Comprensión del modelo de negocio presentado en el Landing Page
+- Claridad de los roles y opciones disponibles
+- Navegación entre secciones (Inicio, Cómo funciona, Beneficios, etc.)
+- Utilidad de las llamadas a la acción (CTA)
+- Diseño visual y percepción del profesionalismo de la plataforma
 
-**Preguntas complementarias para empresas**:
-- ¿Te resultó fácil registrar una solicitud?
-- ¿Cambiarías algo del formulario o de la experiencia?
-
-**Preguntas complementarias para productoras**:
-- ¿La información de las solicitudes fue clara?
-- ¿Te fue fácil enviar una propuesta?
+**Preguntas principales para ambos segmentos:**
+1. ¿Qué entiendes que hace MatchEvent según lo mostrado en la Landing Page?
+2. ¿Identificaste fácilmente dónde está la información para tu rol (empresa/productora)?
+3. ¿La navegación entre secciones te pareció clara y rápida?
+4. ¿Qué parte de la Landing Page te pareció más útil? ¿Cuál menos?
+5. ¿Cómo calificarías el diseño visual general? ¿Qué mejorarías?
 
 #### 5.3.2. Registro de Entrevistas
 
-A continuación, se presentan los registros de entrevistas realizadas (ficticias) durante la validación.
-
 ##### Entrevista 1 - Segmento Empresa
-- **Nombre**: Genaro Ledesma
-- **Edad**: 27
-- **Distrito**: Lima Cercado
-- **Profesión**: Especialista en Marketing Digital
-- **Resumen**: Genaro encontró clara la propuesta de valor en el Landing Page. La sección "Cómo funciona" le permitió comprender el flujo general. Pudo registrar una solicitud fácilmente y editarla luego sin complicaciones. Comentó que los estados de las solicitudes podrían ser más visuales.
-- **Video**: [Microsoft Stream - Validation Video]()
-##### Entrevista 2 - Segmento Productora
-- **Nombre**: Fabio de la Cruz
-- **Edad**: 55
-- **Distrito**: Villa el Salvador
-- **Profesión**: Gerente de Operaciones en Producciones Mx
-- **Resumen**: Fabio navegó sin problemas en la sección de solicitudes. Pudo ver detalles completos y enviar una propuesta correctamente. Sugiere incluir una barra de búsqueda para filtrar oportunidades según fechas o sectores.
+- **Nombre**: Genaro Ledesma  
+- **Edad**: 27  
+- **Distrito**: Lima Cercado  
+- **Profesión**: Especialista en Marketing Digital  
+- **Resumen**: Genaro comprendió rápidamente la propuesta de valor gracias a los títulos principales y la sección “Cómo funciona”. Comentó que el diseño genera confianza y se alinea con plataformas profesionales. Sugirió que los roles podrían estar más diferenciados desde el inicio, por ejemplo, con botones o íconos visibles desde el hero. También recomendó que el botón de “Comienza ahora” redirija directamente al registro y no a información adicional.  
 - **Video**: [Microsoft Stream - Validation Video]()
 
-##### Entrevista 3 - Segmento Productora
-- **Nombre**: Melany Paitan
-- **Edad**: 25
-- **Distrito**: Lima Cercado
-- **Profesión**: Coordinadora de eventos
-- **Resumen**: Melany se sintió cómoda con el diseño visual, especialmente con las tarjetas. Mencionó que el sistema es amigable pero le gustaría ver una vista previa de la propuesta antes de enviarla.
+##### Entrevista 2 - Segmento Productora
+- **Nombre**: Fabio de la Cruz  
+- **Edad**: 55  
+- **Distrito**: Villa el Salvador  
+- **Profesión**: Gerente de Operaciones en Producciones Mx  
+- **Resumen**: Fabio entendió el concepto general de la plataforma, pero le pareció que el lenguaje es más corporativo que inclusivo. Indicó que le gustaría una explicación más directa de lo que obtiene una productora. Se desplazó fácilmente por la página y encontró la estructura bien ordenada. El contraste de colores fue de su agrado, aunque opinó que algunos textos eran pequeños en pantallas grandes.  
+- **Video**: [Microsoft Stream - Validation Video]()
+
+##### Entrevista 3 - Segmento Productora  
+- **Nombre**: Melany Paitan  
+- **Edad**: 25  
+- **Distrito**: Lima Cercado  
+- **Profesión**: Coordinadora de eventos  
+- **Resumen**: Melany valoró la estética del sitio y el uso de tarjetas para comunicar beneficios. Mencionó que la estructura es fluida, pero en móviles algunas secciones no ocupan todo el ancho disponible. La CTA del botón principal le pareció efectiva. Propuso que se incluya una breve animación o video para mostrar el flujo real de la plataforma, dado que eso ayudaría a usuarios nuevos a entender cómo funciona.  
 - **Video**: [Microsoft Stream - Validation Video]() 
 
-##### Entrevista 4 - Segmento Empresa
-- **Nombre**: Jorge Pérez
-- **Edad**: 31
-- **Distrito**: La Molina
-- **Profesión**: Jefe de Marca
-- **Resumen**: Jorge destacó el diseño del formulario, pero indicó que no entendió inicialmente la diferencia entre "pendiente" y "en curso". Sugiere añadir íconos o colores que distingan estos estados.
-- **Video**: [Microsoft Stream - Validation Video]()  
+##### Entrevista 4 - Segmento Empresa  
+- **Nombre**: Jorge Pérez  
+- **Edad**: 31  
+- **Distrito**: La Molina  
+- **Profesión**: Jefe de Marca  
+- **Resumen**: Jorge destacó el enfoque moderno y limpio del diseño. Le gustó la sección de testimonios (aunque aún no está activa) y mencionó que sería ideal contar con casos de éxito para generar más credibilidad. También recomendó colocar íconos representativos en los bloques de texto para facilitar la lectura escaneada. Señaló que en dispositivos móviles el menú no siempre se desplegaba bien.  
+- **Video**: [Microsoft Stream - Validation Video]()
+
+---
 
 #### 5.3.3. Evaluaciones según heurísticas
 
 | # | Problema identificado | Severidad | Heurística violada |
 |--|------------------------|-----------|---------------------|
-| 1 | Falta de ícono o color para distinguir estados de solicitudes | 2 | Usabilidad: Visibilidad del estado del sistema |
-| 2 | No hay barra de búsqueda para filtrar solicitudes | 3 | Arquitectura de información: ¿Es encontrable? |
-| 3 | No se puede previsualizar propuesta antes de enviarla | 2 | Usabilidad: Flexibilidad y eficiencia de uso |
-| 4 | En login no hay validación clara de campos vacíos | 2 | Usabilidad: Prevención de errores |
-| 5 | En el footer falta acceso directo a políticas y contacto | 1 | Inclusión: Información accesible en todas las vistas |
+| 1 | Falta de diferenciación visual clara entre roles desde el hero section | 2 | Visibilidad del estado del sistema |
+| 2 | CTA principal no redirige directamente al formulario de registro | 2 | Mapeo entre el sistema y el mundo real |
+| 3 | Texto demasiado pequeño en pantallas grandes (versión desktop) | 1 | Legibilidad / Estándares estéticos |
+| 4 | Algunos elementos del menú no se despliegan bien en móviles | 3 | Flexibilidad y eficiencia de uso |
+| 5 | No hay elemento visual que explique el flujo del usuario | 2 | Ayuda al usuario: Reconocimiento, no recuerdo |
+
 
 ---
 
