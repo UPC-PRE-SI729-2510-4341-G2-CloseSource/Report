@@ -539,9 +539,9 @@ El diseño de entrevistas tiene como objetivo validar los supuestos clave del pr
 |---|----------|-------------------|------|----------|-----------------|------------------------------------------|
 | 1 | Empresa o marca | **Genaro Jean Pierre Ledesma** | 24 años | Lima Cercado | Especialista en Marketing Digital | Extrovertido, centrado en resultados, early-adopter. Usa Google Chrome (desktop) y iOS (iPhone 13) para su trabajo diario; sigue a HubSpot, Mailchimp y TechCrunch. |
 | 2 | Productora de eventos | **Jocelyn Kanahuiri Frisancho** | 25 años | Santiago de Surco | Directora de una productora boutique | Creativa, proactiva, alta afinidad con marcas lifestyle; trabaja en PC Windows 11 + Android, app‐first (Instagram, TikTok, WhatsApp Business). |
-| 3 | Empresa o marca | **Henry (Gerente general en Tutus)** | ~32 años (estimado) | San Miguel | Gerente de marca (retail) | Analítico, busca minimizar riesgos; MacBook Pro + iPhone; lee HBR y sigue a Apple Events e Inbound. |
+| 3 | Empresa o marca | **Henry** | 32 años | San Miguel | Gerente de marca (retail) | Analítico, busca minimizar riesgos; MacBook Pro + iPhone; lee HBR y sigue a Apple Events e Inbound. |
 | 4 | Productora de eventos | **Jennifer Medina** | 25 años | Breña | Coordinadora de eventos | Meticulosa, enfocada en eficiencia; PC Windows 10 + Android; navegador principal Chrome; usa Trello y Canva. |
-| 5 | Productora de eventos | **Fabio de la Cruz** | 55 años | Villa El Salvador | Gerente de Operaciones, Producciones Mx | Orientado a networking, reputación y negociaciones B2B; laptop Windows 10 + iPad; LinkedIn y Facebook son sus canales clave. |
+| 5 | Productora de eventos | **Edery Abanto** | 25 años | Villa El Salvador | Gerente de Operaciones, Producciones Mx | Orientado a networking, reputación y negociaciones B2B; laptop Windows 10 + iPad; LinkedIn y Facebook son sus canales clave. |
 
 \*Datos de tecnología, personalidad e influencias provienen de las preguntas adicionales realizadas al cierre de cada entrevista.
 
@@ -560,7 +560,7 @@ En esta entrevista, el gerente Henry, representante de la empresa Tutus, forma p
 La entrevistada representa a una joven productora de eventos con conocimientos tecnológicos básicos, lo que sugiere que la plataforma debe ser accesible y compatible con sistemas comunes como Windows, Android y Google Chrome. Su principal desafío es la baja visibilidad frente a competidores, a pesar de usar redes sociales como Instagram y WhatsApp. Destaca la necesidad de una herramienta que le permita presentar su portafolio de forma profesional. Además, depende del boca a boca para captar clientes, por lo que valora un sistema de reseñas. Está dispuesta a especializarse en un tipo de evento si eso mejora su posicionamiento, lo cual respalda la inclusión de filtros por nicho. Finalmente, espera que la plataforma sea transparente, útil y que facilite la gestión de su trabajo, reforzando la importancia de crear una solución práctica y orientada al valor profesional.
 
 **Entrevista 5 – Productora de eventos**  
-El entrevistado Fabio de la Cruz representa al segmento de productoras de eventos. Con más de tres décadas en el rubro, Fabio valora la reputación y los indicadores de desempeño para diferenciarse en un mercado saturado. Durante la entrevista remarcó que el lenguaje de la landing le parece “demasiado corporativo” y que echa en falta una sección que explique de forma concreta qué beneficios exclusivos obtiene una productora. Aprecia la estructura clara y el contraste de colores, pero observa problemas de legibilidad en pantallas grandes. Sus necesidades principales son: un dashboard con métricas en tiempo real sobre la eficacia de su perfil, la posibilidad de resaltar credenciales y filtros que prioricen calidad sobre precio para evitar competir solo por tarifas bajas. Sus comentarios validan la hipótesis de que las productoras maduras requieren herramientas de analítica y posicionamiento además de un portafolio visual, y subrayan la importancia de adaptar el copy a distintos niveles de experiencia dentro de la plataforma.
+El entrevistado Edery Abanto representa al segmento de productoras de eventos. Con más de tres décadas en el rubro, Edery valora la reputación y los indicadores de desempeño para diferenciarse en un mercado saturado. Durante la entrevista remarcó que el lenguaje de la landing le parece “demasiado corporativo” y que echa en falta una sección que explique de forma concreta qué beneficios exclusivos obtiene una productora. Aprecia la estructura clara y el contraste de colores, pero observa problemas de legibilidad en pantallas grandes. Sus necesidades principales son: un dashboard con métricas en tiempo real sobre la eficacia de su perfil, la posibilidad de resaltar credenciales y filtros que prioricen calidad sobre precio para evitar competir solo por tarifas bajas. Sus comentarios validan la hipótesis de que las productoras maduras requieren herramientas de analítica y posicionamiento además de un portafolio visual, y subrayan la importancia de adaptar el copy a distintos niveles de experiencia dentro de la plataforma.
 
 ---
 
@@ -2596,17 +2596,17 @@ Las tareas evaluadas fueron:
 
 ##### Entrevista 3 - Segmento Productora
 - **Nombre**: Henrry Raúl Aiquipa  
-- **Edad**: 25  
-- **Distrito**: Independencia  
-- **Profesión**: Coordinador de eventos  
+- **Edad**: 32  
+- **Distrito**: San Miguel  
+- **Profesión**: Gerente de marca  
 - **Resumen**:   
 - **Video**: [Validation Video 3]()
 
 ##### Entrevista 4 - Segmento Empresa
 - **Nombre**: Edery Abanto  
-- **Edad**: 31  
-- **Distrito**: La Molina  
-- **Profesión**: Jefe de Marca  
+- **Edad**: 25  
+- **Distrito**: Villa el Salvador  
+- **Profesión**: Grente de operaciones  
 - **Resumen**:   
 - **Video**: [Validation Video 4]()
 
