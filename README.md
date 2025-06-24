@@ -2646,7 +2646,7 @@ El video "About the Team" resume el proceso de trabajo colaborativo del equipo C
   - Aaron: Desarrollo del proyecto grupal. Opinión.
   - Ivan: Desarrollo del proyecto grupal. Opinión.
 
-- **URL Microsoft Stream**: [about_the_team]([link aca](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/ESbuya-RJ71CkQaHGRaNfuAByKqsW-uVv7q88odjCS7UFg?e=7iMXnD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+- **URL Microsoft Stream**: [about_the_team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/ESbuya-RJ71CkQaHGRaNfuAByKqsW-uVv7q88odjCS7UFg?e=7iMXnD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
 - **Duración total**: 5 minutos 45 segundos
 - **Captura**: ![Screenshot del video](images/about-team.png)
 
