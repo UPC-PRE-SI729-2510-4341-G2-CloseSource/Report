@@ -2603,35 +2603,35 @@ Las tareas evaluadas fueron:
 
 ##### Entrevista 1 - Segmento Empresa
 - **Nombre**: Genaro Ledesma  
-- **Edad**: 27  
+- **Edad**: 24  
 - **Distrito**: Lima Cercado  
 - **Profesión**: Especialista en Marketing Digital  
 - **Resumen**: Genaro comprendió rápidamente la propuesta de valor gracias a los títulos principales y la sección “Cómo funciona”. Comentó que el diseño genera confianza y se alinea con plataformas profesionales. Sugirió que los roles podrían estar más diferenciados desde el inicio, por ejemplo, con botones o íconos visibles desde el hero. También recomendó que el botón de “Comienza ahora” redirija directamente al registro y no a información adicional.  
-- **Video**: [Microsoft Stream - Validation Video]()
+- **Video**: [Validation Video 1](https://drive.google.com/file/d/1BmAirTYDKh8feBEsUQi-a7O6KCB6HR_x/view?usp=drive_link)
 
 ##### Entrevista 2 - Segmento Productora
-- **Nombre**: Fabio de la Cruz  
-- **Edad**: 55  
+- **Nombre**:   
+- **Edad**:   
 - **Distrito**: Villa el Salvador  
 - **Profesión**: Gerente de Operaciones en Producciones Mx  
-- **Resumen**: Fabio entendió el concepto general de la plataforma, pero le pareció que el lenguaje es más corporativo que inclusivo. Indicó que le gustaría una explicación más directa de lo que obtiene una productora. Se desplazó fácilmente por la página y encontró la estructura bien ordenada. El contraste de colores fue de su agrado, aunque opinó que algunos textos eran pequeños en pantallas grandes.  
-- **Video**: [Microsoft Stream - Validation Video]()
+- **Resumen**: El entrevistado entendió el concepto general de la plataforma, pero le pareció que el lenguaje es más corporativo que inclusivo. Indicó que le gustaría una explicación más directa de lo que obtiene una productora. Se desplazó fácilmente por la página y encontró la estructura bien ordenada. El contraste de colores fue de su agrado, aunque opinó que algunos textos eran pequeños en pantallas grandes.  
+- **Video**: [Validation Video 2]()
 
 ##### Entrevista 3 - Segmento Productora  
-- **Nombre**: Melany Paitan  
-- **Edad**: 25  
+- **Nombre**:   
+- **Edad**:   
 - **Distrito**: Lima Cercado  
 - **Profesión**: Coordinadora de eventos  
-- **Resumen**: Melany valoró la estética del sitio y el uso de tarjetas para comunicar beneficios. Mencionó que la estructura es fluida, pero en móviles algunas secciones no ocupan todo el ancho disponible. La CTA del botón principal le pareció efectiva. Propuso que se incluya una breve animación o video para mostrar el flujo real de la plataforma, dado que eso ayudaría a usuarios nuevos a entender cómo funciona.  
-- **Video**: [Microsoft Stream - Validation Video]() 
+- **Resumen**: El entrevistado valoró la estética del sitio y el uso de tarjetas para comunicar beneficios. Mencionó que la estructura es fluida, pero en móviles algunas secciones no ocupan todo el ancho disponible. La CTA del botón principal le pareció efectiva. Propuso que se incluya una breve animación o video para mostrar el flujo real de la plataforma, dado que eso ayudaría a usuarios nuevos a entender cómo funciona.  
+- **Video**: [Validation Video 3]() 
 
 ##### Entrevista 4 - Segmento Empresa  
-- **Nombre**: Jorge Pérez  
-- **Edad**: 31  
+- **Nombre**:   
+- **Edad**:  
 - **Distrito**: La Molina  
 - **Profesión**: Jefe de Marca  
-- **Resumen**: Jorge destacó el enfoque moderno y limpio del diseño. Le gustó la sección de testimonios (aunque aún no está activa) y mencionó que sería ideal contar con casos de éxito para generar más credibilidad. También recomendó colocar íconos representativos en los bloques de texto para facilitar la lectura escaneada. Señaló que en dispositivos móviles el menú no siempre se desplegaba bien.  
-- **Video**: [Microsoft Stream - Validation Video]()
+- **Resumen**: El entrevistado destacó el enfoque moderno y limpio del diseño. Le gustó la sección de testimonios (aunque aún no está activa) y mencionó que sería ideal contar con casos de éxito para generar más credibilidad. También recomendó colocar íconos representativos en los bloques de texto para facilitar la lectura escaneada. Señaló que en dispositivos móviles el menú no siempre se desplegaba bien.  
+- **Video**: [Validation Video 4]()
 
 ---
 
