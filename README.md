@@ -2496,6 +2496,9 @@ A continuación se muestra evidencia de los commits más relevantes en el backen
 | CloseSource-Frontend | feature/iam | ` ` | Add login-page component | Formulario de acceso de usuarios autenticados | 23/06/2025 |
 | CloseSource-Frontend | feature/iam | ` ` | Add logout functionality | Lógica de cierre de sesión y redirección | 23/06/2025 |
 | CloseSource-Frontend | feature/iam | ` ` | Add login feedback with snackbar | Mensaje de ingreso exitoso con MatSnackBar | 23/06/2025 |
+| CloseSource-Backend | feature/proposal-context | ` ` |First version of proposal bounded context backend | Primera versión de backend con swagger | 17/06/2025 |
+| CloseSource-Backend | feature/proposal-context | ` ` |Second version of proposal bounded context backend |Segunda version de backend | 18/06/2025 |
+| CloseSource-Backend | feature/proposal-context | ` ` |update new proposal context backend | Arreglo de bugs | 23/06/2025 |
 
 
 #### **5.2.3.5. Execution Evidence for Sprint Review** 
@@ -2523,6 +2526,12 @@ A continuación, se muestra un ejemplo de la documentación generada:
 
 - Documentación del bounded context `proposal`
   ![Swagger_proposal](images/proposal_backend.png)
+
+- Documentación del bounded context `event`:
+  
+![image](https://github.com/user-attachments/assets/a2f73a9f-8312-432c-a482-c77a018ab5d4)
+![image](https://github.com/user-attachments/assets/564d8f58-0909-43ce-9988-4968e7e11bd9)
+  
 **Tabla de Endpoints Implementados (Sprint 3):**
 
 | Bounded Context | Endpoint                             | Método HTTP | Descripción                                          |
@@ -2538,23 +2547,12 @@ A continuación, se muestra un ejemplo de la documentación generada:
 | Proposal        | `/api/v1/proposals       `           | GET         | Obtener todas las propuestas                         |
 | Proposal        | `/api/v1/proposals/{id}`             | PUT         | Actualizar propuesta a activación                    |
 | Proposal        | `/api/v1/proposals/{id}`             | DELETE      | Eliminar propuesta                                   |
-
-- Documentación del bounded context `event`:
-  
-![image](https://github.com/user-attachments/assets/a2f73a9f-8312-432c-a482-c77a018ab5d4)
-![image](https://github.com/user-attachments/assets/564d8f58-0909-43ce-9988-4968e7e11bd9)
-
-**Tabla de Endpoints Implementados:**
-
-| Bounded Context | Endpoint                          | Acción HTTP | Descripción                                           |
-|-----------------|------------------------------------|-------------|-------------------------------------------------------|
 | EventContext    | `/api/v1/events`                   | POST        | Crear un nuevo evento                                |
 | EventContext    | `/api/v1/events/{id}`              | GET         | Obtener un evento por su ID                          |
 | EventContext    | `/api/v1/events/views/{id}`        | GET         | Obtener una proyección (vista) de un evento          |
 | EventContext    | `/api/v1/events/{id}/status`       | PATCH       | Actualizar el estado de un evento                    |
 | EventContext    | `/api/v1/events/{id}/gallery`      | POST        | Agregar una imagen a la galería de un evento         |
 
----
 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review**
 
