@@ -2702,7 +2702,7 @@ Verhelst, L. (2020). *Evolución del marketing experiencial desde la perspectiva
 * Frontend Max: [match-event.web.app](https://match-event.web.app/)  
 * Frontend Kevin: [proposal-context.web.app](https://proposal-context.web.app/)  
 * Frontend Ivan: [event-context.web.app](https://event-context.web.app/)  
-* Frontend Aaron: []()  
+* Frontend Aaron: [activation-management-context.web.app](https://activation-management-context.web.app/)   
   
 
 
