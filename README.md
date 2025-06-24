@@ -92,6 +92,7 @@ URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-43
     - [3.2. User Stories.](#32-user-stories)
     - [3.3. Impact Mapping.](#33-impact-mapping)
     - [3.4. Product Backlog.](#34-product-backlog)
+    - [3.4. Product Backlog](#34-product-backlog-1)
 - [**Capítulo IV: Product Design**](#capítulo-iv-product-design)
   - [**4.1. Style Guidelines.**](#41-style-guidelines)
     - [**4.1.1. General Style Guidelines.**](#411-general-style-guidelines)
@@ -421,7 +422,7 @@ Hemos decidido dividir nuestros segmentos objetivo en dos usuarios objetivos. Es
 ### 2.1. Competidores.
 ### 2.1.1. Análisis competitivo
 
-A continuación se presenta el cuadro **Competitive Analysis Landscape**, donde se comparan los principales competidores directos e indirectos con nuestra propuesta MatchEvent:
+A continuación se presenta el cuadro del **Competitive Analysis Landscape**, donde se comparan los principales competidores directos e indirectos con nuestra propuesta MatchEvent:
 
 | **Aspecto**              | **MatchEvent**                                                                  | **Eventtia**                                                  | **Eventbrite**                                       | **Crosalia**                                                     |
 |--------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------------------------------|------------------------------------------------------------------|
@@ -578,8 +579,6 @@ A continuación, se presenta un cuadro con los enlaces a los videos de las entre
 | 2  | Productora de eventos     | [Entrevista 2](https://www.youtube.com/watch?v=g6iUemJmMIA) |
 | 3  | Empresa o marca           | [Entrevista 3](https://www.youtube.com/watch?v=fKm5kj0AMhY) |
 | 4  | Productora de eventos     | [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e889_upc_edu_pe/EcmRlg9SH7hMgicVmwNKdlMBPwKH_j_3IHvtCxIKPzyZkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aS1JAw) |
-| 5  | Empresa o marca           | [Entrevista 5](https://www.youtube.com/watch?v=xxxxxxxxxxx) |
-| 6  | Productora de eventos     | [Entrevista 6](https://www.youtube.com/watch?v=xxxxxxxxxxx) |
 
 ---
 
@@ -918,63 +917,54 @@ En esta sección se presenta el Product Backlog, que incluye las historias de us
 estimaciones de esfuerzo. El backlog está organizado por User Stories, y cada historia tiene asignada una estimación en
 puntos de historia para facilitar la planificación de sprints.
 
+### 3.4. Product Backlog
+
+En esta sección se presenta el Product Backlog actualizado, priorizado según el valor para el negocio y con Story Points corregidos para reflejar el esfuerzo estimado por historia. Se ha realizado el análisis a partir de una User Storie intermedia a la que se puso 3 en Story Points (bajo análisis y concenso del grupo), y de ahí se fue organizando los demás:  
 | Orden | User Story ID | Título                                          | Descripción                                                                                                          | Story Points |
-|-------|---------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------|
-| 1     | US014         | Sección “Cómo funciona”                         | Como visitante, quiero entender el funcionamiento general de la plataforma desde la landing page.                    | 1            |
-| 2     | US015         | Sección de beneficios para empresas productoras | Como visitante del segmento Productoras, quiero leer los beneficios de unirme a la plataforma.                       | 1            |
-| 3     | US016         | Sección de beneficios para marcas               | Como visitante del segmento Empresa o marca, quiero conocer los beneficios de publicar necesidades en la plataforma. | 1            |
-| 4     | US017         | Sección de pie de página (footer)               | Como visitante, quiero acceder desde el footer a información adicional.                                              | 1            |
-| 5     | US018         | Sección “¿Quiénes somos?”                       | Como visitante, quiero conocer quién está detrás de la plataforma.                                                   | 1            |
-| 6     | US019         | Llamado a la acción (Call to Action)            | Como visitante, quiero ver un botón claro que me invite a acceder a la app web.                                      | 1            |
-| 7     | US001         | Registrar solicitud de activación               | Como Empresa o marca, quiero registrar una solicitud de activación.                                                  | 3            |
-| 8     | US038         | Enviar propuesta a solicitud de activación      | Como Productora, quiero enviar una propuesta a una solicitud de activación.                                          | 3            |
-| 9     | US034         | Aceptar propuesta para formalizar activación    | Como Empresa o marca, quiero contratar a una productora desde su propuesta.                                          | 3            |
-| 10    | US036         | Marcar activación como finalizada               | Como Empresa o marca, quiero marcar una activación como finalizada.                                                  | 2            |
-| 11    | US043         | Registrar calificación al finalizar evento      | Como usuario, quiero calificar a la otra parte al finalizar un evento.                                               | 2            |
-| 12    | US002         | Editar solicitud de activación                  | Como Empresa o marca, quiero editar una solicitud publicada.                                                         | 2            |
-| 13    | US003         | Eliminar solicitud de activación                | Como Empresa o marca, quiero eliminar una solicitud publicada.                                                       | 2            |
-| 14    | US004         | Ver solicitudes publicadas                      | Como Empresa o marca, quiero ver mis solicitudes activas.                                                            | 1            |
-| 15    | US005         | Ver detalle de solicitud publicada              | Como Empresa o marca, quiero ver el detalle de una solicitud que he creado.                                          | 1            |
-| 16    | US040         | Ver propuestas recibidas                        | Como Empresa o marca, quiero ver las propuestas que he recibido.                                                     | 2            |
-| 17    | US041         | Ver detalles de una propuesta recibida          | Como Empresa o marca, quiero ver los detalles de una propuesta que he recibido.                                      | 2            |
-| 18    | US042         | Aceptar o rechazar propuesta                    | Como Empresa o marca, quiero aceptar o rechazar propuestas recibidas.                                                | 2            |
-| 19    | US039         | Ver propuestas enviadas                         | Como Productora, quiero ver las propuestas que he enviado.                                                           | 1            |
-| 20    | US033         | Ver detalles de una activación contratada       | Como Empresa o marca, quiero ver los detalles de una activación contratada.                                          | 1            |
-| 21    | US035         | Ver activaciones en curso y finalizadas         | Como Empresa o marca, quiero ver las activaciones en curso y finalizadas.                                            | 1            |
-| 22    | US037         | Seguimiento de eventos contratados              | Como Productora, quiero acceder a las activaciones en las que estoy trabajando.                                      | 1            |
-| 23    | US006         | Registrar servicios ofrecidos                   | Como Productora, quiero registrar los servicios que ofrece mi empresa.                                               | 2            |
-| 24    | US007         | Editar servicios ofrecidos                      | Como Productora, quiero editar los servicios que ofrezco.                                                            | 2            |
-| 25    | US008         | Eliminar servicios registrados                  | Como Productora, quiero eliminar un servicio registrado.                                                             | 2            |
-| 26    | US009         | Visualizar lista de servicios registrados       | Como Productora, quiero ver una lista de todos los servicios registrados.                                            | 1            |
-| 27    | US010         | Registrar trabajo previo en el portafolio       | Como Productora, quiero registrar un trabajo previo con imágenes y descripciones.                                    | 2            |
-| 28    | US011         | Editar trabajo previo en el portafolio          | Como Productora, quiero editar un trabajo registrado.                                                                | 2            |
-| 29    | US012         | Eliminar trabajo previo en el portafolio        | Como Productora, quiero eliminar un trabajo registrado.                                                              | 2            |
-| 30    | US013         | Visualizar portafolio de trabajos realizados    | Como Productora, quiero ver un portafolio con todos los trabajos registrados.                                        | 1            |
-| 31    | US50          | Crear endpoint para registrar solicitud         | Como Developer, quiero crear un endpoint POST para registrar solicitudes.                                            | 3            |
-| 32    | US51          | Crear endpoint para enviar propuestas           | Como Developer, quiero implementar un endpoint POST para propuestas.                                                 | 3            |
-| 33    | US52          | Obtener propuestas por solicitud                | Como Developer, quiero implementar un GET para propuestas ligadas a una solicitud.                                   | 3            |
-| 34    | US53          | Endpoints de login y registro                   | Como Developer, quiero implementar endpoints de login y registro.                                                    | 3            |
-| 35    | US54          | Endpoint para calificaciones                    | Como Developer, quiero crear un endpoint para registrar calificaciones.                                              | 3            |
-| 36    | US55          | Endpoint para hitos                    | Como Developer, quiero crear un endpoint para registrar hitos.                                              | 3            |
-| 37    | US020         | Selección de tipo de perfil al registrarse      | Como nuevo usuario, quiero seleccionar si soy Empresa o Productora.                                                  | 1            |
-| 38    | US021         | Vista principal para productoras                | Como Productora, quiero ver solicitudes de activación al iniciar sesión.                                             | 1            |
-| 38    | US022         | Vista principal para empresas                   | Como Empresa, quiero ver perfiles de productoras al iniciar sesión.                                                  | 1            |
-| 39    | US026         | Iniciar conversación con otro usuario           | Como usuario, quiero iniciar conversación desde una solicitud o perfil.                                              | 2            |
-| 40    | US027         | Ver listado de conversaciones                   | Como usuario, quiero ver una lista de mis conversaciones.                                                            | 2            |
-| 41    | US028         | Leer y escribir mensajes                        | Como usuario, quiero entrar a una conversación, leer mensajes y enviar nuevos.                                       | 2            |
-| 42    | US029         | Notificaciones de solicitudes                   | Como Empresa, quiero recibir notificaciones cuando una productora responde.                                          | 2            |
-| 43    | US030         | Notificaciones de contratación                  | Como Productora, quiero recibir alertas cuando soy contratada.                                                       | 2            |
-| 44    | US031         | Notificaciones de mensajes                      | Como usuario, quiero recibir notificaciones al recibir un mensaje.                                                   | 2            |
-| 45    | US032         | Notificaciones de calificaciones                | Como usuario, quiero recibir notificaciones cuando recibo una calificación.                                          | 2            |
-| 46    | US024         | Contactar a productora desde su perfil          | Como Empresa, quiero contactar a una productora desde su perfil.                                                     | 2            |
-| 47    | US025         | Contactar a empresa desde una solicitud         | Como Productora, quiero contactar a una empresa desde una solicitud.                                                 | 2            |
-| 48    | US044         | Visualizar calificaciones de otros usuarios     | Como usuario, quiero ver calificaciones y comentarios de otros usuarios.                                             | 1            |
-| 49    | US045         | Visualizar mis calificaciones recibidas         | Como usuario, quiero ver las calificaciones y comentarios que he recibido.                                           | 1            |
-| 50    | US046         | Crear y asignar hitos a activaciones         | Como Productora, quiero poder crear y asignar hitos con fechas límite a las activaciones contratadas.                                           | 1            |
-| 51    | US047         | Actualizar estado de hitos de activación         | Como Productora o Empresa, quiero actualizar el estado de los hitos (pendiente, en progreso, completado) y registrar la fecha de finalización                                           | 1            |
-| 52    | US048         | Visualizar hitos de una activación         | Como Productora o Empresa, quiero ver todos los hitos asociados a una activación específica                                           | 1            |
-| 53    | US049         | Eliminar hitos de una activación         | Como Productora, quiero poder eliminar hitos que ya no son relevantes                                           | 1            |
-| 54    | US023         | Visualizar mis activaciones                     | Como Productora, quiero ver el listado de activaciones donde estoy trabajando.                                       | 1            |
+|-------|---------------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US001         | Registrar solicitud de activación               | Como Empresa, quiero registrar una solicitud de activación.                                                         | 5            |
+| 2     | US038         | Enviar propuesta a solicitud de activación      | Como Productora, quiero enviar una propuesta a una solicitud de activación.                                          | 5            |
+| 3     | US034         | Aceptar propuesta para formalizar activación    | Como Empresa, quiero contratar a una productora desde su propuesta.                                                 | 5            |
+| 4     | US043         | Registrar calificación al finalizar evento      | Como usuario, quiero calificar a la otra parte al finalizar un evento.                                              | 3            |
+| 5     | US033         | Ver detalles de una activación contratada       | Como Empresa, quiero ver los detalles de una activación contratada.                                                 | 3            |
+| 6     | US036         | Marcar activación como finalizada               | Como Empresa, quiero marcar una activación como finalizada.                                                         | 2            |
+| 7     | US004         | Ver solicitudes publicadas                      | Como Empresa, quiero ver mis solicitudes activas.                                                                   | 2            |
+| 8     | US005         | Ver detalle de solicitud publicada              | Como Empresa, quiero ver el detalle de una solicitud que he creado.                                                 | 2            |
+| 9     | US002         | Editar solicitud de activación                  | Como Empresa, quiero editar una solicitud publicada.                                                                | 3            |
+| 10    | US003         | Eliminar solicitud de activación                | Como Empresa, quiero eliminar una solicitud publicada.                                                              | 2            |
+| 11    | US040         | Ver propuestas recibidas                        | Como Empresa, quiero ver las propuestas que he recibido.                                                            | 3            |
+| 12    | US041         | Ver detalles de una propuesta recibida          | Como Empresa, quiero ver los detalles de una propuesta que he recibido.                                             | 3            |
+| 13    | US042         | Aceptar o rechazar propuesta                    | Como Empresa, quiero aceptar o rechazar propuestas recibidas.                                                       | 3            |
+| 14    | US039         | Ver propuestas enviadas                         | Como Productora, quiero ver las propuestas que he enviado.                                                          | 2            |
+| 15    | US037         | Seguimiento de eventos contratados              | Como Productora, quiero acceder a las activaciones en las que estoy trabajando.                                     | 2            |
+| 16    | US006         | Registrar servicios ofrecidos                   | Como Productora, quiero registrar los servicios que ofrece mi empresa.                                              | 3            |
+| 17    | US007         | Editar servicios ofrecidos                      | Como Productora, quiero editar los servicios que ofrezco.                                                           | 2            |
+| 18    | US008         | Eliminar servicios registrados                  | Como Productora, quiero eliminar un servicio registrado.                                                            | 2            |
+| 19    | US009         | Visualizar lista de servicios registrados       | Como Productora, quiero ver una lista de todos los servicios registrados.                                           | 2            |
+| 20    | US010         | Registrar trabajo previo en el portafolio       | Como Productora, quiero registrar un trabajo previo con imágenes y descripciones.                                   | 3            |
+| 21    | US011         | Editar trabajo previo en el portafolio          | Como Productora, quiero editar un trabajo registrado.                                                               | 2            |
+| 22    | US012         | Eliminar trabajo previo en el portafolio        | Como Productora, quiero eliminar un trabajo registrado.                                                             | 2            |
+| 23    | US013         | Visualizar portafolio de trabajos realizados    | Como Productora, quiero ver un portafolio con todos los trabajos registrados.                                       | 1            |
+| 24    | US014         | Sección “Cómo funciona”                         | Como visitante, quiero entender el funcionamiento general de la plataforma desde la landing page.                   | 1            |
+| 25    | US015         | Sección de beneficios para productoras          | Como visitante Productora, quiero leer los beneficios de unirme a la plataforma.                                    | 1            |
+| 26    | US016         | Sección de beneficios para marcas               | Como visitante Empresa, quiero conocer los beneficios de publicar necesidades en la plataforma.                     | 1            |
+| 27    | US017         | Sección de pie de página (footer)               | Como visitante, quiero acceder desde el footer a información adicional.                                             | 1            |
+| 28    | US018         | Sección “¿Quiénes somos?”                       | Como visitante, quiero conocer quién está detrás de la plataforma.                                                  | 1            |
+| 29    | US019         | Llamado a la acción (Call to Action)            | Como visitante, quiero ver un botón claro que me invite a acceder a la app web.                                     | 1            |
+| 30    | US020         | Selección de tipo de perfil al registrarse      | Como nuevo usuario, quiero seleccionar si soy Empresa o Productora.                                                 | 1            |
+| 31    | US021         | Vista principal para productoras                | Como Productora, quiero ver solicitudes de activación al iniciar sesión.                                            | 1            |
+| 32    | US022         | Vista principal para empresas                   | Como Empresa, quiero ver perfiles de productoras al iniciar sesión.                                                 | 1            |
+| 33    | US026         | Iniciar conversación con otro usuario           | Como usuario, quiero iniciar conversación desde una solicitud o perfil.                                             | 2            |
+| 34    | US027         | Ver listado de conversaciones                   | Como usuario, quiero ver una lista de mis conversaciones.                                                           | 2            |
+| 35    | US028         | Leer y escribir mensajes                        | Como usuario, quiero entrar a una conversación, leer mensajes y enviar nuevos.                                      | 2            |
+| 36    | US029         | Notificaciones de solicitudes                   | Como Empresa, quiero recibir notificaciones cuando una productora responde.                                         | 2            |
+| 37    | US030         | Notificaciones de contratación                  | Como Productora, quiero recibir alertas cuando soy contratada.                                                      | 2            |
+| 38    | US031         | Notificaciones de mensajes                      | Como usuario, quiero recibir notificaciones al recibir un mensaje.                                                  | 2            |
+| 39    | US032         | Notificaciones de calificaciones                | Como usuario, quiero recibir notificaciones cuando recibo una calificación.                                         | 2            |
+| 40    | US024         | Contactar a productora desde su perfil          | Como Empresa, quiero contactar a una productora desde su perfil.                                                    | 2            |
+| 41    | US025         | Contactar a empresa desde una solicitud         | Como Productora, quiero contactar a una empresa desde una solicitud.                                                | 2            |
+| 42    | US044         | Visualizar calificaciones de otros usuarios     | Como usuario, quiero ver calificaciones y comentarios de otros usuarios.                                            | 1            |
+| 43    | US045         | Visualizar mis calificaciones recibidas         | Como usuario, quiero ver las calificaciones y comentarios que he recibido.                                          | 1            |
 
 **Link del Product Backlog en Trello:** https://trello.com/b/XIu3pRLo/matchevent
 
@@ -1720,7 +1710,7 @@ Este es nuestro diagrama de base de datos, donde encontramos toda la informació
 
 - **Firebase:** Firebase es una plataforma desarrollada por Google que proporciona una variedad de servicios para el desarrollo y despliegue de aplicaciones web y móviles. En nuestro proyecto, utilizamos Firebase Hosting para desplegar el frontend desarrollado en Angular, permitiendo así compartir una versión funcional del producto con usuarios y docentes de forma rápida y segura. Este servicio facilita el acceso público a las vistas implementadas y respalda las pruebas de usabilidad y validación.
 
-![Firebase](images/firebase.png)
+![Firebase](images/firebase.PNG)
 
 - **Swagger:** Swagger es una herramienta de documentación de APIs que facilita la visualización, prueba y mantenimiento de servicios RESTful. En el proyecto MatchEvent, se integró Swagger mediante la dependencia `springdoc-openapi` en Spring Boot, lo que permite generar automáticamente una interfaz interactiva para explorar los endpoints del backend. Esto garantiza la transparencia del servicio, acelera las pruebas y sirve como guía para el consumo de las APIs desde el frontend.
 
@@ -2181,20 +2171,26 @@ Esta es la tabla del Sprint Backlog 1:
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | User Story |  | Work-Item / Task |  |  |  |  |  |
 | ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US003 | Sección Cómo funciona | TS01 | Maquetar estructura HTML | Crear estructura HTML semántica de la sección según mockup | 1 | Max | Done |
-|  |  | TS02 | Aplicar estilos CSS | Dar estilos visuales con CSS respetando el diseño definido | 1 | Max | Done |
-| US004 | Sección Productoras | TS03 | Estructurar HTML | Crear el layout HTML con base en el mockup | 1.5 | Max | Done |
-|  |  | TS04 | Estilizar sección | Aplicar CSS para diseño responsivo y visualmente atractivo | 1 | Max | Done |
-| US005 | Sección Empresas | TS05 | HTML de la sección | Construcción de la estructura HTML semántica | 1.5 | Max | Done |
-|  |  | TS06 | CSS de la sección | Estilos visuales y adaptación responsiva | 1 | Max | Done |
-| US008 | Sección Call to action | TS07 | Estructura HTML del CTA | Maquetar la sección de llamada a la acción | 1 | Max | Done |
-|  |  | TS08 | Estilos y botones del CTA | Aplicar estilos y lógica visual al botón principal | 1 | Max | Done |
-| US007 | Sección Quiénes somos | TS09 | Maquetar HTML | Crear la estructura base de la sección informativa | 1.5 | Max | Done |
-|  |  | TS10 | Aplicar estilos | Dar formato visual mediante CSS, asegurando adaptabilidad | 1.5 | Max | Done |
-| US006 | Sección Footer | TS11 | HTML del Footer | Maquetación básica del pie de página con enlaces e íconos | 0.5 | Max | Done |
-|  |  | TS12 | CSS del Footer | Aplicar diseño visual y responsive | 1 | Max | Done |
-| — | Task general | TS13 | Configurar GitHub Pages | Habilitar GitHub Pages y asegurar despliegue automático desde rama main | 1 | Max | Done |
-| — | Task general | TS14 | Revisión de accesibilidad básica | Verificar contraste, etiquetas y estructura para accesibilidad mínima | 1 | Max | Done |
+| US014 | Sección “Cómo funciona” | TS001 | Diseñar estructura en Figma | Crear el diseño visual y estructura de la sección en Figma, validando con el equipo UI. | 1 | Max | Done |
+|  |  | TS002 | Maquetar sección en HTML | Implementar el HTML semántico con estructura basada en Figma. | 1.5 | Max | Done |
+|  |  | TS003 | Aplicar estilos CSS responsivos | Usar Flexbox para adaptar el diseño a diferentes resoluciones. | 1.5 | Max | Done |
+| US015 | Beneficios para productoras | TS004 | Redactar contenido atractivo | Escribir los beneficios en tono persuasivo enfocado en valor para productoras. | 1 | Max | Done |
+|  |  | TS005 | Maquetar sección HTML | Implementar estructura HTML para mostrar beneficios como tarjetas o lista. | 1 | Max | Done |
+|  |  | TS006 | Aplicar estilos y diseño visual | Usar paleta institucional y tipografía definida en diseño UI. | 1 | Max | Done |
+| US016 | Beneficios para empresas | TS007 | Redactar contenido beneficios empresa | Identificar ventajas clave y redactarlas en lenguaje claro y corporativo. | 1 | Max | Done |
+|  |  | TS008 | Maquetar estructura HTML | Implementar estructura clara con títulos, íconos y párrafos. | 1.5 | Max | Done |
+|  |  | TS009 | Estilizar visualmente la sección | Aplicar diseño con CSS asegurando contraste y accesibilidad. | 1 | Max | Done |
+| US017 | Sección Footer | TS010 | Estructurar footer HTML | Crear pie de página con enlaces a contacto, redes y legales. | 1 | Max | Done |
+|  |  | TS011 | Estilizar el footer | Aplicar diseño que mantenga coherencia visual con el sitio. | 1 | Max | Done |
+|  |  | TS012 | Verificar enlaces funcionales | Validar que los links del footer redirigen correctamente. | 0.5 | Max | Done |
+| US018 | Sección “¿Quiénes somos?” | TS013 | Redactar texto institucional | Redactar visión, misión y propósito con tono inspirador y claro. | 1 | Max | Done |
+|  |  | TS014 | Implementar HTML semántico | Crear la sección con títulos, párrafos e imágenes si aplica. | 1 | Max | Done |
+|  |  | TS015 | Estilizar y adaptar diseño | Usar CSS para darle jerarquía visual y atractivo. | 1 | Max | Done |
+| US019 | Call to Action | TS016 | Diseñar CTA claro y accesible | Crear botón destacado con mensaje directo para ingresar a la app. | 0.5 | Max | Done |
+|  |  | TS017 | Implementar botón en HTML/CSS | Añadir CTA al final de la landing con estilos consistentes. | 0.5 | Max | Done |
+|  |  | TS018 | Validar accesibilidad del CTA | Revisar contraste y etiquetado ARIA para navegadores accesibles. | 0.5 | Max | Done |
+| TSG01 | GitHub Pages Deployment | TS019 | Configurar despliegue automático | Configurar GitHub Pages desde la rama main y testear el despliegue. | 1 | Max | Done |
+| TSG02 | Accesibilidad básica | TS020 | Validar contraste y semántica HTML | Usar herramientas como Lighthouse para validar buenas prácticas básicas. | 1 | Max | Done |
 
 
 
@@ -2332,7 +2328,7 @@ Esta es la tabla del Sprint Backlog 2:
 | US049 | Eliminar hitos | TS4 | Eliminación de los hitos de una activación  | Eliminar hitos que ya no son relevantes | 1 | Max | Done |
 | US006 | Registrar servicios ofrecidos | TS5 | Registro de Servicios  | La sección de gestion de portafolios deberá de tener una opción para registar los servicios ofrecidos | 2 | Gabriel | Done |
 | US007 | Editar servicios ofrecidos | TS6 | Edición de Servicios | Una vez registrado un servicio, colocar la opción de poder editar este | 1.5 | Gabriel | Done |
-| US008 | Elimar servicio ofrecido | TS7| Eliminar Servicio | Se deberá de poder eliminar un servicio cuando la productora desee | 1.5 | Gabriel | Done |
+| US008 | Eliminar servicio ofrecido | TS7| Eliminar Servicio | Se deberá de poder eliminar un servicio cuando la productora desee | 1.5 | Gabriel | Done |
 | US009 | Visualizar lista de servicios ofrecidos | TS8 | Lista de Servicios | La productora deberá de ver una lista en donde vea todos sus servicios | 1 | Gabriel | Done |
 | US038 | 	Enviar propuesta a solicitud de activación  | TS9 | Propuesta de activacion | La productora debe de acceder a los detalles de una propuesta de activación | 2 | Kevin | Done |
 | US039 | Ver propuesta enviada | TS10 | Propuesta enviada | La productora deberá de ver una tabla de las propuestas enviadas | 1 | Kevin | Done |
@@ -2379,8 +2375,6 @@ Para el sprint 2, como ya hemos mencionado, se ha implementado la segunda versi�
   ![Landing page-Beneficios para marcas](images/beneficios_marcas.PNG) 
 - Quienes somos:
   ![Landing page-Quienes somos](images/quienes_somos.PNG) 
-- Información del aplicativo:
-  ![Landing-page-information](images/landingPageV2.JPG) 
 - Footer:
   ![Landing page-Footer](images/footer.PNG) 
 - Frontend - Activation Management Bounded Context:
