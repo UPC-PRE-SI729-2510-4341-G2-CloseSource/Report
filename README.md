@@ -695,7 +695,6 @@ La curva emocional del mapeo muestra un ascenso desde la incertidumbre inicial h
 * Comunicación y seguimiento dentro de la misma aplicación.  
 * Métricas post-evento y reputación bilateral.
 
----
 
 - Carla Ramírez – Empresa / Marca:
   
@@ -2627,7 +2626,6 @@ Las tareas evaluadas fueron:
 - **Resumen**: El entrevistado destacó el enfoque moderno y limpio del diseño. Le gustó la sección de testimonios (aunque aún no está activa) y mencionó que sería ideal contar con casos de éxito para generar más credibilidad. También recomendó colocar íconos representativos en los bloques de texto para facilitar la lectura escaneada. Señaló que en dispositivos móviles el menú no siempre se desplegaba bien.  
 - **Video**: [Validation Video 4]()
 
----
 
 #### 5.3.3. Evaluaciones según heurísticas
 
@@ -2638,9 +2636,6 @@ Las tareas evaluadas fueron:
 | 3 | Texto demasiado pequeño en pantallas grandes (versión desktop) | 1 | Legibilidad / Estándares estéticos |
 | 4 | Algunos elementos del menú no se despliegan bien en móviles | 3 | Flexibilidad y eficiencia de uso |
 | 5 | No hay elemento visual que explique el flujo del usuario | 2 | Ayuda al usuario: Reconocimiento, no recuerdo |
-
-
----
 
 ### 5.4. Video About-the-Product
 
@@ -2699,7 +2694,10 @@ Verhelst, L. (2020). *Evolución del marketing experiencial desde la perspectiva
 * Landing Page link: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
 * Board de las actividades del grupo en Trello: https://trello.com/invite/b/681be2187eb81b9994744840/ATTI7372931ffb26577c2d3c044b0abd9148045BF9CD/matchevent
 * Board de las actividades del grupo en Trello para el Landing Page: https://trello.com/invite/b/681e9c71bf39eef1c3e85e6e/ATTIfd11a9d55c40c54a482dbddf22c12a1765A5D176/sprint-1-matchevent-closesource
-* Frontend Max: [match-event.web.app](https://match-event.web.app/)
+* Frontend Max: [match-event.web.app](https://match-event.web.app/)  
+* Frontend Kevin: []()  
+* Frontend Ivan: []()  
+* Frontend Aaron: []()  
   
 
 
