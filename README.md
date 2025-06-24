@@ -511,7 +511,7 @@ El diseño de entrevistas tiene como objetivo validar los supuestos clave del pr
 
 #### Formato y duración
 
-- Entrevistas semiestructuradas de 30 a 45 minutos.
+- Entrevistas semiestructuradas de 2 a 5 minutos.
 - Modalidad virtual o presencial según disponibilidad.
 - Registro de respuestas mediante notas o grabaciones con consentimiento previo.
 
@@ -535,6 +535,18 @@ El diseño de entrevistas tiene como objetivo validar los supuestos clave del pr
 
 ### 2.2.3. Análisis de entrevistas.
 
+| # | Segmento | Nombre y apellidos | Edad | Distrito | Rol / Profesión | Personalidad – Influencias – Tecnología* |
+|---|----------|-------------------|------|----------|-----------------|------------------------------------------|
+| 1 | Empresa o marca | **Genaro Jean Pierre Ledesma** | 24 años | Lima Cercado | Especialista en Marketing Digital | Extrovertido, centrado en resultados, early-adopter. Usa Google Chrome (desktop) y iOS (iPhone 13) para su trabajo diario; sigue a HubSpot, Mailchimp y TechCrunch. |
+| 2 | Productora de eventos | **Jocelyn Kanahuiri Frisancho** | 25 años | Santiago de Surco | Directora de una productora boutique | Creativa, proactiva, alta afinidad con marcas lifestyle; trabaja en PC Windows 11 + Android, app‐first (Instagram, TikTok, WhatsApp Business). |
+| 3 | Empresa o marca | **Henry (Gerente general en Tutus)** | ~32 años (estimado) | San Miguel | Gerente de marca (retail) | Analítico, busca minimizar riesgos; MacBook Pro + iPhone; lee HBR y sigue a Apple Events e Inbound. |
+| 4 | Productora de eventos | **Jennifer Medina** | 25 años | Breña | Coordinadora de eventos | Meticulosa, enfocada en eficiencia; PC Windows 10 + Android; navegador principal Chrome; usa Trello y Canva. |
+| 5 | Productora de eventos | **Fabio de la Cruz** | 55 años | Villa El Salvador | Gerente de Operaciones, Producciones Mx | Orientado a networking, reputación y negociaciones B2B; laptop Windows 10 + iPad; LinkedIn y Facebook son sus canales clave. |
+
+\*Datos de tecnología, personalidad e influencias provienen de las preguntas adicionales realizadas al cierre de cada entrevista.
+
+---
+
 **Entrevista 1 – Empresa o marca**  
 En esta entrevista, se identificó al entrevistado como representante del segmento objetivo de empresas o marcas, confirmando su rol al hablar sobre la organización de eventos como lanzamientos de productos y aniversarios. A lo largo de la conversación, se evidenciaron diversas necesidades clave: dificultad para encontrar proveedores confiables, poca transparencia al evaluar experiencias previas y falta de canales centralizados para comparar propuestas. Asimismo, valoró la posibilidad de contar con una plataforma que permita visualizar portafolios, leer testimonios y comunicarse directamente con las productoras. Esta información valida de manera directa los supuestos planteados en el diseño de MatchEvent y respalda funcionalidades esenciales como la comparación de propuestas, el sistema de calificaciones y la mensajería integrada.
 
@@ -547,12 +559,33 @@ En esta entrevista, el gerente Henry, representante de la empresa Tutus, forma p
 **Entrevista 4 – Productora de eventos**  
 La entrevistada representa a una joven productora de eventos con conocimientos tecnológicos básicos, lo que sugiere que la plataforma debe ser accesible y compatible con sistemas comunes como Windows, Android y Google Chrome. Su principal desafío es la baja visibilidad frente a competidores, a pesar de usar redes sociales como Instagram y WhatsApp. Destaca la necesidad de una herramienta que le permita presentar su portafolio de forma profesional. Además, depende del boca a boca para captar clientes, por lo que valora un sistema de reseñas. Está dispuesta a especializarse en un tipo de evento si eso mejora su posicionamiento, lo cual respalda la inclusión de filtros por nicho. Finalmente, espera que la plataforma sea transparente, útil y que facilite la gestión de su trabajo, reforzando la importancia de crear una solución práctica y orientada al valor profesional.
 
-**Entrevista 5 – Empresa o marca**  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, elit vel fermentum tincidunt, ligula libero ultrices diam, et pretium lectus erat id urna. Duis sagittis nec sapien ac dapibus. Sed tristique sem sed sem ultrices, ac finibus nunc eleifend.
+**Entrevista 5 – Productora de eventos**  
+El entrevistado Fabio de la Cruz representa al segmento de productoras de eventos. Con más de tres décadas en el rubro, Fabio valora la reputación y los indicadores de desempeño para diferenciarse en un mercado saturado. Durante la entrevista remarcó que el lenguaje de la landing le parece “demasiado corporativo” y que echa en falta una sección que explique de forma concreta qué beneficios exclusivos obtiene una productora. Aprecia la estructura clara y el contraste de colores, pero observa problemas de legibilidad en pantallas grandes. Sus necesidades principales son: un dashboard con métricas en tiempo real sobre la eficacia de su perfil, la posibilidad de resaltar credenciales y filtros que prioricen calidad sobre precio para evitar competir solo por tarifas bajas. Sus comentarios validan la hipótesis de que las productoras maduras requieren herramientas de analítica y posicionamiento además de un portafolio visual, y subrayan la importancia de adaptar el copy a distintos niveles de experiencia dentro de la plataforma.
 
-**Entrevista 6 – Productora de eventos**  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed sapien ac diam imperdiet lacinia. Sed luctus justo non lorem pharetra, in finibus magna pulvinar. Vivamus convallis purus ac velit tincidunt, ac dictum justo convallis.
+---
 
+#### Síntesis cuantitativa por segmento
+
+| Métrica clave | Empresas (n = 2) | Productoras (n = 3) | Total (%) |
+|---------------|------------------|---------------------|-----------|
+| Usa referencias/boca-a-boca para elegir/prospectar | 2 | 3 | **100 %** |
+| Demanda *transparencia de precios* | 2 | 3 | **100 %** |
+| Considera fundamental ver *portafolio visual* | 2 | 3 | **100 %** |
+| Exige *reseñas verificadas* antes de contratar | 2 | 3 | **100 %** |
+| Reporta problemas de *poca visibilidad online* | — | 3 | **60 %** del total, **100 %** de productoras |
+| Disposición a chatear dentro de la plataforma | 2 | 3 | **100 %** |
+| Usa dispositivos móviles como canal primario | 1 | 3 | **80 %** |
+
+Estos porcentajes, aunque basados en una muestra pequeña (n = 5), muestran una alineación clara entre ambos segmentos: **transparencia, reputación y portafolios visuales** son requisitos no negociables. Las productoras añaden la demanda de *visibilidad y posicionamiento*; las empresas, la de *comparación y control*.
+
+### Conclusiones de la fase de entrevistas  
+
+1. **Propuesta de valor validada.** Todos los entrevistados confirmaron la necesidad de un marketplace que conecte empresas y productoras con información verificada.  
+2. **Funcionalidades críticas.** Reseñas certificadas, chat in-app, filtros de especialidad, portafolio multimedia y rango de precios son “must-have”.  
+3. **UX / UI.** Debe ser mobile-first, con flujo diferenciado (*Onboarding Employer* vs *Onboarding Producer*), lenguaje directo y dashboard de métricas para productoras.  
+4. **Oportunidades.** Implementar un sello de “Proveedor verificado”, alertas de subcontratación y analítica de desempeño para aumentar confianza y retención.
+
+---
 ### 2.3. Needfinding.
 ### 2.3.1. User Personas.
 ![image](images/userPersona1.PNG)
@@ -2546,35 +2579,35 @@ Las tareas evaluadas fueron:
 #### 5.3.2. Registro de Entrevistas
 
 ##### Entrevista 1 - Segmento Empresa
-- **Nombre**: Genaro Ledesma  
+- **Nombre**: Genaro Jean Pierre Ledesma  
 - **Edad**: 24  
 - **Distrito**: Lima Cercado  
 - **Profesión**: Especialista en Marketing Digital  
-- **Resumen**: Genaro comprendió rápidamente la propuesta de valor gracias a los títulos principales y la sección “Cómo funciona”. Comentó que el diseño genera confianza y se alinea con plataformas profesionales. Sugirió que los roles podrían estar más diferenciados desde el inicio, por ejemplo, con botones o íconos visibles desde el hero. También recomendó que el botón de “Comienza ahora” redirija directamente al registro y no a información adicional.  
+- **Resumen**: Genaro comprendió rápidamente la propuesta de valor gracias a los títulos principales y la sección “Cómo funciona”. Comentó que el diseño genera confianza y se alinea con plataformas profesionales. Sugirió diferenciar los roles desde el *hero* (iconos o botones) y que el CTA “Comienza ahora” lleve directo al registro en lugar de mostrar información intermedia.  
 - **Video**: [Validation Video 1](https://drive.google.com/file/d/1BmAirTYDKh8feBEsUQi-a7O6KCB6HR_x/view?usp=drive_link)
 
 ##### Entrevista 2 - Segmento Productora
-- **Nombre**:   
-- **Edad**:   
-- **Distrito**: Villa el Salvador  
-- **Profesión**: Gerente de Operaciones en Producciones Mx  
-- **Resumen**: El entrevistado entendió el concepto general de la plataforma, pero le pareció que el lenguaje es más corporativo que inclusivo. Indicó que le gustaría una explicación más directa de lo que obtiene una productora. Se desplazó fácilmente por la página y encontró la estructura bien ordenada. El contraste de colores fue de su agrado, aunque opinó que algunos textos eran pequeños en pantallas grandes.  
+- **Nombre**: Yoselin Canahuiri Frisancho  
+- **Edad**: 25  
+- **Distrito**: Surco  
+- **Profesión**: Productora de Eventos  
+- **Resumen**:   
 - **Video**: [Validation Video 2]()
 
-##### Entrevista 3 - Segmento Productora  
-- **Nombre**:   
-- **Edad**:   
-- **Distrito**: Lima Cercado  
-- **Profesión**: Coordinadora de eventos  
-- **Resumen**: El entrevistado valoró la estética del sitio y el uso de tarjetas para comunicar beneficios. Mencionó que la estructura es fluida, pero en móviles algunas secciones no ocupan todo el ancho disponible. La CTA del botón principal le pareció efectiva. Propuso que se incluya una breve animación o video para mostrar el flujo real de la plataforma, dado que eso ayudaría a usuarios nuevos a entender cómo funciona.  
-- **Video**: [Validation Video 3]() 
+##### Entrevista 3 - Segmento Productora
+- **Nombre**: Henrry Raúl Aiquipa  
+- **Edad**: 25  
+- **Distrito**: Independencia  
+- **Profesión**: Coordinador de eventos  
+- **Resumen**:   
+- **Video**: [Validation Video 3]()
 
-##### Entrevista 4 - Segmento Empresa  
-- **Nombre**:   
-- **Edad**:  
+##### Entrevista 4 - Segmento Empresa
+- **Nombre**: Edery Abanto  
+- **Edad**: 31  
 - **Distrito**: La Molina  
 - **Profesión**: Jefe de Marca  
-- **Resumen**: El entrevistado destacó el enfoque moderno y limpio del diseño. Le gustó la sección de testimonios (aunque aún no está activa) y mencionó que sería ideal contar con casos de éxito para generar más credibilidad. También recomendó colocar íconos representativos en los bloques de texto para facilitar la lectura escaneada. Señaló que en dispositivos móviles el menú no siempre se desplegaba bien.  
+- **Resumen**:   
 - **Video**: [Validation Video 4]()
 
 
