@@ -517,14 +517,19 @@ El diseño de entrevistas tiene como objetivo validar los supuestos clave del pr
 
 ### 2.2.2. Registro de entrevistas.
 
-A continuación, se presenta un cuadro con los enlaces a los videos de las entrevistas realizadas a representantes de los dos segmentos objetivo: empresas/marcas y productoras de eventos. Cada enlace lleva a una entrevista individual realizada como parte del proceso de validación de necesidades.
+![image](https://github.com/user-attachments/assets/09958507-cf1d-4437-9290-c922d440450c)
 
-| Nº | Segmento objetivo         | Link de video                                               |
+|                       Link de la entrevista (Miscrosoft Stream)                         |
+|-----------------------------------------------------------------------------------------------|
+| [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113432_upc_edu_pe/EW17fWkyHZtAlyTTeAb-lk0BGgEVXVgw7Bc7lxhAWeBqjQ?e=Eazddz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113432_upc_edu_pe/EW17fWkyHZtAlyTTeAb-lk0BGgEVXVgw7Bc7lxhAWeBqjQ?e=Eazddz) |
+
+| Nº | Entrevistador         | Timing                                               |
 |----|---------------------------|--------------------------------------------------------------|
-| 1  | Empresa o marca           | [Entrevista 1](https://www.youtube.com/watch?v=X76bS3vwYbI) |
-| 2  | Productora de eventos     | [Entrevista 2](https://www.youtube.com/watch?v=g6iUemJmMIA) |
-| 3  | Empresa o marca           | [Entrevista 3](https://www.youtube.com/watch?v=fKm5kj0AMhY) |
-| 4  | Productora de eventos     | [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201e889_upc_edu_pe/EcmRlg9SH7hMgicVmwNKdlMBPwKH_j_3IHvtCxIKPzyZkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=aS1JAw) |
+| 1  | Max Paitan           | 0:01 - 2:11 |
+| 2  | Kevin Castañeda     | 2:12 - 8:26 |
+| 3  | Aarón Avila           | 8:27 - 14:28 |
+| 4  | Gabriel Braithuaite     | 14:29 - 18:35 |
+| 5  | Ivan La Madrid     | 18:35 - 22:28 |
 
 ---
 
