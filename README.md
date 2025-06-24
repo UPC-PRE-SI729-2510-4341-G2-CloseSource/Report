@@ -2646,7 +2646,7 @@ Las tareas evaluadas fueron:
 
 Este video tiene un enfoque promocional, dirigido a visitantes y potenciales usuarios de la plataforma MatchEvent. Resume el modelo de negocio, describe los beneficios para empresas y productoras, e incluye escenas de navegación real en la web, además de testimonios grabados de validación. Considerar que es la primera versión
 
-- **URL Microsoft Stream**: [about the product](https://upcedupe-my.sharepoint.com/personal/u202318814_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202318814%5Fupc%5Fedu%5Fpe%2FDocuments%2Fabout%5Fthe%5Fproduct%5Fmatchevent%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E783e1ebd%2D564c%2D4e1d%2D949b%2D12a542cd0c27)
+- **URL Microsoft Stream**: [about the product]([https://upcedupe-my.sharepoint.com/personal/u202318814_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202318814%5Fupc%5Fedu%5Fpe%2FDocuments%2Fabout%5Fthe%5Fproduct%5Fmatchevent%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E783e1ebd%2D564c%2D4e1d%2D949b%2D12a542cd0c27](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/EWY4oIYjbiBHj-seygYHB3YB5dIVVdF2L2au01KnPAjGIw?e=0aMrtV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
 - **Duración total**: 16 minutos 12 segundos (V1 Versión 1)
 - **Captura**: ![Screenshot del video](images/about_the_product.PNG)
 
@@ -2662,7 +2662,7 @@ El video "About the Team" resume el proceso de trabajo colaborativo del equipo C
   - Aaron: Desarrollo del proyecto grupal. Opinión.
   - Ivan: Desarrollo del proyecto grupal. El proyecto avanzo de forma correcta y ordenada.
 
-- **URL Microsoft Stream**: [about_the_team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/ESbuya-RJ71CkQaHGRaNfuAByKqsW-uVv7q88odjCS7UFg?e=7iMXnD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+- **URL Microsoft Stream**: [about_the_team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318814_upc_edu_pe/ESbuya-RJ71CkQaHGRaNfuAByKqsW-uVv7q88odjCS7UFg?e=7iMXnD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - **Duración total**: 5 minutos 45 segundos
 - **Captura**: ![Screenshot del video](images/about_team.png)
 
