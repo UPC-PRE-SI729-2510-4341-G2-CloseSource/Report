@@ -2576,6 +2576,61 @@ El equipo mantuvo una colaboración constante durante el desarrollo del report, 
 
 - ![Colaboración equipo - Sprint 3](images/report_collaboration.PNG)
 
+### **5.2.4. Sprint 4**  
+#### **5.2.4.1. Sprint Planning 4**
+
+  El Sprint Planning es una práctica central dentro de Scrum, permitiendo planificar las tareas y metas a cumplir en el periodo de trabajo. En este tercer sprint, el equipo decidió enfocarse principalmente en el desarrollo de la **primera versión del backend** del sistema, implementando los endpoints RESTful de acuerdo con los bounded contexts asignados previamente. La sesión de planificación permitió distribuir responsabilidades técnicas entre los miembros y definir qué funcionalidades del backend serían desarrolladas y documentadas.
+
+| **Sprint #**                | 3                                  |
+| :-------------------------: |------------------------------------|
+| **Sprint Planning Background**    |                                 |
+| **Date**                    | 30/06/2025                         |
+| **Time**                    | 8:00 pm                            |
+| **Location**                | Reunión virtual a través del canal de Discord del equipo llamado “Team CloseSource” |
+| **Prepared by**             | Max Anthony Paitan Pumacahua       |
+| **Attendees (to planning meeting)** | Kevin Alexander Castañeda Llanos, Max Anthony Paitan Pumacahua |
+| **Sprint 4 Review Summary** | Implementación de ACL en el backend y deploy de la app al 100%. |
+| **Sprint 4 Retrospective Summary** | Se cumplió con la programación de la implementación del ACL entre los bounded context, permitiendo conexión inicial con el frontend. A mejorar: validaciones adicionales y pruebas de integración. |
+| **Sprint Goal & User Stories**                                     |
+| **Sprint 4 Goal**           | **Nos enfocamos** en desarrollar y documentar los servicios REST del backend para nuestros bounded contexts, además de implementar el despliegue de la aplicación. **Creemos que** esto permitirá al usuario poder usar todas las funcionalidades. **Esto se confirmará** cuando los usuarios se sientan contentos con nuestra app. |
+| **Sprint n Velocity**       | 2 semanas                           |
+| **Sum of Story Points**     | 20                                 |
+
+#### **5.2.4.2. Aspect Leaders and Collaborators**
+
+Durante este sprint, se dividió el trabajo en base a los bounded contexts asignados desde el inicio del proyecto. Cada integrante se encargó de implementar el ACL para la unión de los bounded context, además de realizar el despliegue
+
+| Team Member | GitHub username | Implementación ACL | Deployment de la app | Documentación del reporte |
+| :--: | :--: | :--: | :--: | :--: |
+| Max Anthony Paitan Pumacahua | MaxPaitanP | L | L | L |
+| Kevin Alexander Castañeda Llanos | KevCast1604 | L | L | L |
+
+#### **5.2.4.3. Sprint Backlog 4**
+
+En este sprint, el equipo se enfocó en la **implementación de ACL para los bounded context y el deployment de la app**, generando los endpoints necesarios para conectar el frontend con datos simulados y preparar el despliegue de futuras versiones funcionales.
+
+![Board en Trello, para el sprint backlog 4](images/trello2.png)  
+[Link del board en Trello:](https://trello.com/b/XIu3pRLo/matchevent)
+
+### Sprint Backlog - Sprint 4
+
+| Sprint # | Sprint 4 |  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US050 | Crear endpoint para registrar solicitud | TS1 | Endpoint POST solicitud | Crear endpoint POST `/api/activation-requests` para registrar una solicitud | 2 | Max | Done |
+| US004 | Ver solicitudes publicadas (FRONT) | TS2 | Componente available-requests-page | Mostrar solicitudes publicadas usando tarjetas y consumir datos simulados | 2 | Max | Done |
+| US005 | Ver detalle de solicitud (FRONT) | TS3 | Componente request-detail-page | Mostrar detalle de una solicitud seleccionada | 2 | Max | Done |
+| US001 | Crear solicitud (FRONT) | TS4 | Componente request-create-and-edit-page | Implementar formulario y conexión con servicio para registrar | 2 | Max | Done |
+| US002 | Editar solicitud (FRONT) | TS5 | Funcionalidad editar solicitud | Reutilización del componente create-and-edit con datos cargados | 2 | Max | Done |
+| US003 | Eliminar solicitud (FRONT) | TS6 | Funcionalidad eliminar solicitud | Implementar botón y llamada al servicio para eliminar una solicitud | 1.5 | Max | Done |
+| US053 | Login (FRONT IAM) | TS7 | Componente login-page | Implementar formulario, validaciones, login dummy y feedback con MatSnackBar | 2 | Max | Done |
+| US053 | Logout (FRONT IAM) | TS8 | Funcionalidad logout | Borrar almacenamiento local y redirigir al home visitante | 1 | Max | Done |
+| US053 | Snackbars (feedback) | TS9 | Mensajes de acción | Añadir mensajes en login, logout, creación, edición y eliminación de solicitudes | 1 | Max | Done |
+| US055 | Endpoint de gestión de hitos | TS10 | Endpoint hitos | Crear endpoint para gestionar hitos de activación (POST, PUT, GET, DELETE) | 2.5 | Max, Kevin | Done |
+| US038 | 	Enviar propuesta a solicitud de activación  | TS9 | Propuesta de activacion | La productora debe de acceder a los detalles de una propuesta de activación | 2 | Kevin | Done |
+
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
