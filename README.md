@@ -2632,6 +2632,104 @@ En este sprint, el equipo se enfocó en la **implementación de ACL para los bou
 | US055 | Endpoint de gestión de hitos | TS10 | Endpoint hitos | Crear endpoint para gestionar hitos de activación (POST, PUT, GET, DELETE) | 2.5 | Max, Kevin | Done |
 | US038 | 	Enviar propuesta a solicitud de activación  | TS9 | Propuesta de activacion | La productora debe de acceder a los detalles de una propuesta de activación | 2 | Kevin | Done |
 
+#### **5.2.4.4. Development Evidence for Sprint Review** 
+
+A continuación se muestra evidencia de los commits más relevantes en el backend, durante este sprint:
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
+| :---: | :---: | :---: | :---: | ----- | :---: |
+| CloseSource-Backend | feature/max | ` ` | Add POST endpoint for activation request | Implementación de servicio, controlador y pruebas básicas | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Add endpoints for activation proposals | POST y GET para propuestas | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Implement authentication endpoints | Login, registro y validación básica | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Add rating endpoint | Registro de calificaciones vía POST | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Milestone endpoints | CRUD completo de hitos | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` ` | Portfolio services endpoints | CRUD de servicios ofrecidos | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add request-create-and-edit-page | Componente para registrar y editar solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add request-available-page | Vista principal para productoras autenticadas | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add request-detail-page | Vista con información detallada de solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` ` | Add snackbar feedback | Integración de MatSnackBar para acciones exitosas | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` ` | Add login-page component | Formulario de acceso de usuarios autenticados | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` ` | Add logout functionality | Lógica de cierre de sesión y redirección | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` ` | Add login feedback with snackbar | Mensaje de ingreso exitoso con MatSnackBar | 23/06/2025 |
+| CloseSource-Backend | feature/proposal-context | ` ` |First version of proposal bounded context backend | Primera versión de backend con swagger | 17/06/2025 |
+| CloseSource-Backend | feature/proposal-context | ` ` |Second version of proposal bounded context backend |Segunda version de backend | 18/06/2025 |
+| CloseSource-Backend | feature/proposal-context | ` ` |update new proposal context backend | Arreglo de bugs | 23/06/2025 |
+
+
+#### **5.2.4.5. Execution Evidence for Sprint Review** 
+
+Durante este sprint se realizaron pruebas exitosas de los endpoints en el front:
+
+- Endpoint de solicitudes de activación (`GET /api/activation-requests`):  
+  ![POST solicitud](images/activation_request.PNG)
+- Endpoint de autenticación (`/api/auth/login`, `/api/auth/register`):  
+  ![Auth endpoints](images/login.PNG)  
+  ![Auth endpoints](images/register.PNG)
+La Landing Page alcanzó su ultima versión en el sprint anterior, con un diseño moderno (degradados, animaciones, responsive design, inclusive design, etc: 
+  ![Auth endpoints](images/landing_page_v2_1.PNG)  
+  ![Auth endpoints](images/landing_page_v2_2.PNG)
+
+
+#### **5.2.4.6. Services Documentation Evidence for Sprint Review**
+
+Durante el Sprint 4, se mejoró los servicios REST del anterior sprint utilizando Spring Boot para cada uno de los bounded contexts asignados. Se configuraron controladores, validaciones, servicios y persistencia, permitiendo la gestión básica desde el frontend. Además, se implementó ACL para l Como parte de las buenas prácticas, se empleó **Swagger/OpenAPI** para documentar los endpoints, facilitando su prueba e integración posterior.
+
+A continuación, se muestra un ejemplo de la documentación generada:
+
+- Documentación del bounded context `request`:  
+  ![Swagger request](images/request_backend.PNG)
+
+- Documentación del bounded context `proposal`
+  ![Swagger_proposal](images/proposal_backend.png)
+
+- Documentación del bounded context `event`:
+  
+![image](https://github.com/user-attachments/assets/a2f73a9f-8312-432c-a482-c77a018ab5d4)
+![image](https://github.com/user-attachments/assets/564d8f58-0909-43ce-9988-4968e7e11bd9)
+  
+**Tabla de Endpoints Actualizados (Sprint 4):**
+
+| Bounded Context | Endpoint                             | Método HTTP | Descripción                                          |
+|-----------------|--------------------------------------|-------------|------------------------------------------------------|
+| Request         | `/api/activation-requests`           | POST        | Registrar solicitud de activación                    |
+| Request         | `/api/activation-requests`           | GET         | Listar todas las solicitudes registradas             |
+| Request         | `/api/activation-requests/{id}`      | PUT         | Editar solicitud de activación                       |
+| Request         | `/api/activation-requests/{id}`      | DELETE      | Eliminar solicitud de activación                     |
+| Request         | `/api/activation-requests/{id}`      | GET         | Ver detalle de solicitud                             |
+| IAM             | `/api/auth/login`                    | POST        | Iniciar sesión con credenciales                      |
+| IAM             | `/api/auth/register`                 | POST        | Registrar nuevo usuario con tipo (empresa/productora)|
+| Proposal        | `/api/v1/proposals`                  | POST        | Crear nueva propuesta                                |
+| Proposal        | `/api/v1/proposals       `           | GET         | Obtener todas las propuestas                         |
+| Proposal        | `/api/v1/proposals/{id}`             | PUT         | Actualizar propuesta a activación                    |
+| Proposal        | `/api/v1/proposals/{id}`             | DELETE      | Eliminar propuesta                                   |
+| EventContext    | `/api/v1/events`                   | POST        | Crear un nuevo evento                                |
+| EventContext    | `/api/v1/events/{id}`              | GET         | Obtener un evento por su ID                          |
+| EventContext    | `/api/v1/events/views/{id}`        | GET         | Obtener una proyección (vista) de un evento          |
+| EventContext    | `/api/v1/events/{id}/status`       | PATCH       | Actualizar el estado de un evento                    |
+| EventContext    | `/api/v1/events/{id}/gallery`      | POST        | Agregar una imagen a la galería de un evento         |
+
+
+#### **5.2.4.7. Software Deployment Evidence for Sprint Review**
+
+El backend fue ejecutado localmente usando **Spring Boot 3.5.0**, con configuración de base de datos PostgreSQL en entorno de desarrollo. La verificación funcional se realizó mediante **Postman**, **Swagger UI** y consultas directas en **pgAdmin 4**. Aún no se ha efectuado un despliegue externo (como en Railway o Render) debido a que las funcionalidades están en su fase inicial de conexión.
+
+Por otro lado, el frontend fue desplegado por cada integrante usando **Firebase Hosting**, integrando las vistas CRUD del bounded context respectivo y validando la comunicación simulada con JSON Server (en espera de conexión real al backend). Además, se añadieron mejoras visuales y notificaciones con MatSnackBar.
+
+**Pasos realizados para el despliegue del frontend (ejemplo - Max):**
+
+1. Se ejecutó `ng build --configuration=production` para compilar el proyecto.
+2. Se configuró Firebase con `firebase init` (seleccionando carpeta `dist/matchevent`).
+3. Se utilizó `firebase deploy` para subir la versión final del contexto `request`.
+4. Se verificó visualmente el funcionamiento de formularios y respuestas.
+
+**Captura del despliegue del bounded context Request – Max:**
+
+- ![Request Bounded Context - Max](images/max_deploy.PNG)
+#### **5.2.3.8. Team Collaboration Insights during Sprint** 
+
+El equipo mantuvo una colaboración constante durante el desarrollo del report, y un trabajo organizado individualmente -por bounded context- a través de GitHub y reuniones por Discord. Se lograron merges ordenados y revisión cruzada de código:
+
+- ![Colaboración equipo - Sprint 3](images/report_collaboration.PNG)
 
 ### 5.3. Validation Interviews
 
