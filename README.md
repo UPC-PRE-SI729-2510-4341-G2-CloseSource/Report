@@ -2596,7 +2596,7 @@ El equipo mantuvo una colaboración constante durante el desarrollo del report, 
 | **Sprint Goal & User Stories**                                     |
 | **Sprint 4 Goal**           | **Nos enfocamos** en desarrollar y documentar los servicios REST del backend para nuestros bounded contexts, además de implementar el despliegue de la aplicación. **Creemos que** esto permitirá al usuario poder usar todas las funcionalidades. **Esto se confirmará** cuando los usuarios se sientan contentos con nuestra app. |
 | **Sprint n Velocity**       | 2 semanas                           |
-| **Sum of Story Points**     | 20                                 |
+| **Sum of Story Points**     | 22                                 |
 
 #### **5.2.4.2. Aspect Leaders and Collaborators**
 
@@ -2620,7 +2620,8 @@ En este sprint, el equipo se enfocó en la **implementación de ACL para los bou
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | User Story |  | Work-Item / Task |  |  |  |  |  |
 | ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US050 | Crear endpoint para registrar solicitud | TS1 | Endpoint POST solicitud | Crear endpoint POST `/api/activation-requests` para registrar una solicitud | 2 | Max | Done |
+| US007 | Editar propuestas | TS1 | Endpoint propuesta | Editar propuestas que envie | 2 | Kevin | Done |
+| US039 | Ver propuestas | TS1 | Endpoint Get propuesta | Ver las propuesta que envio a compañías | 2 | Kevin | Done |
 | US004 | Ver solicitudes publicadas (FRONT) | TS2 | Componente available-requests-page | Mostrar solicitudes publicadas usando tarjetas y consumir datos simulados | 2 | Max | Done |
 | US005 | Ver detalle de solicitud (FRONT) | TS3 | Componente request-detail-page | Mostrar detalle de una solicitud seleccionada | 2 | Max | Done |
 | US001 | Crear solicitud (FRONT) | TS4 | Componente request-create-and-edit-page | Implementar formulario y conexión con servicio para registrar | 2 | Max | Done |
