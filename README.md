@@ -40,6 +40,11 @@
 
 
 ## Project Report Collaboration Insights
+
+**Colaboración en la Cuarta Entrega:**  
+
+[![Screenshot-2025-07-08-at-6-20-03-PM.png](https://i.postimg.cc/gknf5Lj1/Screenshot-2025-07-08-at-6-20-03-PM.png)](https://postimg.cc/HV1Z8xQt)
+
 URL del repositorio de la Organizacion: https://github.com/UPC-PRE-SI729-2510-4341-G2-CloseSource
 ## Contenido
 ### Tabla de Contenido
@@ -2485,22 +2490,22 @@ A continuación se muestra evidencia de los commits más relevantes en el backen
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
 | :---: | :---: | :---: | :---: | ----- | :---: |
-| CloseSource-Backend | feature/max | ` ` | Add POST endpoint for activation request | Implementación de servicio, controlador y pruebas básicas | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Add endpoints for activation proposals | POST y GET para propuestas | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Implement authentication endpoints | Login, registro y validación básica | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Add rating endpoint | Registro de calificaciones vía POST | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Milestone endpoints | CRUD completo de hitos | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Portfolio services endpoints | CRUD de servicios ofrecidos | 23/06/2025 |
-| CloseSource-Frontend | feature/request | ` ` | Add request-create-and-edit-page | Componente para registrar y editar solicitudes | 23/06/2025 |
-| CloseSource-Frontend | feature/request | ` ` | Add request-available-page | Vista principal para productoras autenticadas | 23/06/2025 |
-| CloseSource-Frontend | feature/request | ` ` | Add request-detail-page | Vista con información detallada de solicitudes | 23/06/2025 |
-| CloseSource-Frontend | feature/request | ` ` | Add snackbar feedback | Integración de MatSnackBar para acciones exitosas | 23/06/2025 |
-| CloseSource-Frontend | feature/iam | ` ` | Add login-page component | Formulario de acceso de usuarios autenticados | 23/06/2025 |
-| CloseSource-Frontend | feature/iam | ` ` | Add logout functionality | Lógica de cierre de sesión y redirección | 23/06/2025 |
-| CloseSource-Frontend | feature/iam | ` ` | Add login feedback with snackbar | Mensaje de ingreso exitoso con MatSnackBar | 23/06/2025 |
-| CloseSource-Backend | feature/proposal-context | ` ` |First version of proposal bounded context backend | Primera versión de backend con swagger | 17/06/2025 |
-| CloseSource-Backend | feature/proposal-context | ` ` |Second version of proposal bounded context backend |Segunda version de backend | 18/06/2025 |
-| CloseSource-Backend | feature/proposal-context | ` ` |update new proposal context backend | Arreglo de bugs | 23/06/2025 |
+| CloseSource-Backend | feature/max | `97431ce6d3b5e3dc25aa89549cf16685f14773a7 ` | Add POST endpoint for activation request | Implementación de servicio, controlador y pruebas básicas | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` 92588ce6d3b5e7fc95aa80239cf16685f14773a8` | Add endpoints for activation proposals | POST y GET para propuestas | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` 97488ce6d3b5e7fc95aa80239cf16685f14773a6` | Implement authentication endpoints | Login, registro y validación básica | 23/06/2025 |
+| CloseSource-Backend | feature/max | `97488ce6d3b5e7fc95aa80239cf16685f14373s3 ` | Add rating endpoint | Registro de calificaciones vía POST | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` 97488ce6d3b5e7fc95aa80239cf16685f14773a3` | Milestone endpoints | CRUD completo de hitos | 23/06/2025 |
+| CloseSource-Backend | feature/max | `97488ce6d3b5e7fc95aa80239cf16685f14773a9 ` | Portfolio services endpoints | CRUD de servicios ofrecidos | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add request-create-and-edit-page | Componente para registrar y editar solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add request-available-page | Vista principal para productoras autenticadas | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add request-detail-page | Vista con información detallada de solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add snackbar feedback | Integración de MatSnackBar para acciones exitosas | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | `4f49789b7947fd2bdfbf0f31fa2511a159232184 ` | Add login-page component | Formulario de acceso de usuarios autenticados | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add logout functionality | Lógica de cierre de sesión y redirección | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add login feedback with snackbar | Mensaje de ingreso exitoso con MatSnackBar | 23/06/2025 |
+| CloseSource-Backend | feature/proposal-context | `97488ce6d3b5e7fc95aa80239cf16685f14773a8 ` |First version of proposal bounded context backend | Primera versión de backend con swagger | 17/06/2025 |
+| CloseSource-Backend | feature/proposal-context | ` 97488ce6d3b5e7fc95aa80239cf16685f14773a8` |Second version of proposal bounded context backend |Segunda version de backend | 18/06/2025 |
+| CloseSource-Backend | feature/proposal-context | `97488ce6d3b5e7fc95aa80239cf16685f14773a8 ` |update new proposal context backend | Arreglo de bugs | 23/06/2025 |
 
 
 #### **5.2.3.5. Execution Evidence for Sprint Review** 
@@ -2639,22 +2644,22 @@ A continuación se muestra evidencia de los commits más relevantes en el backen
 
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Committed on date |
 | :---: | :---: | :---: | :---: | ----- | :---: |
-| CloseSource-Backend | feature/max | ` ` | Add POST endpoint for activation request | Implementación de servicio, controlador y pruebas básicas | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Add endpoints for activation proposals | POST y GET para propuestas | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Implement authentication endpoints | Login, registro y validación básica | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Add rating endpoint | Registro de calificaciones vía POST | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Milestone endpoints | CRUD completo de hitos | 23/06/2025 |
-| CloseSource-Backend | feature/max | ` ` | Portfolio services endpoints | CRUD de servicios ofrecidos | 23/06/2025 |
-| CloseSource-Frontend | feature/request | ` ` | Add request-create-and-edit-page | Componente para registrar y editar solicitudes | 23/06/2025 |
-| CloseSource-Frontend | feature/request | ` ` | Add request-available-page | Vista principal para productoras autenticadas | 23/06/2025 |
-| CloseSource-Frontend | feature/request | ` ` | Add request-detail-page | Vista con información detallada de solicitudes | 23/06/2025 |
-| CloseSource-Frontend | feature/request | ` ` | Add snackbar feedback | Integración de MatSnackBar para acciones exitosas | 23/06/2025 |
-| CloseSource-Frontend | feature/iam | ` ` | Add login-page component | Formulario de acceso de usuarios autenticados | 23/06/2025 |
-| CloseSource-Frontend | feature/iam | ` ` | Add logout functionality | Lógica de cierre de sesión y redirección | 23/06/2025 |
-| CloseSource-Frontend | feature/iam | ` ` | Add login feedback with snackbar | Mensaje de ingreso exitoso con MatSnackBar | 23/06/2025 |
-| CloseSource-Backend | feature/proposal-context | ` ` |First version of proposal bounded context backend | Primera versión de backend con swagger | 17/06/2025 |
-| CloseSource-Backend | feature/proposal-context | ` ` |Second version of proposal bounded context backend |Segunda version de backend | 18/06/2025 |
-| CloseSource-Backend | feature/proposal-context | ` ` |update new proposal context backend | Arreglo de bugs | 23/06/2025 |
+| CloseSource-Backend | feature/max | `97368ce6d3b5e7fc95aa80389cf23465f14453f5 ` | Add POST endpoint for activation request | Implementación de servicio, controlador y pruebas básicas | 23/06/2025 |
+| CloseSource-Backend | feature/max | `97368ce6d3b5e7fc95aa80389cf23465f14453f5 ` | Add endpoints for activation proposals | POST y GET para propuestas | 23/06/2025 |
+| CloseSource-Backend | feature/max | `97488ce6d3b5e7fc95aa80239cf14855f14673a8 ` | Implement authentication endpoints | Login, registro y validación básica | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` 97488ce6d3b5e7fc95aa80239cf16685f14773a8` | Add rating endpoint | Registro de calificaciones vía POST | 23/06/2025 |
+| CloseSource-Backend | feature/max | `97488ce6d3b5e7fc95aa80239cf16685f14773a8 ` | Milestone endpoints | CRUD completo de hitos | 23/06/2025 |
+| CloseSource-Backend | feature/max | ` 97488ce6d3b5e7fc95aa80239cf16685f14773a8` | Portfolio services endpoints | CRUD de servicios ofrecidos | 23/06/2025 |
+| CloseSource-Frontend | feature/request | `4f49789b7947fd2bdfbf0f31fa2511a159232184 ` | Add request-create-and-edit-page | Componente para registrar y editar solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | `4f49789b7947fd2bdfbf0f31fa2511a159232184 ` | Add request-available-page | Vista principal para productoras autenticadas | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add request-detail-page | Vista con información detallada de solicitudes | 23/06/2025 |
+| CloseSource-Frontend | feature/request | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add snackbar feedback | Integración de MatSnackBar para acciones exitosas | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add login-page component | Formulario de acceso de usuarios autenticados | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | ` 4f49789b7947fd2bdfbf0f31fa2511a159232184` | Add logout functionality | Lógica de cierre de sesión y redirección | 23/06/2025 |
+| CloseSource-Frontend | feature/iam | `4f49789b7947fd2bdfbf0f31fa2511a159232184 ` | Add login feedback with snackbar | Mensaje de ingreso exitoso con MatSnackBar | 23/06/2025 |
+| CloseSource-Backend | feature/proposal-context | ` 97488ce6d3b5e7fc95aa80239cf16685f14773a8` |First version of proposal bounded context backend | Primera versión de backend con swagger | 17/06/2025 |
+| CloseSource-Backend | feature/proposal-context | ` 97488ce6d3b5e7fc95aa80239cf16685f14773a8` |Second version of proposal bounded context backend |Segunda version de backend | 18/06/2025 |
+| CloseSource-Backend | feature/proposal-context | `97488ce6d3b5e7fc95aa80239cf16685f14773a8 ` |update new proposal context backend | Arreglo de bugs | 23/06/2025 |
 
 
 #### **5.2.4.5. Execution Evidence for Sprint Review** 
@@ -2732,6 +2737,9 @@ El equipo mantuvo una colaboración constante durante el desarrollo del report, 
 
 - ![Colaboración equipo - Sprint 3](images/report_collaboration.PNG)
 
+Y este es el collaboration Insights durante el sprint 4:
+
+[![Screenshot-2025-07-08-at-6-21-35-PM.png](https://i.postimg.cc/X7kQsVct/Screenshot-2025-07-08-at-6-21-35-PM.png)](https://postimg.cc/4mn6dR01)
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
@@ -2855,10 +2863,12 @@ Verhelst, L. (2020). *Evolución del marketing experiencial desde la perspectiva
 * Landing Page link: https://upc-pre-si729-2510-4341-g2-closesource.github.io/Landing-Page/
 * Board de las actividades del grupo en Trello: https://trello.com/invite/b/681be2187eb81b9994744840/ATTI7372931ffb26577c2d3c044b0abd9148045BF9CD/matchevent
 * Board de las actividades del grupo en Trello para el Landing Page: https://trello.com/invite/b/681e9c71bf39eef1c3e85e6e/ATTIfd11a9d55c40c54a482dbddf22c12a1765A5D176/sprint-1-matchevent-closesource
-* Frontend Max: [match-event.web.app](https://match-event.web.app/)  
-* Frontend Kevin: [proposal-context.web.app](https://proposal-context.web.app/)  
-* Frontend Ivan: [event-context.web.app](https://event-context.web.app/)  
-* Frontend Aaron: [activation-management-context.web.app](https://activation-management-context.web.app/)   
+* Frontend Max Sprint 3: [match-event.web.app](https://match-event.web.app/)  
+* Frontend Kevin Sprint 3: [proposal-context.web.app](https://proposal-context.web.app/)  
+* Frontend completo desplegado: [proposal-context.web.app](https://match-event-eb062.web.app/home)  
+
+
+ 
   
 
 
